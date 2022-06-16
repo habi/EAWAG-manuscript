@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Microtomographic investigation of a large corpus of cichlids"
 keywords:
   - cichlids
   - x-ray micro-tomography
@@ -11,5 +11,40 @@ authors:
     orcid: 0000-0003-3388-9187
     twitter: habi
     email: david.haberthuer@unibe.ch
+    affiliations:
+      - Institute of Anatomy, Unversity of Bern, Switzerland
+  - github:
+    name: Mikki Law
+    initials: 
+    orcid: 
+    email: 
+    affiliations:
+      - 
+  - github:
+    name: Kassandra Ford
+    initials: 
+    orcid: 
+    email: 
+    affiliations:
+      - 
+  - github:
+    name: Marcel Häsler
+    initials: 
+    orcid: 
+    email: 
+    affiliations:
+      - 
+  - github:
+    name: Ole Seehausen
+    initials: 
+    orcid: 
+    email: 
+    affiliations:
+      - 
+  - github:
+    name: Ruslan Hlushchuk
+    initials: 
+    orcid: 
+    email: 
     affiliations:
       - Institute of Anatomy, Unversity of Bern, Switzerland
