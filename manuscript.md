@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: Microtomographic investigation of a large corpus of cichlids
 keywords:
 - cichlids
 - x-ray micro-tomography
@@ -7,16 +7,21 @@ lang: en-US
 date-meta: '2022-06-16'
 author-meta:
 - David Haberthür
+- Mikki Law
+- Kassandra Ford
+- Marcel Häsler
+- Ole Seehausen
+- Ruslan Hlushchuk
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Microtomographic investigation of a large corpus of cichlids" />
+  <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
+  <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
+  <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta name="dc.date" content="2022-06-16" />
   <meta name="citation_publication_date" content="2022-06-16" />
   <meta name="dc.language" content="en-US" />
@@ -29,15 +34,30 @@ header-includes: |-
   <meta name="citation_author_institution" content="Institute of Anatomy, Unversity of Bern, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-3388-9187" />
   <meta name="twitter:creator" content="@habi" />
+  <meta name="citation_author" content="Mikki Law" />
+  <meta name="citation_author_institution" content="None" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Kassandra Ford" />
+  <meta name="citation_author_institution" content="None" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Marcel Häsler" />
+  <meta name="citation_author_institution" content="None" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Ole Seehausen" />
+  <meta name="citation_author_institution" content="None" />
+  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author" content="Ruslan Hlushchuk" />
+  <meta name="citation_author_institution" content="Institute of Anatomy, Unversity of Bern, Switzerland" />
+  <meta name="citation_author_orcid" content="None" />
   <link rel="canonical" href="https://habi.github.io/EAWAG-manuscript/" />
   <meta property="og:url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta property="twitter:url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/f9584c7d7ba9c4fba9e58d6959f649898217fbbd/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f9584c7d7ba9c4fba9e58d6959f649898217fbbd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f9584c7d7ba9c4fba9e58d6959f649898217fbbd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -59,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/f9584c7d7ba9c4fba9e58d6959f649898217fbbd/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/))
 was automatically generated
-from [habi/EAWAG-manuscript@f9584c7](https://github.com/habi/EAWAG-manuscript/tree/f9584c7d7ba9c4fba9e58d6959f649898217fbbd)
+from [habi/EAWAG-manuscript@6b63d80](https://github.com/habi/EAWAG-manuscript/tree/6b63d8055aabc2b89c705ffc5cf12b877a4021a9)
 on June 16, 2022.
 </em></small>
 
@@ -76,6 +96,31 @@ on June 16, 2022.
     [habi](https://github.com/habi)
     · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
     [habi](https://twitter.com/habi)<br>
+  <small>
+     Institute of Anatomy, Unversity of Bern, Switzerland
+  </small>
+
++ **Mikki Law**<br><br>
+  <small>
+     None
+  </small>
+
++ **Kassandra Ford**<br><br>
+  <small>
+     None
+  </small>
+
++ **Marcel Häsler**<br><br>
+  <small>
+     None
+  </small>
+
++ **Ole Seehausen**<br><br>
+  <small>
+     None
+  </small>
+
++ **Ruslan Hlushchuk**<br><br>
   <small>
      Institute of Anatomy, Unversity of Bern, Switzerland
   </small>
