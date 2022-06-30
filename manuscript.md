@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-06-16'
+date-meta: '2022-06-30'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-06-16" />
-  <meta name="citation_publication_date" content="2022-06-16" />
+  <meta name="dc.date" content="2022-06-30" />
+  <meta name="citation_publication_date" content="2022-06-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/6b63d8055aabc2b89c705ffc5cf12b877a4021a9/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/))
 was automatically generated
-from [habi/EAWAG-manuscript@6b63d80](https://github.com/habi/EAWAG-manuscript/tree/6b63d8055aabc2b89c705ffc5cf12b877a4021a9)
-on June 16, 2022.
+from [habi/EAWAG-manuscript@d412ae4](https://github.com/habi/EAWAG-manuscript/tree/d412ae4bbd7b48d069fed345de835b27d3b6af9d)
+on June 30, 2022.
 </em></small>
 
 ## Authors
@@ -129,22 +129,55 @@ on June 16, 2022.
 
 ## Abstract {.page_break_before}
 
-
+A large corpus of fishes spanning a size range of 6 to 20 cm was nonestructively assessed using micro-computed tomography.
 
 
 ## Introduction {.page_break_before}
 
-Let's write the introduction here.
+### History
+
+- Cichlids from Lake Victoria
+- Sample 'library' of EAWAG
+- Valuable, hence non-destructive imaging is *paramount*
+
+### microCT
+
+- Nondestructive imaging of a diverse kind of samples
+- Ideal method to provide insight into *these* samples
+
 
 
 ## Materials and Methods {.page_break_before}
 
-Let's explain what we did and how we did it here.
+### Preparation of fishes
+
+- Collection
+- Storage in 75% Ethanol.
+
+### microCT imaging
+
+- Scanned on the 1272 (some fishes) and the 2214 (most of the fishes)
+
+[TODO]: # (Pull the data from *all* log files with a notebook)
+
+### Data analysis
+#### Preparation for analysis
+
+- Python code in Jupyter, which is freely available: https://github.com/habi/eawag
+- Automatic dissemination/copying of data to the relevant 
+
+[TODO]: # (mint a DOI on Zenodo for https://github.com/habi/eawag)
+
+#### Extraction of OJ and PJ
+
+- Details needed from Mikki on how she did it exactly
 
 
 ## Results {.page_break_before}
 
-Let's collect the results of the manuscript here.
+- A lot of fishes
+- A lot of scans
+- A lot of data
 
 
 ## Discussion {.page_break_before}
