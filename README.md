@@ -4,7 +4,7 @@
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://habi.github.io/EAWAG-manuscript/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://habi.github.io/EAWAG-manuscript/manuscript.pdf)
-[![PDF Manuscript](https://img.shields.io/badge/manuscript-DOCX-blue.svg)](https://habi.github.io/EAWAG-manuscript/manuscript.docx)
+[![DOCX Manuscript](https://img.shields.io/badge/manuscript-DOCX-blue.svg)](https://habi.github.io/EAWAG-manuscript/manuscript.docx)
 [![GitHub Actions Status](https://github.com/habi/EAWAG-manuscript/workflows/Manubot/badge.svg)](https://github.com/habi/EAWAG-manuscript/actions)
 
 ## Manuscript description
