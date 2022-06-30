@@ -20,7 +20,7 @@ CI="${CI:-false}"
 BUILD_PDF="${BUILD_PDF:-true}"
 BUILD_DOCX="${BUILD_DOCX:-false}"
 BUILD_LATEX="${BUILD_LATEX:-false}"
-SPELLCHECK="${SPELLCHECK:-false}"
+SPELLCHECK="${SPELLCHECK:-true}"
 MANUBOT_USE_DOCKER="${MANUBOT_USE_DOCKER:-$DOCKER_RUNNING}"
 # Pandoc's configuration is specified via files of option defaults
 # located in the $PANDOC_DATA_DIR/defaults directory.
