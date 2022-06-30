@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/69facc4d65be31ccde332a05b342a2803908fccd/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/69facc4d65be31ccde332a05b342a2803908fccd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/69facc4d65be31ccde332a05b342a2803908fccd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/d412ae4bbd7b48d069fed345de835b27d3b6af9d/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/69facc4d65be31ccde332a05b342a2803908fccd/))
 was automatically generated
-from [habi/EAWAG-manuscript@d412ae4](https://github.com/habi/EAWAG-manuscript/tree/d412ae4bbd7b48d069fed345de835b27d3b6af9d)
+from [habi/EAWAG-manuscript@69facc4](https://github.com/habi/EAWAG-manuscript/tree/69facc4d65be31ccde332a05b342a2803908fccd)
 on June 30, 2022.
 </em></small>
 
@@ -157,6 +157,8 @@ A large corpus of fishes spanning a size range of 6 to 20 cm was nonestructively
 ### microCT imaging
 
 - Scanned on the 1272 (some fishes) and the 2214 (most of the fishes)
+- Scanned in custom-made, parametrized holders which were 3D printed, see [@doi:10.5281/zenodo.2587555].
+  An example can be seen/downloaded [here](https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl).
 
 [TODO]: # (Pull the data from *all* log files with a notebook)
 
@@ -183,6 +185,11 @@ A large corpus of fishes spanning a size range of 6 to 20 cm was nonestructively
 ## Discussion {.page_break_before}
 
 The discussion of the results and the outlook to what we'll do in the future is going into this file here.
+
+
+## Acknowledgments {.page_break_before}
+
+We thank the Manubot project [@doi:10.1371/journal.pcbi.1007128] for helping us write this manuscript collaboratively.
 
 
 ## References {.page_break_before}
