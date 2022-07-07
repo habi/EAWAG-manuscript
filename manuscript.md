@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-07-05'
+date-meta: '2022-07-07'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-07-05" />
-  <meta name="citation_publication_date" content="2022-07-05" />
+  <meta name="dc.date" content="2022-07-07" />
+  <meta name="citation_publication_date" content="2022-07-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/9165eaaba2b4abffccd99e50b8d2ea79403a86b7/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/9165eaaba2b4abffccd99e50b8d2ea79403a86b7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/9165eaaba2b4abffccd99e50b8d2ea79403a86b7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/be5ac87abf28216ef2e0ed8034166120c784f237/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/be5ac87abf28216ef2e0ed8034166120c784f237/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/be5ac87abf28216ef2e0ed8034166120c784f237/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/9165eaaba2b4abffccd99e50b8d2ea79403a86b7/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/be5ac87abf28216ef2e0ed8034166120c784f237/))
 was automatically generated
-from [habi/EAWAG-manuscript@9165eaa](https://github.com/habi/EAWAG-manuscript/tree/9165eaaba2b4abffccd99e50b8d2ea79403a86b7)
-on July 5, 2022.
+from [habi/EAWAG-manuscript@be5ac87](https://github.com/habi/EAWAG-manuscript/tree/be5ac87abf28216ef2e0ed8034166120c784f237)
+on July 7, 2022.
 </em></small>
 
 ## Authors
@@ -149,9 +149,10 @@ The tomographic data we acquired (XXX GB raw data and XXX GB projection) images 
 
 - Nondestructive imaging of a diverse kind of samples
 - Ideal method to provide insight into *these* samples
-- Has been used to investigate fishes before, e.g. 'fishguy'^[For which David made a tomographic scan of an adult zebrafish ages ago.] [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world/].
+- Has been used to investigate fishes before, e.g. 'fishguy'^[For which David made a tomographic scan of an adult zebrafish ages ago.] [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].
 
 [TODO]: # (Add some information on the backstory of those fishes, and maybe publications relating to the corpus of fishes)
+
 
 ## Materials and Methods {.page_break_before}
 
@@ -171,11 +172,11 @@ The tomographic data we acquired (XXX GB raw data and XXX GB projection) images 
 
 ### Image processing
 
-We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913/] notebooks with *Python* code to work with the images and wrangle the acquired data.
+We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the images and wrangle the acquired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
 Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a nearly constant quality check of the scans and batched processing of the data.
 
-All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.679].
+All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.6798632].
 
 #### Extraction of OJ and PJ
 
@@ -185,6 +186,7 @@ All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.67
 
 - Very superficial description of work from Kassandra.
   We do *not* want to cannibalize her upcoming manuscript, but only hint at what will be done.
+
 
 ## Results {.page_break_before}
 
