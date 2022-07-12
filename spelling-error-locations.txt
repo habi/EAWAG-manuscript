@@ -4,9 +4,9 @@ content/02.introduction.md:5:Cichlids
 content/02.introduction.md:6:EAWAG
 content/02.introduction.md:15:fishguy
 content/02.introduction.md:15:zebrafish
-content/03.materials.methods.md:19:Jupyter
-content/03.materials.methods.md:23:Jupyter
-content/03.materials.methods.md:25:PJ
-content/03.materials.methods.md:27:Mikki
-content/03.materials.methods.md:29:PCA
-content/03.materials.methods.md:31:Kassandra
+content/03.materials.methods.md:21:Jupyter
+content/03.materials.methods.md:25:Jupyter
+content/03.materials.methods.md:27:PJ
+content/03.materials.methods.md:29:Mikki
+content/03.materials.methods.md:31:PCA
+content/03.materials.methods.md:33:Kassandra
