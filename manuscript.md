@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/))
 was automatically generated
-from [habi/EAWAG-manuscript@ba9bca7](https://github.com/habi/EAWAG-manuscript/tree/ba9bca781b191692e365580400853ca53fa4aeed)
+from [habi/EAWAG-manuscript@e106c71](https://github.com/habi/EAWAG-manuscript/tree/e106c7127c769b970d324e1a80afc84c4f5e9de1)
 on July 18, 2022.
 </em></small>
 
@@ -206,6 +206,7 @@ The discussion of the results and the outlook to what we'll do in the future is 
 
 We thank the Manubot project [@doi:10.1371/journal.pcbi.1007128] for helping us write this manuscript collaboratively.
 
+[TODO]: # (Do we need to include more persons here, according to: https://www.rms.org.uk/community/networks-affiliates/bioimaginguk-network/imaging-facility-publication-guidelines.html)
 
 ## References {.page_break_before}
 
