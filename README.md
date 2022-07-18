@@ -1,18 +1,15 @@
-# Automated scholarly manuscripts on GitHub
-
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
+# Microtomographic investigation of a large corpus of cichlids
 
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://habi.github.io/EAWAG-manuscript/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://habi.github.io/EAWAG-manuscript/manuscript.pdf)
-[![DOCX Manuscript](https://img.shields.io/badge/manuscript-DOCX-blue.svg)](https://habi.github.io/EAWAG-manuscript/manuscript.docx)
+[![DOCX Manuscript](https://img.shields.io/badge/manuscript-DOCX-blue.svg)](https://github.com/habi/EAWAG-manuscript/raw/output/manuscript.docx)
 [![GitHub Actions Status](https://github.com/habi/EAWAG-manuscript/workflows/Manubot/badge.svg)](https://github.com/habi/EAWAG-manuscript/actions)
 
 ## Manuscript description
 
-<!-- usage note: edit this section. -->
+This repository contains the manuscript for presenting the method to record tomographic dataset of a *large* corpus of Cichlids and to prepare the data for assessment of different morphological criteria of those fishes.
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+The code which accompanies the manuscript can be found here: http://github.com/habi/eawag (doi:10.5281/zenodo.6798632).
 
 ## Manubot
 
