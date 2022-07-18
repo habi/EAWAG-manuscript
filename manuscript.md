@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-07-12'
+date-meta: '2022-07-18'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-07-12" />
-  <meta name="citation_publication_date" content="2022-07-12" />
+  <meta name="dc.date" content="2022-07-18" />
+  <meta name="citation_publication_date" content="2022-07-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/decbababd6e69806adc682da5fbc332fd1d4d7ef/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/decbababd6e69806adc682da5fbc332fd1d4d7ef/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/decbababd6e69806adc682da5fbc332fd1d4d7ef/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/decbababd6e69806adc682da5fbc332fd1d4d7ef/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/ba9bca781b191692e365580400853ca53fa4aeed/))
 was automatically generated
-from [habi/EAWAG-manuscript@decbaba](https://github.com/habi/EAWAG-manuscript/tree/decbababd6e69806adc682da5fbc332fd1d4d7ef)
-on July 12, 2022.
+from [habi/EAWAG-manuscript@ba9bca7](https://github.com/habi/EAWAG-manuscript/tree/ba9bca781b191692e365580400853ca53fa4aeed)
+on July 18, 2022.
 </em></small>
 
 ## Authors
@@ -132,7 +132,7 @@ on July 12, 2022.
 A large corpus of Cichlids from Lake Victoria in Africa spanning a size range of 6 to 20 cm was nondestructively imaged using micro-computed tomography.
 The presented manuscript describes a method to efficiently obtain three-dimensional tomographic data sets of the oral and pharyngeal jaws and the whole skull of these fishes.
 We describe in detail how the data has been acquired to aid in reproducible research.
-The tomographic data we acquired (8.6 TB projection images and 1.4 TB reconstruction images) are used for further projects, an outlook on two of them; a morphological description of the oral and pharyngeal jaws of the fishes as well as a principal component analysis of landmark features on the fish skulls.
+The tomographic data we acquired (8.8 TB projection images and 1.4 TB reconstruction images) are used for further projects, an outlook on two of them; a morphological description of the oral and pharyngeal jaws of the fishes as well as a principal component analysis of landmark features on the fish skulls.
 
 
 ## Introduction {.page_break_before}
@@ -164,8 +164,8 @@ The tomographic data we acquired (8.6 TB projection images and 1.4 TB reconstruc
 ### micro-CT imaging
 
 - Scanned on the 1272 (some fishes) and the 2214 (most of the fishes)
-- 8.6 TB of projections
-- 1.4 TB of reconstructions
+- 8.8 TB of projections (`*.?if` files)
+- 1.4 TB of reconstructions (`*rec*.png` files)
 
 [TODO]: # (Pull the data from *all* log files with a notebook)
 
