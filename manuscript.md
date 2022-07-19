@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-07-18'
+date-meta: '2022-07-19'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-07-18" />
-  <meta name="citation_publication_date" content="2022-07-18" />
+  <meta name="dc.date" content="2022-07-19" />
+  <meta name="citation_publication_date" content="2022-07-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/))
 was automatically generated
-from [habi/EAWAG-manuscript@e106c71](https://github.com/habi/EAWAG-manuscript/tree/e106c7127c769b970d324e1a80afc84c4f5e9de1)
-on July 18, 2022.
+from [habi/EAWAG-manuscript@9acb70b](https://github.com/habi/EAWAG-manuscript/tree/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb)
+on July 19, 2022.
 </em></small>
 
 ## Authors
@@ -132,8 +132,8 @@ on July 18, 2022.
 A large corpus of Cichlids from Lake Victoria in Africa spanning a size range of 6 to 20 cm was nondestructively imaged using micro-computed tomography.
 The presented manuscript describes a method to efficiently obtain three-dimensional tomographic data sets of the oral and pharyngeal jaws and the whole skull of these fishes.
 We describe in detail how the data has been acquired to aid in reproducible research.
-The tomographic data we acquired (8.8 TB projection images and 1.4 TB reconstruction images) are used for further projects, an outlook on two of them; a morphological description of the oral and pharyngeal jaws of the fishes as well as a principal component analysis of landmark features on the fish skulls.
-
+The tomographic data we acquired (8.8 TB projection images) was reconstructed into 1.4 TB of three-dimensional images which are used for further projects.
+Herein we present our method and an outlook on two projects analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes as well as a principal component analysis of landmark features on the fish skulls.
 
 ## Introduction {.page_break_before}
 
@@ -147,27 +147,50 @@ The tomographic data we acquired (8.8 TB projection images and 1.4 TB reconstruc
 
 ### micro-CT
 
-- Nondestructive imaging of a diverse kind of samples
-- Ideal method to provide insight into *these* samples
-- Has been used to investigate fishes before, e.g. 'fishguy'^[For which David made a tomographic scan of an adult zebrafish ages ago.] [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].
+Microcomputed tomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
+Namely in the 'fish sciences', microcomputed tomography has been employed as a method of choice to non-destructively assess the morphology of various samples [@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.]
 
-[TODO]: # (Add some information on the backstory of those fishes, and maybe publications relating to the corpus of fishes)
+Depending on the structures of interest biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
+Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
 
+[TODO]: # (Mention the `fishguy` some more? [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].)
 
 ## Materials and Methods {.page_break_before}
+### Sample procurement and preparation
 
-### Preparation of fishes
+The fishes were kept in 75% Ethanol for long-term storage in the EAWAG fish library.
+They were delivered to the Institute of Anatomy for microtomographic investigation sorted into several batches by approximately equal length.
 
-- Collection
-- Storage in 75% Ethanol.
+[TODO]: # (Were they transported to Bern as 'Gefahrengut'-Transport? This would be a remarkable little tidbit to add to the manuscript)
 
 ### micro-CT imaging
 
-- Scanned on the 1272 (some fishes) and the 2214 (most of the fishes)
-- 8.8 TB of projections (`*.?if` files)
-- 1.4 TB of reconstructions (`*rec*.png` files)
+All samples were scanned on two of the three available high-resolution 3D X-ray microtomography scanners of the Institute of Anatomy of the University of Bern in Switzerland, a SkyScan 1272 and a SkyScan 2214 (both Bruker microCT, Kontich, Belgium).
 
-[TODO]: # (Pull the data from *all* log files with a notebook)
+The fishes were sorted into 'bins' based on their physical size.
+We used a custom-made sample-holder to scan each of the fish in our machines.
+A sample holder was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA) and is freely available online [@https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl] as part of a library of sample holders for tomographic scanning of biomedical samples [@doi:10.5281/zenodo.2587555].
+The sample holder was custom-made for this project and is easily parametrized to the different width, height and length classes of the fishes.
+
+In total, we acquired 340 tomographic scans of 127 different fishes.
+All the scanning parameters are collected in a table in the [Supplementary Materials], a generalized rundown is given below.
+
+Since the fishes greatly varied in their length, the voxel sizes of each of the acquired datasets also varies greatly.
+We acquired datasets with (isometric) voxel sizes ranging from 3--50 μm.
+
+Depending on the size of the specimen we set the x-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
+Also depending on the size of the fishes, the x-ray spectrum was filtered either by an Aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm) before digitization to projection images or recorded in an unfiltered way.
+I total we recorded 8.8 TB of projections images (`*.?if` files) for this project.
+
+ All the recorded projection images were subsequently reconstructed into a 3D stack of axial PNG images spanning the regions of interest of each fish.
+ We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish.
+ In total, this resulted in 1.4 TB of reconstruction images (`*rec*.png` files).
+
+ A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `research_storage` infrastructure of the University of Bern.
+
+[TODO]: # (Add XLS sheet with all the scan details as supplementary material.)
+
+[TODO]: # (I *still* would like to be able to make as much data as possible accessible to other researchers. Can we don this as part of this manuscript?)
 
 ### Data analysis
 #### Preparation for analysis
@@ -176,7 +199,7 @@ The tomographic data we acquired (8.8 TB projection images and 1.4 TB reconstruc
 
 We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the images and wrangle the acquired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
-Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a nearly constant quality check of the scans and batched processing of the data.
+Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a nearly instant quality check of the scans and batched processing of the data.
 
 All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.6798632].
 
@@ -204,9 +227,13 @@ The discussion of the results and the outlook to what we'll do in the future is 
 
 ## Acknowledgments {.page_break_before}
 
-We thank the Manubot project [@doi:10.1371/journal.pcbi.1007128] for helping us write this manuscript collaboratively.
+We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping us write this manuscript collaboratively.
 
 [TODO]: # (Do we need to include more persons here, according to: https://www.rms.org.uk/community/networks-affiliates/bioimaginguk-network/imaging-facility-publication-guidelines.html)
+
+## Supplementary Materials {.page_break_before}
+
+- `Details.xls`, a table with all the relevant details of all the scans.
 
 ## References {.page_break_before}
 
