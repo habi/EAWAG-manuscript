@@ -10,7 +10,7 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2022-07-18" />
+  <meta name="dcterms.date" content="2022-07-19" />
   <meta name="keywords" content="cichlids, x-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
@@ -49,8 +49,8 @@
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-07-18" />
-  <meta name="citation_publication_date" content="2022-07-18" />
+  <meta name="dc.date" content="2022-07-19" />
+  <meta name="citation_publication_date" content="2022-07-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -82,9 +82,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,10 +101,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/e106c7127c769b970d324e1a80afc84c4f5e9de1/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/e106c7127c769b970d324e1a80afc84c4f5e9de1">habi/EAWAG-manuscript@e106c71</a>
-on July 18, 2022.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/9acb70b5cbf32c60a57e41ea5e7ab853f52345eb">habi/EAWAG-manuscript@9acb70b</a>
+on July 19, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -143,7 +143,8 @@ Institute of Anatomy, Unversity of Bern, Switzerland
 <p>A large corpus of Cichlids from Lake Victoria in Africa spanning a size range of 6 to 20 cm was nondestructively imaged using micro-computed tomography.
 The presented manuscript describes a method to efficiently obtain three-dimensional tomographic data sets of the oral and pharyngeal jaws and the whole skull of these fishes.
 We describe in detail how the data has been acquired to aid in reproducible research.
-The tomographic data we acquired (8.8 TB projection images and 1.4 TB reconstruction images) are used for further projects, an outlook on two of them; a morphological description of the oral and pharyngeal jaws of the fishes as well as a principal component analysis of landmark features on the fish skulls.</p>
+The tomographic data we acquired (8.8 TB projection images) was reconstructed into 1.4 TB of three-dimensional images which are used for further projects.
+Herein we present our method and an outlook on two projects analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes as well as a principal component analysis of landmark features on the fish skulls.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <h3 id="history">History</h3>
 <ul>
@@ -152,30 +153,38 @@ The tomographic data we acquired (8.8 TB projection images and 1.4 TB reconstruc
 <li>Valuable, hence non-destructive imaging is <em>paramount</em></li>
 </ul>
 <h3 id="micro-ct">micro-CT</h3>
-<ul>
-<li>Nondestructive imaging of a diverse kind of samples</li>
-<li>Ideal method to provide insight into <em>these</em> samples</li>
-<li>Has been used to investigate fishes before, e.g. ‘fishguy’<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> <span class="citation" data-cites="14Cpu4Sbi">[<a href="#ref-14Cpu4Sbi" role="doc-biblioref">1</a>]</span>.</li>
-</ul>
+<p>Microcomputed tomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
+Namely in the ‘fish sciences’, microcomputed tomography has been employed as a method of choice to non-destructively assess the morphology of various samples <span class="citation" data-cites="3rxGCEvJ">[<a href="#ref-3rxGCEvJ" role="doc-biblioref">1</a>]</span> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Depending on the structures of interest biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
+Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.</p>
 <h2 class="page_break_before" id="materials-and-methods">Materials and Methods</h2>
-<h3 id="preparation-of-fishes">Preparation of fishes</h3>
-<ul>
-<li>Collection</li>
-<li>Storage in 75% Ethanol.</li>
-</ul>
+<h3 id="sample-procurement-and-preparation">Sample procurement and preparation</h3>
+<p>The fishes were kept in 75% Ethanol for long-term storage in the EAWAG fish library.
+They were delivered to the Institute of Anatomy for microtomographic investigation sorted into several batches by approximately equal length.</p>
 <h3 id="micro-ct-imaging">micro-CT imaging</h3>
-<ul>
-<li>Scanned on the 1272 (some fishes) and the 2214 (most of the fishes)</li>
-<li>8.8 TB of projections (<code>*.?if</code> files)</li>
-<li>1.4 TB of reconstructions (<code>*rec*.png</code> files)</li>
-</ul>
+<p>All samples were scanned on two of the three available high-resolution 3D X-ray microtomography scanners of the Institute of Anatomy of the University of Bern in Switzerland, a SkyScan 1272 and a SkyScan 2214 (both Bruker microCT, Kontich, Belgium).</p>
+<p>The fishes were sorted into ‘bins’ based on their physical size.
+We used a custom-made sample-holder to scan each of the fish in our machines.
+A sample holder was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA) and is freely available online <span class="citation" data-cites="VCZPOv2f">[<a href="#ref-VCZPOv2f" role="doc-biblioref">2</a>]</span> as part of a library of sample holders for tomographic scanning of biomedical samples <span class="citation" data-cites="115PPSuQp">[<a href="#ref-115PPSuQp" role="doc-biblioref">3</a>]</span>.
+The sample holder was custom-made for this project and is easily parametrized to the different width, height and length classes of the fishes.</p>
+<p>In total, we acquired 340 tomographic scans of 127 different fishes.
+All the scanning parameters are collected in a table in the <a href="#supplementary-materials">Supplementary Materials</a>, a generalized rundown is given below.</p>
+<p>Since the fishes greatly varied in their length, the voxel sizes of each of the acquired datasets also varies greatly.
+We acquired datasets with (isometric) voxel sizes ranging from 3–50 μm.</p>
+<p>Depending on the size of the specimen we set the x-ray source voltage to 50–80 kV and—depending on the voltage—to a current between 107 and 200 μA.
+Also depending on the size of the fishes, the x-ray spectrum was filtered either by an Aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm) before digitization to projection images or recorded in an unfiltered way.
+I total we recorded 8.8 TB of projections images (<code>*.?if</code> files) for this project.</p>
+<p>All the recorded projection images were subsequently reconstructed into a 3D stack of axial PNG images spanning the regions of interest of each fish.
+We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish.
+In total, this resulted in 1.4 TB of reconstruction images (<code>*rec*.png</code> files).</p>
+<p>A small bash script <span class="citation" data-cites="ZjgrPHTa">[<a href="#ref-ZjgrPHTa" role="doc-biblioref">4</a>]</span> was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the <code>research_storage</code> infrastructure of the University of Bern.</p>
 <h3 id="data-analysis">Data analysis</h3>
 <h4 id="preparation-for-analysis">Preparation for analysis</h4>
 <h3 id="image-processing">Image processing</h3>
-<p>We wrote a set of <em>Jupyter</em> <span class="citation" data-cites="pQ6Wbz73">[<a href="#ref-pQ6Wbz73" role="doc-biblioref">2</a>]</span> notebooks with <em>Python</em> code to work with the images and wrangle the acquired data.
+<p>We wrote a set of <em>Jupyter</em> <span class="citation" data-cites="pQ6Wbz73">[<a href="#ref-pQ6Wbz73" role="doc-biblioref">5</a>]</span> notebooks with <em>Python</em> code to work with the images and wrangle the acquired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
-Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a nearly constant quality check of the scans and batched processing of the data.</p>
-<p>All Jupyter notebooks for this work are available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">3</a>]</span>.</p>
+Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a nearly instant quality check of the scans and batched processing of the data.</p>
+<p>All Jupyter notebooks for this work are available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">6</a>]</span>.</p>
 <h4 id="extraction-of-oj-and-pj">Extraction of OJ and PJ</h4>
 <ul>
 <li>Details needed from Mikki on how she did it exactly</li>
@@ -194,21 +203,34 @@ We do <em>not</em> want to cannibalize her upcoming manuscript, but only hint at
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <p>The discussion of the results and the outlook to what we’ll do in the future is going into this file here.</p>
 <h2 class="page_break_before" id="acknowledgments">Acknowledgments</h2>
-<p>We thank the Manubot project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">4</a>]</span> for helping us write this manuscript collaboratively.</p>
+<p>We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">7</a>]</span> for helping us write this manuscript collaboratively.</p>
+<h2 class="page_break_before" id="supplementary-materials">Supplementary Materials</h2>
+<ul>
+<li><code>Details.xls</code>, a table with all the relevant details of all the scans.</li>
+</ul>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
-<div id="ref-14Cpu4Sbi" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>UW professor is digitizing every fish species in the world</strong> <div class="csl-block">Story Central</div> <a href="https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world/">https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world/</a></div>
+<div id="ref-3rxGCEvJ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>CT Scans - #ScanAllFish</strong> <div class="csl-block">Adam P Summers</div> (2015-09-29) <a href="https://osf.io/ecmz4/">https://osf.io/ecmz4/</a></div>
+</div>
+<div id="ref-VCZPOv2f" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Hol3Drs/EAWAG.Fish.stl at master · TomoGraphics/Hol3Drs</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/TomoGraphics/Hol3Drs">https://github.com/TomoGraphics/Hol3Drs</a></div>
+</div>
+<div id="ref-115PPSuQp" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>TomoGraphics/Hol3Drs: A release</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2019-03-08) <a href="https://doi.org/gg9fxh">https://doi.org/gg9fxh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.2587555">10.5281/zenodo.2587555</a></div></div>
+</div>
+<div id="ref-ZjgrPHTa" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>EAWAG/rsync-fishes.sh at master · habi/EAWAG</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/habi/EAWAG">https://github.com/habi/EAWAG</a></div>
 </div>
 <div id="ref-pQ6Wbz73" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Jupyter Notebooks – a publishing format for reproducible computational workflows</strong> <div class="csl-block">Thomas Kluyver, Benjamin Ragan-Kelley, Fernando Pérez, Brian Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica Hamrick, Jason Grout, Sylvain Corlay, … Jupyter development team</div> <em>IOS Press</em> (2016) <a href="https://eprints.soton.ac.uk/403913/">https://eprints.soton.ac.uk/403913/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3233/978-1-61499-649-1-87">10.3233/978-1-61499-649-1-87</a></div></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Jupyter Notebooks – a publishing format for reproducible computational workflows</strong> <div class="csl-block">Thomas Kluyver, Benjamin Ragan-Kelley, Fernando Pérez, Brian Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica Hamrick, Jason Grout, Sylvain Corlay, … Jupyter development team</div> <em>IOS Press</em> (2016) <a href="https://eprints.soton.ac.uk/403913/">https://eprints.soton.ac.uk/403913/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3233/978-1-61499-649-1-87">10.3233/978-1-61499-649-1-87</a></div></div>
 </div>
 <div id="ref-1HteOscVd" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>habi/EAWAG: First release, for minting a Zenodo DOI</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2022-07-05) <a href="https://doi.org/gqgdtp">https://doi.org/gqgdtp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.6798632">10.5281/zenodo.6798632</a></div></div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>habi/EAWAG: First release, for minting a Zenodo DOI</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2022-07-05) <a href="https://doi.org/gqgdtp">https://doi.org/gqgdtp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.6798632">10.5281/zenodo.6798632</a></div></div>
 </div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
 </div>
 </div>
 <section class="footnotes footnotes-end-of-document" role="doc-endnotes">
