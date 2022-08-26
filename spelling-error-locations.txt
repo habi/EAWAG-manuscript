@@ -36,6 +36,6 @@ content/03.materials.methods.md:32:habi
 content/03.materials.methods.md:43:Jupyter
 content/03.materials.methods.md:47:Jupyter
 content/03.materials.methods.md:49:PJ
-content/03.materials.methods.md:51:Mikki
-content/03.materials.methods.md:53:PCA
-content/03.materials.methods.md:55:Kassandra
+content/03.materials.methods.md:53:Mikki
+content/03.materials.methods.md:55:PCA
+content/03.materials.methods.md:57:Kassandra

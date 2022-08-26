@@ -2,6 +2,7 @@ Bruker
 cichlid
 Cichlids
 datasets
+DSlicer
 EAWAG
 Formlabs
 Haberthür
@@ -12,7 +13,7 @@ Jupyter
 Kassandra
 Kontich
 kV
-microcomputed
+Microcomputed
 microCT
 microtomographic
 microtomography
