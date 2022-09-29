@@ -2,6 +2,7 @@ anteroposterior
 Bruker
 cichlid
 Cichlids
+csv
 datasets
 dorsoventral
 EAWAG
@@ -22,7 +23,7 @@ microtomography
 Mikki
 nondestructively
 NRecon
-otolith
+Otolith
 otolither
 otoliths
 parametrized
@@ -30,6 +31,7 @@ PCA
 PJ
 PNG
 Ruslan
+ScanningDetails
 Seehausen
 SkyScan
 Somerville

@@ -50,3 +50,14 @@ content/03.materials.methods.md:65:otolith
 content/03.materials.methods.md:65:otolither
 content/03.materials.methods.md:65:Otolither
 content/03.materials.methods.md:65:png
+content/07.supplementary.md:4:csv
+content/07.supplementary.md:4:csv
+content/07.supplementary.md:4:CSV
+content/07.supplementary.md:4:EAWAG
+content/07.supplementary.md:4:habi
+content/07.supplementary.md:4:ScanningDetails
+content/07.supplementary.md:4:ScanningDetails
+content/07.supplementary.md:5:EAWAG
+content/07.supplementary.md:5:habi
+content/07.supplementary.md:6:EAWAG
+content/07.supplementary.md:6:habi
