@@ -10,7 +10,7 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2022-08-26" />
+  <meta name="dcterms.date" content="2022-09-29" />
   <meta name="keywords" content="cichlids, x-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
@@ -49,8 +49,8 @@
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-08-26" />
-  <meta name="citation_publication_date" content="2022-08-26" />
+  <meta name="dc.date" content="2022-09-29" />
+  <meta name="citation_publication_date" content="2022-09-29" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -82,9 +82,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/84a712a3ba2d87125bac31ae48f07b62f82bb996/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/84a712a3ba2d87125bac31ae48f07b62f82bb996/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/84a712a3ba2d87125bac31ae48f07b62f82bb996/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/ff5e3cc6748bbfd9675e2adf0a8640bbae4130c9/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ff5e3cc6748bbfd9675e2adf0a8640bbae4130c9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ff5e3cc6748bbfd9675e2adf0a8640bbae4130c9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,10 +101,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/84a712a3ba2d87125bac31ae48f07b62f82bb996/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/ff5e3cc6748bbfd9675e2adf0a8640bbae4130c9/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/84a712a3ba2d87125bac31ae48f07b62f82bb996">habi/EAWAG-manuscript@84a712a</a>
-on August 26, 2022.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/ff5e3cc6748bbfd9675e2adf0a8640bbae4130c9">habi/EAWAG-manuscript@ff5e3cc</a>
+on September 29, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -186,12 +186,27 @@ The notebooks were written at the start of the project, to be able to process ne
 Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a nearly instant quality check of the scans and batched processing of the data.</p>
 <p>All Jupyter notebooks for this work are available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">6</a>]</span>.</p>
 <h4 id="extraction-of-oj-and-pj">Extraction of OJ and PJ</h4>
-<p>To extract the oral and pharyngeal jaws of the fishes, we used <a href="https://www.slicer.org">3DSlicer</a> (Version XXX) <span class="citation" data-cites="OsCpHsJH">[<a href="#ref-OsCpHsJH" role="doc-biblioref">7</a>]</span></p>
+<ul>
+<li>Details needed from Mikki on how she did it exactly</li>
+</ul>
 <h4 id="pca-of-skull-landmarks">PCA of skull landmarks</h4>
 <ul>
 <li>Very superficial description of work from Kassandra.
 We do <em>not</em> want to cannibalize her upcoming manuscript, but only hint at what will be done.</li>
 </ul>
+<h4 id="automatic-extraction-of-otoliths">Automatic extraction of otoliths</h4>
+<ul>
+<li>MIPs are oriented <em>anteroposterior</em>, <em>lateral</em> and <em>dorsoventral</em></li>
+<li>Simple grayvalue plot along the longest axis</li>
+<li>Find peak of this grayvalue</li>
+<li>Otolith is around maximum gray value along fish, (see Figure <a href="#fig:otolither">1</a>)</li>
+</ul>
+<div id="fig:otolither" class="fignos">
+<figure>
+<img src="images/10619.head_rec_unbinned_17.5um.Otolither.png" alt="Figure 1: Result of automatic otolith extraction." />
+<figcaption aria-hidden="true"><span>Figure 1:</span> Result of automatic otolith extraction.</figcaption>
+</figure>
+</div>
 <h2 class="page_break_before" id="results">Results</h2>
 <ul>
 <li>A lot of fishes</li>
@@ -201,7 +216,7 @@ We do <em>not</em> want to cannibalize her upcoming manuscript, but only hint at
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <p>The discussion of the results and the outlook to what we’ll do in the future is going into this file here.</p>
 <h2 class="page_break_before" id="acknowledgments">Acknowledgments</h2>
-<p>We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">8</a>]</span> for helping us write this manuscript collaboratively.</p>
+<p>We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">7</a>]</span> for helping us write this manuscript collaboratively.</p>
 <h2 class="page_break_before" id="supplementary-materials">Supplementary Materials</h2>
 <ul>
 <li><code>Details.xls</code>, a table with all the relevant details of all the scans.</li>
@@ -227,11 +242,8 @@ We do <em>not</em> want to cannibalize her upcoming manuscript, but only hint at
 <div id="ref-1HteOscVd" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>habi/EAWAG: First release, for minting a Zenodo DOI</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2022-07-05) <a href="https://doi.org/gqgdtp">https://doi.org/gqgdtp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.6798632">10.5281/zenodo.6798632</a></div></div>
 </div>
-<div id="ref-OsCpHsJH" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>3D Slicer as an image computing platform for the Quantitative Imaging Network</strong> <div class="csl-block">Andriy Fedorov, Reinhard Beichel, Jayashree Kalpathy-Cramer, Julien Finet, Jean-Christophe Fillion-Robin, Sonia Pujol, Christian Bauer, Dominique Jennings, Fiona Fennessy, Milan Sonka, … Ron Kikinis</div> <em>Magnetic Resonance Imaging</em> (2012-11) <a href="https://doi.org/gfghgd">https://doi.org/gfghgd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.mri.2012.05.001">10.1016/j.mri.2012.05.001</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22770690">22770690</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3466397">PMC3466397</a></div></div>
-</div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
 </div>
 </div>
 <section class="footnotes footnotes-end-of-document" role="doc-endnotes">
