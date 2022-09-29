@@ -50,6 +50,11 @@ content/03.materials.methods.md:65:otolith
 content/03.materials.methods.md:65:otolither
 content/03.materials.methods.md:65:Otolither
 content/03.materials.methods.md:65:png
+content/04.results.md:7:otoliths
+content/04.results.md:9:otolith
+content/04.results.md:9:otolith
+content/04.results.md:9:Otolith
+content/04.results.md:9:png
 content/07.supplementary.md:4:csv
 content/07.supplementary.md:4:csv
 content/07.supplementary.md:4:CSV

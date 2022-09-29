@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/16f54f5cef54a2460a1fcb7fc8221ec7c6a18627/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/16f54f5cef54a2460a1fcb7fc8221ec7c6a18627/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/16f54f5cef54a2460a1fcb7fc8221ec7c6a18627/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/16f54f5cef54a2460a1fcb7fc8221ec7c6a18627/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/))
 was automatically generated
-from [habi/EAWAG-manuscript@16f54f5](https://github.com/habi/EAWAG-manuscript/tree/16f54f5cef54a2460a1fcb7fc8221ec7c6a18627)
+from [habi/EAWAG-manuscript@4d96467](https://github.com/habi/EAWAG-manuscript/tree/4d964674d1d67eb1c6d61fb36c8a42259890aeb1)
 on September 29, 2022.
 </em></small>
 
@@ -219,7 +219,7 @@ All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.67
 - Find peak of this grayvalue 
 - Otolith is around maximum gray value along fish, (see Figure @fig:otolither)
 
-![Result of automatic otolith extraction.](images/10619.head_rec_unbinned_17.5um.Otolither.png){#fig:otolither}
+![Automatic otolith extraction.](images/10619.head_rec_unbinned_17.5um.Otolither.png){#fig:otolither}
 
 ## Results {.page_break_before}
 
@@ -227,6 +227,9 @@ All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.67
 - A lot of scans
 - A lot of data
 
+#### Automatic extraction of otoliths
+
+![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/Otolith-3D.png){#fig:otolith3d}
 
 ## Discussion {.page_break_before}
 

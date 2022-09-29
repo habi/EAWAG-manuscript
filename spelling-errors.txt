@@ -2,7 +2,7 @@ anteroposterior
 Bruker
 cichlid
 Cichlids
-csv
+CSV
 datasets
 dorsoventral
 EAWAG
