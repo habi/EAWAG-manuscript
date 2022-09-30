@@ -1,7 +1,7 @@
 anteroposterior
 Bruker
 Cichlids
-csv
+CSV
 Dask
 dataframe
 dataset
@@ -18,7 +18,7 @@ Hlushchuk
 ImageStacks
 Jupyter
 Kassandra
-KAT
+kat
 Kontich
 kV
 microCT
