@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/))
 was automatically generated
-from [habi/EAWAG-manuscript@a4dab3b](https://github.com/habi/EAWAG-manuscript/tree/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92)
+from [habi/EAWAG-manuscript@fad73fd](https://github.com/habi/EAWAG-manuscript/tree/fad73fd350c09d14be893c1698621b7530abf7c8)
 on September 30, 2022.
 </em></small>
 
@@ -183,7 +183,7 @@ Also depending on the size of the fishes, the x-ray spectrum was filtered either
 I total we recorded 8.8 TB of projections images (`*.?if` files) for this project.
 
 All the recorded projection images were subsequently reconstructed into a 3D stack of axial PNG images spanning the regions of interest of each fish.
-We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (see section [Supplementary Materials].
+We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the [Supplementary Materials]).
 In total, this resulted in 1.4 TB of reconstruction images (`*rec*.png` files).
 
 A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `research_storage` infrastructure of the University of Bern.
@@ -203,9 +203,23 @@ All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.67
 
 #### Extraction of OJ and PJ
 
-To extract the oral and pharyngeal jaws of the fishes, we used [3DSlicer](https://www.slicer.org) (Version XXX) [@doi:10.1016/j.mri.2012.05.001]
+To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the SlicerMorph tools [@doi:10.1111/2041-210X.13669] which help biologists to work with 3D specimen data.
+The reconstructed `.png` stacks were loaded into ImageStacks, depending on their size we reduced the image resolution (e.g. downscaled the images) for this first step.
+The three-dimensional volume was rendered via [VTK GPU Ray Casting](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html).
+A custom-made volume property (created by Kassandra Ford) was used as an input to view the scans.
+Using toggles in the volume rendering, we defined regions of interest (ROIs) for both the OJs and PJs in each specimen..
+These ROIs were then extracted in their native resolution from the original dataset for further processing.
+Using the grayvalue thresholding function in Slicers Segment Editor the teeh in both the oral and pharyngeal jaws were extracted.
+We used the 'Scissor' and 'Island' tools of the Segment Editor to isolate single regions.
 
-[TODO]: # (Mikki will add a short 'cook book' style rundown on how she exactly extracted the OJs and PJs.)
+Processed regions of interest were exported as NRRD [@https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Nrrd&id=1085264080&wpFormIdentifier=titleform] files.
+The three-dimensional visualizations of all regions of interest for each speciment were compiled into overview images (see Figure @fig:kat13pptx for an example from the compilation document).
+In total we compiled overview of XXX specimens with full head morphology, oral jaw and lower pharnygeal jaw profiles.
+
+![Overview of data from 'KAT-13, Lake Edward, "Thoracochromis" pharyngalis (pharyngeal mollusc crusher – shrimp)'](images/KAT13.ppt.png){#fig:kat13pptx}
+
+[TODO]: # (Do we really need to specify 'created by Kassandra Ford' for the custom-made property?)
+[TODO]: # (Accurate specimen number in .pptx file from Mikki. The PPTX file `CT scan slides_ML_March26_2022.pptx` contains 112 slides...)
 
 #### PCA of skull landmarks
 
