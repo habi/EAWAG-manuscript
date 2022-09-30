@@ -6,7 +6,7 @@ content/02.introduction.md:13:Microcomputed
 content/02.introduction.md:14:microcomputed
 content/02.introduction.md:14:zebrafish
 content/02.introduction.md:16:tomographically
-content/02.introduction.md:17:cichlid
+content/02.introduction.md:17:Cichlids
 content/03.materials.methods.md:4:EAWAG
 content/03.materials.methods.md:5:microtomographic
 content/03.materials.methods.md:11:Bruker

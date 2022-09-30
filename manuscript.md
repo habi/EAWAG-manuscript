@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92/))
 was automatically generated
-from [habi/EAWAG-manuscript@a6451e3](https://github.com/habi/EAWAG-manuscript/tree/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4)
+from [habi/EAWAG-manuscript@a4dab3b](https://github.com/habi/EAWAG-manuscript/tree/a4dab3b7f1b9393b6d94589b6c1b0e62ef017f92)
 on September 30, 2022.
 </em></small>
 
@@ -151,7 +151,7 @@ Microcomputed tomography is a valuable tool to gain insights into the inner stru
 Namely in the 'fish sciences', microcomputed tomography has been employed as a method of choice to non-destructively assess the morphology of various samples [@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.]
 
 Depending on the structures of interest biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
-Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
+Since the structures of interest for the two studies we touch upon in this manuscript (Cichlids teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
 
 [TODO]: # (Mention the `fishguy` some more? [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].)
 

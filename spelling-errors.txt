@@ -1,8 +1,7 @@
 anteroposterior
 Bruker
-cichlid
 Cichlids
-CSV
+csv
 datasets
 dorsoventral
 DSlicer
@@ -17,7 +16,7 @@ Jupyter
 Kassandra
 Kontich
 kV
-microcomputed
+Microcomputed
 microCT
 microtomographic
 microtomography
