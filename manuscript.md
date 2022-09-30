@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/6cf8ebfd187f243bc4ac4e72f968c69aae701116/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6cf8ebfd187f243bc4ac4e72f968c69aae701116/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6cf8ebfd187f243bc4ac4e72f968c69aae701116/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/6cf8ebfd187f243bc4ac4e72f968c69aae701116/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/))
 was automatically generated
-from [habi/EAWAG-manuscript@6cf8ebf](https://github.com/habi/EAWAG-manuscript/tree/6cf8ebfd187f243bc4ac4e72f968c69aae701116)
+from [habi/EAWAG-manuscript@dbbc7c0](https://github.com/habi/EAWAG-manuscript/tree/dbbc7c063cce318b3407630a7b719ca1a16da76e)
 on September 30, 2022.
 </em></small>
 
@@ -224,8 +224,8 @@ In this check we examined the mapping of the gray values of the raw projection i
 ### Image processing
 #### Extraction of oral and pharyngeal jaws, visualization of tomographic data
 
-To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the SlicerMorph tools [@doi:10.1111/2041-210X.13669] which help biologists to work with 3D specimen data.
-The reconstructed `.png` stacks were loaded into ImageStacks, depending on their size we reduced the image resolution (e.g. downscaled the images) for this first step.
+To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the 'SlicerMorph' tools [@doi:10.1111/2041-210X.13669] which help biologists to work with 3D specimen data.
+The reconstructed `.png` stacks were loaded into 'ImageStacks', depending on their size we reduced the image resolution (e.g. downscaled the images) for this first step.
 The three-dimensional volume was rendered via [VTK GPU Ray Casting](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html).
 A custom-made volume property (created by Kassandra Ford) was used as an input to view the scans.
 Using toggles in the volume rendering, we defined regions of interest (ROIs) for both the OJs and PJs in each specimen..
