@@ -38,14 +38,18 @@ header-includes: |-
   <meta name="citation_author_institution" content="None" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Kassandra Ford" />
-  <meta name="citation_author_institution" content="None" />
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_institution" content="Department of Biological Sciences, George Washington University" />
+  <meta name="citation_author_institution" content="EAWAG Aquatic Research Institute, Switzerland" />
+  <meta name="citation_author_institution" content="Institute of Ecology &amp; Evolution, University of Bern, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0002-4413-2633" />
+  <meta name="twitter:creator" content="@kassthefish" />
   <meta name="citation_author" content="Marcel Häsler" />
   <meta name="citation_author_institution" content="None" />
   <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Ole Seehausen" />
-  <meta name="citation_author_institution" content="None" />
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_institution" content="Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland" />
+  <meta name="citation_author_institution" content="Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland" />
+  <meta name="citation_author_orcid" content="0000-0001-6598-1434" />
   <meta name="citation_author" content="Ruslan Hlushchuk" />
   <meta name="citation_author_institution" content="Institute of Anatomy, Unversity of Bern, Switzerland" />
   <meta name="citation_author_orcid" content="None" />
@@ -55,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +83,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/dbbc7c063cce318b3407630a7b719ca1a16da76e/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/))
 was automatically generated
-from [habi/EAWAG-manuscript@dbbc7c0](https://github.com/habi/EAWAG-manuscript/tree/dbbc7c063cce318b3407630a7b719ca1a16da76e)
+from [habi/EAWAG-manuscript@4535a7b](https://github.com/habi/EAWAG-manuscript/tree/4535a7bfcea6c081e8060942ec7bd83823760ec8)
 on September 30, 2022.
 </em></small>
 
@@ -105,9 +109,15 @@ on September 30, 2022.
      None
   </small>
 
-+ **Kassandra Ford**<br><br>
++ **Kassandra Ford**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-4413-2633](https://orcid.org/0000-0002-4413-2633)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [kassthefish](https://github.com/kassthefish)
+    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
+    [kassthefish](https://twitter.com/kassthefish)<br>
   <small>
-     None
+     Department of Biological Sciences, George Washington University; EAWAG Aquatic Research Institute, Switzerland; Institute of Ecology & Evolution, University of Bern, Switzerland
   </small>
 
 + **Marcel Häsler**<br><br>
@@ -115,9 +125,13 @@ on September 30, 2022.
      None
   </small>
 
-+ **Ole Seehausen**<br><br>
++ **Ole Seehausen**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0001-6598-1434](https://orcid.org/0000-0001-6598-1434)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [OleSeehausen](https://github.com/OleSeehausen)<br>
   <small>
-     None
+     Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   </small>
 
 + **Ruslan Hlushchuk**<br><br>

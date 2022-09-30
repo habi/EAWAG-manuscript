@@ -1,7 +1,7 @@
 anteroposterior
 Bruker
 Cichlids
-csv
+CSV
 Dask
 dataframe
 dataset
@@ -18,7 +18,9 @@ Hlushchuk
 ImageStacks
 Jupyter
 Kassandra
-KAT
+kassthefish
+Kastanienbaum
+kat
 Kontich
 kV
 microCT
@@ -29,6 +31,7 @@ nondestructively
 NRecon
 NRRD
 OJs
+OleSeehausen
 otolith
 otolither
 otoliths
