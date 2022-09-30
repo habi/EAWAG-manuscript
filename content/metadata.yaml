@@ -37,12 +37,13 @@ authors:
     email: 
     affiliations:
       - 
-  - github:
+  - github: OleSeehausen
     name: Ole Seehausen
     initials: 
-    orcid: 
-    email: 
-    affiliations:
+    orcid: 0000-0001-6598-1434
+    email: ole.seehausen@unibe.ch
+    affiliations: 1. Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
+    2. Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
       - 
   - github:
     name: Ruslan Hlushchuk
