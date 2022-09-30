@@ -5,6 +5,7 @@ Cichlids
 CSV
 datasets
 dorsoventral
+DSlicer
 EAWAG
 Formlabs
 grayvalue
@@ -16,14 +17,14 @@ Jupyter
 Kassandra
 Kontich
 kV
-Microcomputed
+microcomputed
 microCT
 microtomographic
 microtomography
 Mikki
 nondestructively
 NRecon
-Otolith
+otolith
 otolither
 otoliths
 parametrized

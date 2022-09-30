@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-09-29'
+date-meta: '2022-09-30'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-09-29" />
-  <meta name="citation_publication_date" content="2022-09-29" />
+  <meta name="dc.date" content="2022-09-30" />
+  <meta name="citation_publication_date" content="2022-09-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,10 +79,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/4d964674d1d67eb1c6d61fb36c8a42259890aeb1/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4/))
 was automatically generated
-from [habi/EAWAG-manuscript@4d96467](https://github.com/habi/EAWAG-manuscript/tree/4d964674d1d67eb1c6d61fb36c8a42259890aeb1)
-on September 29, 2022.
+from [habi/EAWAG-manuscript@a6451e3](https://github.com/habi/EAWAG-manuscript/tree/a6451e3d14e60e1d0d12b8b8641fdbee1712c3c4)
+on September 30, 2022.
 </em></small>
 
 ## Authors
@@ -182,13 +182,11 @@ Depending on the size of the specimen we set the x-ray source voltage to 50--80 
 Also depending on the size of the fishes, the x-ray spectrum was filtered either by an Aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm) before digitization to projection images or recorded in an unfiltered way.
 I total we recorded 8.8 TB of projections images (`*.?if` files) for this project.
 
- All the recorded projection images were subsequently reconstructed into a 3D stack of axial PNG images spanning the regions of interest of each fish.
- We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish.
- In total, this resulted in 1.4 TB of reconstruction images (`*rec*.png` files).
+All the recorded projection images were subsequently reconstructed into a 3D stack of axial PNG images spanning the regions of interest of each fish.
+We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (see section [Supplementary Materials].
+In total, this resulted in 1.4 TB of reconstruction images (`*rec*.png` files).
 
- A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `research_storage` infrastructure of the University of Bern.
-
-[TODO]: # (Add XLS sheet with all the scan details as supplementary material.)
+A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `research_storage` infrastructure of the University of Bern.
 
 [TODO]: # (I *still* would like to be able to make as much data as possible accessible to other researchers. Can we don this as part of this manuscript?)
 
@@ -205,7 +203,9 @@ All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.67
 
 #### Extraction of OJ and PJ
 
-- Details needed from Mikki on how she did it exactly
+To extract the oral and pharyngeal jaws of the fishes, we used [3DSlicer](https://www.slicer.org) (Version XXX) [@doi:10.1016/j.mri.2012.05.001]
+
+[TODO]: # (Mikki will add a short 'cook book' style rundown on how she exactly extracted the OJs and PJs.)
 
 #### PCA of skull landmarks
 
@@ -246,7 +246,7 @@ We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping u
 
 ### Parameters of tomographic scans of all the fishes
 The CSV file [ScanningDetails.csv](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv) gives a tabular overview of all the (relevant) parameters of all the scans we performed.
-This file was generated with the [data processing notebook](https://github.com/habi/EAWAG/blob/master/DataWrangling.ipynb] and contains the data which is read from *all* the log files of *all* the scans we performed.
+This file was generated with the [data processing notebook](https://github.com/habi/EAWAG/blob/master/DataWrangling.ipynb) and contains the data which is read from *all* the log files of *all* the scans we performed.
 A copy of the log files is available in a [folder in the data processing repository](https://github.com/habi/EAWAG/tree/master/logfiles).
 
 ## References {.page_break_before}
