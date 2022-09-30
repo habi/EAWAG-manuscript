@@ -55,9 +55,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/88b3ad59221d0574638320efa20d7412b2a57d5b/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/88b3ad59221d0574638320efa20d7412b2a57d5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/88b3ad59221d0574638320efa20d7412b2a57d5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,9 +79,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/fad73fd350c09d14be893c1698621b7530abf7c8/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/88b3ad59221d0574638320efa20d7412b2a57d5b/))
 was automatically generated
-from [habi/EAWAG-manuscript@fad73fd](https://github.com/habi/EAWAG-manuscript/tree/fad73fd350c09d14be893c1698621b7530abf7c8)
+from [habi/EAWAG-manuscript@88b3ad5](https://github.com/habi/EAWAG-manuscript/tree/88b3ad59221d0574638320efa20d7412b2a57d5b)
 on September 30, 2022.
 </em></small>
 
@@ -147,8 +147,8 @@ Herein we present our method and an outlook on two projects analyzing the acquir
 
 ### micro-CT
 
-Microcomputed tomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
-Namely in the 'fish sciences', microcomputed tomography has been employed as a method of choice to non-destructively assess the morphology of various samples [@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.]
+X-ray microtomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
+Namely in the 'fish sciences', X-ray microtomography has been employed as a method of choice to non-destructively assess the morphology of various samples [@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.]
 
 Depending on the structures of interest biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
 Since the structures of interest for the two studies we touch upon in this manuscript (Cichlids teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
@@ -159,7 +159,7 @@ Since the structures of interest for the two studies we touch upon in this manus
 ### Sample procurement and preparation
 
 The fishes were kept in 75% Ethanol for long-term storage in the EAWAG fish library.
-They were delivered to the Institute of Anatomy for microtomographic investigation sorted into several batches by approximately equal length.
+They were delivered to the Institute of Anatomy for X-ray microtomography investigation sorted into several batches by approximately equal length.
 
 [TODO]: # (Were they transported to Bern as 'Gefahrengut'-Transport? This would be a remarkable little tidbit to add to the manuscript)
 
@@ -183,25 +183,46 @@ Also depending on the size of the fishes, the x-ray spectrum was filtered either
 I total we recorded 8.8 TB of projections images (`*.?if` files) for this project.
 
 All the recorded projection images were subsequently reconstructed into a 3D stack of axial PNG images spanning the regions of interest of each fish.
+Since all the specimens were scanned with their mouths downward and rotating along their long axis, we manually rotated each of the reconstructed datasets so that the lateral axis through the fish was horizontal in relation to the x and y direction of each reconstructed slice.
 We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the [Supplementary Materials]).
 In total, this resulted in 1.4 TB of reconstruction images (`*rec*.png` files).
 
-A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `research_storage` infrastructure of the University of Bern.
+While performing the work, a subset of the data was always present on the production system, for working with it (see [Preparation for analysis
+] below).
+A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `research_storage` infrastructure of the University of Bern, enabling easy collaboration on the data by all co-authors at the same time.
 
 [TODO]: # (I *still* would like to be able to make as much data as possible accessible to other researchers. Can we don this as part of this manuscript?)
 
 ### Data analysis
-#### Preparation for analysis
-
-### Image processing
 
 We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the images and wrangle the acquired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
-Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a nearly instant quality check of the scans and batched processing of the data.
+Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating a an efficient quality check of the scans and batched processing of the data.
 
 All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.6798632].
 
-#### Extraction of OJ and PJ
+#### Preparation for analysis
+
+The main Jupyter notebook for this manuscript dealt with reading all log and image files and preparing images for quality checking and the next steps.
+Briefly summarized the below process was implemented.
+
+At first, *all* log files of *all* the scans were read into a list (*all* data of the notebook was saved into a `pandas` [@doi:10.5281/zenodo.7093122] dataframe).
+This already enabled us to extract the specimen name and scan, since we performed several scans for each specimen, e.g. a low resolution scan with large field of view for the whole head and one or several scans in high resolution focusing on the region of the oral and pharyngeal scans.
+From the log files we extracted the relevant values for double-checking the necessary parameters of each scan.
+All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the [Supplementary Materials] at the end of each run of the notebook.
+
+After several 'sanity checks' of the data, we used `Dask` [@dask] to efficiently access the very large total amount of axial reconstruction PNG slices for this project (in the end a total of nearly a million single slices).
+On average, each of the tomographic datasets contains around 3000 slices, so the total amount of data is much too large to keep in memory.
+The use of the *Dask* library facilitated efficient (so-called lazy) access to the huge amount of data on disk.
+
+At first, we extracted the central view of each of the three axial directions of the datasets, e.g. the 'anteroposterior', 'lateral' and 'dorsoventral' view and either saved those to disk or loaded them if already generated in prior runs of the notebook.
+The notebook then also generated the maximum intensity projection (MIP) for each of the anatomical planes and either saved them to disk or loaded them from prior runs.
+
+At the end of the notebook we performed a final sanity check on the MIP images.
+In this check we examined the mapping of the gray values of the raw projection images to gray values in the reconstructions, e.g. checked that no overexposed pixels are present in the MIP images, which is an efficient way of checking this, since the MIP images have already been generated in prior steps of the notebook.
+
+### Image processing
+#### Extraction of oral and pharyngeal jaws, visualization of tomographic data
 
 To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the SlicerMorph tools [@doi:10.1111/2041-210X.13669] which help biologists to work with 3D specimen data.
 The reconstructed `.png` stacks were loaded into ImageStacks, depending on their size we reduced the image resolution (e.g. downscaled the images) for this first step.
@@ -209,29 +230,30 @@ The three-dimensional volume was rendered via [VTK GPU Ray Casting](https://slic
 A custom-made volume property (created by Kassandra Ford) was used as an input to view the scans.
 Using toggles in the volume rendering, we defined regions of interest (ROIs) for both the OJs and PJs in each specimen..
 These ROIs were then extracted in their native resolution from the original dataset for further processing.
-Using the grayvalue thresholding function in Slicers Segment Editor the teeh in both the oral and pharyngeal jaws were extracted.
+Using the grayvalue thresholding function in Slicers Segment Editor the teeth in both the oral and pharyngeal jaws were extracted.
 We used the 'Scissor' and 'Island' tools of the Segment Editor to isolate single regions.
 
-Processed regions of interest were exported as NRRD [@https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Nrrd&id=1085264080&wpFormIdentifier=titleform] files.
-The three-dimensional visualizations of all regions of interest for each speciment were compiled into overview images (see Figure @fig:kat13pptx for an example from the compilation document).
-In total we compiled overview of XXX specimens with full head morphology, oral jaw and lower pharnygeal jaw profiles.
+Processed regions of interest were exported as NRRD [@https://w.wiki/5mBK] files.
+The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:kat13pptx for an example from the compilation document).
+In total we compiled overview of XXX specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
-![Overview of data from 'KAT-13, Lake Edward, "Thoracochromis" pharyngalis (pharyngeal mollusc crusher – shrimp)'](images/KAT13.ppt.png){#fig:kat13pptx}
+![Overview of data from 'KAT-13, Lake Edward, "Thoracochromis" pharyngalis (pharyngeal mollusc crusher – shrimp)'](images/KAT13.pptx.png){#fig:kat13pptx}
 
 [TODO]: # (Do we really need to specify 'created by Kassandra Ford' for the custom-made property?)
 [TODO]: # (Accurate specimen number in .pptx file from Mikki. The PPTX file `CT scan slides_ML_March26_2022.pptx` contains 112 slides...)
 
-#### PCA of skull landmarks
+#### Principal component analysis of skull landmarks
 
-- Very superficial description of work from Kassandra.
+- Very superficial description of principal component analysis (?) from Kassandra.
   We do *not* want to cannibalize her upcoming manuscript, but only hint at what will be done.
 
 #### Automatic extraction of otoliths
 
+- Notebook: `EAWAG/ExtractOtoliths.ipynb`
 - MIPs are oriented *anteroposterior*, *lateral* and *dorsoventral*
 - Simple grayvalue plot along the longest axis
 - Find peak of this grayvalue 
-- Otolith is around maximum gray value along fish, (see Figure @fig:otolither)
+- otolith is around maximum gray value along fish, (see Figure @fig:otolither)
 
 ![Automatic otolith extraction.](images/10619.head_rec_unbinned_17.5um.Otolither.png){#fig:otolither}
 
