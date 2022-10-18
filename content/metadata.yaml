@@ -20,13 +20,16 @@ authors:
     email: 
     affiliations:
       - 
-  - github:
+  - github: kassthefish
     name: Kassandra Ford
-    initials: 
-    orcid: 
-    email: 
+    initials: KLF
+    orcid: 0000-0002-4413-2633
+    twitter: kassthefish
+    email: kassthefish@gmail.com
     affiliations:
-      - 
+      - Department of Biological Sciences, George Washington University
+      - EAWAG Aquatic Research Institute, Switzerland
+      - Institute of Ecology & Evolution, University of Bern, Switzerland
   - github:
     name: Marcel Häsler
     initials: 
@@ -34,13 +37,14 @@ authors:
     email: 
     affiliations:
       - 
-  - github:
+  - github: OleSeehausen
     name: Ole Seehausen
     initials: 
-    orcid: 
-    email: 
+    orcid: 0000-0001-6598-1434
+    email: ole.seehausen@unibe.ch
     affiliations:
-      - 
+      - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
+      - Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   - github:
     name: Ruslan Hlushchuk
     initials: 

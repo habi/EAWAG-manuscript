@@ -1,22 +1,20 @@
 [
-{
-  "id": "url:https://github.com/manubot/rootstock",
-  "type": "webpage",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
-  "container-title": "GitHub",
-  "issued": {
-    "date-parts": [
-      [
-        2019
+  {
+    "URL": "https://dask.org",
+    "author": [
+      {
+        "literal": "Dask Development Team"
+      }
+    ],
+    "id": "dask",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
       ]
-    ]
-  },
-  "author": [
-    {
-      "given": "Daniel",
-      "family": "Himmelstein"
-    }
-  ]
-}
+    },
+    "title": "Dask: Library for dynamic task scheduling",
+    "type": "book"
+  }
 ]
