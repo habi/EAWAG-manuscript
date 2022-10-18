@@ -7,8 +7,6 @@ content/02.introduction.md:6:cichlids
 content/02.introduction.md:8:cichlid
 content/02.introduction.md:8:Seehausen
 content/02.introduction.md:11:cichlid
-content/02.introduction.md:12:investivating
-content/02.introduction.md:12:stuy
 content/02.introduction.md:14:cichlids
 content/02.introduction.md:14:Kastanienbaum
 content/02.introduction.md:15:EAWAG
@@ -16,7 +14,7 @@ content/02.introduction.md:20:microtomography
 content/02.introduction.md:21:microtomography
 content/02.introduction.md:21:zebrafish
 content/02.introduction.md:23:tomographically
-content/02.introduction.md:24:Cichlids
+content/02.introduction.md:24:cichlids
 content/03.materials.methods.md:4:EAWAG
 content/03.materials.methods.md:11:Bruker
 content/03.materials.methods.md:11:Kontich
@@ -90,7 +88,7 @@ content/03.materials.methods.md:96:anteroposterior
 content/03.materials.methods.md:96:dorsoventral
 content/03.materials.methods.md:97:grayvalue
 content/03.materials.methods.md:98:grayvalue
-content/03.materials.methods.md:99:otolith
+content/03.materials.methods.md:99:Otolith
 content/03.materials.methods.md:99:otolither
 content/03.materials.methods.md:101:otolith
 content/03.materials.methods.md:101:otolither

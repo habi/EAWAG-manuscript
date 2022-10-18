@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,9 +83,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/))
 was automatically generated
-from [habi/EAWAG-manuscript@362f8a2](https://github.com/habi/EAWAG-manuscript/tree/362f8a27fa65df4049f524d8eef11807b57d6d9f)
+from [habi/EAWAG-manuscript@606b44e](https://github.com/habi/EAWAG-manuscript/tree/606b44e050d0f3d930956f2f9e59a01677fadd69)
 on October 18, 2022.
 </em></small>
 
@@ -154,13 +154,13 @@ Herein we present our method and an outlook on two projects analyzing the acquir
 ### History
 
 Cichlid fish in African lakes are a powerful model systems in speciation and adaptive evolutionary radiation research [@doi:10.1038/nrg1316; doi:10.1098/rspb.2006.3539].
-The functional decoupling of the upper and the lower pharyngeal jaws in cichlid fish is an important evolutionary factor making the cichlids a fish that was able to adapt to a wide range of environmental factors.
+The functional decoupling of the upper and the lower pharyngeal jaws in cichlid fish is an important evolutionary factor making the cichlids a fish species that was able to adapt to a wide range of environmental factors.
 Thus it is an important feature of these fishes to study.
 The group of Ole Seehausen has studied the evolutionary diversification of cichlid fish radiations in the African Great Lakes since a long time [@doi:10.1098/rspb.2006.3539; @doi:10.1111/nph.13450].
 We aim to improve the 'classification' (or morphological description) of these fishes by better describing their jaws (and skulls).
 
 The corpus of cichlid fish available is extremely valuable, hence a non-destructive imaging method is paramount for studying these samples.
-Since micro–computed tomography  can be regarded as non-destructive method for biological samples, it is a very well suited method for investivating the oral and pharyngeal jaws as well as the skull features of the fished presented in this stuy.
+Since micro–computed tomography can be regarded as non-destructive method for biological samples, it is a very well suited method for investigating the oral and pharyngeal jaws as well as the skull features of the fished presented in this study.
 
 [TODO]: # (Describe how the cichlids came from from Lake Victoria to Kastanienbaum and to the Institute of Anatomy)
 [TODO]: # (Is there some information on the sample 'library' of the EAWAG?)
@@ -172,9 +172,10 @@ X-ray microtomography is a valuable tool to gain insights into the inner structu
 Namely in the 'fish sciences', X-ray microtomography has been employed as a method of choice to non-destructively assess the morphology of various samples [@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.]
 
 Depending on the structures of interest biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
-Since the structures of interest for the two studies we touch upon in this manuscript (Cichlids teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
+Since the structures of interest for the two studies we touch upon in this manuscript (cichlids teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
 
 [TODO]: # (Mention the `fishguy` some more? [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].)
+
 
 ## Materials and Methods {.page_break_before}
 ### Sample procurement and preparation
@@ -274,7 +275,7 @@ In total we compiled overview of XXX specimens with full head morphology, oral j
 - MIPs are oriented *anteroposterior*, *lateral* and *dorsoventral*
 - Simple grayvalue plot along the longest axis
 - Find peak of this grayvalue 
-- otolith is around maximum gray value along fish, (see Figure @fig:otolither)
+- Otolith is around maximum gray value along fish, (see Figure @fig:otolither)
 
 ![Automatic otolith extraction.](images/10619.head_rec_unbinned_17.5um.Otolither.png){#fig:otolither}
 

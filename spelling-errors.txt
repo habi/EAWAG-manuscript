@@ -1,6 +1,6 @@
 anteroposterior
 Bruker
-Cichlid
+cichlid
 Cichlids
 csv
 Dask
@@ -17,7 +17,6 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-investivating
 Jupyter
 Kassandra
 kassthefish
@@ -52,7 +51,6 @@ SlicerMorph
 Somerville
 speciation
 stereolithography
-stuy
 Thoracochromis
 thresholding
 tomographically
