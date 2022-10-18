@@ -1,7 +1,8 @@
 anteroposterior
 Bruker
+Cichlid
 Cichlids
-CSV
+csv
 Dask
 dataframe
 dataset
@@ -16,11 +17,12 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
+investivating
 Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
-kat
+KAT
 Kontich
 kV
 microCT
@@ -48,7 +50,9 @@ Seehausen
 SkyScan
 SlicerMorph
 Somerville
+speciation
 stereolithography
+stuy
 Thoracochromis
 thresholding
 tomographically

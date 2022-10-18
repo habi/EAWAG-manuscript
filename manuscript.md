@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-09-30'
+date-meta: '2022-10-18'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-09-30" />
-  <meta name="citation_publication_date" content="2022-09-30" />
+  <meta name="dc.date" content="2022-10-18" />
+  <meta name="citation_publication_date" content="2022-10-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,10 +83,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/4535a7bfcea6c081e8060942ec7bd83823760ec8/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/362f8a27fa65df4049f524d8eef11807b57d6d9f/))
 was automatically generated
-from [habi/EAWAG-manuscript@4535a7b](https://github.com/habi/EAWAG-manuscript/tree/4535a7bfcea6c081e8060942ec7bd83823760ec8)
-on September 30, 2022.
+from [habi/EAWAG-manuscript@362f8a2](https://github.com/habi/EAWAG-manuscript/tree/362f8a27fa65df4049f524d8eef11807b57d6d9f)
+on October 18, 2022.
 </em></small>
 
 ## Authors
@@ -153,13 +153,20 @@ Herein we present our method and an outlook on two projects analyzing the acquir
 
 ### History
 
-- Cichlids from Lake Victoria
-- Sample 'library' of EAWAG
-- Valuable, hence non-destructive imaging is *paramount*
+Cichlid fish in African lakes are a powerful model systems in speciation and adaptive evolutionary radiation research [@doi:10.1038/nrg1316; doi:10.1098/rspb.2006.3539].
+The functional decoupling of the upper and the lower pharyngeal jaws in cichlid fish is an important evolutionary factor making the cichlids a fish that was able to adapt to a wide range of environmental factors.
+Thus it is an important feature of these fishes to study.
+The group of Ole Seehausen has studied the evolutionary diversification of cichlid fish radiations in the African Great Lakes since a long time [@doi:10.1098/rspb.2006.3539; @doi:10.1111/nph.13450].
+We aim to improve the 'classification' (or morphological description) of these fishes by better describing their jaws (and skulls).
 
+The corpus of cichlid fish available is extremely valuable, hence a non-destructive imaging method is paramount for studying these samples.
+Since micro–computed tomography  can be regarded as non-destructive method for biological samples, it is a very well suited method for investivating the oral and pharyngeal jaws as well as the skull features of the fished presented in this stuy.
+
+[TODO]: # (Describe how the cichlids came from from Lake Victoria to Kastanienbaum and to the Institute of Anatomy)
+[TODO]: # (Is there some information on the sample 'library' of the EAWAG?)
 [TODO]: # (Add some information on the backstory of those fishes, and maybe publications relating to the corpus of fishes)
 
-### micro-CT
+### Micro-computed tomography
 
 X-ray microtomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
 Namely in the 'fish sciences', X-ray microtomography has been employed as a method of choice to non-destructively assess the morphology of various samples [@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.]
@@ -173,13 +180,13 @@ Since the structures of interest for the two studies we touch upon in this manus
 ### Sample procurement and preparation
 
 The fishes were kept in 75% Ethanol for long-term storage in the EAWAG fish library.
-They were delivered to the Institute of Anatomy for X-ray microtomography investigation sorted into several batches by approximately equal length.
+They were delivered to the Institute of Anatomy for micro-CT imaging sorted into several batches by approximately equal length.
 
 [TODO]: # (Were they transported to Bern as 'Gefahrengut'-Transport? This would be a remarkable little tidbit to add to the manuscript)
 
-### micro-CT imaging
+### Micro-computed tomographic imaging
 
-All samples were scanned on two of the three available high-resolution 3D X-ray microtomography scanners of the Institute of Anatomy of the University of Bern in Switzerland, a SkyScan 1272 and a SkyScan 2214 (both Bruker microCT, Kontich, Belgium).
+All samples were scanned on two of the three available high-resolution micro-CT machines of the Institute of Anatomy of the University of Bern in Switzerland, a SkyScan 1272 and a SkyScan 2214 (both Bruker microCT, Kontich, Belgium).
 
 The fishes were sorted into 'bins' based on their physical size.
 We used a custom-made sample-holder to scan each of the fish in our machines.
