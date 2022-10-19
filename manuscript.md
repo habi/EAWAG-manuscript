@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/2ec099e964d7167539f4506cad378ada5791a40e/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/2ec099e964d7167539f4506cad378ada5791a40e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/2ec099e964d7167539f4506cad378ada5791a40e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/2ec099e964d7167539f4506cad378ada5791a40e/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/))
 was automatically generated
-from [habi/EAWAG-manuscript@2ec099e](https://github.com/habi/EAWAG-manuscript/tree/2ec099e964d7167539f4506cad378ada5791a40e)
+from [habi/EAWAG-manuscript@00f46f7](https://github.com/habi/EAWAG-manuscript/tree/00f46f7df682f726516097d98970b6e5e3b25866)
 on October 19, 2022.
 </em></small>
 
