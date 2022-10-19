@@ -2,8 +2,8 @@ anteroposterior
 Bruker
 centroid
 cichlid
-Cichlids
-csv
+cichlids
+CSV
 Dask
 dataframe
 dataset
@@ -23,7 +23,7 @@ Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
-kat
+KAT
 Kontich
 kV
 microCT
@@ -36,7 +36,7 @@ NRecon
 NRRD
 OJs
 OleSeehausen
-Otolith
+otolith
 otolither
 otoliths
 parametrized
