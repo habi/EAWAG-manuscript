@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/1f1ba97fb5b763b8f0acbdb5f271cc875f6df75c/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/1f1ba97fb5b763b8f0acbdb5f271cc875f6df75c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/1f1ba97fb5b763b8f0acbdb5f271cc875f6df75c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/00f46f7df682f726516097d98970b6e5e3b25866/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/1f1ba97fb5b763b8f0acbdb5f271cc875f6df75c/))
 was automatically generated
-from [habi/EAWAG-manuscript@00f46f7](https://github.com/habi/EAWAG-manuscript/tree/00f46f7df682f726516097d98970b6e5e3b25866)
+from [habi/EAWAG-manuscript@1f1ba97](https://github.com/habi/EAWAG-manuscript/tree/1f1ba97fb5b763b8f0acbdb5f271cc875f6df75c)
 on October 19, 2022.
 </em></small>
 
@@ -269,7 +269,7 @@ In total we compiled overview of XXX specimens with full head morphology, oral j
 
 Current studies are using 3D geometric morphometrics to compare the morphological shape of these scanned cichlids using statistical analysis.
 A homologous landmark scheme was produced [@doi:10.1643/i2021016; @doi:10.1093/iob/obac022], and landmarks were placed on each specimen using 3DSlicer.
-To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the geomorph package in R [@doi:10.1111/2041-210X.13029; @geomorph; @rrpp; @rstudio).
+To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the geomorph package in R [@doi:10.1111/2041-210X.13029; @geomorph; @rrpp; @rstudio].
 This process brings all specimens to a common origin, scales centroid size, and rotates specimens to reduce distances between landmark sets.
 A principal component analysis was then performed on the superimposed landmark data to visualize the major axes of shape change across sampled species.
 We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in cichlids.
