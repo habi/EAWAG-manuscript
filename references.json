@@ -570,6 +570,31 @@
     "type": "entry"
   },
   {
+    "URL": "https://cran.r-project.org/package=RRPP",
+    "author": [
+      {
+        "family": "Collyer",
+        "given": "M. L."
+      },
+      {
+        "family": "Adams",
+        "given": "D. C."
+      }
+    ],
+    "id": "EwNL0C0Y",
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "title": "RRPP: Linear model evaluation with randomized residuals in a permutation procedure, r package version 0.6.2.",
+    "title-short": "RRPP",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.bib\nstandard_id: rrpp",
+    "type": "entry"
+  },
+  {
     "URL": "https://www.rstudio.com/",
     "author": [
       {

@@ -1,7 +1,7 @@
 anteroposterior
 Bruker
 centroid
-cichlid
+Cichlid
 cichlids
 CSV
 Dask
@@ -23,7 +23,7 @@ Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
-KAT
+kat
 Kontich
 kV
 microCT
@@ -47,7 +47,7 @@ PJs
 PNG
 pptx
 ROIs
-rrpph
+rrpp
 rstudio
 Ruslan
 ScanningDetails
