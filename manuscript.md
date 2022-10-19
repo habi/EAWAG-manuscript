@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-10-18'
+date-meta: '2022-10-19'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-10-18" />
-  <meta name="citation_publication_date" content="2022-10-18" />
+  <meta name="dc.date" content="2022-10-19" />
+  <meta name="citation_publication_date" content="2022-10-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,6 +69,7 @@ header-includes: |-
   <meta name="theme-color" content="#ad1457" />
   <!-- end Manubot generated metadata -->
 bibliography:
+- content/manual-references.bib
 - content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
@@ -83,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/))
 was automatically generated
-from [habi/EAWAG-manuscript@606b44e](https://github.com/habi/EAWAG-manuscript/tree/606b44e050d0f3d930956f2f9e59a01677fadd69)
-on October 18, 2022.
+from [habi/EAWAG-manuscript@075ccc3](https://github.com/habi/EAWAG-manuscript/tree/075ccc3e8cd6339e7863521f7e6e0cb516fe7755)
+on October 19, 2022.
 </em></small>
 
 ## Authors
@@ -266,8 +267,16 @@ In total we compiled overview of XXX specimens with full head morphology, oral j
 
 #### Principal component analysis of skull landmarks
 
-- Very superficial description of principal component analysis (?) from Kassandra.
-  We do *not* want to cannibalize her upcoming manuscript, but only hint at what will be done.
+Current studies are using 3D geometric morphometrics to compare the morphological shape of these scanned cichlids using statistical analysis.
+A homologous landmark scheme was produced [@doi:10.1643/i2021016; @doi:10.1093/iob/obac022], and landmarks were placed on each specimen using 3DSlicer.
+To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the geomorph package in R [@doi:10.1111/2041-210X.13029; @geomorph; @rrpph; @rstudio).
+This process brings all specimens to a common origin, scales centroid size, and rotates specimens to reduce distances between landmark sets.
+A principal component analysis was then performed on the superimposed landmark data to visualize the major axes of shape change across sampled species.
+We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in cichlids.
+
+[TODO]: # (Version of Slicer that Kassandra used?)
+[TODO]: # (Version of R that Kassandra used? Or is this 'bound' to the RStudio version?)
+[TODO]: # (How was the PCA performed, also in R?)
 
 #### Automatic extraction of otoliths
 
@@ -281,11 +290,15 @@ In total we compiled overview of XXX specimens with full head morphology, oral j
 
 ## Results {.page_break_before}
 
-- A lot of fishes
-- A lot of scans
-- A lot of data
+### Extraction of oral and pharyngeal jaws, visualization of tomographic data
 
-#### Automatic extraction of otoliths
+[TODO]: # (Add small sampler of results of extraction, e.g. show some images)
+
+### Principal component analysis of skull landmarks
+
+[TODO]: # (Show some results from Kassandras PCA)
+
+### Automatic extraction of otoliths
 
 ![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/Otolith-3D.png){#fig:otolith3d}
 

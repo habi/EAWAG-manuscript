@@ -10,7 +10,7 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2022-10-18" />
+  <meta name="dcterms.date" content="2022-10-19" />
   <meta name="keywords" content="cichlids, x-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
@@ -49,8 +49,8 @@
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-10-18" />
-  <meta name="citation_publication_date" content="2022-10-18" />
+  <meta name="dc.date" content="2022-10-19" />
+  <meta name="citation_publication_date" content="2022-10-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -105,10 +105,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/606b44e050d0f3d930956f2f9e59a01677fadd69/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/075ccc3e8cd6339e7863521f7e6e0cb516fe7755/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/606b44e050d0f3d930956f2f9e59a01677fadd69">habi/EAWAG-manuscript@606b44e</a>
-on October 18, 2022.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/075ccc3e8cd6339e7863521f7e6e0cb516fe7755">habi/EAWAG-manuscript@075ccc3</a>
+on October 19, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -235,10 +235,12 @@ In total we compiled overview of XXX specimens with full head morphology, oral j
 </figure>
 </div>
 <h4 id="principal-component-analysis-of-skull-landmarks">Principal component analysis of skull landmarks</h4>
-<ul>
-<li>Very superficial description of principal component analysis (?) from Kassandra.
-We do <em>not</em> want to cannibalize her upcoming manuscript, but only hint at what will be done.</li>
-</ul>
+<p>Current studies are using 3D geometric morphometrics to compare the morphological shape of these scanned cichlids using statistical analysis.
+A homologous landmark scheme was produced <span class="citation" data-cites="15FafMZm5 BDrCSu8p">[<a href="#ref-15FafMZm5" role="doc-biblioref">15</a>,<a href="#ref-BDrCSu8p" role="doc-biblioref">16</a>]</span>, and landmarks were placed on each specimen using 3DSlicer.
+To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the geomorph package in R [<span class="citation" data-cites="VPUOQA2P">[<a href="#ref-VPUOQA2P" role="doc-biblioref">17</a>]</span>; <span class="citation" data-cites="Ziptbtib">[<a href="#ref-Ziptbtib" role="doc-biblioref">18</a>]</span>; <span class="citation" data-cites="rrpph">[<a href="#ref-rrpph" role="doc-biblioref"><strong>rrpph?</strong></a>]</span>; <span class="citation" data-cites="QfVloFVu">[<a href="#ref-QfVloFVu" role="doc-biblioref">19</a>]</span>).
+This process brings all specimens to a common origin, scales centroid size, and rotates specimens to reduce distances between landmark sets.
+A principal component analysis was then performed on the superimposed landmark data to visualize the major axes of shape change across sampled species.
+We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in cichlids.</p>
 <h4 id="automatic-extraction-of-otoliths">Automatic extraction of otoliths</h4>
 <ul>
 <li>Notebook: <code>EAWAG/ExtractOtoliths.ipynb</code></li>
@@ -254,12 +256,9 @@ We do <em>not</em> want to cannibalize her upcoming manuscript, but only hint at
 </figure>
 </div>
 <h2 class="page_break_before" id="results">Results</h2>
-<ul>
-<li>A lot of fishes</li>
-<li>A lot of scans</li>
-<li>A lot of data</li>
-</ul>
-<h4 id="automatic-extraction-of-otoliths-1">Automatic extraction of otoliths</h4>
+<h3 id="extraction-of-oral-and-pharyngeal-jaws-visualization-of-tomographic-data-1">Extraction of oral and pharyngeal jaws, visualization of tomographic data</h3>
+<h3 id="principal-component-analysis-of-skull-landmarks-1">Principal component analysis of skull landmarks</h3>
+<h3 id="automatic-extraction-of-otoliths-1">Automatic extraction of otoliths</h3>
 <div id="fig:otolith3d" class="fignos">
 <figure>
 <img src="images/Otolith-3D.png" alt="Figure 3: Result of automatic otolith extraction. Three-dimensional view of extracted otolith." />
@@ -269,7 +268,7 @@ We do <em>not</em> want to cannibalize her upcoming manuscript, but only hint at
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <p>The discussion of the results and the outlook to what we’ll do in the future is going into this file here.</p>
 <h2 class="page_break_before" id="acknowledgments">Acknowledgments</h2>
-<p>We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">15</a>]</span> for helping us write this manuscript collaboratively.</p>
+<p>We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">20</a>]</span> for helping us write this manuscript collaboratively.</p>
 <h2 class="page_break_before" id="supplementary-materials">Supplementary Materials</h2>
 <h3 id="parameters-of-tomographic-scans-of-all-the-fishes">Parameters of tomographic scans of all the fishes</h3>
 <p>The CSV file <a href="https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv">ScanningDetails.csv</a> gives a tabular overview of all the (relevant) parameters of all the scans we performed.
@@ -288,7 +287,7 @@ A copy of the log files is available in a <a href="https://github.com/habi/EAWAG
 <div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Process and pattern in cichlid radiations – inferences for understanding unusually high rates of evolutionary diversification</strong> <div class="csl-block">Ole Seehausen</div> <em>New Phytologist</em> (2015-05-13) <a href="https://doi.org/f7gczg">https://doi.org/f7gczg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/nph.13450">10.1111/nph.13450</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25983053">25983053</a></div></div>
 </div>
 <div id="ref-3rxGCEvJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><a href="https://osf.io/ecmz4">https://osf.io/ecmz4</a></div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>CT Scans - #ScanAllFish</strong> <div class="csl-block">Adam P Summers</div> (2015-09-29) <a href="https://osf.io/ecmz4/">https://osf.io/ecmz4/</a></div>
 </div>
 <div id="ref-VCZPOv2f" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Hol3Drs/EAWAG.Fish.stl at master · TomoGraphics/Hol3Drs</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/TomoGraphics/Hol3Drs">https://github.com/TomoGraphics/Hol3Drs</a></div>
@@ -320,8 +319,25 @@ A copy of the log files is available in a <a href="https://github.com/habi/EAWAG
 <div id="ref-12B4h087w" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">14. </div><div class="csl-right-inline"><a href="https://w.wiki/5mBK">https://w.wiki/5mBK</a></div>
 </div>
+<div id="ref-15FafMZm5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Mosaic Evolution of Craniofacial Morphologies in Ghost Electric Fishes (Gymnotiformes: Apteronotidae)</strong> <div class="csl-block">Kassandra L Ford, Maxwell J Bernt, Adam P Summers, James S Albert</div> <em>Ichthyology &amp; Herpetology</em> (2022-05) <a href="https://doi.org/gq3gtd">https://doi.org/gq3gtd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1643/i2021016">10.1643/i2021016</a></div></div>
+</div>
+<div id="ref-BDrCSu8p" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>Convergence is Only Skin Deep: Craniofacial Evolution in Electric Fishes from South America and Africa (Apteronotidae and Mormyridae)</strong> <div class="csl-block">Kassandra L Ford, Rose Peterson, Maxwell Bernt, James S Albert</div> <em>Integrative Organismal Biology</em> (2022) <a href="https://doi.org/gq3gtc">https://doi.org/gq3gtc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/iob/obac022">10.1093/iob/obac022</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35976714">35976714</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9375771">PMC9375771</a></div></div>
+</div>
+<div id="ref-VPUOQA2P" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>RRPP: An
+&lt;scp&gt;r&lt;/scp&gt;
+package for fitting linear models to high‐dimensional data using residual randomization</strong> <div class="csl-block">Michael L Collyer, Dean C Adams</div> <em>Methods in Ecology and Evolution</em> (2018-05-29) <a href="https://doi.org/gdwp9q">https://doi.org/gdwp9q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.13029">10.1111/2041-210x.13029</a></div></div>
+</div>
+<div id="ref-Ziptbtib" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Geomorph: Software for geometric morphometric analyses. R package version 3.3.2</strong> <div class="csl-block">DC Adams, ML Collyer, A Kaliontzopoulou, EK Baken</div> (2021)<a href=" https://cran.r-project.org/package=geomorph"> https://cran.r-project.org/package=geomorph</a></div>
+</div>
+<div id="ref-QfVloFVu" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>RStudio: Integrated development environment for r</strong> <div class="csl-block">RStudio Team</div> <em>RStudio, PBC.</em> (2022) <a href="https://www.rstudio.com/">https://www.rstudio.com/</a></div>
+</div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
 </div>
 </div>
 <section class="footnotes footnotes-end-of-document" role="doc-endnotes">
