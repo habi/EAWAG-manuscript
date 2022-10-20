@@ -2,14 +2,15 @@ anteroposterior
 Bruker
 centroid
 Cichlid
-Cichlids
-CSV
+cichlids
+csv
 Dask
 dataframe
 dataset
 datasets
 dorsoventral
 DSlicer
+DSlicers
 EAWAG
 Formlabs
 geomorph
@@ -48,7 +49,7 @@ PNG
 pptx
 ROIs
 rrpp
-rstudio
+RStudio
 Ruslan
 ScanningDetails
 Seehausen

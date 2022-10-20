@@ -15,8 +15,9 @@
       ]
     },
     "title": "Dask: Library for dynamic task scheduling",
+    "title-short": "Dask",
     "type": "book",
-    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.json\nstandard_id: dask"
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.bib\nstandard_id: dask"
   },
   {
     "publisher": "Elsevier BV",
@@ -560,14 +561,36 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2022
         ]
       ]
     },
-    "title": "Geomorph: Software for geometric morphometric analyses. R package version 3.3.2",
+    "title": "Geomorph: Software for geometric morphometric analyses. R package version 4.0.4",
     "title-short": "Geomorph",
     "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.bib\nstandard_id: geomorph",
     "type": "entry"
+  },
+  {
+    "URL": "https://www.R-project.org/",
+    "author": [
+      {
+        "literal": "R Core Team"
+      }
+    ],
+    "id": "whEyWyQh",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "publisher": "R Foundation for Statistical Computing",
+    "publisher-place": "Vienna, Austria",
+    "title": "R: A language and environment for statistical computing",
+    "title-short": "R",
+    "type": "book",
+    "note": "Loaded from an external bibliography file by Manubot.\nsource_bibliography: manual-references.bib\nstandard_id: r"
   },
   {
     "URL": "https://cran.r-project.org/package=RRPP",
@@ -705,7 +728,7 @@
         [
           "2022",
           10,
-          19
+          20
         ]
       ]
     },
@@ -731,7 +754,7 @@
         [
           "2022",
           10,
-          19
+          20
         ]
       ]
     },
@@ -750,7 +773,7 @@
         [
           "2022",
           10,
-          19
+          20
         ]
       ]
     },
@@ -775,7 +798,7 @@
         [
           "2022",
           10,
-          19
+          20
         ]
       ]
     },

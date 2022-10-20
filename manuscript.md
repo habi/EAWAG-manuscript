@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-10-19'
+date-meta: '2022-10-20'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-10-19" />
-  <meta name="citation_publication_date" content="2022-10-19" />
+  <meta name="dc.date" content="2022-10-20" />
+  <meta name="citation_publication_date" content="2022-10-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/b1d4a7ed250e185e30fb3ad8de7d847decc15a45/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/b1d4a7ed250e185e30fb3ad8de7d847decc15a45/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/b1d4a7ed250e185e30fb3ad8de7d847decc15a45/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/73954146fb13695c7ac2aa3b41c3a8791379da91/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/73954146fb13695c7ac2aa3b41c3a8791379da91/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/73954146fb13695c7ac2aa3b41c3a8791379da91/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,7 +70,6 @@ header-includes: |-
   <!-- end Manubot generated metadata -->
 bibliography:
 - content/manual-references.bib
-- content/manual-references.json
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
@@ -84,10 +83,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/b1d4a7ed250e185e30fb3ad8de7d847decc15a45/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/73954146fb13695c7ac2aa3b41c3a8791379da91/))
 was automatically generated
-from [habi/EAWAG-manuscript@b1d4a7e](https://github.com/habi/EAWAG-manuscript/tree/b1d4a7ed250e185e30fb3ad8de7d847decc15a45)
-on October 19, 2022.
+from [habi/EAWAG-manuscript@7395414](https://github.com/habi/EAWAG-manuscript/tree/73954146fb13695c7ac2aa3b41c3a8791379da91)
+on October 20, 2022.
 </em></small>
 
 ## Authors
@@ -172,7 +171,7 @@ Since micro–computed tomography can be regarded as nondestructive method for b
 X-ray microtomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
 Namely in the 'fish sciences', X-ray microtomography has been employed as a method of choice to nondestructively assess the morphology of various samples [@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.]
 
-Depending on the structures of interest biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
+Depending on the structures of interest, biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
 Since the structures of interest for the two studies we touch upon in this manuscript (cichlids teeth and skull bones) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
 
 [TODO]: # (Mention the `fishguy` some more? [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].)
@@ -229,8 +228,8 @@ All Jupyter notebooks for this work are available online [@doi:10.5281/zenodo.67
 The main Jupyter notebook for this manuscript dealt with reading all log and image files and preparing images for quality checking and the next steps.
 Briefly summarized the below process was implemented.
 
-At first, *all* log files of *all* the scans were read into a list (*all* data of the notebook was saved into a `pandas` [@doi:10.5281/zenodo.7093122] dataframe).
-This already enabled us to extract the specimen name and scan, since we performed several scans for each specimen, e.g. a low resolution scan with large field of view for the whole head and one or several scans in high resolution focusing on the region of the oral and pharyngeal scans.
+At first, *all* log files of *all* the scans were read into a list (*all* data of the notebook was saved into a *pandas* [@doi:10.5281/zenodo.7093122] dataframe).
+This already enabled us to extract the specimen name and scan, since we performed several scans for each specimen, i.e. a low resolution scan with large field of view for the whole head and one or several scans in high resolution focusing on the region of the oral and pharyngeal scans.
 From the log files we extracted the relevant values for double-checking the necessary parameters of each scan.
 All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the [Supplementary Materials] at the end of each run of the notebook.
 
@@ -238,23 +237,24 @@ After several 'sanity checks' of the data, we used `Dask` [@dask] to efficiently
 On average, each of the tomographic datasets contains around 3000 slices, so the total amount of data is much too large to keep in memory.
 The use of the *Dask* library facilitated efficient (so-called lazy) access to the huge amount of data on disk.
 
-At first, we extracted the central view of each of the three axial directions of the datasets, e.g. the 'anteroposterior', 'lateral' and 'dorsoventral' view and either saved those to disk or loaded them if already generated in prior runs of the notebook.
+At first, we extracted the central view of each of the three axial directions of the datasets (i.e. 'anteroposterior', 'lateral' and 'dorsoventral' view) and either saved those to disk or loaded them if already generated in prior runs of the notebook.
 The notebook then also generated the maximum intensity projection (MIP) for each of the anatomical planes and either saved them to disk or loaded them from prior runs.
 
 At the end of the notebook we performed a final sanity check on the MIP images.
-In this check we examined the mapping of the gray values of the raw projection images to gray values in the reconstructions, e.g. checked that no overexposed pixels are present in the MIP images, which is an efficient way of checking this, since the MIP images have already been generated in prior steps of the notebook.
+In this check we examined the mapping of the gray values of the raw projection images to gray values in the reconstructions, i.e. checked that no overexposed pixels are present in the MIP images.
+This is an an efficient way for double-checking the gray value mapping, since the MIP images have already been generated in prior steps of the notebook and contain the highest gray values present in the image.
 
 ### Image processing
 #### Extraction of oral and pharyngeal jaws, visualization of tomographic data
 
-To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the 'SlicerMorph' tools [@doi:10.1111/2041-210X.13669] which help biologists to work with 3D specimen data.
-The reconstructed `.png` stacks were loaded into 'ImageStacks', depending on their size we reduced the image resolution (e.g. downscaled the images) for this first step.
+To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the *SlicerMorph* tools [@doi:10.1111/2041-210X.13669] which help biologists to work with 3D specimen data.
+The reconstructed PNG stacks were loaded into *ImageStacks*, depending on their size we reduced the image resolution (i.e. downscaled the images) for this first step.
 The three-dimensional volume was rendered via [VTK GPU Ray Casting](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html).
 A custom-made volume property (created by Kassandra Ford) was used as an input to view the scans.
 Using toggles in the volume rendering, we defined regions of interest (ROIs) for both the OJs and PJs in each specimen..
 These ROIs were then extracted in their native resolution from the original dataset for further processing.
-Using the grayvalue thresholding function in Slicers Segment Editor the teeth in both the oral and pharyngeal jaws were extracted.
-We used the 'Scissor' and 'Island' tools of the Segment Editor to isolate single regions.
+Using the gray value thresholding function in 3DSlicers *Segment Editor* the teeth in both the oral and pharyngeal jaws were extracted.
+We used the *Scissor* and *Island* tools of the *Segment Editor* to isolate single regions.
 
 Processed regions of interest were exported as NRRD [@https://w.wiki/5mBK] files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:kat13pptx for an example from the compilation document).
@@ -269,8 +269,8 @@ In total we compiled overview of XXX specimens with full head morphology, oral j
 
 Current studies are using 3D geometric morphometrics to compare the morphological shape of these scanned cichlids using statistical analysis.
 A homologous landmark scheme was produced [@doi:10.1643/i2021016; @doi:10.1093/iob/obac022], and landmarks were placed on each specimen using 3DSlicer.
-To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the geomorph package in R [@doi:10.1111/2041-210X.13029; @geomorph; @rrpp; @rstudio].
-This process brings all specimens to a common origin, scales centroid size, and rotates specimens to reduce distances between landmark sets.
+To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the *geomorph* package in *R* (Version 4.2.1) with RStudio (Version 2022.07.2+576) [@doi:10.1111/2041-210X.13029; @geomorph; @rrpp; @r ;@rstudio].
+This process brings all specimens to a common origin, scales the landmarks to a unit centroid size, and rotates specimens to reduce distances between landmark sets.
 A principal component analysis was then performed on the superimposed landmark data to visualize the major axes of shape change across sampled species.
 We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in cichlids.
 
@@ -292,7 +292,7 @@ We then used phylogenetic information to identify instances of repeated evolutio
 
 ### Extraction of oral and pharyngeal jaws, visualization of tomographic data
 
-[TODO]: # (Add small sampler of results of extraction, e.g. show some images)
+[TODO]: # (Add small sampler of results of extraction. Let's show some images)
 
 ### Principal component analysis of skull landmarks
 
