@@ -1,9 +1,9 @@
 anteroposterior
 Bruker
 centroid
-Cichlid
+cichlid
 cichlids
-CSV
+csv
 Dask
 dataframe
 dataset
@@ -25,7 +25,7 @@ Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
-kat
+KAT
 Kontich
 kV
 microCT
@@ -52,6 +52,7 @@ ROIs
 rrpp
 RStudio
 Ruslan
+RuslanHlushchuk
 ScanningDetails
 Seehausen
 SkyScan

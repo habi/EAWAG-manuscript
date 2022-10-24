@@ -52,16 +52,16 @@ header-includes: |-
   <meta name="citation_author_orcid" content="0000-0001-6598-1434" />
   <meta name="citation_author" content="Ruslan Hlushchuk" />
   <meta name="citation_author_institution" content="Institute of Anatomy, Unversity of Bern, Switzerland" />
-  <meta name="citation_author_orcid" content="None" />
+  <meta name="citation_author_orcid" content="0000-0002-6722-8996" />
   <link rel="canonical" href="https://habi.github.io/EAWAG-manuscript/" />
   <meta property="og:url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta property="twitter:url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/8300e8b485c09c48fb44f51c38e89b128a74c010/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/8300e8b485c09c48fb44f51c38e89b128a74c010/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/8300e8b485c09c48fb44f51c38e89b128a74c010/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,9 +83,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/8300e8b485c09c48fb44f51c38e89b128a74c010/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/))
 was automatically generated
-from [habi/EAWAG-manuscript@8300e8b](https://github.com/habi/EAWAG-manuscript/tree/8300e8b485c09c48fb44f51c38e89b128a74c010)
+from [habi/EAWAG-manuscript@4929ada](https://github.com/habi/EAWAG-manuscript/tree/4929ada2ca7369a993fb5e752eef1b15ef9d511e)
 on October 24, 2022.
 </em></small>
 
@@ -134,7 +134,11 @@ on October 24, 2022.
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   </small>
 
-+ **Ruslan Hlushchuk**<br><br>
++ **Ruslan Hlushchuk**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996)
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [RuslanHlushchuk](https://github.com/RuslanHlushchuk)<br>
   <small>
      Institute of Anatomy, Unversity of Bern, Switzerland
   </small>
