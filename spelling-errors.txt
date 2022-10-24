@@ -3,7 +3,7 @@ Bruker
 centroid
 Cichlid
 cichlids
-csv
+CSV
 Dask
 dataframe
 dataset
@@ -12,6 +12,7 @@ dorsoventral
 DSlicer
 DSlicers
 EAWAG
+forlder
 Formlabs
 geomorph
 grayvalue
@@ -24,7 +25,7 @@ Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
-KAT
+kat
 Kontich
 kV
 microCT
