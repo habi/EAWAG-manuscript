@@ -2,7 +2,7 @@ anteroposterior
 Bruker
 centroid
 cichlid
-cichlids
+Cichlids
 csv
 Dask
 dataframe

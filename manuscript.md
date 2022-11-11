@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-10-24'
+date-meta: '2022-11-11'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-10-24" />
-  <meta name="citation_publication_date" content="2022-10-24" />
+  <meta name="dc.date" content="2022-11-11" />
+  <meta name="citation_publication_date" content="2022-11-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,10 +83,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/4929ada2ca7369a993fb5e752eef1b15ef9d511e/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/))
 was automatically generated
-from [habi/EAWAG-manuscript@4929ada](https://github.com/habi/EAWAG-manuscript/tree/4929ada2ca7369a993fb5e752eef1b15ef9d511e)
-on October 24, 2022.
+from [habi/EAWAG-manuscript@0b98d5c](https://github.com/habi/EAWAG-manuscript/tree/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9)
+on November 11, 2022.
 </em></small>
 
 ## Authors
@@ -199,7 +199,9 @@ We used a custom-made sample-holder to scan each of the fish in our machines.
 It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA) and is freely available online [@https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl] as part of a library of sample holders for tomographic scanning of biomedical samples [@doi:10.5281/zenodo.2587555].
 The sample holder was custom-made for this project and is easily parametrized to the different width, height and length classes of the fishes we scanned.
 
-In total, we acquired 340 tomographic scans of 127 different fishes.
+[NOTE]: # (The numbers below are all from the DataWrangling.ipynb notebook. David ran this notebook on Nov 10, 2022, prior to Mikki renaming all folder on the IEE research storage drive.)
+
+In total, we acquired 362 tomographic scans of 129 different fishes.
 All the scanning parameters are collected in a table in the [Supplementary Materials], a generalized rundown is given below.
 
 Since the fishes greatly varied in their length, the voxel sizes of each of the acquired datasets also varies greatly.
@@ -207,7 +209,7 @@ We acquired datasets with (isometric) voxel sizes ranging from 3--50 μm.
 
 Depending on the size of the specimen we set the x-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
 Also depending on the size of the fishes, the x-ray spectrum was filtered either by an Aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm) before digitization to projection images or recorded in an unfiltered way.
-In total we recorded 8.8 TB of projections images (`*.?if` files) for this project.
+In total we recorded 9.5 TB of projections images (`*.?if` files) for this project.
 
 All the recorded projection images were subsequently reconstructed into a 3D stack of axial images spanning the regions of interest of each fish.
 All the specimens were scanned with their mouths facing downward in the sample holder and rotating along their long axis.
