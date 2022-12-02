@@ -10,7 +10,7 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2022-11-11" />
+  <meta name="dcterms.date" content="2022-12-02" />
   <meta name="keywords" content="cichlids, x-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
@@ -49,8 +49,8 @@
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-11-11" />
-  <meta name="citation_publication_date" content="2022-11-11" />
+  <meta name="dc.date" content="2022-12-02" />
+  <meta name="citation_publication_date" content="2022-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -105,10 +105,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9">habi/EAWAG-manuscript@0b98d5c</a>
-on November 11, 2022.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/7894b29a6f34b66c17d45135e11707ec1d6b5a1f">habi/EAWAG-manuscript@7894b29</a>
+on December 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -207,9 +207,9 @@ The notebooks were written at the start of the project, to be able to process ne
 Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.</p>
 <p>All analysis notebooks for this work are available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">9</a>]</span>.</p>
 <h4 id="preparation-for-analysis">Preparation for analysis</h4>
-<p>The main Jupyter notebook for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
+<p>The <a href="https//github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb">main Jupyter notebook</a> for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
 Briefly summarized the below process was implemented.</p>
-<p>At first, <em>all</em> log files of <em>all</em> the data present in the processed forlder were read into a into a <em>pandas</em> <span class="citation" data-cites="19qQOHlFN">[<a href="#ref-19qQOHlFN" role="doc-biblioref">10</a>]</span> dataframe.
+<p>At first, <em>all</em> log files of <em>all</em> the data present in the processed folder were read into a into a <em>pandas</em> <span class="citation" data-cites="19qQOHlFN">[<a href="#ref-19qQOHlFN" role="doc-biblioref">10</a>]</span> dataframe.
 This already enabled us to extract the specimen name and scan, since we performed several scans for each specimen, i.e. a low resolution scan with large field of view for the whole head and one or several scans in high resolution focusing on the oral and pharyngeal jaws.
 From the log files we extracted the relevant values for double-checking the necessary parameters of each scan.
 All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the <a href="#supplementary-materials">Supplementary Materials</a> at the end of each run of the notebook.</p>
@@ -248,23 +248,29 @@ This process brings all specimens to a common origin, scales the landmarks to a 
 A principal component analysis was then performed on the superimposed landmark data to visualize the major axes of shape change across sampled species.
 We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in cichlids.</p>
 <h4 id="automatic-extraction-of-otoliths">Automatic extraction of otoliths</h4>
-<ul>
-<li>Notebook: <code>EAWAG/ExtractOtoliths.ipynb</code></li>
-<li>MIPs are oriented <em>anteroposterior</em>, <em>lateral</em> and <em>dorsoventral</em></li>
-<li>Simple grayvalue plot along the longest axis</li>
-<li>Find peak of this grayvalue</li>
-<li>Otolith is around maximum gray value along fish, (see Figure <a href="#fig:otolither">2</a>)</li>
-</ul>
-<div id="fig:otolither" class="fignos">
-<figure>
-<img src="images/10619.head_rec_unbinned_17.5um.Otolither.png" alt="Figure 2: Automatic otolith extraction." />
-<figcaption aria-hidden="true"><span>Figure 2:</span> Automatic otolith extraction.</figcaption>
-</figure>
-</div>
+<p>The so-called otoliths in the fish heads structures made up of mostly calcium carbonate and are located in the head of fishes.
+Due to their composition they show up nicely on the X-ray images we acquired.
+We devised a very robust image processing method to automatically detect the location of the otoliths in the heads of the fishes and extract them from the original data.
+The whole method is implemented in its own <a href="https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb">Jupyter notebook</a> (part of the aforementioned analysis repository <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">9</a>]</span>) and is briefly explained below.</p>
+<p>Since we took great care to scan the fishes parallel to their <em>anteroposterior</em> direction and reconstructed the tomographic datasets parallel to the <em>lateral</em> and <em>dorsoventral</em> direction of the fishes we could use this ‘preparation’ for automatically extracting the otoliths in scans of the full heads of the fishes.
+By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
+The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.</p>
+<p>Figure <a href="#fig:otolither">2</a> shows the visualization of the process.
+The colored horizontal and vertical bars in each of the directional MIPs denote the found peak location of the two appropriate values.
+The white bars show the mean of the to detected positions, which was used for extracting the otoliths from the original datasets.
+Making use of the <code>dask</code> library facilitated efficient access to all the data on disk and writing out small, cropped copies of the datasets around the otolith positions.</p>
+<p>The extracted otoliths are then prepared for further analysis and display.
+The aforementioned Jupyter notebook also offers a simple three-dimensional visualization through an integrated visualization library <span class="citation" data-cites="a9ZL41Of">[<a href="#ref-a9ZL41Of" role="doc-biblioref">22</a>]</span>.</p>
 <h2 class="page_break_before" id="results">Results</h2>
 <h3 id="extraction-of-oral-and-pharyngeal-jaws-visualization-of-tomographic-data-1">Extraction of oral and pharyngeal jaws, visualization of tomographic data</h3>
 <h3 id="principal-component-analysis-of-skull-landmarks-1">Principal component analysis of skull landmarks</h3>
 <h3 id="automatic-extraction-of-otoliths-1">Automatic extraction of otoliths</h3>
+<div id="fig:otolither" class="fignos">
+<figure>
+<img src="images/11992.head_rec.Otolither.Region.png" alt="Figure 2: Visualized result of automatic otolith extraction." />
+<figcaption aria-hidden="true"><span>Figure 2:</span> Visualized result of automatic otolith extraction.</figcaption>
+</figure>
+</div>
 <div id="fig:otolith3d" class="fignos">
 <figure>
 <img src="images/Otolith-3D.png" alt="Figure 3: Result of automatic otolith extraction. Three-dimensional view of extracted otolith." />
@@ -274,7 +280,7 @@ We then used phylogenetic information to identify instances of repeated evolutio
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <p>The discussion of the results and the outlook to what we’ll do in the future is going into this file here.</p>
 <h2 class="page_break_before" id="acknowledgments">Acknowledgments</h2>
-<p>We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">22</a>]</span> for helping us write this manuscript collaboratively.</p>
+<p>We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">23</a>]</span> for helping us write this manuscript collaboratively.</p>
 <h2 class="page_break_before" id="supplementary-materials">Supplementary Materials</h2>
 <h3 id="parameters-of-tomographic-scans-of-all-the-fishes">Parameters of tomographic scans of all the fishes</h3>
 <p>The CSV file <a href="https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv">ScanningDetails.csv</a> gives a tabular overview of all the (relevant) parameters of all the scans we performed.
@@ -293,7 +299,7 @@ A copy of each log file is available in a <a href="https://github.com/habi/EAWAG
 <div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Process and pattern in cichlid radiations – inferences for understanding unusually high rates of evolutionary diversification</strong> <div class="csl-block">Ole Seehausen</div> <em>New Phytologist</em> (2015-05-13) <a href="https://doi.org/f7gczg">https://doi.org/f7gczg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/nph.13450">10.1111/nph.13450</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25983053">25983053</a></div></div>
 </div>
 <div id="ref-3rxGCEvJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline"><a href="https://osf.io/ecmz4">https://osf.io/ecmz4</a></div>
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>CT Scans - #ScanAllFish</strong> <div class="csl-block">Adam P Summers</div> (2015-09-29) <a href="https://osf.io/ecmz4/">https://osf.io/ecmz4/</a></div>
 </div>
 <div id="ref-VCZPOv2f" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>OpenSCAD models</strong> <div class="csl-block">TomoGraphics</div> (2022-02-28) <a href="https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/STL/EAWAG.Fish.stl">https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/STL/EAWAG.Fish.stl</a></div>
@@ -302,7 +308,7 @@ A copy of each log file is available in a <a href="https://github.com/habi/EAWAG
 <div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>TomoGraphics/Hol3Drs: A release</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2019-03-08) <a href="https://doi.org/gg9fxh">https://doi.org/gg9fxh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.2587555">10.5281/zenodo.2587555</a></div></div>
 </div>
 <div id="ref-ZjgrPHTa" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>EAWAG</strong> <div class="csl-block">David Haberthür</div> (2022-07-05) <a href="https://github.com/habi/EAWAG/blob/771ea90ba96c8d3c88ada86f2aa475b4bb484efa/rsync-fishes.sh">https://github.com/habi/EAWAG/blob/771ea90ba96c8d3c88ada86f2aa475b4bb484efa/rsync-fishes.sh</a></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Jupyter notebooks for image processing and data analysis of EAWAG Cichlids project</strong> <div class="csl-block">David Haberthür</div> (2022-07-05) <a href="https://github.com/habi/EAWAG/blob/0a51a339bbe3134c635b78890e208e813e7b87ae/rsync-fishes.sh">https://github.com/habi/EAWAG/blob/0a51a339bbe3134c635b78890e208e813e7b87ae/rsync-fishes.sh</a></div>
 </div>
 <div id="ref-pQ6Wbz73" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Jupyter Notebooks – a publishing format for reproducible computational workflows</strong> <div class="csl-block">Thomas Kluyver, Benjamin Ragan-Kelley, Fernando Pérez, Brian Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica Hamrick, Jason Grout, Sylvain Corlay, … Jupyter development team</div> <em>IOS Press</em> (2016) <a href="https://eprints.soton.ac.uk/403913/">https://eprints.soton.ac.uk/403913/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3233/978-1-61499-649-1-87">10.3233/978-1-61499-649-1-87</a></div></div>
@@ -348,8 +354,11 @@ package for fitting linear models to high‐dimensional data using residual rand
 <div id="ref-QfVloFVu" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>RStudio: Integrated development environment for r</strong> <div class="csl-block">RStudio Team</div> <em>RStudio, PBC.</em> (2022) <a href="https://www.rstudio.com/">https://www.rstudio.com/</a></div>
 </div>
+<div id="ref-a9ZL41Of" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>K3D Jupyter</strong> <div class="csl-block">K3D-tools</div> (2022-11-29) <a href="https://github.com/K3D-tools/K3D-jupyter">https://github.com/K3D-tools/K3D-jupyter</a></div>
+</div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
 </div>
 </div>
 <section class="footnotes footnotes-end-of-document" role="doc-endnotes">
