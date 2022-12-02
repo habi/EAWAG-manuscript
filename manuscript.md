@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-11-11'
+date-meta: '2022-12-02'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-11-11" />
-  <meta name="citation_publication_date" content="2022-11-11" />
+  <meta name="dc.date" content="2022-12-02" />
+  <meta name="citation_publication_date" content="2022-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -59,9 +59,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -83,10 +83,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/7894b29a6f34b66c17d45135e11707ec1d6b5a1f/))
 was automatically generated
-from [habi/EAWAG-manuscript@0b98d5c](https://github.com/habi/EAWAG-manuscript/tree/0b98d5cc03f7bb43b3d6e6d1c9c1a9c9486c23b9)
-on November 11, 2022.
+from [habi/EAWAG-manuscript@7894b29](https://github.com/habi/EAWAG-manuscript/tree/7894b29a6f34b66c17d45135e11707ec1d6b5a1f)
+on December 2, 2022.
 </em></small>
 
 ## Authors
@@ -231,10 +231,10 @@ All analysis notebooks for this work are available online [@doi:10.5281/zenodo.6
 
 #### Preparation for analysis
 
-The main Jupyter notebook for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
+The [main Jupyter notebook](https//github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb) for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
 Briefly summarized the below process was implemented.
 
-At first, *all* log files of *all* the data present in the processed forlder were read into a into a *pandas* [@doi:10.5281/zenodo.7093122] dataframe.
+At first, *all* log files of *all* the data present in the processed folder were read into a into a *pandas* [@doi:10.5281/zenodo.7093122] dataframe.
 This already enabled us to extract the specimen name and scan, since we performed several scans for each specimen, i.e. a low resolution scan with large field of view for the whole head and one or several scans in high resolution focusing on the oral and pharyngeal jaws.
 From the log files we extracted the relevant values for double-checking the necessary parameters of each scan.
 All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the [Supplementary Materials] at the end of each run of the notebook.
@@ -284,13 +284,24 @@ We then used phylogenetic information to identify instances of repeated evolutio
 
 #### Automatic extraction of otoliths
 
-- Notebook: `EAWAG/ExtractOtoliths.ipynb`
-- MIPs are oriented *anteroposterior*, *lateral* and *dorsoventral*
-- Simple grayvalue plot along the longest axis
-- Find peak of this grayvalue 
-- Otolith is around maximum gray value along fish, (see Figure @fig:otolither)
+[TODO]: # (Give more information about the otoliths)
 
-![Automatic otolith extraction.](images/10619.head_rec_unbinned_17.5um.Otolither.png){#fig:otolither}
+The so-called otoliths in the fish heads structures made up of mostly calcium carbonate and are located in the head of fishes.
+Due to their composition they show up nicely on the X-ray images we acquired.
+We devised a very robust image processing method to automatically detect the location of the otoliths in the heads of the fishes and extract them from the original data.
+The whole method is implemented in its own [Jupyter notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) (part of the aforementioned analysis repository [@doi:10.5281/zenodo.6798632]) and is briefly explained below.
+
+Since we took great care to scan the fishes parallel to their *anteroposterior* direction and reconstructed the tomographic datasets parallel to the *lateral* and *dorsoventral* direction of the fishes we could use this 'preparation' for automatically extracting the otoliths in scans of the full heads of the fishes.
+By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
+The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.
+
+Figure  @fig:otolither shows the visualization of the process.
+The colored horizontal and vertical bars in each of the directional MIPs denote the found peak location of the two appropriate values.
+The white bars show the mean of the to detected positions, which was used for extracting the otoliths from the original datasets.
+Making use of the `dask` library facilitated efficient access to all the data on disk and writing out small, cropped copies of the datasets around the otolith positions.
+
+The extracted otoliths are then prepared for further analysis and display.
+The aforementioned Jupyter notebook also offers a simple three-dimensional visualization through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter].
 
 ## Results {.page_break_before}
 
@@ -303,6 +314,12 @@ We then used phylogenetic information to identify instances of repeated evolutio
 [TODO]: # (Show some results from Kassandras PCA)
 
 ### Automatic extraction of otoliths
+
+![Visualized result of automatic otolith extraction.](images/11992.head_rec.Otolither.Region.png){#fig:otolither}
+
+[TODO]: # (Expand caption, so that it it self-sufficient.)
+[TODO]: # (`whichone=55`)
+
 
 ![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/Otolith-3D.png){#fig:otolith3d}
 

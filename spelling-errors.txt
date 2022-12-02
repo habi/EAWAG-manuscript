@@ -2,8 +2,8 @@ anteroposterior
 Bruker
 centroid
 cichlid
-Cichlids
-csv
+cichlids
+CSV
 Dask
 dataframe
 dataset
@@ -12,10 +12,8 @@ dorsoventral
 DSlicer
 DSlicers
 EAWAG
-forlder
 Formlabs
 geomorph
-grayvalue
 Haberthür
 habi
 Häsler
