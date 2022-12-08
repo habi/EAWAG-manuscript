@@ -1,8 +1,10 @@
 anteroposterior
+Baltzerstrasse
 Bruker
 centroid
-cichlid
+Cichlid
 cichlids
+cidation
 CSV
 Dask
 dataframe
@@ -26,6 +28,7 @@ Kastanienbaum
 KAT
 Kontich
 kV
+Liem
 microCT
 microtomography
 Mikki
@@ -60,9 +63,9 @@ speciation
 stereolithography
 Thoracochromis
 thresholding
+TODO
 tomographically
 trophic
-Unversity
 voxel
 VTK
 zebrafish
