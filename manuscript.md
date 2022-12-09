@@ -61,9 +61,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/))
 was automatically generated
-from [habi/EAWAG-manuscript@47f73d2](https://github.com/habi/EAWAG-manuscript/tree/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc)
+from [habi/EAWAG-manuscript@55e8162](https://github.com/habi/EAWAG-manuscript/tree/55e81620730bf7722e2bfcf1d456fdfcffb460d6)
 on December 9, 2022.
 </em></small>
 
@@ -152,7 +152,7 @@ on December 9, 2022.
 A large collection of Cichlids from Lake Victoria in Africa spanning a size range of 6 to 20 cm was nondestructively imaged using micro-computed tomography.
 We describe our method to efficiently obtain three-dimensional tomographic data sets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
 The tomographic data we acquired (9.5 TB projection images) was reconstructed into 1.4 TB of three-dimensional images used for extracting the relevant features of interest.
-Herein we present our method and an outlook on two projects analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes as well as a principal component analysis of landmark features on the fish skulls.
+Herein we present our method and an outlook on two projects analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a principal component analysis of landmark features on the fish skulls and a robust method to automatically extract the otoliths of the fishes from the tomographic data.
 
 ## Introduction {.page_break_before}
 
@@ -209,7 +209,11 @@ In total, we acquired 362 tomographic scans of 129 different fishes.
 All the scanning parameters are collected in a table in the [Supplementary Materials], a generalized rundown is given below.
 
 Since the fishes greatly varied in their length, the voxel sizes of each of the acquired datasets also varies greatly.
-We acquired datasets with (isometric) voxel sizes ranging from 3--50 μm.
+We acquired datasets with (isometric) voxel sizes ranging from 3.5--50 μm.
+<!---
+12  103637  rec   3.499972
+182  12319  head_50um_rec  49.998527
+--->
 
 Depending on the size of the specimen we set the x-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
 Also depending on the size of the fishes, the x-ray spectrum was filtered either by an Aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm) before digitization to projection images or recorded in an unfiltered way.
@@ -219,7 +223,17 @@ All the recorded projection images were subsequently reconstructed into a 3D sta
 All the specimens were scanned with their mouths facing downward in the sample holder and rotating along their long axis.
 We thus manually aligned each of the reconstructed datasets so that the lateral axis of the fish was horizontal in relation to the x and y direction of the reconstructed slices.
 We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the [Supplementary Materials]).
-In total, this resulted in 1.4 TB of reconstruction images (`*rec*.png` files).
+In total, this resulted in 1.4 TB of reconstruction images (nearly one million `*rec*.png` files).
+Each of the 362 scans we performed has on average about 2700 reconstruction images.
+<!---
+print('We have %s reconstructions on %s' % (Data['Number of reconstructions'].sum(), Root))
+
+We have 992724 reconstructions on /home/habi/research-storage-iee
+
+print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round(Data['Number of reconstructions'].sum() / len(Data)), len(Data), len(Data.Fish.unique())))
+
+This is about 2720 reconstructions per scan (365 scans, 137 folders)
+--->
 
 While performing the work, a subset of the data was always present on the production system, for working with it (see [Preparation for analysis
 ] below).
@@ -260,7 +274,7 @@ This is an efficient way for double-checking the gray value mapping, since the M
 To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the *SlicerMorph* tools [@doi:10.1111/2041-210X.13669] which aim to help biologists to work with 3D specimen data.
 The reconstructed PNG stacks were loaded into *ImageStacks*, depending on their size we reduced the image resolution (i.e. downscaled the images) for this first step.
 The three-dimensional volume was rendered via [*VTK GPU Ray Casting*](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html).
-A custom-made volume property (created by Kassandra Ford) was used as an input to view the scans.
+A custom-made so-called 'volume property' was used as an input to view the scans.
 Using toggles in the volume rendering, we defined regions of interest (ROIs) for both the OJs and PJs in each specimen.
 These ROIs were then extracted in their native resolution from the original dataset for further processing.
 Using the gray value thresholding function in 3DSlicers [*Segment Editor*](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html) the teeth in both the oral and pharyngeal jaws were extracted.
@@ -272,7 +286,7 @@ In total we compiled overview of XXX specimens with full head morphology, oral j
 
 ![Overview of data from 'KAT-13, Lake Edward, "Thoracochromis" pharyngalis (pharyngeal mollusc crusher – shrimp)'](images/KAT13.pptx.png){#fig:kat13pptx}
 
-[TODO]: # (Do we really need to specify 'created by Kassandra Ford' for the custom-made property?)
+[TODO]: # (Add small sampler of results of extraction. Let's show some images)
 [TODO]: # (Accurate specimen number in .pptx file from Mikki. The PPTX file `CT scan slides_ML_March26_2022.pptx` contains 112 slides...)
 [TODO]: # (Marcel asks about 'shrimp' in caption of Fig 1.: "I guess this means "mollusc crusher and shrimp eater"?")
 
@@ -286,6 +300,7 @@ A principal component analysis was then performed on the superimposed landmark d
 We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in cichlids.
 
 [TODO]: # (How was the PCA performed, also in R?)
+[TODO]: # (Show some results from Kassandras PCA)
 
 #### Automatic extraction of otoliths
 
@@ -308,34 +323,48 @@ Making use of the `dask` library facilitated efficient access to all the data on
 The extracted otoliths are then prepared for further analysis and display.
 The aforementioned Jupyter notebook also offers a simple three-dimensional visualization through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter].
 
-## Results {.page_break_before}
-
-### Extraction of oral and pharyngeal jaws, visualization of tomographic data
-
-[TODO]: # (Add small sampler of results of extraction. Let's show some images)
-
-### Principal component analysis of skull landmarks
-
-[TODO]: # (Show some results from Kassandras PCA)
-
-### Automatic extraction of otoliths
-
 ![Visualized result of automatic otolith extraction.](images/11992.head_rec.Otolither.Region.png){#fig:otolither}
-
 [TODO]: # (Expand caption, so that it it self-sufficient.)
-[TODO]: # (`whichone=55`)
-
 
 ![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/Otolith-3D.png){#fig:otolith3d}
 
 ## Discussion {.page_break_before}
 
+We acquired high resolution tomographic datasets of a large collection of Cichlids.
+The acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. the structure of the teeth) and having datasets spanning the whole region of interest of the fishes (i.e. the whole head for principle component analysis)
+
+#### Imaging and preparation for analysis
+
+The whole study we presented here spanned a *long* timeframe.
+It was thus paramout to make the imaging process and preparation of the tomographic datasets able to run in batch-mode.
+The Jupyter notebook written to prepare the datasets for quality control and analysis were facilitating a short turnaround time for feedback on single scans.
+
 ### Otolith extraction
 
+The method to extract the otoliths of the fishes from the tomographic dataset works robustly for all of the different fish sizes and shapes.
+The extraction is robust because it is based on a combination of several intricate details of the gray value curve over the different anatomical directions.
+The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extration of the otoliths from the tomographic datasets.
+
+[TODO]: # (Shall we mention the one fish which has a hook in his mouth and the method still works fine?)
+
+<!---
+Marcel comments:
 The extraction of otoliths could actually be biologically really interesting, however, one would have to calibrate this first to be able to extract age estimates then from those extracted otoliths.
 I.e. one would have to make a simple growth experiment where you euthanise a number of fish with known age and then CT scan those and correlate the size of the otoliths with their age.
 I think that should work like that.
 How well that would match growth in the wild, I don't really know...
+--->
+
+### Outlook
+The acquired tomographic datasets are the basis for several additional analysis of fish morphology.
+
+[TODO]: # (*Very* briefly mention further work from Kassandra and 'another Postdoc' that Ole mentioned.)
+
+The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fishes.
+The workflow is relying only on free and open-source software and can thus be used and verified independently by any interested reader.
+All the Jupyter notebook described herein is also freely available online [22].
+
+[TODO]: # (Provide *one* head scan, so that we can link to it in the notebook and write "The notebook can be run in your browser without installing any software via Binder [@doi:10.25080/majora-4af1f417-011] by [clicking a single button](https://mybinder.org/v2/gh/habi/eawag/HEAD) in the [README file](https://github.com/habi/EAWAG/blob/master/README.md) of the [project repository](https://github.com/habi/EAWAG) [@doi:10.5281/zenodo.6798632]." or something analogous.)
 
 ## Acknowledgments {.page_break_before}
 

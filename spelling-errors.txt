@@ -2,8 +2,8 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-cichlid
-cichlids
+Cichlid
+Cichlids
 cidation
 csv
 Dask
@@ -14,7 +14,7 @@ dorsoventral
 DSlicer
 DSlicers
 EAWAG
-euthanise
+extration
 Formlabs
 geomorph
 Haberthür
@@ -44,6 +44,7 @@ Otolith
 otolither
 otoliths
 parametrized
+paramout
 pharyngalis
 phylogenetic
 PJ
@@ -64,6 +65,7 @@ speciation
 stereolithography
 Thoracochromis
 thresholding
+timeframe
 TODO
 tomographically
 trophic
