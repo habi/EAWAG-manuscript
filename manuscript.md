@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-12-08'
+date-meta: '2022-12-09'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-12-08" />
-  <meta name="citation_publication_date" content="2022-12-08" />
+  <meta name="dc.date" content="2022-12-09" />
+  <meta name="citation_publication_date" content="2022-12-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -61,9 +61,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/14738213286fef3b44fc8eaab22d4d1d9d2023e2/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/14738213286fef3b44fc8eaab22d4d1d9d2023e2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/14738213286fef3b44fc8eaab22d4d1d9d2023e2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,10 +85,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/14738213286fef3b44fc8eaab22d4d1d9d2023e2/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc/))
 was automatically generated
-from [habi/EAWAG-manuscript@1473821](https://github.com/habi/EAWAG-manuscript/tree/14738213286fef3b44fc8eaab22d4d1d9d2023e2)
-on December 8, 2022.
+from [habi/EAWAG-manuscript@47f73d2](https://github.com/habi/EAWAG-manuscript/tree/47f73d2f44b41afb8c2efd0eab67b99eda1a93fc)
+on December 9, 2022.
 </em></small>
 
 ## Authors
@@ -330,8 +330,12 @@ The aforementioned Jupyter notebook also offers a simple three-dimensional visua
 
 ## Discussion {.page_break_before}
 
-The discussion of the results and the outlook to what we'll do in the future is going into this file here.
+### Otolith extraction
 
+The extraction of otoliths could actually be biologically really interesting, however, one would have to calibrate this first to be able to extract age estimates then from those extracted otoliths.
+I.e. one would have to make a simple growth experiment where you euthanise a number of fish with known age and then CT scan those and correlate the size of the otoliths with their age.
+I think that should work like that.
+How well that would match growth in the wild, I don't really know...
 
 ## Acknowledgments {.page_break_before}
 

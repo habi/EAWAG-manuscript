@@ -2,10 +2,10 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-Cichlid
+cichlid
 cichlids
 cidation
-CSV
+csv
 Dask
 dataframe
 dataset
@@ -14,6 +14,7 @@ dorsoventral
 DSlicer
 DSlicers
 EAWAG
+euthanise
 Formlabs
 geomorph
 Haberthür
@@ -39,7 +40,7 @@ NRecon
 NRRD
 OJs
 OleSeehausen
-otolith
+Otolith
 otolither
 otoliths
 parametrized
