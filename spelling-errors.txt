@@ -2,10 +2,9 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-Cichlid
-Cichlids
-cidation
-csv
+cichlid
+cichlids
+CSV
 Dask
 dataframe
 dataset
@@ -14,7 +13,6 @@ dorsoventral
 DSlicer
 DSlicers
 EAWAG
-extration
 Formlabs
 geomorph
 Haberthür
@@ -40,11 +38,10 @@ NRecon
 NRRD
 OJs
 OleSeehausen
-Otolith
-otolither
+otolith
+otolithextraction
 otoliths
 parametrized
-paramout
 pharyngalis
 phylogenetic
 PJ
@@ -65,7 +62,6 @@ speciation
 stereolithography
 Thoracochromis
 thresholding
-timeframe
 TODO
 tomographically
 trophic

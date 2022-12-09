@@ -61,9 +61,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/55e81620730bf7722e2bfcf1d456fdfcffb460d6/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/))
 was automatically generated
-from [habi/EAWAG-manuscript@55e8162](https://github.com/habi/EAWAG-manuscript/tree/55e81620730bf7722e2bfcf1d456fdfcffb460d6)
+from [habi/EAWAG-manuscript@77d192f](https://github.com/habi/EAWAG-manuscript/tree/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84)
 on December 9, 2022.
 </em></small>
 
@@ -160,7 +160,7 @@ Herein we present our method and an outlook on two projects analyzing the acquir
 
 Cichlid fish in African lakes are a powerful model systems in speciation and adaptive evolutionary radiation research [@doi:10.1038/nrg1316; @doi:10.1098/rspb.2006.3539].
 The functional decoupling of their oral and pharyngeal jaws is hypothesized to be a factor in making cichlids unusually versatile in their feeding and making it possible for making them able to adapt to a wide range of environmental factors.
-[TODO]: # (Marcel would like to have a cidation here, "possibly Liem198xx")
+[TODO]: # (Marcel would like to have a citation here, "possibly Liem198xx")
 The hypothesis is that the fusion of the lower pharyngeal jaws makes them powerful food processing tools, and this in turn releases the oral jaws from functional constraint.
 The oral jaws no longer need to process prey and can therefore specialize on prey capture.
 
@@ -315,7 +315,7 @@ Since we took great care to scan the fishes parallel to their *anteroposterior* 
 By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
 The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.
 
-Figure  @fig:otolither shows the visualization of the process.
+Figure @fig:otolithextraction shows the visualization of the process.
 The colored horizontal and vertical bars in each of the directional MIPs denote the found peak location of the two appropriate values.
 The white bars show the mean of the to detected positions, which was used for extracting the otoliths from the original datasets.
 Making use of the `dask` library facilitated efficient access to all the data on disk and writing out small, cropped copies of the datasets around the otolith positions.
@@ -323,7 +323,8 @@ Making use of the `dask` library facilitated efficient access to all the data on
 The extracted otoliths are then prepared for further analysis and display.
 The aforementioned Jupyter notebook also offers a simple three-dimensional visualization through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter].
 
-![Visualized result of automatic otolith extraction.](images/11992.head_rec.Otolither.Region.png){#fig:otolither}
+![Visualized result of automatic otolith extraction.](images/11992.head_rec.Otolither.Region.png){#fig:otolithextraction}
+
 [TODO]: # (Expand caption, so that it it self-sufficient.)
 
 ![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/Otolith-3D.png){#fig:otolith3d}
@@ -335,15 +336,15 @@ The acquired datasets were imaged over a wide-spanning range of voxel size (3.5-
 
 #### Imaging and preparation for analysis
 
-The whole study we presented here spanned a *long* timeframe.
-It was thus paramout to make the imaging process and preparation of the tomographic datasets able to run in batch-mode.
+The whole study we presented here spanned a *long* time frame.
+It was thus paramount to make the imaging process and preparation of the tomographic datasets able to run in batch-mode.
 The Jupyter notebook written to prepare the datasets for quality control and analysis were facilitating a short turnaround time for feedback on single scans.
 
 ### Otolith extraction
 
 The method to extract the otoliths of the fishes from the tomographic dataset works robustly for all of the different fish sizes and shapes.
 The extraction is robust because it is based on a combination of several intricate details of the gray value curve over the different anatomical directions.
-The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extration of the otoliths from the tomographic datasets.
+The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extraction of the otoliths from the tomographic datasets.
 
 [TODO]: # (Shall we mention the one fish which has a hook in his mouth and the method still works fine?)
 
