@@ -4,7 +4,7 @@ keywords:
 - cichlids
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2022-12-09'
+date-meta: '2022-12-13'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -22,8 +22,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2022-12-09" />
-  <meta name="citation_publication_date" content="2022-12-09" />
+  <meta name="dc.date" content="2022-12-13" />
+  <meta name="citation_publication_date" content="2022-12-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -61,9 +61,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,10 +85,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/))
 was automatically generated
-from [habi/EAWAG-manuscript@77d192f](https://github.com/habi/EAWAG-manuscript/tree/77d192f5c56bd8278eee4914b2cf5bc64bb2ba84)
-on December 9, 2022.
+from [habi/EAWAG-manuscript@8a5cea8](https://github.com/habi/EAWAG-manuscript/tree/8a5cea8c5bbb2ba4208526bfc37a7028e7300711)
+on December 13, 2022.
 </em></small>
 
 ## Authors
@@ -177,8 +177,8 @@ Since micro–computed tomography can be regarded as nondestructive method for b
 ### Micro-computed tomography
 
 X-ray microtomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
-X-ray microtomography has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small.
-For a small samples of examples, see prior work of the authors [@doi:10.1371/journal.pone.0228333;@https://osf.io/ecmz4] ^[For which David made a tomographic scan of an adult zebrafish ages ago.].
+Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small.
+For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphologyx, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022] or other authors [@https://osf.io/ecmz4]^[For which David made a tomographic scan of an adult zebrafish in 2016.].
 
 Depending on the structures of interest, biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
 Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skulls) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
@@ -217,7 +217,7 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5--50 μm.
 
 Depending on the size of the specimen we set the x-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
 Also depending on the size of the fishes, the x-ray spectrum was filtered either by an Aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm) before digitization to projection images or recorded in an unfiltered way.
-In total we recorded 9.5 TB of projections images (`*.?if` files) for this project.
+In total we recorded 9.5 TB of projections images (`*.tif` and `*.iif` files, where the `*.iif` files are for the so-called alignment scans).
 
 All the recorded projection images were subsequently reconstructed into a 3D stack of axial images spanning the regions of interest of each fish.
 All the specimens were scanned with their mouths facing downward in the sample holder and rotating along their long axis.
@@ -281,14 +281,10 @@ Using the gray value thresholding function in 3DSlicers [*Segment Editor*](https
 We used the *Scissor* and *Island* tools of the Segment Editor to isolate single regions.
 
 Processed regions of interest were exported as NRRD [@https://w.wiki/5mBK] files.
-The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:kat13pptx for an example from the compilation document).
-In total we compiled overview of XXX specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
+The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:158795 for an example from the compilation document).
+In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
-![Overview of data from 'KAT-13, Lake Edward, "Thoracochromis" pharyngalis (pharyngeal mollusc crusher – shrimp)'](images/KAT13.pptx.png){#fig:kat13pptx}
-
-[TODO]: # (Add small sampler of results of extraction. Let's show some images)
-[TODO]: # (Accurate specimen number in .pptx file from Mikki. The PPTX file `CT scan slides_ML_March26_2022.pptx` contains 112 slides...)
-[TODO]: # (Marcel asks about 'shrimp' in caption of Fig 1.: "I guess this means "mollusc crusher and shrimp eater"?")
+![Overview of data from sample 158795, *Paralabidochromis victoriae* (insect picker)](images/158795.png){#fig:158795}
 
 #### Principal component analysis of skull landmarks
 
@@ -357,6 +353,7 @@ How well that would match growth in the wild, I don't really know...
 --->
 
 ### Outlook
+
 The acquired tomographic datasets are the basis for several additional analysis of fish morphology.
 
 [TODO]: # (*Very* briefly mention further work from Kassandra and 'another Postdoc' that Ole mentioned.)
@@ -376,6 +373,7 @@ We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping u
 ## Supplementary Materials {.page_break_before}
 
 ### Parameters of tomographic scans of all the fishes
+
 The CSV file [ScanningDetails.csv](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv) gives a tabular overview of all the (relevant) parameters of all the scans we performed.
 This file was generated with the [data processing notebook](https://github.com/habi/EAWAG/blob/master/DataWrangling.ipynb) and contains the data which is read from *all* the log files of *all* the scans we performed.
 A copy of each log file is available in a [folder in the data processing repository](https://github.com/habi/EAWAG/tree/master/logfiles).
