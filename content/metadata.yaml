@@ -2,6 +2,7 @@
 title: "Microtomographic investigation of a large corpus of cichlids"
 keywords:
   - cichlids
+  - fish morphology
   - x-ray micro-tomography
 lang: en-US
 authors:
@@ -13,11 +14,9 @@ authors:
     email: david.haberthuer@unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
-  - github:
+  - github: mlaw-migalig
     name: Mikki Law
-    initials: 
-    orcid: 
-    email: 
+    email: mikki.law@eawag.ch
     affiliations:
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
       - Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
@@ -31,17 +30,14 @@ authors:
       - Department of Biological Sciences, George Washington University
       - EAWAG Aquatic Research Institute, Switzerland
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
-  - github:
+  - github: mphaesler 
     name: Marcel Häsler
-    initials: 
-    orcid: 
-    email: 
+    email: marcel.haesler@unibe.ch
     affiliations:
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
       - Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   - github: OleSeehausen
     name: Ole Seehausen
-    initials: 
     orcid: 0000-0001-6598-1434
     email: ole.seehausen@unibe.ch
     affiliations:
