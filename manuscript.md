@@ -2,6 +2,7 @@
 title: Microtomographic investigation of a large corpus of cichlids
 keywords:
 - cichlids
+- fish morphology
 - x-ray micro-tomography
 lang: en-US
 date-meta: '2022-12-13'
@@ -37,7 +38,6 @@ header-includes: |-
   <meta name="citation_author" content="Mikki Law" />
   <meta name="citation_author_institution" content="Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland" />
   <meta name="citation_author_institution" content="Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland" />
-  <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Kassandra Ford" />
   <meta name="citation_author_institution" content="Department of Biological Sciences, George Washington University" />
   <meta name="citation_author_institution" content="EAWAG Aquatic Research Institute, Switzerland" />
@@ -47,7 +47,6 @@ header-includes: |-
   <meta name="citation_author" content="Marcel Häsler" />
   <meta name="citation_author_institution" content="Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland" />
   <meta name="citation_author_institution" content="Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland" />
-  <meta name="citation_author_orcid" content="None" />
   <meta name="citation_author" content="Ole Seehausen" />
   <meta name="citation_author_institution" content="Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland" />
   <meta name="citation_author_institution" content="Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland" />
@@ -61,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/429155bf81026a753edf75cd3eee99b7016198e2/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/429155bf81026a753edf75cd3eee99b7016198e2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/429155bf81026a753edf75cd3eee99b7016198e2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/8a5cea8c5bbb2ba4208526bfc37a7028e7300711/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/429155bf81026a753edf75cd3eee99b7016198e2/))
 was automatically generated
-from [habi/EAWAG-manuscript@8a5cea8](https://github.com/habi/EAWAG-manuscript/tree/8a5cea8c5bbb2ba4208526bfc37a7028e7300711)
+from [habi/EAWAG-manuscript@429155b](https://github.com/habi/EAWAG-manuscript/tree/429155bf81026a753edf75cd3eee99b7016198e2)
 on December 13, 2022.
 </em></small>
 
@@ -106,7 +105,9 @@ on December 13, 2022.
      Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
   </small>
 
-+ **Mikki Law**<br><br>
++ **Mikki Law**<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [mlaw-migalig](https://github.com/mlaw-migalig)<br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   </small>
@@ -122,7 +123,9 @@ on December 13, 2022.
      Department of Biological Sciences, George Washington University; EAWAG Aquatic Research Institute, Switzerland; Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
   </small>
 
-+ **Marcel Häsler**<br><br>
++ **Marcel Häsler**<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [mphaesler](https://github.com/mphaesler)<br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   </small>
