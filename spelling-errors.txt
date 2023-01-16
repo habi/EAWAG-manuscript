@@ -3,8 +3,8 @@ Baltzerstrasse
 Bruker
 centroid
 cichlid
-cichlids
-CSV
+Cichlids
+csv
 Dask
 dataframe
 dataset
@@ -28,7 +28,7 @@ Kontich
 kV
 Liem
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki
@@ -42,7 +42,7 @@ NRecon
 NRRD
 OJs
 OleSeehausen
-otolith
+Otolith
 otolithextraction
 otoliths
 Paralabidochromis
