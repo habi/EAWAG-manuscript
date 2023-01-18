@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/))
 was automatically generated
-from [habi/EAWAG-manuscript@f289a55](https://github.com/habi/EAWAG-manuscript/tree/f289a55c996aac6867de6ceb5693ffeec28a5760)
+from [habi/EAWAG-manuscript@7690b0e](https://github.com/habi/EAWAG-manuscript/tree/7690b0e88dd181406019c527e0a1ca866819ea88)
 on January 18, 2023.
 </em></small>
 
@@ -188,7 +188,7 @@ Since the structures of interest for the two studies we touch upon in this manus
 
 [TODO]: # (Mention the `fishguy` some more? [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].)
 
-## Materials and Methods {.page_break_before}
+## Materials, Methods and Results {.page_break_before}
 ### Sample procurement and preparation
 
 The fishes were kept in 75% Ethanol for long-term storage in the EAWAG fish collection.

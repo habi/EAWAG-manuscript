@@ -3,9 +3,9 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-Cichlid
-Cichlids
-csv
+cichlid
+cichlids
+CSV
 Dask
 dataframe
 dataset
