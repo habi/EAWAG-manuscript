@@ -1,10 +1,11 @@
+aforementiones
 anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-cichlid
-cichlids
-CSV
+Cichlid
+Cichlids
+csv
 Dask
 dataframe
 dataset

@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-01-17'
+date-meta: '2023-01-18'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-01-17" />
-  <meta name="citation_publication_date" content="2023-01-17" />
+  <meta name="dc.date" content="2023-01-18" />
+  <meta name="citation_publication_date" content="2023-01-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/fd3939898a23d9306205469dea922c240e230f19/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fd3939898a23d9306205469dea922c240e230f19/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fd3939898a23d9306205469dea922c240e230f19/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/fd3939898a23d9306205469dea922c240e230f19/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/f289a55c996aac6867de6ceb5693ffeec28a5760/))
 was automatically generated
-from [habi/EAWAG-manuscript@fd39398](https://github.com/habi/EAWAG-manuscript/tree/fd3939898a23d9306205469dea922c240e230f19)
-on January 17, 2023.
+from [habi/EAWAG-manuscript@f289a55](https://github.com/habi/EAWAG-manuscript/tree/f289a55c996aac6867de6ceb5693ffeec28a5760)
+on January 18, 2023.
 </em></small>
 
 ## Authors
@@ -314,19 +314,24 @@ Since we took great care to scan the fishes parallel to their *anteroposterior* 
 By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
 The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.
 
+![Visualized result of automatic otolith extraction.](images/11992.head_rec.Otolither.Region.png){#fig:otolithextraction}
+
+[TODO]: # (Expand caption, so that it it self-sufficient.)
+
 Figure @fig:otolithextraction shows the visualization of the process.
 The colored horizontal and vertical bars in each of the directional MIPs denote the found peak location of the two appropriate values.
 The white bars show the mean of the to detected positions, which was used for extracting the otoliths from the original datasets.
 Making use of the `dask` library facilitated efficient access to all the data on disk and writing out small, cropped copies of the datasets around the otolith positions.
 
-The extracted otoliths are then prepared for further analysis and display.
-The aforementioned Jupyter notebook also offers a simple three-dimensional visualization through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter].
+By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure @fig:otolith3d.
+The extracted otoliths are thus prepared for further analysis and display.
+The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter].
 
-![Visualized result of automatic otolith extraction.](images/11992.head_rec.Otolither.Region.png){#fig:otolithextraction}
+![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/ZuOS115.Otholith.3D.png){#fig:otolith3d}
 
 [TODO]: # (Expand caption, so that it it self-sufficient.)
+[TODO]: # (Add `ZuOS115.Otholith.3D.html` to Supplementary materials?)
 
-![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/Otolith-3D.png){#fig:otolith3d}
 
 ## Discussion {.page_break_before}
 
