@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-01-18'
+date-meta: '2023-01-26'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-01-18" />
-  <meta name="citation_publication_date" content="2023-01-18" />
+  <meta name="dc.date" content="2023-01-26" />
+  <meta name="citation_publication_date" content="2023-01-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/7690b0e88dd181406019c527e0a1ca866819ea88/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/))
 was automatically generated
-from [habi/EAWAG-manuscript@7690b0e](https://github.com/habi/EAWAG-manuscript/tree/7690b0e88dd181406019c527e0a1ca866819ea88)
-on January 18, 2023.
+from [habi/EAWAG-manuscript@f4ef43d](https://github.com/habi/EAWAG-manuscript/tree/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40)
+on January 26, 2023.
 </em></small>
 
 ## Authors
