@@ -4,7 +4,8 @@ Baltzerstrasse
 Bruker
 centroid
 Cichlid
-cichlids
+Cichlids
+cinctus
 csv
 Dask
 dataframe
@@ -14,6 +15,7 @@ dorsoventral
 DSlicer
 DSlicers
 EAWAG
+Enterochromis
 Formlabs
 geomorph
 Haberthür
@@ -29,7 +31,7 @@ Kontich
 kV
 Liem
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
@@ -46,7 +48,6 @@ OleSeehausen
 otolith
 otolithextraction
 otoliths
-Paralabidochromis
 parametrized
 phylogenetic
 PJ
@@ -68,7 +69,6 @@ thresholding
 TODO
 tomographically
 trophic
-victoriae
 voxel
 VTK
 zebrafish

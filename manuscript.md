@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/))
 was automatically generated
-from [habi/EAWAG-manuscript@f4ef43d](https://github.com/habi/EAWAG-manuscript/tree/f4ef43d92384442ad032f07fd41cbfcfb6fb8c40)
+from [habi/EAWAG-manuscript@18a6af7](https://github.com/habi/EAWAG-manuscript/tree/18a6af7b97863659285ead9da76b8a8e46dca6f9)
 on January 26, 2023.
 </em></small>
 
@@ -284,10 +284,10 @@ Using the gray value thresholding function in 3DSlicers [*Segment Editor*](https
 We used the *Scissor* and *Island* tools of the Segment Editor to isolate single regions.
 
 Processed regions of interest were exported as NRRD [@https://w.wiki/5mBK] files.
-The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:158795 for an example from the compilation document).
+The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
-![Overview of data from sample 158795, *Paralabidochromis victoriae* (insect picker)](images/158795.png){#fig:158795}
+![Overview of data from sample 104016, *Enterochromis I cinctus* (St. E)](images/104016.png){#fig:104016}
 
 #### Principal component analysis of skull landmarks
 
@@ -314,7 +314,7 @@ Since we took great care to scan the fishes parallel to their *anteroposterior* 
 By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
 The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.
 
-![Visualized result of automatic otolith extraction.](images/11992.head_rec.Otolither.Region.png){#fig:otolithextraction}
+![Visualized result of automatic otolith extraction.](images/104016.head.rec.otolither.position.png){#fig:otolithextraction}
 
 [TODO]: # (Expand caption, so that it it self-sufficient.)
 
@@ -325,13 +325,12 @@ Making use of the `dask` library facilitated efficient access to all the data on
 
 By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure @fig:otolith3d.
 The extracted otoliths are thus prepared for further analysis and display.
-The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter].
+The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter] and is also shown in the [Supplementary Materials]
 
-![Result of automatic otolith extraction. Three-dimensional view of extracted otolith.](images/ZuOS115.Otholith.3D.png){#fig:otolith3d}
+![Result of automatic otolith extraction.
+  Three-dimensional view of extracted otolith.](images/104016.head.rec.otolith.region.3D.png){#fig:otolith3d}
 
 [TODO]: # (Expand caption, so that it it self-sufficient.)
-[TODO]: # (Add `ZuOS115.Otholith.3D.html` to Supplementary materials?)
-
 
 ## Discussion {.page_break_before}
 
@@ -368,7 +367,7 @@ The acquired tomographic datasets are the basis for several additional analysis 
 
 The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fishes.
 The workflow is relying only on free and open-source software and can thus be used and verified independently by any interested reader.
-All the Jupyter notebook described herein is also freely available online [22].
+All the Jupyter notebook described herein is also freely available online [@doi:10.5281/zenodo.6798632].
 
 [TODO]: # (Provide *one* head scan, so that we can link to it in the notebook and write "The notebook can be run in your browser without installing any software via Binder [@doi:10.25080/majora-4af1f417-011] by [clicking a single button](https://mybinder.org/v2/gh/habi/eawag/HEAD) in the [README file](https://github.com/habi/EAWAG/blob/master/README.md) of the [project repository](https://github.com/habi/EAWAG) [@doi:10.5281/zenodo.6798632]." or something analogous.)
 
@@ -385,6 +384,11 @@ We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping u
 The CSV file [ScanningDetails.csv](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv) gives a tabular overview of all the (relevant) parameters of all the scans we performed.
 This file was generated with the [data processing notebook](https://github.com/habi/EAWAG/blob/master/DataWrangling.ipynb) and contains the data which is read from *all* the log files of *all* the scans we performed.
 A copy of each log file is available in a [folder in the data processing repository](https://github.com/habi/EAWAG/tree/master/logfiles).
+
+### Three-dimensional view of *one* of the extracted otoliths.
+
+The three-dimensional view of sample 104016 was generated in [the otolith extraction notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) and saved as [104016.head.rec.otolith.region.3D.html](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html) file.
+A fully functional copy can be viewed through the [GitHub HTML preview](https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html).
 
 ## References {.page_break_before}
 
