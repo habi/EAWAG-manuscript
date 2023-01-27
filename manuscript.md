@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-01-26'
+date-meta: '2023-01-27'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-01-26" />
-  <meta name="citation_publication_date" content="2023-01-26" />
+  <meta name="dc.date" content="2023-01-27" />
+  <meta name="citation_publication_date" content="2023-01-27" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/18a6af7b97863659285ead9da76b8a8e46dca6f9/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/))
 was automatically generated
-from [habi/EAWAG-manuscript@18a6af7](https://github.com/habi/EAWAG-manuscript/tree/18a6af7b97863659285ead9da76b8a8e46dca6f9)
-on January 26, 2023.
+from [habi/EAWAG-manuscript@52a4eff](https://github.com/habi/EAWAG-manuscript/tree/52a4effd1df5c831d156e66ffbf84480b1c4909e)
+on January 27, 2023.
 </em></small>
 
 ## Authors
@@ -181,7 +181,7 @@ Since micro–computed tomography can be regarded as nondestructive method for b
 
 X-ray microtomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
 Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small.
-For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphologyx, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022] or other authors [@https://osf.io/ecmz4]^[For which David made a tomographic scan of an adult zebrafish in 2016.].
+For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022] or other authors [@https://osf.io/ecmz4]^[For which David made a tomographic scan of an adult zebrafish in 2016.].
 
 Depending on the structures of interest, biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
 Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skulls) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.

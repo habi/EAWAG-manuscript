@@ -3,8 +3,8 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-Cichlid
-Cichlids
+cichlid
+cichlids
 cinctus
 csv
 Dask
@@ -37,7 +37,6 @@ migalig
 Mikki
 MIP
 mlaw
-morphologyx
 morphometrics
 mphaesler
 nondestructively

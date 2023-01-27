@@ -18,7 +18,6 @@ content/02.introduction.md:23:microtomography
 content/02.introduction.md:24:Microtomographic
 content/02.introduction.md:24:nondestructively
 content/02.introduction.md:25:microtomographic
-content/02.introduction.md:25:morphologyx
 content/02.introduction.md:25:zebrafish
 content/02.introduction.md:27:tomographically
 content/02.introduction.md:28:cichlid
