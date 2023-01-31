@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-01-27'
+date-meta: '2023-01-31'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-01-27" />
-  <meta name="citation_publication_date" content="2023-01-27" />
+  <meta name="dc.date" content="2023-01-31" />
+  <meta name="citation_publication_date" content="2023-01-31" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/fb81c96859759855b357be1c6ebe542c8bf49df3/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fb81c96859759855b357be1c6ebe542c8bf49df3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/fb81c96859759855b357be1c6ebe542c8bf49df3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/52a4effd1df5c831d156e66ffbf84480b1c4909e/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/fb81c96859759855b357be1c6ebe542c8bf49df3/))
 was automatically generated
-from [habi/EAWAG-manuscript@52a4eff](https://github.com/habi/EAWAG-manuscript/tree/52a4effd1df5c831d156e66ffbf84480b1c4909e)
-on January 27, 2023.
+from [habi/EAWAG-manuscript@fb81c96](https://github.com/habi/EAWAG-manuscript/tree/fb81c96859759855b357be1c6ebe542c8bf49df3)
+on January 31, 2023.
 </em></small>
 
 ## Authors
@@ -309,6 +309,7 @@ The so-called otoliths in the fish heads structures made up of mostly calcium ca
 Due to their composition they show up nicely on the X-ray images we acquired.
 We devised a very robust image processing method to automatically detect the location of the otoliths in the heads of the fishes and extract them from the original data.
 The whole method is implemented in its own [Jupyter notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) (part of the aforementioned analysis repository [@doi:10.5281/zenodo.6798632]) and is briefly explained below.
+The notebook performing the otolith extraction can be run without installation of any software in a web browser, thanks to the help of Binder [@doi:10.25080/Majora-4af1f417-011]; to do this, one can start the notebook [here](https://mybinder.org/v2/gh/habi/EAWAG/HEAD?labpath=ExtractOtoliths.ipynb).
 
 Since we took great care to scan the fishes parallel to their *anteroposterior* direction and reconstructed the tomographic datasets parallel to the *lateral* and *dorsoventral* direction of the fishes we could use this 'preparation' for automatically extracting the otoliths in scans of the full heads of the fishes.
 By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
@@ -325,7 +326,7 @@ Making use of the `dask` library facilitated efficient access to all the data on
 
 By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure @fig:otolith3d.
 The extracted otoliths are thus prepared for further analysis and display.
-The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter] and is also shown in the [Supplementary Materials]
+The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter] and is also shown in the [Supplementary Materials].
 
 ![Result of automatic otolith extraction.
   Three-dimensional view of extracted otolith.](images/104016.head.rec.otolith.region.3D.png){#fig:otolith3d}
