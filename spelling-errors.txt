@@ -3,10 +3,10 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-cichlid
+Cichlid
 Cichlids
 cinctus
-CSV
+csv
 Dask
 dataframe
 dataset
@@ -44,7 +44,7 @@ NRecon
 NRRD
 OJs
 OleSeehausen
-Otolith
+otolith
 otolithextraction
 otoliths
 parametrized
