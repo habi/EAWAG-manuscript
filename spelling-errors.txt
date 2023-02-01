@@ -3,7 +3,7 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-Cichlid
+cichlid
 Cichlids
 cinctus
 csv
@@ -31,7 +31,7 @@ Kontich
 kV
 Liem
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
@@ -44,7 +44,7 @@ NRecon
 NRRD
 OJs
 OleSeehausen
-otolith
+Otolith
 otolithextraction
 otoliths
 parametrized

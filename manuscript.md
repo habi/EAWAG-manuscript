@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/87f52b0a2d63d2dc242908ba87e333f3280d2a87/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/87f52b0a2d63d2dc242908ba87e333f3280d2a87/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/87f52b0a2d63d2dc242908ba87e333f3280d2a87/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/87f52b0a2d63d2dc242908ba87e333f3280d2a87/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/))
 was automatically generated
-from [habi/EAWAG-manuscript@87f52b0](https://github.com/habi/EAWAG-manuscript/tree/87f52b0a2d63d2dc242908ba87e333f3280d2a87)
+from [habi/EAWAG-manuscript@a4654ca](https://github.com/habi/EAWAG-manuscript/tree/a4654cacda9f9f5f82819b77924802c1fedda85b)
 on February 1, 2023.
 </em></small>
 
@@ -315,9 +315,7 @@ Since we took great care to scan the fishes parallel to their *anteroposterior* 
 By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
 The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.
 
-![Visualized result of automatic otolith extraction.](images/104016.head.rec.otolither.position.png){#fig:otolithextraction}
-
-[TODO]: # (Expand caption, so that it it self-sufficient.)
+![Visualization of automatic otolith extraction. The top row shows the found location of the otolith center in each of the three anatomical directions. The bottom row shows a MIP of each of the three anatomical directions of the extracted otolith region.](images/104016.head.rec.otolither.position.png){#fig:otolithextraction}
 
 Figure @fig:otolithextraction shows the visualization of the process.
 The colored horizontal and vertical bars in each of the directional MIPs denote the found peak location of the two appropriate values.
@@ -328,10 +326,7 @@ By detecting the largest components in the cropped copies of the datasets we can
 The extracted otoliths are thus prepared for further analysis and display.
 The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter] and is also shown in the [Supplementary Materials].
 
-![Result of automatic otolith extraction.
-  Three-dimensional view of extracted otolith.](images/104016.head.rec.otolith.region.3D.png){#fig:otolith3d}
-
-[TODO]: # (Expand caption, so that it it self-sufficient.)
+![Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the [Supplementary Materials].](images/104016.head.rec.otolith.region.3D.png){#fig:otolith3d}
 
 ## Discussion {.page_break_before}
 
