@@ -44,7 +44,7 @@ NRecon
 NRRD
 OJs
 OleSeehausen
-Otolith
+otolith
 otolithextraction
 otoliths
 parametrized

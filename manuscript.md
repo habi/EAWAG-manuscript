@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-02-01'
+date-meta: '2023-02-02'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-02-01" />
-  <meta name="citation_publication_date" content="2023-02-01" />
+  <meta name="dc.date" content="2023-02-02" />
+  <meta name="citation_publication_date" content="2023-02-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/a4654cacda9f9f5f82819b77924802c1fedda85b/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/))
 was automatically generated
-from [habi/EAWAG-manuscript@a4654ca](https://github.com/habi/EAWAG-manuscript/tree/a4654cacda9f9f5f82819b77924802c1fedda85b)
-on February 1, 2023.
+from [habi/EAWAG-manuscript@a37786d](https://github.com/habi/EAWAG-manuscript/tree/a37786da6b187e67524603dee1131119c59cb364)
+on February 2, 2023.
 </em></small>
 
 ## Authors
@@ -149,6 +149,16 @@ on February 1, 2023.
   </small>
 
 
+## Technicalities (temporary)
+
+- The *canonical* version of the manuscript are the [Markdown](https://en.wikipedia.org/wiki/Markdown) files in the [`content` folder](https://github.com/habi/EAWAG-manuscript/tree/main/content) of the repository.
+- These files are automatically converted to a [website](https//habi.github.io/EAWAGmanuscript/) as well as a [PDF](https//habi.github.io/EAWAGmanuscript/manuscript.pdf) and [DOC](https//github.com/habi/EAWAGmanuscript/raw/output/manuscript.docx) file through [`manubot`](https//manubot.org/).
+  You can read whichever file is most convenient for you.
+  Each version/file contains a link to the version in the header just below the title.
+  This version string is the so-called git hash of the repository.
+- On January 26, 2023 I've sent an email to the co-authors with [RFC](https//en.wikipedia.org/wiki/Request_for_Comments).
+  This version of the manuscript was [tagged as version 0.618](https://github.com/habi/EAWAG-manuscript/releases/tag/v0.618), and there have been some changes since then.
+  You can visualize the changes made since then [here](https://github.com/habi/EAWAG-manuscript/compare/v0.618...main).
 
 ## Abstract {.page_break_before}
 
