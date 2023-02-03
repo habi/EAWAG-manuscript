@@ -3,8 +3,8 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-cichlid
-Cichlids
+Cichlid
+cichlids
 cinctus
 csv
 Dask
@@ -13,7 +13,7 @@ dataset
 datasets
 dorsoventral
 DSlicer
-DSlicers
+DSlicer’s
 EAWAG
 Enterochromis
 Formlabs
@@ -31,7 +31,7 @@ Kontich
 kV
 Liem
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki

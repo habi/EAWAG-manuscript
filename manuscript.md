@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-02-02'
+date-meta: '2023-02-03'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-02-02" />
-  <meta name="citation_publication_date" content="2023-02-02" />
+  <meta name="dc.date" content="2023-02-03" />
+  <meta name="citation_publication_date" content="2023-02-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/a37786da6b187e67524603dee1131119c59cb364/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/))
 was automatically generated
-from [habi/EAWAG-manuscript@a37786d](https://github.com/habi/EAWAG-manuscript/tree/a37786da6b187e67524603dee1131119c59cb364)
-on February 2, 2023.
+from [habi/EAWAG-manuscript@898c1e1](https://github.com/habi/EAWAG-manuscript/tree/898c1e1eece875f5de55e59a662f728ea376038c)
+on February 3, 2023.
 </em></small>
 
 ## Authors
@@ -162,10 +162,11 @@ on February 2, 2023.
 
 ## Abstract {.page_break_before}
 
-A large collection of Cichlids from Lake Victoria in Africa spanning a size range of 6 to 20 cm was nondestructively imaged using micro-computed tomography.
+A large collection of cichlids from Lake Victoria in Africa spanning a size range of 6 to 20 cm was nondestructively imaged using micro-computed tomography.
 We describe our method to efficiently obtain three-dimensional tomographic data sets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
 The tomographic data we acquired (9.5 TB projection images) was reconstructed into 1.4 TB of three-dimensional images used for extracting the relevant features of interest.
-Herein we present our method and an outlook on two projects analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a principal component analysis of landmark features on the fish skulls and a robust method to automatically extract the otoliths of the fishes from the tomographic data.
+Herein we present our method and an outlook on analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a principal component analysis of landmark features on the fish skulls and a robust method to automatically extract the otoliths of the fishes from the tomographic data.
+
 
 ## Introduction {.page_break_before}
 
@@ -198,7 +199,9 @@ Since the structures of interest for the two studies we touch upon in this manus
 
 [TODO]: # (Mention the `fishguy` some more? [@https://www.washington.edu/storycentral/story/uw-professor-is-digitizing-every-fish-species-in-the-world].)
 
+
 ## Materials, Methods and Results {.page_break_before}
+
 ### Sample procurement and preparation
 
 The fishes were kept in 75% Ethanol for long-term storage in the EAWAG fish collection.
@@ -271,7 +274,7 @@ From the log files we extracted the relevant values for double-checking the nece
 All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the [Supplementary Materials] at the end of each run of the notebook.
 
 After several 'sanity checks' of the data, we used *Dask* [@dask] to efficiently access the very large total amount of axial reconstructions for this project (in the end amounting to a total of nearly a million single images).
-On average, each of the tomographic datasets contains around 3000 slices, so the total amount of data is much too large to keep in memory.
+On average, each of the tomographic datasets contains around 2700 slices, so the total amount of data is much too large to keep in memory.
 The use of the Dask library facilitated efficient access to the huge amount of data on disk.
 
 At first, we extracted the central view of each of the three axial directions of the datasets (i.e. 'anteroposterior', 'lateral' and 'dorsoventral' view) and either saved those to disk or loaded them from disk if they were already generated in prior runs of the notebook.
@@ -282,15 +285,16 @@ In this check we examined the mapping of the gray values of the raw projection i
 This is an efficient way for double-checking the gray value mapping, since the MIP images have already been generated in prior steps of the notebook and contain the highest gray values present in all the reconstructed images of each scan.
 
 ### Image processing
+
 #### Extraction of oral and pharyngeal jaws, visualization of tomographic data
 
-To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the *SlicerMorph* tools [@doi:10.1111/2041-210X.13669] which aim to help biologists to work with 3D specimen data.
+To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [3DSlicer](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the *SlicerMorph* tools [@doi:10.1111/2041-210X.13669] which aim to help biologists work with 3D specimen data.
 The reconstructed PNG stacks were loaded into *ImageStacks*, depending on their size we reduced the image resolution (i.e. downscaled the images) for this first step.
 The three-dimensional volume was rendered via [*VTK GPU Ray Casting*](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html).
-A custom-made so-called 'volume property' was used as an input to view the scans.
+A custom-made volume property was used as an input to view the scans.
 Using toggles in the volume rendering, we defined regions of interest (ROIs) for both the OJs and PJs in each specimen.
 These ROIs were then extracted in their native resolution from the original dataset for further processing.
-Using the gray value thresholding function in 3DSlicers [*Segment Editor*](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html) the teeth in both the oral and pharyngeal jaws were extracted.
+Using the gray value thresholding function in 3DSlicer's [*Segment Editor*](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html), the teeth in both the oral and pharyngeal jaws were extracted.
 We used the *Scissor* and *Island* tools of the Segment Editor to isolate single regions.
 
 Processed regions of interest were exported as NRRD [@https://w.wiki/5mBK] files.
@@ -306,16 +310,14 @@ A homologous landmark scheme was produced [@doi:10.1643/i2021016; @doi:10.1093/i
 To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the *geomorph* package in *R* (Version 4.2.1) with *RStudio* (Version 2022.07.2+576) [@doi:10.1111/2041-210X.13029; @geomorph; @rrpp; @r ;@rstudio].
 This process brings all specimens to a common origin, scales the landmarks to a unit centroid size, and rotates specimens to reduce distances between landmarks.
 A principal component analysis was then performed on the superimposed landmark data to visualize the major axes of shape change across sampled species.
-We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in cichlids.
+We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in these cichlids.
 
 [TODO]: # (How was the PCA performed, also in R?)
 [TODO]: # (Show some results from Kassandras PCA)
 
 #### Automatic extraction of otoliths
 
-[TODO]: # (Give more information about the otoliths)
-
-The so-called otoliths in the fish heads structures made up of mostly calcium carbonate and are located in the head of fishes.
+Otoliths are structures made up of mostly calcium carbonate located in the head of fishes.
 Due to their composition they show up nicely on the X-ray images we acquired.
 We devised a very robust image processing method to automatically detect the location of the otoliths in the heads of the fishes and extract them from the original data.
 The whole method is implemented in its own [Jupyter notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) (part of the aforementioned analysis repository [@doi:10.5281/zenodo.6798632]) and is briefly explained below.
@@ -338,12 +340,13 @@ The simple three-dimensional visualization is integrated in the aforementiones J
 
 ![Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the [Supplementary Materials].](images/104016.head.rec.otolith.region.3D.png){#fig:otolith3d}
 
+
 ## Discussion {.page_break_before}
 
 We acquired high resolution tomographic datasets of a large collection of Cichlids.
 The acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. the structure of the teeth) and having datasets spanning the whole region of interest of the fishes (i.e. the whole head for principle component analysis)
 
-#### Imaging and preparation for analysis
+### Imaging and preparation for analysis
 
 The whole study we presented here spanned a *long* time frame.
 It was thus paramount to make the imaging process and preparation of the tomographic datasets able to run in batch-mode.
@@ -377,11 +380,13 @@ All the Jupyter notebook described herein is also freely available online [@doi:
 
 [TODO]: # (Provide *one* head scan, so that we can link to it in the notebook and write "The notebook can be run in your browser without installing any software via Binder [@doi:10.25080/majora-4af1f417-011] by [clicking a single button](https://mybinder.org/v2/gh/habi/eawag/HEAD) in the [README file](https://github.com/habi/EAWAG/blob/master/README.md) of the [project repository](https://github.com/habi/EAWAG) [@doi:10.5281/zenodo.6798632]." or something analogous.)
 
+
 ## Acknowledgments {.page_break_before}
 
 We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping us write this manuscript collaboratively.
 
 [TODO]: # (Do we need to include more persons here, according to: https://www.rms.org.uk/community/networks-affiliates/bioimaginguk-network/imaging-facility-publication-guidelines.html)
+
 
 ## Supplementary Materials {.page_break_before}
 
@@ -391,10 +396,11 @@ The CSV file [ScanningDetails.csv](https://github.com/habi/EAWAG-manuscript/blob
 This file was generated with the [data processing notebook](https://github.com/habi/EAWAG/blob/master/DataWrangling.ipynb) and contains the data which is read from *all* the log files of *all* the scans we performed.
 A copy of each log file is available in a [folder in the data processing repository](https://github.com/habi/EAWAG/tree/master/logfiles).
 
-### Three-dimensional view of *one* of the extracted otoliths.
+### Three-dimensional view of *one* of the extracted otoliths
 
 The three-dimensional view of sample 104016 was generated in [the otolith extraction notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) and saved as [104016.head.rec.otolith.region.3D.html](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html) file.
 A fully functional copy can be viewed through the [GitHub HTML preview](https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html).
+
 
 ## References {.page_break_before}
 
