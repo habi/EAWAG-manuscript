@@ -3,7 +3,7 @@ anteroposterior
 Baltzerstrasse
 Bruker
 centroid
-Cichlid
+cichlid
 cichlids
 cinctus
 csv
@@ -44,9 +44,11 @@ NRecon
 NRRD
 OJs
 OleSeehausen
+otolihts
 otolith
 otolithextraction
 otoliths
+otolits
 parametrized
 phylogenetic
 PJ

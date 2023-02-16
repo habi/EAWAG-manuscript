@@ -10,7 +10,7 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2023-02-03" />
+  <meta name="dcterms.date" content="2023-02-16" />
   <meta name="keywords" content="cichlids, fish morphology, x-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
@@ -49,8 +49,8 @@
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-02-03" />
-  <meta name="citation_publication_date" content="2023-02-03" />
+  <meta name="dc.date" content="2023-02-16" />
+  <meta name="citation_publication_date" content="2023-02-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -105,10 +105,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/898c1e1eece875f5de55e59a662f728ea376038c">habi/EAWAG-manuscript@898c1e1</a>
-on February 3, 2023.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/3fe78d360b8aeebbe18bc0e20a999fbbbead629a">habi/EAWAG-manuscript@3fe78d3</a>
+on February 16, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -316,14 +316,10 @@ The Jupyter notebook written to prepare the datasets for quality control and ana
 <h3 id="otolith-extraction">Otolith extraction</h3>
 <p>The method to extract the otoliths of the fishes from the tomographic dataset works robustly for all of the different fish sizes and shapes.
 The extraction is robust because it is based on a combination of several intricate details of the gray value curve over the different anatomical directions.
-The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extraction of the otoliths from the tomographic datasets.</p>
-<!---
-Marcel comments:
-The extraction of otoliths could actually be biologically really interesting, however, one would have to calibrate this first to be able to extract age estimates then from those extracted otoliths.
-I.e. one would have to make a simple growth experiment where you euthanise a number of fish with known age and then CT scan those and correlate the size of the otoliths with their age.
-I think that should work like that.
-How well that would match growth in the wild, I don't really know...
---->
+The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extraction of the otoliths from the tomographic datasets.
+This is even the case for one fish which was scanned with still a hook in his mouth, where the otolihts were nonetheless extracted automatically.</p>
+<p>Data on such automatically extracted the otoliths, like volume and geometric information like eccentricity and moments of inertia could be biologically really interesting.
+However, one would first have to correlate the data on the otolits with the age of the fish, since the otoliths grow in the age.</p>
 <h3 id="outlook">Outlook</h3>
 <p>The acquired tomographic datasets are the basis for several additional analysis of fish morphology.</p>
 <p>The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fishes.
@@ -414,7 +410,7 @@ package for fitting linear models to high‐dimensional data using residual rand
 <div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>Binder 2.0 - Reproducible, interactive, sharable environments for science at scale</strong> <div class="csl-block">Project Jupyter, Matthias Bussonnier, Jessica Forde, Jeremy Freeman, Brian Granger, Tim Head, Chris Holdgraf, Kyle Kelley, Gladys Nalvarte, Andrew Osheroff, … Carol Willing</div> <em>Proceedings of the Python in Science Conference</em> (2018) <a href="https://doi.org/gfwcm6">https://doi.org/gfwcm6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.25080/majora-4af1f417-011">10.25080/majora-4af1f417-011</a></div></div>
 </div>
 <div id="ref-a9ZL41Of" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>K3D Jupyter</strong> <div class="csl-block">K3D-tools</div> (2023-02-01) <a href="https://github.com/K3D-tools/K3D-jupyter">https://github.com/K3D-tools/K3D-jupyter</a></div>
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>K3D Jupyter</strong> <div class="csl-block">K3D-tools</div> (2023-02-08) <a href="https://github.com/K3D-tools/K3D-jupyter">https://github.com/K3D-tools/K3D-jupyter</a></div>
 </div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>

@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-02-03'
+date-meta: '2023-02-16'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-02-03" />
-  <meta name="citation_publication_date" content="2023-02-03" />
+  <meta name="dc.date" content="2023-02-16" />
+  <meta name="citation_publication_date" content="2023-02-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/898c1e1eece875f5de55e59a662f728ea376038c/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/))
 was automatically generated
-from [habi/EAWAG-manuscript@898c1e1](https://github.com/habi/EAWAG-manuscript/tree/898c1e1eece875f5de55e59a662f728ea376038c)
-on February 3, 2023.
+from [habi/EAWAG-manuscript@3fe78d3](https://github.com/habi/EAWAG-manuscript/tree/3fe78d360b8aeebbe18bc0e20a999fbbbead629a)
+on February 16, 2023.
 </em></small>
 
 ## Authors
@@ -184,9 +184,7 @@ We aim to to better understand the functional anatomy of the skulls and jaws in 
 The corpus of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
 Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is a very well suited method for investigating the oral and pharyngeal jaws as well as the skull features of the fishes presented in this study.
 
-[TODO]: # (Describe how the cichlids came from from Lake Victoria to Kastanienbaum and to the Institute of Anatomy)
-[TODO]: # (Is there some information on the sample 'library' of the EAWAG?)
-[TODO]: # (Add some information on the backstory of those fishes, and maybe publications relating to the corpus of fishes)
+[TODO]: # (Add a bit on the backstory of those cichlids, and maybe publications relating to the corpus of fishes)
 
 ### Micro-computed tomography
 
@@ -218,8 +216,6 @@ The fishes were sorted into 'bins' based on their physical size.
 We used a custom-made sample-holder to scan each of the fish in our machines.
 It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA) and is freely available online [@https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl] as part of a library of sample holders for tomographic scanning of biomedical samples [@doi:10.5281/zenodo.2587555].
 The sample holder was custom-made for this project and is easily parametrized to the different width, height and length classes of the fishes we scanned.
-
-[NOTE]: # (The numbers below are all from the DataWrangling.ipynb notebook. David ran this notebook on Nov 10, 2022, prior to Mikki renaming all folder on the IEE research storage drive.)
 
 In total, we acquired 362 tomographic scans of 129 different fishes.
 All the scanning parameters are collected in a table in the [Supplementary Materials], a generalized rundown is given below.
@@ -313,7 +309,6 @@ A principal component analysis was then performed on the superimposed landmark d
 We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in these cichlids.
 
 [TODO]: # (How was the PCA performed, also in R?)
-[TODO]: # (Show some results from Kassandras PCA)
 
 #### Automatic extraction of otoliths
 
@@ -357,16 +352,10 @@ The Jupyter notebook written to prepare the datasets for quality control and ana
 The method to extract the otoliths of the fishes from the tomographic dataset works robustly for all of the different fish sizes and shapes.
 The extraction is robust because it is based on a combination of several intricate details of the gray value curve over the different anatomical directions.
 The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extraction of the otoliths from the tomographic datasets.
+This is even the case for one fish which was scanned with still a hook in his mouth, where the otolihts were nonetheless extracted automatically.
 
-[TODO]: # (Shall we mention the one fish which has a hook in his mouth and the method still works fine?)
-
-<!---
-Marcel comments:
-The extraction of otoliths could actually be biologically really interesting, however, one would have to calibrate this first to be able to extract age estimates then from those extracted otoliths.
-I.e. one would have to make a simple growth experiment where you euthanise a number of fish with known age and then CT scan those and correlate the size of the otoliths with their age.
-I think that should work like that.
-How well that would match growth in the wild, I don't really know...
---->
+Data on such automatically extracted the otoliths, like volume and geometric information like eccentricity and moments of inertia could be biologically really interesting.
+However, one would first have to correlate the data on the otolits with the age of the fish, since the otoliths grow in the age.
 
 ### Outlook
 
