@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/habi/EAWAG-manuscript/tree/gh-pages) branch hosts the contents of this directory at <https://habi.github.io/EAWAG-manuscript/>.
-The permalink for this webpage version is <https://habi.github.io/EAWAG-manuscript/v/3fe78d360b8aeebbe18bc0e20a999fbbbead629a/>.
+The permalink for this webpage version is <https://habi.github.io/EAWAG-manuscript/v/49f8b698b44febd16ce90d874c357a975fc6bac8/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://habi.github.io/EAWAG-manuscript/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`3fe78d360b8aeebbe18bc0e20a999fbbbead629a`](https://github.com/habi/EAWAG-manuscript/commit/3fe78d360b8aeebbe18bc0e20a999fbbbead629a).
+[`49f8b698b44febd16ce90d874c357a975fc6bac8`](https://github.com/habi/EAWAG-manuscript/commit/49f8b698b44febd16ce90d874c357a975fc6bac8).
