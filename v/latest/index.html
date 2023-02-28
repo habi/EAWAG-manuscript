@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -105,9 +105,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a">habi/EAWAG-manuscript@e9be1f1</a>
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/69d346d6861a3219ddf1e14ebc2c09cad89557ee">habi/EAWAG-manuscript@69d346d</a>
 on February 28, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -175,22 +175,22 @@ You can visualize the changes made since then <a href="https://github.com/habi/E
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <p>A large collection of cichlids from Lake Victoria in Africa spanning a size range of 6 to 20 cm was nondestructively imaged using micro-computed tomography.
 We describe our method to efficiently obtain three-dimensional tomographic data sets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
-The tomographic data we acquired (9.5 TB projection images) was reconstructed into 1.4 TB of three-dimensional images used for extracting the relevant features of interest.
-Herein we present our method and an outlook on analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a principal component analysis of landmark features on the fish skulls and a robust method to automatically extract the otoliths of the fishes from the tomographic data.</p>
+The tomographic data we acquired (9.5 TB projection images) were reconstructed into 1.4 TB of three-dimensional images used for extracting the relevant features of interest.
+Herein we present our method and an outlook on analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a three-dimensional geometric morphometrics analysis of landmark features on the fish skulls, and a robust method to automatically extract the otoliths of the fishes from the tomographic data.</p>
 <h2 class="page_break_before" id="introduction">Introduction</h2>
 <h3 id="history">History</h3>
-<p>Cichlid fish in African lakes are a powerful model systems in speciation and adaptive evolutionary radiation research <span class="citation" data-cites="TUQFenhc W2f2SDjn">[<a href="#ref-TUQFenhc" role="doc-biblioref">1</a>,<a href="#ref-W2f2SDjn" role="doc-biblioref">2</a>]</span>.
-The functional decoupling of their oral and pharyngeal jaws is hypothesized to be a factor in making cichlids unusually versatile in their feeding and making it possible for making them able to adapt to a wide range of environmental factors <span class="citation" data-cites="1GEljkDsf">[<a href="#ref-1GEljkDsf" role="doc-biblioref">3</a>]</span>.
-The hypothesis is that the fusion of the lower pharyngeal jaws makes them powerful food processing tools, and this in turn releases the oral jaws from functional constraint.
+<p>Cichlid fish in African lakes are powerful model systems in speciation and adaptive evolutionary radiation research <span class="citation" data-cites="TUQFenhc W2f2SDjn">[<a href="#ref-TUQFenhc" role="doc-biblioref">1</a>,<a href="#ref-W2f2SDjn" role="doc-biblioref">2</a>]</span>.
+The functional decoupling of their oral and pharyngeal jaws is hypothesized to be a factor in making cichlids unusually versatile in their feeding and allowing them the ability to adapt to a wide range of environmental factors <span class="citation" data-cites="1GEljkDsf">[<a href="#ref-1GEljkDsf" role="doc-biblioref">3</a>]</span>.
+The hypothesis is that the fusion of the lower pharyngeal jaws makes that jaw system a powerful food processing tool, in turn releasing the oral jaws from functional constraint.
 The oral jaws no longer need to process prey and can therefore specialize on prey capture.</p>
-<p>The group of Ole Seehausen has studied the evolutionary diversification of cichlid fish radiations in Lake Victoria in Africa since a long time <span class="citation" data-cites="W2f2SDjn c3poTogo">[<a href="#ref-W2f2SDjn" role="doc-biblioref">2</a>,<a href="#ref-c3poTogo" role="doc-biblioref">4</a>]</span>.
+<p>There have been many studies on the evolutionary diversification of cichlid fish radiations in Lake Victoria in Africa and it remains a complex system in need of further study <span class="citation" data-cites="W2f2SDjn c3poTogo">[<a href="#ref-W2f2SDjn" role="doc-biblioref">2</a>,<a href="#ref-c3poTogo" role="doc-biblioref">4</a>]</span>.
 We aim to to better understand the functional anatomy of the skulls and jaws in these fishes in order to test the functional decoupling and other hypotheses about what may facilitate exceptionally high rates of morphological evolution.</p>
 <p>The collection of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
-Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is a very well suited method for investigating the oral and pharyngeal jaws as well as the skull features of the fishes presented in this study.</p>
+Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is a very well suited method for investigating the oral and pharyngeal jaws as well as the skull features of the fishes presented in this study <span class="citation" data-cites="voZblygp">[<a href="#ref-voZblygp" role="doc-biblioref">5</a>]</span>.</p>
 <h3 id="micro-computed-tomography">Micro-computed tomography</h3>
 <p>X-ray microtomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
-Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small.
-For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript <span class="citation" data-cites="8Pmc2mI8 BDrCSu8p">[<a href="#ref-8Pmc2mI8" role="doc-biblioref">5</a>,<a href="#ref-BDrCSu8p" role="doc-biblioref">6</a>]</span> or other authors <span class="citation" data-cites="3rxGCEvJ">[<a href="#ref-3rxGCEvJ" role="doc-biblioref">7</a>]</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and smal <span class="citation" data-cites="voZblygp">[<a href="#ref-voZblygp" role="doc-biblioref">5</a>]</span>..
+For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript <span class="citation" data-cites="8Pmc2mI8 BDrCSu8p voZblygp">[<a href="#ref-voZblygp" role="doc-biblioref">5</a>,<a href="#ref-8Pmc2mI8" role="doc-biblioref">6</a>,<a href="#ref-BDrCSu8p" role="doc-biblioref">7</a>]</span> or other authors <span class="citation" data-cites="3rxGCEvJ">[<a href="#ref-3rxGCEvJ" role="doc-biblioref">8</a>]</span>.</p>
 <p>Depending on the structures of interest, biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
 Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skulls) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.</p>
 <h2 class="page_break_before" id="materials-methods-and-results">Materials, Methods and Results</h2>
@@ -201,11 +201,11 @@ They were delivered to the Institute of Anatomy for micro-CT imaging sorted into
 <p>All samples were scanned on two of the three available high-resolution micro-CT machines of the Institute of Anatomy of the University of Bern in Switzerland, a SkyScan 1272 and a SkyScan 2214 (both Bruker microCT, Kontich, Belgium).</p>
 <p>The fishes were sorted into ‘bins’ based on their physical size.
 We used a custom-made sample-holder to scan each of the fish in our machines.
-It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA) and is freely available online <span class="citation" data-cites="VCZPOv2f">[<a href="#ref-VCZPOv2f" role="doc-biblioref">8</a>]</span> as part of a library of sample holders for tomographic scanning of biomedical samples <span class="citation" data-cites="115PPSuQp">[<a href="#ref-115PPSuQp" role="doc-biblioref">9</a>]</span>.
-The sample holder was custom-made for this project and is easily parametrized to the different width, height and length classes of the fishes we scanned.</p>
+It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA), the file for printing the holder is available online <span class="citation" data-cites="VCZPOv2f">[<a href="#ref-VCZPOv2f" role="doc-biblioref">9</a>]</span> as part of a library of sample holders for tomographic scanning of biomedical samples <span class="citation" data-cites="115PPSuQp">[<a href="#ref-115PPSuQp" role="doc-biblioref">10</a>]</span>.
+The original OpenSCAD <span class="citation" data-cites="LPIxz27V">[<a href="#ref-LPIxz27V" role="doc-biblioref">11</a>/]</span> file <span class="citation" data-cites="f7OzrzUv">[<a href="#ref-f7OzrzUv" role="doc-biblioref">12</a>]</span> is parametrized to easily allow 3D-printing a sample holder accommodating the different width, height and length classes of the fishes we scanned.</p>
 <p>In total, we acquired 362 tomographic scans of 129 different fishes.
-All the scanning parameters are collected in a table in the <a href="#supplementary-materials">Supplementary Materials</a>, a generalized rundown is given below.</p>
-<p>Since the fishes greatly varied in their length, the voxel sizes of each of the acquired datasets also varies greatly.
+All the scanning parameters are collected in a table in the <a href="#supplementary-materials">Supplementary Materials</a>; a generalized rundown is given below.</p>
+<p>Since the fishes greatly varied in their length (specimen length varied between 6 cm and 18 cm), the voxel sizes of each of the acquired datasets also varies greatly.
 We acquired datasets with (isometric) voxel sizes ranging from 3.5–50 μm.
 <!---
 12  103637  rec   3.499972
@@ -230,20 +230,20 @@ print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round
 This is about 2720 reconstructions per scan (365 scans, 137 folders)
 ---></p>
 <p>While performing the work, a subset of the data was always present on the production system, for working with it (see <a href="#preparation-for-analysis">Preparation for analysis</a> below).
-A small bash script <span class="citation" data-cites="ZjgrPHTa">[<a href="#ref-ZjgrPHTa" role="doc-biblioref">10</a>]</span> was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the <code>Research Storage</code> infrastructure of the University of Bern, enabling easy collaboration on the data by all authorized persons at the same time.</p>
+A small bash script <span class="citation" data-cites="ZjgrPHTa">[<a href="#ref-ZjgrPHTa" role="doc-biblioref">13</a>]</span> was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the <code>Research Storage</code> infrastructure of the University of Bern, enabling easy collaboration on the data by all authorized persons at the same time.</p>
 <h3 id="data-analysis">Data analysis</h3>
-<p>We wrote a set of <em>Jupyter</em> <span class="citation" data-cites="pQ6Wbz73">[<a href="#ref-pQ6Wbz73" role="doc-biblioref">11</a>]</span> notebooks with <em>Python</em> code to work with the images and wrangle the acquired data.
+<p>We wrote a set of <em>Jupyter</em> <span class="citation" data-cites="pQ6Wbz73">[<a href="#ref-pQ6Wbz73" role="doc-biblioref">14</a>]</span> notebooks with <em>Python</em> code to work with the images and wrangle the acquired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
 Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.</p>
-<p>All analysis notebooks for this work are available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">12</a>]</span>.</p>
+<p>All analysis notebooks for this work are available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">15</a>]</span>.</p>
 <h4 id="preparation-for-analysis">Preparation for analysis</h4>
 <p>The <a href="https//github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb">main Jupyter notebook</a> for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
 Briefly summarized the below process was implemented.</p>
-<p>At first, <em>all</em> log files of <em>all</em> the data present in the processed folder were read into a <em>pandas</em> <span class="citation" data-cites="19qQOHlFN">[<a href="#ref-19qQOHlFN" role="doc-biblioref">13</a>]</span> dataframe.
+<p>At first, <em>all</em> log files of <em>all</em> the data present in the processed folder were read into a <em>pandas</em> <span class="citation" data-cites="19qQOHlFN">[<a href="#ref-19qQOHlFN" role="doc-biblioref">16</a>]</span> dataframe.
 This already enabled us to extract the specimen name and scan, since we performed several scans for each specimen, i.e. a low resolution scan with large field of view for the whole head and one or several scans in high resolution focusing on the oral and pharyngeal jaws.
 From the log files we extracted the relevant values for double-checking the necessary parameters of each scan.
 All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the <a href="#supplementary-materials">Supplementary Materials</a> at the end of each run of the notebook.</p>
-<p>After several ‘sanity checks’ of the data, we used <em>Dask</em> <span class="citation" data-cites="hj1CnyWB">[<a href="#ref-hj1CnyWB" role="doc-biblioref">14</a>]</span> to efficiently access the very large total amount of axial reconstructions for this project (in the end amounting to a total of nearly a million single images).
+<p>After several ‘sanity checks’ of the data, we used <em>Dask</em> <span class="citation" data-cites="hj1CnyWB">[<a href="#ref-hj1CnyWB" role="doc-biblioref">17</a>]</span> to efficiently access the very large total amount of axial reconstructions for this project (in the end amounting to a total of nearly a million single images).
 On average, each of the tomographic datasets contains around 2700 slices, so the total amount of data is much too large to keep in memory.
 The use of the Dask library facilitated efficient access to the huge amount of data on disk.</p>
 <p>At first, we extracted the central view of each of the three axial directions of the datasets (i.e. ‘anteroposterior’, ‘lateral’ and ‘dorsoventral’ view) and either saved those to disk or loaded them from disk if they were already generated in prior runs of the notebook.
@@ -253,7 +253,7 @@ In this check we examined the mapping of the gray values of the raw projection i
 This is an efficient way for double-checking the gray value mapping, since the MIP images have already been generated in prior steps of the notebook and contain the highest gray values present in all the reconstructed images of each scan.</p>
 <h3 id="image-processing">Image processing</h3>
 <h4 id="extraction-of-oral-and-pharyngeal-jaws-visualization-of-tomographic-data">Extraction of oral and pharyngeal jaws, visualization of tomographic data</h4>
-<p>To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used <a href="https://www.slicer.org">3DSlicer</a> (Version 4.11.20210226) <span class="citation" data-cites="OsCpHsJH">[<a href="#ref-OsCpHsJH" role="doc-biblioref">15</a>]</span> extended with the <em>SlicerMorph</em> tools <span class="citation" data-cites="MwdN6kPV">[<a href="#ref-MwdN6kPV" role="doc-biblioref">16</a>]</span> which aim to help biologists work with 3D specimen data.
+<p>To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used <a href="https://www.slicer.org">3DSlicer</a> (Version 4.11.20210226) <span class="citation" data-cites="OsCpHsJH">[<a href="#ref-OsCpHsJH" role="doc-biblioref">18</a>]</span> extended with the <em>SlicerMorph</em> tools <span class="citation" data-cites="MwdN6kPV">[<a href="#ref-MwdN6kPV" role="doc-biblioref">19</a>]</span> which aim to help biologists work with 3D specimen data.
 The reconstructed PNG stacks were loaded into <em>ImageStacks</em>, depending on their size we reduced the image resolution (i.e. downscaled the images) for this first step.
 The three-dimensional volume was rendered via <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html"><em>VTK GPU Ray Casting</em></a>.
 A custom-made volume property was used as an input to view the scans.
@@ -261,7 +261,7 @@ Using toggles in the volume rendering, we defined regions of interest (ROIs) for
 These ROIs were then extracted in their native resolution from the original dataset for further processing.
 Using the gray value thresholding function in 3DSlicer’s <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html"><em>Segment Editor</em></a>, the teeth in both the oral and pharyngeal jaws were extracted.
 We used the <em>Scissor</em> and <em>Island</em> tools of the Segment Editor to isolate single regions.</p>
-<p>Processed regions of interest were exported as NRRD <span class="citation" data-cites="12B4h087w">[<a href="#ref-12B4h087w" role="doc-biblioref">17</a>]</span> files.
+<p>Processed regions of interest were exported as NRRD <span class="citation" data-cites="12B4h087w">[<a href="#ref-12B4h087w" role="doc-biblioref">20</a>]</span> files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure <a href="#fig:104016">1</a> for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.</p>
 <div id="fig:104016" class="fignos">
@@ -270,19 +270,19 @@ In total we compiled overview of 125 specimens with full head morphology, oral j
 <figcaption aria-hidden="true"><span>Figure 1:</span> Overview of data from sample 104016, <em>Enterochromis I cinctus</em> (St. E)</figcaption>
 </figure>
 </div>
-<h4 id="principal-component-analysis-of-skull-landmarks">Principal component analysis of skull landmarks</h4>
+<h4 id="principal-components-analysis-of-skull-landmarks">Principal components analysis of skull landmarks</h4>
 <p>Current studies are using 3D geometric morphometrics to compare the morphological shape of these scanned cichlids using statistical analysis.
-A homologous landmark scheme was produced <span class="citation" data-cites="15FafMZm5 BDrCSu8p">[<a href="#ref-BDrCSu8p" role="doc-biblioref">6</a>,<a href="#ref-15FafMZm5" role="doc-biblioref">18</a>]</span>, and landmarks were placed on each specimen using 3DSlicer.
-To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the <em>geomorph</em> package in <em>R</em> (Version 4.2.1) with <em>RStudio</em> (Version 2022.07.2+576) <span class="citation" data-cites="VPUOQA2P Ziptbtib EwNL0C0Y whEyWyQh QfVloFVu">[<a href="#ref-VPUOQA2P" role="doc-biblioref">19</a>,<a href="#ref-Ziptbtib" role="doc-biblioref">20</a>,<a href="#ref-EwNL0C0Y" role="doc-biblioref">21</a>,<a href="#ref-whEyWyQh" role="doc-biblioref">22</a>,<a href="#ref-QfVloFVu" role="doc-biblioref">23</a>]</span>.
+We used a homologous landmark scheme across one-half of the skull for higher density of shape information <span class="citation" data-cites="15FafMZm5 BDrCSu8p">[<a href="#ref-BDrCSu8p" role="doc-biblioref">7</a>,<a href="#ref-15FafMZm5" role="doc-biblioref">21</a>]</span>, and landmarks were placed on each specimen using 3DSlicer.
+To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the <em>geomorph</em> package in <em>R</em> (Version 4.2.1) with <em>RStudio</em> (Version 2022.07.2+576) <span class="citation" data-cites="VPUOQA2P Ziptbtib EwNL0C0Y whEyWyQh QfVloFVu">[<a href="#ref-VPUOQA2P" role="doc-biblioref">22</a>,<a href="#ref-Ziptbtib" role="doc-biblioref">23</a>,<a href="#ref-EwNL0C0Y" role="doc-biblioref">24</a>,<a href="#ref-whEyWyQh" role="doc-biblioref">25</a>,<a href="#ref-QfVloFVu" role="doc-biblioref">26</a>]</span>.
 This process brings all specimens to a common origin, scales the landmarks to a unit centroid size, and rotates specimens to reduce distances between landmarks.
-A principal component analysis was then performed on the superimposed landmark data to visualize the major axes of shape change across sampled species.
+A principal components analysis was then performed in <em>geomorph</em> on the superimposed landmark data to visualize the major axes of shape change across sampled species.
 We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in these cichlids.</p>
 <h4 id="automatic-extraction-of-otoliths">Automatic extraction of otoliths</h4>
 <p>Otoliths are structures made up of mostly calcium carbonate located in the head of fishes.
-Due to their composition they show up nicely on the X-ray images we acquired.
+Due to their composition, they are easily distinguished in the X-ray images we acquired.
 We devised a very robust image processing method to automatically detect the location of the otoliths in the heads of the fishes and extract them from the original data.
-The whole method is implemented in its own <a href="https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb">Jupyter notebook</a> (part of the aforementioned analysis repository <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">12</a>]</span>) and is briefly explained below.
-The notebook performing the otolith extraction can be run without installation of any software in a web browser, thanks to the help of Binder <span class="citation" data-cites="Q20Bxdsr">[<a href="#ref-Q20Bxdsr" role="doc-biblioref">24</a>]</span>; to do this, one can start the notebook <a href="https://mybinder.org/v2/gh/habi/EAWAG/HEAD?labpath=ExtractOtoliths.ipynb">here</a>.</p>
+The whole method is implemented in its own <a href="https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb">Jupyter notebook</a> (part of the aforementioned analysis repository <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">15</a>]</span>).
+The notebook performing the otolith extraction can be run without installation of any software in a web browser, thanks to the help of Binder <span class="citation" data-cites="Q20Bxdsr">[<a href="#ref-Q20Bxdsr" role="doc-biblioref">27</a>]</span>; to do this, one can start the notebook <a href="https://mybinder.org/v2/gh/habi/EAWAG/HEAD?labpath=ExtractOtoliths.ipynb">here</a>.</p>
 <p>Since we took great care to scan the fishes parallel to their <em>anteroposterior</em> direction and reconstructed the tomographic datasets parallel to the <em>lateral</em> and <em>dorsoventral</em> direction of the fishes we could use this ‘preparation’ for automatically extracting the otoliths in scans of the full heads of the fishes.
 By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
 The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.</p>
@@ -298,16 +298,18 @@ The white bars show the mean of the to detected positions, which was used for ex
 Making use of the <code>dask</code> library facilitated efficient access to all the data on disk and writing out small, cropped copies of the datasets around the otolith positions.</p>
 <p>By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure <a href="#fig:otolith3d">3</a>.
 The extracted otoliths are thus prepared for further analysis and display.
-The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library <span class="citation" data-cites="a9ZL41Of">[<a href="#ref-a9ZL41Of" role="doc-biblioref">25</a>]</span> and is also shown in the <a href="#supplementary-materials">Supplementary Materials</a>.</p>
+The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library <span class="citation" data-cites="a9ZL41Of">[<a href="#ref-a9ZL41Of" role="doc-biblioref">28</a>]</span> and is also shown in the <a href="#supplementary-materials">Supplementary Materials</a>.</p>
 <div id="fig:otolith3d" class="fignos">
 <figure>
 <img src="images/104016.head.rec.otolith.region.3D.png" alt="Figure 3: Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the Supplementary Materials." />
 <figcaption aria-hidden="true"><span>Figure 3:</span> Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the <a href="#supplementary-materials">Supplementary Materials</a>.</figcaption>
 </figure>
 </div>
+<p>The notebook for extracting the otoliths can be run in your browser without installing any software via Binder <span class="citation" data-cites="Q20Bxdsr">[<a href="#ref-Q20Bxdsr" role="doc-biblioref">27</a>]</span> by <a href="https://mybinder.org/v2/gh/habi/eawag/HEAD?labpath=ExtractOtoliths.ipynb">clicking a single button</a> in the <a href="https://github.com/habi/EAWAG/blob/master/README.md">README file</a> of the <a href="https://github.com/habi/EAWAG">project repository</a> <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">15</a>]</span>.
+This downloads the tomographic data of <em>one</em> fish and performs the otolith extraction and visualization in your browser.</p>
 <h2 class="page_break_before" id="discussion">Discussion</h2>
 <p>We acquired high resolution tomographic datasets of a large collection of Cichlids.
-The acquired datasets were imaged over a wide-spanning range of voxel size (3.5–50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. the structure of the teeth) and having datasets spanning the whole region of interest of the fishes (i.e. the whole head for principle component analysis)</p>
+The acquired datasets were imaged over a wide-spanning range of voxel size (3.5–50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. the structure of the teeth) and having datasets spanning the whole region of interest of the fishes (i.e. the whole head for principle components analysis)</p>
 <h3 id="imaging-and-preparation-for-analysis">Imaging and preparation for analysis</h3>
 <p>The whole study we presented here spanned a <em>long</em> time frame.
 It was thus paramount to make the imaging process and preparation of the tomographic datasets able to run in batch-mode.
@@ -318,16 +320,16 @@ The extraction is robust because it is based on a combination of several intrica
 The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extraction of the otoliths from the tomographic datasets.
 This is even the case for one fish which was scanned with still a hook in his mouth, where the otolihts were nonetheless extracted automatically.</p>
 <p>Data on such automatically extracted otoliths, like volume and geometric information like eccentricity and moments of inertia could be biologically really interesting as the otoliths grow with the age of the fish.
-However, one would first have to calibrate the data on the otolits length or volume with otoliths of fish of known age but this could help to estimate the age of wild fishes.
-Estimation of age of tropical fishes is not as simple as for fishes from temperate regions where one can distinguish summer and winter layers within the otolith.</p>
+One could help estimate the age of wild fishes using a calibration based on the otolith measurements of a fish of known age.
+It is worth nothing that estimation of age of tropical fishes is not as simple as for fishes from temperate regions where one can distinguish summer and winter layers within the otolith.</p>
 <h3 id="outlook">Outlook</h3>
 <p>The acquired tomographic datasets are the basis for several additional analysis of fish morphology.</p>
 <p>The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fishes.
 The workflow is relying only on free and open-source software and can thus be used and verified independently by any interested reader.
-All the Jupyter notebook described herein is also freely available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">12</a>]</span>.</p>
+All the Jupyter notebook described herein is also freely available online <span class="citation" data-cites="1HteOscVd">[<a href="#ref-1HteOscVd" role="doc-biblioref">15</a>]</span>.</p>
 <h2 class="page_break_before" id="acknowledgments">Acknowledgments</h2>
 <p>We thank Salome Mwaiko for taking care of the fish collection at EAWAG and Mark Charran for helping to find suitable specimens to represent each species.
-We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">26</a>]</span> for helping us write this manuscript collaboratively.</p>
+We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">29</a>]</span> for helping us write this manuscript collaboratively.</p>
 <h2 class="page_break_before" id="supplementary-materials">Supplementary Materials</h2>
 <h3 id="parameters-of-tomographic-scans-of-all-the-fishes">Parameters of tomographic scans of all the fishes</h3>
 <p>The CSV file <a href="https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv">ScanningDetails.csv</a> gives a tabular overview of all the (relevant) parameters of all the scans we performed.
@@ -351,81 +353,84 @@ A fully functional copy can be viewed through the <a href="https://htmlpreview.g
 <div id="ref-c3poTogo" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Process and pattern in cichlid radiations – inferences for understanding unusually high rates of evolutionary diversification</strong> <div class="csl-block">Ole Seehausen</div> <em>New Phytologist</em> (2015-05-13) <a href="https://doi.org/f7gczg">https://doi.org/f7gczg</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/nph.13450">10.1111/nph.13450</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25983053">25983053</a></div></div>
 </div>
+<div id="ref-voZblygp" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>A new era of morphological investigations: Reviewing methods for comparative anatomical studies</strong> <div class="csl-block">Kassandra Ford, James S Albert, Adam P Summers, Brandon P Hedrick, Emma R Schachner, Aaryana S Jones, Kory Evans, Prosanta Chakrabarty</div> <em>Integrative Organismal Biology</em> (2023)</div>
+</div>
 <div id="ref-8Pmc2mI8" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Adaptation mechanism of the adult zebrafish respiratory organ to endurance training</strong> <div class="csl-block">Matthias Messerli, Dea Aaldijk, David Haberthür, Helena Röss, Carolina García-Poyatos, Marcos Sande-Melón, Oleksiy-Zakhar Khoma, Fluri AM Wieland, Sarya Fark, Valentin Djonov</div> <em>PLOS ONE</em> (2020-02-05) <a href="https://doi.org/grf6fj">https://doi.org/grf6fj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pone.0228333">10.1371/journal.pone.0228333</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32023296">32023296</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001924">PMC7001924</a></div></div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Adaptation mechanism of the adult zebrafish respiratory organ to endurance training</strong> <div class="csl-block">Matthias Messerli, Dea Aaldijk, David Haberthür, Helena Röss, Carolina García-Poyatos, Marcos Sande-Melón, Oleksiy-Zakhar Khoma, Fluri AM Wieland, Sarya Fark, Valentin Djonov</div> <em>PLOS ONE</em> (2020-02-05) <a href="https://doi.org/grf6fj">https://doi.org/grf6fj</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pone.0228333">10.1371/journal.pone.0228333</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32023296">32023296</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7001924">PMC7001924</a></div></div>
 </div>
 <div id="ref-BDrCSu8p" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Convergence is Only Skin Deep: Craniofacial Evolution in Electric Fishes from South America and Africa (Apteronotidae and Mormyridae)</strong> <div class="csl-block">Kassandra L Ford, Rose Peterson, Maxwell Bernt, James S Albert</div> <em>Integrative Organismal Biology</em> (2022) <a href="https://doi.org/gq3gtc">https://doi.org/gq3gtc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/iob/obac022">10.1093/iob/obac022</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35976714">35976714</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9375771">PMC9375771</a></div></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Convergence is Only Skin Deep: Craniofacial Evolution in Electric Fishes from South America and Africa (Apteronotidae and Mormyridae)</strong> <div class="csl-block">Kassandra L Ford, Rose Peterson, Maxwell Bernt, James S Albert</div> <em>Integrative Organismal Biology</em> (2022) <a href="https://doi.org/gq3gtc">https://doi.org/gq3gtc</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/iob/obac022">10.1093/iob/obac022</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35976714">35976714</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9375771">PMC9375771</a></div></div>
 </div>
 <div id="ref-3rxGCEvJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><a href="https://osf.io/ecmz4">https://osf.io/ecmz4</a></div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><a href="https://osf.io/ecmz4">https://osf.io/ecmz4</a></div>
 </div>
 <div id="ref-VCZPOv2f" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>OpenSCAD models</strong> <div class="csl-block">TomoGraphics</div> (2022-02-28) <a href="https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/STL/EAWAG.Fish.stl">https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/STL/EAWAG.Fish.stl</a></div>
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>OpenSCAD models</strong> <div class="csl-block">TomoGraphics</div> (2022-02-28) <a href="https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/STL/EAWAG.Fish.stl">https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/STL/EAWAG.Fish.stl</a></div>
 </div>
 <div id="ref-115PPSuQp" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>TomoGraphics/Hol3Drs: A release</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2019-03-08) <a href="https://doi.org/gg9fxh">https://doi.org/gg9fxh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.2587555">10.5281/zenodo.2587555</a></div></div>
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>TomoGraphics/Hol3Drs: A release</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2019-03-08) <a href="https://doi.org/gg9fxh">https://doi.org/gg9fxh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.2587555">10.5281/zenodo.2587555</a></div></div>
+</div>
+<div id="ref-LPIxz27V" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>OpenSCAD</strong> <a href="https://openscad.org">https://openscad.org</a></div>
+</div>
+<div id="ref-f7OzrzUv" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>OpenSCAD models</strong> <div class="csl-block">TomoGraphics</div> (2022-02-28) <a href="https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/EAWAG.Fish.scad">https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/EAWAG.Fish.scad</a></div>
 </div>
 <div id="ref-ZjgrPHTa" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>Jupyter notebooks for image processing and data analysis of EAWAG Cichlids project</strong> <div class="csl-block">David Haberthür</div> (2022-07-05) <a href="https://github.com/habi/EAWAG/blob/1f81f8138c49ac5d111288d8b28a0f81c222cca5/rsync-fishes.sh">https://github.com/habi/EAWAG/blob/1f81f8138c49ac5d111288d8b28a0f81c222cca5/rsync-fishes.sh</a></div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>Jupyter notebooks for image processing and data analysis of EAWAG Cichlids project</strong> <div class="csl-block">David Haberthür</div> (2022-07-05) <a href="https://github.com/habi/EAWAG/blob/938dedd8dbfaa09a7ff70ff0d16c6ce281298065/rsync-fishes.sh">https://github.com/habi/EAWAG/blob/938dedd8dbfaa09a7ff70ff0d16c6ce281298065/rsync-fishes.sh</a></div>
 </div>
 <div id="ref-pQ6Wbz73" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Jupyter Notebooks – a publishing format for reproducible computational workflows</strong> <div class="csl-block">Thomas Kluyver, Benjamin Ragan-Kelley, Fernando Pérez, Brian Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica Hamrick, Jason Grout, Sylvain Corlay, … Jupyter development team</div> <em>IOS Press</em> (2016) <a href="https://eprints.soton.ac.uk/403913/">https://eprints.soton.ac.uk/403913/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3233/978-1-61499-649-1-87">10.3233/978-1-61499-649-1-87</a></div></div>
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Jupyter Notebooks – a publishing format for reproducible computational workflows</strong> <div class="csl-block">Thomas Kluyver, Benjamin Ragan-Kelley, Fernando Pérez, Brian Granger, Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica Hamrick, Jason Grout, Sylvain Corlay, … Jupyter development team</div> <em>IOS Press</em> (2016) <a href="https://eprints.soton.ac.uk/403913/">https://eprints.soton.ac.uk/403913/</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3233/978-1-61499-649-1-87">10.3233/978-1-61499-649-1-87</a></div></div>
 </div>
 <div id="ref-1HteOscVd" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>habi/EAWAG: First release, for minting a Zenodo DOI</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2022-07-05) <a href="https://doi.org/gqgdtp">https://doi.org/gqgdtp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.6798632">10.5281/zenodo.6798632</a></div></div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>habi/EAWAG: First release, for minting a Zenodo DOI</strong> <div class="csl-block">David Haberthür</div> <em>Zenodo</em> (2022-07-05) <a href="https://doi.org/gqgdtp">https://doi.org/gqgdtp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.6798632">10.5281/zenodo.6798632</a></div></div>
 </div>
 <div id="ref-19qQOHlFN" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>pandas-dev/pandas: Pandas</strong> <div class="csl-block">The Pandas Development Team</div> <em>Zenodo</em> (2022-09-19) <a href="https://doi.org/gqw4db">https://doi.org/gqw4db</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.7093122">10.5281/zenodo.7093122</a></div></div>
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>pandas-dev/pandas: Pandas</strong> <div class="csl-block">The Pandas Development Team</div> <em>Zenodo</em> (2022-09-19) <a href="https://doi.org/gqw4db">https://doi.org/gqw4db</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.7093122">10.5281/zenodo.7093122</a></div></div>
 </div>
 <div id="ref-hj1CnyWB" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Dask: Library for dynamic task scheduling</strong> <div class="csl-block">Dask Development Team</div> (2016) <a href="https://dask.org">https://dask.org</a></div>
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>Dask: Library for dynamic task scheduling</strong> <div class="csl-block">Dask Development Team</div> (2016) <a href="https://dask.org">https://dask.org</a></div>
 </div>
 <div id="ref-OsCpHsJH" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>3D Slicer as an image computing platform for the Quantitative Imaging Network</strong> <div class="csl-block">Andriy Fedorov, Reinhard Beichel, Jayashree Kalpathy-Cramer, Julien Finet, Jean-Christophe Fillion-Robin, Sonia Pujol, Christian Bauer, Dominique Jennings, Fiona Fennessy, Milan Sonka, … Ron Kikinis</div> <em>Magnetic Resonance Imaging</em> (2012-11) <a href="https://doi.org/gfghgd">https://doi.org/gfghgd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.mri.2012.05.001">10.1016/j.mri.2012.05.001</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22770690">22770690</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3466397">PMC3466397</a></div></div>
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>3D Slicer as an image computing platform for the Quantitative Imaging Network</strong> <div class="csl-block">Andriy Fedorov, Reinhard Beichel, Jayashree Kalpathy-Cramer, Julien Finet, Jean-Christophe Fillion-Robin, Sonia Pujol, Christian Bauer, Dominique Jennings, Fiona Fennessy, Milan Sonka, … Ron Kikinis</div> <em>Magnetic Resonance Imaging</em> (2012-11) <a href="https://doi.org/gfghgd">https://doi.org/gfghgd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.mri.2012.05.001">10.1016/j.mri.2012.05.001</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22770690">22770690</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3466397">PMC3466397</a></div></div>
 </div>
 <div id="ref-MwdN6kPV" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology</strong> <div class="csl-block">Sara Rolfe, Steve Pieper, Arthur Porto, Kelly Diamond, Julie Winchester, Shan Shan, Henry Kirveslahti, Doug Boyer, Adam Summers, AMurat Maga</div> <em>Methods in Ecology and Evolution</em> (2021-07-22) <a href="https://doi.org/gqtgv8">https://doi.org/gqtgv8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.13669">10.1111/2041-210x.13669</a></div></div>
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology</strong> <div class="csl-block">Sara Rolfe, Steve Pieper, Arthur Porto, Kelly Diamond, Julie Winchester, Shan Shan, Henry Kirveslahti, Doug Boyer, Adam Summers, AMurat Maga</div> <em>Methods in Ecology and Evolution</em> (2021-07-22) <a href="https://doi.org/gqtgv8">https://doi.org/gqtgv8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.13669">10.1111/2041-210x.13669</a></div></div>
 </div>
 <div id="ref-12B4h087w" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline"><a href="https://w.wiki/5mBK">https://w.wiki/5mBK</a></div>
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><a href="https://w.wiki/5mBK">https://w.wiki/5mBK</a></div>
 </div>
 <div id="ref-15FafMZm5" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Mosaic Evolution of Craniofacial Morphologies in Ghost Electric Fishes (Gymnotiformes: Apteronotidae)</strong> <div class="csl-block">Kassandra L Ford, Maxwell J Bernt, Adam P Summers, James S Albert</div> <em>Ichthyology &amp;amp; Herpetology</em> (2022-05-27) <a href="https://doi.org/gq3gtd">https://doi.org/gq3gtd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1643/i2021016">10.1643/i2021016</a></div></div>
+<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>Mosaic Evolution of Craniofacial Morphologies in Ghost Electric Fishes (Gymnotiformes: Apteronotidae)</strong> <div class="csl-block">Kassandra L Ford, Maxwell J Bernt, Adam P Summers, James S Albert</div> <em>Ichthyology &amp;amp; Herpetology</em> (2022-05-27) <a href="https://doi.org/gq3gtd">https://doi.org/gq3gtd</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1643/i2021016">10.1643/i2021016</a></div></div>
 </div>
 <div id="ref-VPUOQA2P" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>RRPP: An
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>RRPP: An
 &lt;scp&gt;r&lt;/scp&gt;
 package for fitting linear models to high‐dimensional data using residual randomization</strong> <div class="csl-block">Michael L Collyer, Dean C Adams</div> <em>Methods in Ecology and Evolution</em> (2018-05-29) <a href="https://doi.org/gdwp9q">https://doi.org/gdwp9q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1111/2041-210x.13029">10.1111/2041-210x.13029</a></div></div>
 </div>
 <div id="ref-Ziptbtib" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>Geomorph: Software for geometric morphometric analyses. R package version 4.0.4</strong> <div class="csl-block">DC Adams, ML Collyer, A Kaliontzopoulou, EK Baken</div> (2022)<a href=" https://cran.r-project.org/package=geomorph"> https://cran.r-project.org/package=geomorph</a></div>
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>Geomorph: Software for geometric morphometric analyses. R package version 4.0.4</strong> <div class="csl-block">DC Adams, ML Collyer, A Kaliontzopoulou, EK Baken</div> (2022)<a href=" https://cran.r-project.org/package=geomorph"> https://cran.r-project.org/package=geomorph</a></div>
 </div>
 <div id="ref-EwNL0C0Y" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>RRPP: Linear model evaluation with randomized residuals in a permutation procedure, r package version 0.6.2.</strong> <div class="csl-block">ML Collyer, DC Adams</div> (2021) <a href="https://cran.r-project.org/package=RRPP">https://cran.r-project.org/package=RRPP</a></div>
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>RRPP: Linear model evaluation with randomized residuals in a permutation procedure, r package version 0.6.2.</strong> <div class="csl-block">ML Collyer, DC Adams</div> (2021) <a href="https://cran.r-project.org/package=RRPP">https://cran.r-project.org/package=RRPP</a></div>
 </div>
 <div id="ref-whEyWyQh" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>R: A language and environment for statistical computing</strong> <div class="csl-block">R Core Team</div> <em>R Foundation for Statistical Computing</em> (2018) <a href="https://www.R-project.org/">https://www.R-project.org/</a></div>
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>R: A language and environment for statistical computing</strong> <div class="csl-block">R Core Team</div> <em>R Foundation for Statistical Computing</em> (2018) <a href="https://www.R-project.org/">https://www.R-project.org/</a></div>
 </div>
 <div id="ref-QfVloFVu" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>RStudio: Integrated development environment for r</strong> <div class="csl-block">RStudio Team</div> <em>RStudio, PBC.</em> (2022) <a href="https://www.rstudio.com/">https://www.rstudio.com/</a></div>
+<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>RStudio: Integrated development environment for r</strong> <div class="csl-block">RStudio Team</div> <em>RStudio, PBC.</em> (2022) <a href="https://www.rstudio.com/">https://www.rstudio.com/</a></div>
 </div>
 <div id="ref-Q20Bxdsr" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Binder 2.0 - Reproducible, interactive, sharable environments for science at scale</strong> <div class="csl-block">Project Jupyter, Matthias Bussonnier, Jessica Forde, Jeremy Freeman, Brian Granger, Tim Head, Chris Holdgraf, Kyle Kelley, Gladys Nalvarte, Andrew Osheroff, … Carol Willing</div> <em>Proceedings of the Python in Science Conference</em> (2018) <a href="https://doi.org/gfwcm6">https://doi.org/gfwcm6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.25080/majora-4af1f417-011">10.25080/majora-4af1f417-011</a></div></div>
+<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>Binder 2.0 - Reproducible, interactive, sharable environments for science at scale</strong> <div class="csl-block">Project Jupyter, Matthias Bussonnier, Jessica Forde, Jeremy Freeman, Brian Granger, Tim Head, Chris Holdgraf, Kyle Kelley, Gladys Nalvarte, Andrew Osheroff, … Carol Willing</div> <em>Proceedings of the Python in Science Conference</em> (2018) <a href="https://doi.org/gfwcm6">https://doi.org/gfwcm6</a> <div class="csl-block">DOI: <a href="https://doi.org/10.25080/majora-4af1f417-011">10.25080/majora-4af1f417-011</a></div></div>
 </div>
 <div id="ref-a9ZL41Of" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>K3D Jupyter</strong> <div class="csl-block">K3D-tools</div> (2023-02-28) <a href="https://github.com/K3D-tools/K3D-jupyter">https://github.com/K3D-tools/K3D-jupyter</a></div>
+<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>K3D Jupyter</strong> <div class="csl-block">K3D-tools</div> (2023-02-28) <a href="https://github.com/K3D-tools/K3D-jupyter">https://github.com/K3D-tools/K3D-jupyter</a></div>
 </div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>PLOS Computational Biology</em> (2019-06-24) <a href="https://doi.org/c7np">https://doi.org/c7np</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31233491">31233491</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6611653">PMC6611653</a></div></div>
 </div>
 </div>
-<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1" role="doc-endnote"><p>For which David made a tomographic scan of an adult zebrafish in 2016.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 <!-- default theme -->
 
 <style>
