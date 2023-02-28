@@ -5,7 +5,7 @@ Bruker
 centroid
 Charran
 cichlid
-cichlids
+Cichlids
 cinctus
 CSV
 Dask
@@ -31,7 +31,7 @@ Kastanienbaum
 Kontich
 kV
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki
@@ -45,16 +45,17 @@ NRecon
 NRRD
 OJs
 OleSeehausen
+OpenSCAD
 otolihts
-otolith
+Otolith
 otolithextraction
 otoliths
-otolits
 parametrized
 phylogenetic
 PJ
 PJs
 PNG
+README
 ROIs
 rrpp
 RStudio
@@ -64,6 +65,7 @@ ScanningDetails
 Seehausen
 SkyScan
 SlicerMorph
+smal
 Somerville
 speciation
 stereolithography
@@ -72,4 +74,3 @@ tomographically
 trophic
 voxel
 VTK
-zebrafish
