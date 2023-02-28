@@ -4,8 +4,8 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-Cichlid
-Cichlids
+cichlid
+cichlids
 cinctus
 csv
 Dask
@@ -48,7 +48,7 @@ OleSeehausen
 OpenSCAD
 otolith
 otolithextraction
-Otoliths
+otoliths
 parametrized
 phylogenetic
 PJ

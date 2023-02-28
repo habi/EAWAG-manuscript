@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/44b0a6595c7407d78a826f8280257b186594f1d0/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/44b0a6595c7407d78a826f8280257b186594f1d0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/44b0a6595c7407d78a826f8280257b186594f1d0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/be4e3fccb1f5f8b34b1a66fa7d183398909cd7a5/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/be4e3fccb1f5f8b34b1a66fa7d183398909cd7a5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/be4e3fccb1f5f8b34b1a66fa7d183398909cd7a5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/44b0a6595c7407d78a826f8280257b186594f1d0/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/be4e3fccb1f5f8b34b1a66fa7d183398909cd7a5/))
 was automatically generated
-from [habi/EAWAG-manuscript@44b0a65](https://github.com/habi/EAWAG-manuscript/tree/44b0a6595c7407d78a826f8280257b186594f1d0)
+from [habi/EAWAG-manuscript@be4e3fc](https://github.com/habi/EAWAG-manuscript/tree/be4e3fccb1f5f8b34b1a66fa7d183398909cd7a5)
 on February 28, 2023.
 </em></small>
 
@@ -152,11 +152,11 @@ on February 28, 2023.
 ## Technicalities (temporary)
 
 - The *canonical* version of the manuscript are the [Markdown](https://en.wikipedia.org/wiki/Markdown) files in the [`content` folder](https://github.com/habi/EAWAG-manuscript/tree/main/content) of the repository.
-- These files are automatically converted to a [website](https//habi.github.io/EAWAGmanuscript/) as well as a [PDF](https//habi.github.io/EAWAGmanuscript/manuscript.pdf) and [DOC](https//github.com/habi/EAWAGmanuscript/raw/output/manuscript.docx) file through [`manubot`](https//manubot.org/).
+- These files are automatically converted to a [website](https://habi.github.io/EAWAGmanuscript/) as well as a [PDF](https://habi.github.io/EAWAGmanuscript/manuscript.pdf) and [DOC](https://github.com/habi/EAWAGmanuscript/raw/output/manuscript.docx) file through [`manubot`](https://manubot.org/).
   You can read whichever file is most convenient for you.
   Each version/file contains a link to the version in the header just below the title.
   This version string is the so-called git hash of the repository.
-- On January 26, 2023 I've sent an email to the co-authors with [RFC](https//en.wikipedia.org/wiki/Request_for_Comments).
+- On January 26, 2023 I've sent an email to the co-authors with [RFC](https://en.wikipedia.org/wiki/Request_for_Comments).
   This version of the manuscript was [tagged as version 0.618](https://github.com/habi/EAWAG-manuscript/releases/tag/v0.618), and there have been some changes since then.
   You can visualize the changes made since then [here](https://github.com/habi/EAWAG-manuscript/compare/v0.618...main).
 
@@ -205,7 +205,7 @@ All samples were scanned on two of the three available high-resolution micro-CT 
 The fishes were sorted into 'bins' based on their physical size.
 We used a custom-made sample-holder to scan each of the fish in our machines.
 It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA), the file for printing the holder is available online [@https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl] as part of a library of sample holders for tomographic scanning of biomedical samples [@doi:10.5281/zenodo.2587555].
-The original OpenSCAD [@http://openscad.org/] file [@https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad] is parametrized to easily allow 3D-printing a sample holder accommodating the different width, height and length classes of the fishes we scanned.
+The original OpenSCAD [@https://openscad.org] file [@https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad] is parametrized to easily allow 3D-printing a sample holder accommodating the different width, height and length classes of the fishes we scanned.
 
 In total, we acquired 362 tomographic scans of 129 different fishes.
 All the scanning parameters are collected in a table in the [Supplementary Materials]; a generalized rundown is given below.
@@ -251,7 +251,7 @@ All analysis notebooks for this work are available online [@doi:10.5281/zenodo.6
 
 #### Preparation for analysis
 
-The [main Jupyter notebook](https//github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb) for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
+The [main Jupyter notebook](https://github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb) for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
 Briefly summarized the below process was implemented.
 
 At first, *all* log files of *all* the data present in the processed folder were read into a *pandas* [@doi:10.5281/zenodo.7093122] dataframe.
