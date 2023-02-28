@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/))
 was automatically generated
-from [habi/EAWAG-manuscript@33c815d](https://github.com/habi/EAWAG-manuscript/tree/33c815d5efa0b8f576acb018dadc4dc45ab662cc)
+from [habi/EAWAG-manuscript@5fbea47](https://github.com/habi/EAWAG-manuscript/tree/5fbea47a6cbf0eadff5927de48d21e9f23100957)
 on February 28, 2023.
 </em></small>
 
@@ -180,7 +180,7 @@ The oral jaws no longer need to process prey and can therefore specialize on pre
 The group of Ole Seehausen has studied the evolutionary diversification of cichlid fish radiations in Lake Victoria in Africa since a long time [@doi:10.1098/rspb.2006.3539; @doi:10.1111/nph.13450].
 We aim to to better understand the functional anatomy of the skulls and jaws in these fishes in order to test the functional decoupling and other hypotheses about what may facilitate exceptionally high rates of morphological evolution.
 
-The corpus of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
+The collection of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
 Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is a very well suited method for investigating the oral and pharyngeal jaws as well as the skull features of the fishes presented in this study.
 
 [TODO]: # (Add a bit on the backstory of those cichlids, and maybe publications relating to the corpus of fishes)
