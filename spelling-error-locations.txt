@@ -19,7 +19,6 @@ content/02.introduction.md:13:cichlid
 content/02.introduction.md:18:microtomography
 content/02.introduction.md:19:Microtomographic
 content/02.introduction.md:19:nondestructively
-content/02.introduction.md:19:smal
 content/02.introduction.md:20:microtomographic
 content/02.introduction.md:22:tomographically
 content/02.introduction.md:23:cichlid

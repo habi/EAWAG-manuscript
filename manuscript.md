@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/07442a72b96f5632e3256dd4dce47a6cc5efa09f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/07442a72b96f5632e3256dd4dce47a6cc5efa09f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/07442a72b96f5632e3256dd4dce47a6cc5efa09f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/69d346d6861a3219ddf1e14ebc2c09cad89557ee/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/07442a72b96f5632e3256dd4dce47a6cc5efa09f/))
 was automatically generated
-from [habi/EAWAG-manuscript@69d346d](https://github.com/habi/EAWAG-manuscript/tree/69d346d6861a3219ddf1e14ebc2c09cad89557ee)
+from [habi/EAWAG-manuscript@07442a7](https://github.com/habi/EAWAG-manuscript/tree/07442a72b96f5632e3256dd4dce47a6cc5efa09f)
 on February 28, 2023.
 </em></small>
 
@@ -185,7 +185,7 @@ Since micro–computed tomography can be regarded as nondestructive method for b
 ### Micro-computed tomography
 
 X-ray microtomography is a valuable tool to gain insights into the inner structure of very diverse samples, namely for specimens related to research done in the biomedical sciences.
-Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and smal [@Ford2023]..
+Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small [@Ford2023]..
 For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022; @Ford2023] or other authors [@https://osf.io/ecmz4].
 
 Depending on the structures of interest, biomedical samples are often tomographically scanned after the tissue/sample has been stained with a contrast agent, most often employing contrast agents containing heavy metals.
