@@ -157,7 +157,7 @@ content/04.discussion.md:14:otoliths
 content/04.discussion.md:16:datasets
 content/04.discussion.md:16:otolith
 content/04.discussion.md:16:otoliths
-content/04.discussion.md:17:otolihts
+content/04.discussion.md:17:otoliths
 content/04.discussion.md:19:otoliths
 content/04.discussion.md:19:otoliths
 content/04.discussion.md:20:otolith

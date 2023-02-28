@@ -4,10 +4,10 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-cichlid
+Cichlid
 Cichlids
 cinctus
-CSV
+csv
 Dask
 dataframe
 dataset
@@ -46,7 +46,6 @@ NRRD
 OJs
 OleSeehausen
 OpenSCAD
-otolihts
 otolith
 otolithextraction
 Otoliths
