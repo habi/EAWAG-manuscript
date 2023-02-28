@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/5fbea47a6cbf0eadff5927de48d21e9f23100957/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a/))
 was automatically generated
-from [habi/EAWAG-manuscript@5fbea47](https://github.com/habi/EAWAG-manuscript/tree/5fbea47a6cbf0eadff5927de48d21e9f23100957)
+from [habi/EAWAG-manuscript@e9be1f1](https://github.com/habi/EAWAG-manuscript/tree/e9be1f19a7a3e08520efc834431cde4dfe4c4d4a)
 on February 28, 2023.
 </em></small>
 
@@ -203,9 +203,6 @@ Since the structures of interest for the two studies we touch upon in this manus
 
 The fishes were kept in 75% Ethanol for long-term storage in the EAWAG fish collection.
 They were delivered to the Institute of Anatomy for micro-CT imaging sorted into several batches by approximately equal length.
-
-[TODO]: # (Can we cite a publication regarding the EAWAG fish library?)
-[TODO]: # (Were they transported to Bern as 'Gefahrengut'-Transport? This would be a remarkable little tidbit to add to the manuscript)
 
 ### Micro-computed tomographic imaging
 
