@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - x-ray micro-tomography
 lang: en-US
-date-meta: '2023-02-27'
+date-meta: '2023-02-28'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-02-27" />
-  <meta name="citation_publication_date" content="2023-02-27" />
+  <meta name="dc.date" content="2023-02-28" />
+  <meta name="citation_publication_date" content="2023-02-28" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/49f8b698b44febd16ce90d874c357a975fc6bac8/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/49f8b698b44febd16ce90d874c357a975fc6bac8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/49f8b698b44febd16ce90d874c357a975fc6bac8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/49f8b698b44febd16ce90d874c357a975fc6bac8/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/33c815d5efa0b8f576acb018dadc4dc45ab662cc/))
 was automatically generated
-from [habi/EAWAG-manuscript@49f8b69](https://github.com/habi/EAWAG-manuscript/tree/49f8b698b44febd16ce90d874c357a975fc6bac8)
-on February 27, 2023.
+from [habi/EAWAG-manuscript@33c815d](https://github.com/habi/EAWAG-manuscript/tree/33c815d5efa0b8f576acb018dadc4dc45ab662cc)
+on February 28, 2023.
 </em></small>
 
 ## Authors
@@ -173,8 +173,7 @@ Herein we present our method and an outlook on analyzing the acquired data; a mo
 ### History
 
 Cichlid fish in African lakes are a powerful model systems in speciation and adaptive evolutionary radiation research [@doi:10.1038/nrg1316; @doi:10.1098/rspb.2006.3539].
-The functional decoupling of their oral and pharyngeal jaws is hypothesized to be a factor in making cichlids unusually versatile in their feeding and making it possible for making them able to adapt to a wide range of environmental factors.
-[TODO]: # (Marcel would like to have a citation here, "possibly Liem198xx")
+The functional decoupling of their oral and pharyngeal jaws is hypothesized to be a factor in making cichlids unusually versatile in their feeding and making it possible for making them able to adapt to a wide range of environmental factors [@doi:10.2307/2412950].
 The hypothesis is that the fusion of the lower pharyngeal jaws makes them powerful food processing tools, and this in turn releases the oral jaws from functional constraint.
 The oral jaws no longer need to process prey and can therefore specialize on prey capture.
 
@@ -354,8 +353,9 @@ The extraction is robust because it is based on a combination of several intrica
 The details of the otolith extraction method have been tuned extensively by us and it now runs completely automatically, allowing for highly reproducible and completely unbiased extraction of the otoliths from the tomographic datasets.
 This is even the case for one fish which was scanned with still a hook in his mouth, where the otolihts were nonetheless extracted automatically.
 
-Data on such automatically extracted the otoliths, like volume and geometric information like eccentricity and moments of inertia could be biologically really interesting.
-However, one would first have to correlate the data on the otolits with the age of the fish, since the otoliths grow in the age.
+Data on such automatically extracted otoliths, like volume and geometric information like eccentricity and moments of inertia could be biologically really interesting as the otoliths grow with the age of the fish.
+However, one would first have to calibrate the data on the otolits length or volume with otoliths of fish of known age but this could help to estimate the age of wild fishes.
+Estimation of age of tropical fishes is not as simple as for fishes from temperate regions where one can distinguish summer and winter layers within the otolith.
 
 ### Outlook
 

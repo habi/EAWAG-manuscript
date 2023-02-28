@@ -30,7 +30,6 @@ kassthefish
 Kastanienbaum
 Kontich
 kV
-Liem
 microCT
 Microtomographic
 microtomography
@@ -47,9 +46,9 @@ NRRD
 OJs
 OleSeehausen
 otolihts
-otolith
+Otolith
 otolithextraction
-Otoliths
+otoliths
 otolits
 parametrized
 phylogenetic
@@ -69,7 +68,6 @@ Somerville
 speciation
 stereolithography
 thresholding
-TODO
 tomographically
 trophic
 voxel
