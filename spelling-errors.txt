@@ -4,7 +4,7 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-cichlid
+Cichlid
 cichlids
 cinctus
 csv
@@ -14,7 +14,6 @@ dataset
 datasets
 dorsoventral
 DSlicer
-DSlicer’s
 EAWAG
 Enterochromis
 Formlabs
@@ -42,18 +41,16 @@ mphaesler
 Mwaiko
 nondestructively
 NRecon
-NRRD
 OJs
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
 otoliths
 parametrized
 phylogenetic
 PJ
 PJs
-PNG
 README
 ROIs
 rrpp
