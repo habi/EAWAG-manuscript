@@ -86,9 +86,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -105,9 +105,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/91a539a60b248d7f137dc9594c5c118866adbb4f">habi/EAWAG-manuscript@91a539a</a>
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd">habi/EAWAG-manuscript@ecbf8b8</a>
 on March 1, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -219,7 +219,7 @@ All the specimens were scanned with their mouths facing downward in the sample h
 We thus manually aligned each of the reconstructed datasets so that the lateral axis of the fish was horizontal in relation to the x and y direction of the reconstructed slices.
 We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the <a href="#supplementary-materials">Supplementary Materials</a>).
 In total, this resulted in 1.4 TB of reconstruction images (nearly one million <code>*rec*.png</code> files).
-Each of the 362 scans we performed has on average about 2700 reconstruction images.
+Each of the 362 scans we performed has on average about 2700 reconstruction images.</p>
 <!---
 print('We have %s reconstructions on %s' % (Data['Number of reconstructions'].sum(), Root))
 
@@ -228,7 +228,7 @@ We have 992724 reconstructions on /home/habi/research-storage-iee
 print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round(Data['Number of reconstructions'].sum() / len(Data)), len(Data), len(Data.Fish.unique())))
 
 This is about 2720 reconstructions per scan (365 scans, 137 folders)
----></p>
+--->
 <p>While performing the work, a subset of the data was always present on the production system, for working with it (see <a href="#preparation-for-analysis">Preparation for analysis</a> below).
 A small bash script <span class="citation" data-cites="ZjgrPHTa">[<a href="#ref-ZjgrPHTa" role="doc-biblioref">13</a>]</span> was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the <code>Research Storage</code> infrastructure of the University of Bern, enabling easy collaboration on the data by all authorized persons at the same time.</p>
 <h3 id="data-analysis">Data analysis</h3>
@@ -262,15 +262,20 @@ These ROIs were then extracted in their native resolution from the original data
 Using the gray value thresholding function in <em>3D Slicer</em>’s <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html"><em>Segment Editor</em></a>, the teeth in both the oral and pharyngeal jaws were extracted.
 We used the <em>Scissor</em> and <em>Island</em> tools of the <em>Segment Editor</em> to isolate single regions.</p>
 <p>Processed regions of interest were exported as <code>NRRD</code> <span class="citation" data-cites="12B4h087w">[<a href="#ref-12B4h087w" role="doc-biblioref">21</a>]</span> files.
-The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure ?? for an example from the compilation document).
+The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure <a href="#fig:104016">1</a> for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.</p>
-<p><img src="images/104016.png" id="fig:104016" alt="Overview of data from sample 104016, Enterochromis I cinctus (St. E). The fish (as shown in the bottom left) has a length of 7 cm. The equilateral triangle encompassing the pharyngeal jaw in the middle of the bottom row has a side length of approximately 5.25 mm. The two cusps of the bicuspid teeth in the oral jaw are approximately 200 μm apart." />
+<div id="fig:104016" class="fignos">
+<figure>
+<img src="images/104016.png" alt="Figure 1: Overview of data from sample 104016, Enterochromis I cinctus (St. E). The fish (photo in bottom left) has a length of 7 cm. The equilateral triangle encompassing the pharyngeal jaw (middle of the bottom row) has a side length of approximately 5.25 mm. The two cusps of the bicuspid teeth in the oral jaw (top right) are approximately 200 μm apart." />
+<figcaption aria-hidden="true"><span>Figure 1:</span> Overview of data from sample 104016, <em>Enterochromis I cinctus</em> (St. E). The fish (photo in bottom left) has a length of 7 cm. The equilateral triangle encompassing the pharyngeal jaw (middle of the bottom row) has a side length of approximately 5.25 mm. The two cusps of the bicuspid teeth in the oral jaw (top right) are approximately 200 μm apart.</figcaption>
+</figure>
+</div>
 <!---
 - 104016 length is given as '<7 cm' in XLS sheet.
 - PJ triangle measured on MIP of 104016_PJ.seg.nrrd, giving 1067.208, 1024.018, 1040.663, i.e. 1045 px. Scanned at 5 um, this gives 5.219815 mm.
  as length in Fiji. 
 - Cusp distance measured on MIP of 104016_OJcrop.nrrd, giving 41.485, 39.850, 43.932, 48.600, i.e. 45 px. Scanned at 5 um, this gives 217 um.
----></p>
+--->
 <h4 id="principal-components-analysis-of-skull-landmarks">Principal components analysis of skull landmarks</h4>
 <p>Current studies are using 3D geometric morphometrics to compare the morphological shape of these scanned cichlids using statistical analysis.
 We used a homologous landmark scheme across one-half of the skull for higher density of shape information <span class="citation" data-cites="15FafMZm5 BDrCSu8p">[<a href="#ref-BDrCSu8p" role="doc-biblioref">7</a>,<a href="#ref-15FafMZm5" role="doc-biblioref">22</a>]</span>, and landmarks were placed on each specimen using 3DSlicer.
@@ -288,21 +293,21 @@ By extracting both the peaks and the peak widths of the gray values along both t
 The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.</p>
 <div id="fig:otolithextraction" class="fignos">
 <figure>
-<img src="images/104016.head.rec.otolither.position.png" alt="Figure 1: Visualization of automatic otolith extraction. The top row shows the found location of the otolith center in each of the three anatomical directions. The bottom row shows a MIP of each of the three anatomical directions of the extracted otolith region." />
-<figcaption aria-hidden="true"><span>Figure 1:</span> Visualization of automatic otolith extraction. The top row shows the found location of the otolith center in each of the three anatomical directions. The bottom row shows a MIP of each of the three anatomical directions of the extracted otolith region.</figcaption>
+<img src="images/104016.head.rec.otolither.position.png" alt="Figure 2: Visualization of automatic otolith extraction. The top row shows the found location of the otolith center in each of the three anatomical directions. The bottom row shows a MIP of each of the three anatomical directions of the extracted otolith region." />
+<figcaption aria-hidden="true"><span>Figure 2:</span> Visualization of automatic otolith extraction. The top row shows the found location of the otolith center in each of the three anatomical directions. The bottom row shows a MIP of each of the three anatomical directions of the extracted otolith region.</figcaption>
 </figure>
 </div>
-<p>Figure <a href="#fig:otolithextraction">1</a> shows the visualization of the process.
+<p>Figure <a href="#fig:otolithextraction">2</a> shows the visualization of the process.
 The colored horizontal and vertical bars in each of the directional MIPs denote the found peak location of the two appropriate values.
 The white bars show the mean of the to detected positions, which was used for extracting the otoliths from the original datasets.
 Making use of the <code>dask</code> library facilitated efficient access to all the data on disk and writing out small, cropped copies of the datasets around the otolith positions.</p>
-<p>By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure <a href="#fig:otolith3d">2</a>.
+<p>By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure <a href="#fig:otolith3d">3</a>.
 The extracted otoliths are thus prepared for further analysis and display.
 The simple three-dimensional visualization is integrated in the aforementiones Jupyter notebook through an integrated visualization library <span class="citation" data-cites="a9ZL41Of">[<a href="#ref-a9ZL41Of" role="doc-biblioref">28</a>]</span> and is also shown in the <a href="#supplementary-materials">Supplementary Materials</a>.</p>
 <div id="fig:otolith3d" class="fignos">
 <figure>
-<img src="images/104016.head.rec.otolith.region.3D.png" alt="Figure 2: Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the Supplementary Materials." />
-<figcaption aria-hidden="true"><span>Figure 2:</span> Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the <a href="#supplementary-materials">Supplementary Materials</a>.</figcaption>
+<img src="images/104016.head.rec.otolith.region.3D.png" alt="Figure 3: Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the Supplementary Materials." />
+<figcaption aria-hidden="true"><span>Figure 3:</span> Static three-dimensional view of extracted otolith of specimen 104016. The specimen was scanned with a voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the <a href="#supplementary-materials">Supplementary Materials</a>.</figcaption>
 </figure>
 </div>
 <p>The notebook for extracting the otoliths can be run in your browser without installing any additional software (via <em>Binder</em> <span class="citation" data-cites="Q20Bxdsr">[<a href="#ref-Q20Bxdsr" role="doc-biblioref">29</a>]</span>).
