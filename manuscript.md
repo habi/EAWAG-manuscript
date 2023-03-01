@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/5406c1e0e1fe0452c15d5a5b06cbcd808f5894a7/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/5406c1e0e1fe0452c15d5a5b06cbcd808f5894a7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/5406c1e0e1fe0452c15d5a5b06cbcd808f5894a7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/5406c1e0e1fe0452c15d5a5b06cbcd808f5894a7/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/91a539a60b248d7f137dc9594c5c118866adbb4f/))
 was automatically generated
-from [habi/EAWAG-manuscript@5406c1e](https://github.com/habi/EAWAG-manuscript/tree/5406c1e0e1fe0452c15d5a5b06cbcd808f5894a7)
+from [habi/EAWAG-manuscript@91a539a](https://github.com/habi/EAWAG-manuscript/tree/91a539a60b248d7f137dc9594c5c118866adbb4f)
 on March 1, 2023.
 </em></small>
 
@@ -287,7 +287,13 @@ Processed regions of interest were exported as `NRRD` [@https://w.wiki/5mBK] fil
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
-![Overview of data from sample 104016, *Enterochromis I cinctus* (St. E)](images/104016.png){#fig:104016}
+![Overview of data from sample 104016, *Enterochromis I cinctus* (St. E). The fish (as shown in the bottom left) has a length of 7 cm. The equilateral triangle encompassing the pharyngeal jaw in the middle of the bottom row has a side length of approximately 5.25 mm. The two cusps of the bicuspid teeth in the oral jaw are approximately 200 μm apart.](images/104016.png){#fig:104016}
+<!---
+- 104016 length is given as '<7 cm' in XLS sheet.
+- PJ triangle measured on MIP of 104016_PJ.seg.nrrd, giving 1067.208, 1024.018, 1040.663, i.e. 1045 px. Scanned at 5 um, this gives 5.219815 mm.
+ as length in Fiji. 
+- Cusp distance measured on MIP of 104016_OJcrop.nrrd, giving 41.485, 39.850, 43.932, 48.600, i.e. 45 px. Scanned at 5 um, this gives 217 um.
+--->
 
 #### Principal components analysis of skull landmarks
 

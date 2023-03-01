@@ -7,7 +7,7 @@ Charran
 Cichlid
 cichlids
 cinctus
-csv
+CSV
 Dask
 dataframe
 dataset
@@ -30,7 +30,7 @@ Kastanienbaum
 Kontich
 kV
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki
@@ -44,7 +44,7 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
 otoliths
 parametrized
