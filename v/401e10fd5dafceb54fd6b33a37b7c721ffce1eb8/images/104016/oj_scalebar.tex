@@ -1,0 +1,33 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}			% for drawing everything
+	\usetikzlibrary{spy}	% for zooming
+\usepackage{siunitx}		% for nice SI units
+\usepackage{shadowtext}	% for shadowed text on the scalebar
+	\shadowoffset{1pt}	% ideally the same as on line 13...
+	\shadowcolor{green}	% ideally the same as on line 13...
+\newcommand{\imsize}{\linewidth}% default width of image
+\newlength\imagewidth% needed for correct scalebar
+\newlength\imagescale% needed for correct scalebar
+\begin{document}%
+%----------
+\tikzset{shadowed/.style={preaction={transform canvas={shift={(1pt,-1pt)}},draw=green, thick}}} % shadowed drawing https://tex.stackexchange.com/a/185853/828
+\pgfmathsetlength{\imagewidth}{\imsize}%
+\pgfmathsetlength{\imagescale}{\imagewidth/1153}%
+\def\x{713}% scalebar-x starting at golden ratio of image width of 1153px = 713
+\def\y{734}% scalebar-y at 90% of image height of 815px = 734
+\def\mag{4}% magnification of inset
+\def\size{75}% size of inset
+\begin{tikzpicture}[x=\imagescale,y=-\imagescale,spy using outlines={rectangle,magnification=\mag,size=\size,connect spies}]
+	\begin{scope}
+		\clip (0,0) rectangle (1153,815);
+		%\clip (576.5,407.5) circle (407.5);
+		\node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=\imagewidth]{oj}};
+	\end{scope}
+	%\spy [red] on (853,515) in node at (0,0) [anchor=north west];
+	% 200.664px = 0.865mm -> 100px = 431.069um -> 115.991px = 500um, 23.198px = 100um
+	\draw[|-|,blue,thick] (533,336) -- (533,536) node [sloped,midway,above,fill=white,semitransparent,text opacity=1] {\SI{0.865}{\milli\meter} (201px) TEMPORARY!};
+	\draw[|-|,white,thick,shadowed] (\x,\y) -- (\x+115.991,\y) node [midway,above] {\shadowtext{\SI{500}{\micro\meter}}};
+	%\draw[color=red, anchor=south west] (0,815) node [fill=white, semitransparent] {Legend} node {Legend};
+\end{tikzpicture}%
+%----------
+\end{document}%
