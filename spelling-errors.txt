@@ -3,7 +3,7 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
 csv
@@ -42,9 +42,9 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
-Otoliths
+otoliths
 parametrized
 phylogenetic
 PJ

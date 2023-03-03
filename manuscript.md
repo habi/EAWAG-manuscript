@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/7bd8c31493192617f748e772ce955747e94883e2/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7bd8c31493192617f748e772ce955747e94883e2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7bd8c31493192617f748e772ce955747e94883e2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/7bd8c31493192617f748e772ce955747e94883e2/))
 was automatically generated
-from [habi/EAWAG-manuscript@dea7146](https://github.com/habi/EAWAG-manuscript/tree/dea714625e635743a44fd8fa38d0bb8923e06cb9)
+from [habi/EAWAG-manuscript@7bd8c31](https://github.com/habi/EAWAG-manuscript/tree/7bd8c31493192617f748e772ce955747e94883e2)
 on March 3, 2023.
 </em></small>
 
@@ -241,7 +241,7 @@ This is about 2720 reconstructions per scan (365 scans, 137 folders)
 --->
 
 While performing the work, a subset of the data was always present on the production system, for working with it (see [Preparation for analysis] below).
-A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `Research Storage` infrastructure of the University of Bern, enabling easy collaboration on the data by all authorized persons at the same time.
+A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the 'Research Storage' infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
 
 ### Data analysis
 
@@ -373,6 +373,7 @@ All the Jupyter notebook described herein is also freely available online [@doi:
 We thank Salome Mwaiko for taking care of the fish collection at Eawag and Mark Charran for helping to find suitable specimens to represent each species.
 We are grateful to the [Microscopy Imaging Center](https//www.mic.unibe.ch/) of the University of Bern for the infrastructural support.
 We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping us write this manuscript collaboratively.
+
 
 ## Supplementary Materials {.page_break_before}
 
