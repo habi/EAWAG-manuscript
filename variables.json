@@ -4,10 +4,10 @@
     "keywords": [
       "cichlids",
       "fish morphology",
-      "x-ray micro-tomography"
+      "X-ray micro-tomography"
     ],
     "lang": "en-US",
-    "date-meta": "2023-03-01",
+    "date-meta": "2023-03-03",
     "author-meta": [
       "David Haberthür",
       "Mikki Law",
@@ -16,7 +16,7 @@
       "Ole Seehausen",
       "Ruslan Hlushchuk"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta name=\"citation_title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta property=\"og:title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta property=\"twitter:title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta name=\"dc.date\" content=\"2023-03-01\" />\n<meta name=\"citation_publication_date\" content=\"2023-03-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberthür\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Mikki Law\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland\" />\n<meta name=\"citation_author\" content=\"Kassandra Ford\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, George Washington University\" />\n<meta name=\"citation_author_institution\" content=\"EAWAG Aquatic Research Institute, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4413-2633\" />\n<meta name=\"twitter:creator\" content=\"@kassthefish\" />\n<meta name=\"citation_author\" content=\"Marcel Häsler\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland\" />\n<meta name=\"citation_author\" content=\"Ole Seehausen\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6598-1434\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/EAWAG-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/EAWAG-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta name=\"citation_title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta property=\"og:title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta property=\"twitter:title\" content=\"Microtomographic investigation of a large corpus of cichlids\" />\n<meta name=\"dc.date\" content=\"2023-03-03\" />\n<meta name=\"citation_publication_date\" content=\"2023-03-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"David Haberthür\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3388-9187\" />\n<meta name=\"twitter:creator\" content=\"@habi\" />\n<meta name=\"citation_author\" content=\"Mikki Law\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland\" />\n<meta name=\"citation_author\" content=\"Kassandra Ford\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biological Sciences, George Washington University, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4413-2633\" />\n<meta name=\"twitter:creator\" content=\"@kassthefish\" />\n<meta name=\"citation_author\" content=\"Marcel Häsler\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland\" />\n<meta name=\"citation_author\" content=\"Ole Seehausen\" />\n<meta name=\"citation_author_institution\" content=\"Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_institution\" content=\"Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-6598-1434\" />\n<meta name=\"citation_author\" content=\"Ruslan Hlushchuk\" />\n<meta name=\"citation_author_institution\" content=\"Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-6722-8996\" />\n<link rel=\"canonical\" href=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta property=\"og:url\" content=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta property=\"twitter:url\" content=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://habi.github.io/EAWAG-manuscript/\" />\n<meta name=\"citation_pdf_url\" content=\"https://habi.github.io/EAWAG-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://habi.github.io/EAWAG-manuscript/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.bib"
     ],
@@ -26,7 +26,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "March 1, 2023",
+    "date": "March 3, 2023",
     "randomize_author_order": false,
     "authors": [
       {
@@ -49,7 +49,7 @@
         "email": "mikki.law@eawag.ch",
         "affiliations": [
           "Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland",
-          "Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland"
+          "Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland"
         ],
         "affiliation_numbers": [
           2,
@@ -64,14 +64,14 @@
         "twitter": "kassthefish",
         "email": "kassthefish@gmail.com",
         "affiliations": [
-          "Department of Biological Sciences, George Washington University",
-          "EAWAG Aquatic Research Institute, Switzerland",
+          "Department of Biological Sciences, George Washington University, USA",
+          "Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland",
           "Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland"
         ],
         "affiliation_numbers": [
           2,
-          4,
-          5
+          3,
+          4
         ]
       },
       {
@@ -80,7 +80,7 @@
         "email": "marcel.haesler@unibe.ch",
         "affiliations": [
           "Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland",
-          "Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland"
+          "Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland"
         ],
         "affiliation_numbers": [
           2,
@@ -94,7 +94,7 @@
         "email": "ole.seehausen@unibe.ch",
         "affiliations": [
           "Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland",
-          "Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland"
+          "Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland"
         ],
         "affiliation_numbers": [
           2,
@@ -125,16 +125,12 @@
         "affiliation_number": 2
       },
       {
-        "affiliation": "Department of Fish Ecology and Evolution, EAWAG, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland",
+        "affiliation": "Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland",
         "affiliation_number": 3
       },
       {
-        "affiliation": "Department of Biological Sciences, George Washington University",
+        "affiliation": "Department of Biological Sciences, George Washington University, USA",
         "affiliation_number": 4
-      },
-      {
-        "affiliation": "EAWAG Aquatic Research Institute, Switzerland",
-        "affiliation_number": 5
       }
     ],
     "ci_source": {
@@ -142,19 +138,19 @@
       "repo_slug": "habi/EAWAG-manuscript",
       "repo_owner": "habi",
       "repo_name": "EAWAG-manuscript",
-      "commit": "ecbf8b8c13bbc9698ae87459d07febe4779ec2dd",
-      "triggering_commit": "ecbf8b8c13bbc9698ae87459d07febe4779ec2dd",
-      "build_url": "https://github.com/habi/EAWAG-manuscript/commit/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/checks",
-      "job_url": "https://github.com/habi/EAWAG-manuscript/actions/runs/4308063644"
+      "commit": "dea714625e635743a44fd8fa38d0bb8923e06cb9",
+      "triggering_commit": "dea714625e635743a44fd8fa38d0bb8923e06cb9",
+      "build_url": "https://github.com/habi/EAWAG-manuscript/commit/dea714625e635743a44fd8fa38d0bb8923e06cb9/checks",
+      "job_url": "https://github.com/habi/EAWAG-manuscript/actions/runs/4322552777"
     },
     "html_url": "https://habi.github.io/EAWAG-manuscript/",
     "pdf_url": "https://habi.github.io/EAWAG-manuscript/manuscript.pdf",
-    "html_url_versioned": "https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/",
-    "pdf_url_versioned": "https://habi.github.io/EAWAG-manuscript/v/ecbf8b8c13bbc9698ae87459d07febe4779ec2dd/manuscript.pdf",
+    "html_url_versioned": "https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/",
+    "pdf_url_versioned": "https://habi.github.io/EAWAG-manuscript/v/dea714625e635743a44fd8fa38d0bb8923e06cb9/manuscript.pdf",
     "manubot_version": "0.5.2",
     "rootstock_commit": "9a22fab4497f80f501ea361d028f26888ad9d5a0",
     "manuscript_stats": {
-      "word_count": 3573
+      "word_count": 3571
     }
   }
 }
