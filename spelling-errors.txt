@@ -6,7 +6,7 @@ Charran
 cichlid
 cichlids
 cinctus
-csv
+CSV
 Dask
 dataframe
 dataset
@@ -28,7 +28,7 @@ Kastanienbaum
 Kontich
 kV
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki
