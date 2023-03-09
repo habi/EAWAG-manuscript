@@ -3,10 +3,10 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-cichlid
+Cichlid
 cichlids
 cinctus
-CSV
+csv
 Dask
 dataframe
 dataset
@@ -28,7 +28,7 @@ Kastanienbaum
 Kontich
 kV
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki

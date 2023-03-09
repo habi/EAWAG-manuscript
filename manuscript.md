@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-03-03'
+date-meta: '2023-03-09'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-03-03" />
-  <meta name="citation_publication_date" content="2023-03-03" />
+  <meta name="dc.date" content="2023-03-09" />
+  <meta name="citation_publication_date" content="2023-03-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/401e10fd5dafceb54fd6b33a37b7c721ffce1eb8/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/401e10fd5dafceb54fd6b33a37b7c721ffce1eb8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/401e10fd5dafceb54fd6b33a37b7c721ffce1eb8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/7be560a8b59bc90da05290dfe08206d89c8c0922/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7be560a8b59bc90da05290dfe08206d89c8c0922/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7be560a8b59bc90da05290dfe08206d89c8c0922/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/401e10fd5dafceb54fd6b33a37b7c721ffce1eb8/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/7be560a8b59bc90da05290dfe08206d89c8c0922/))
 was automatically generated
-from [habi/EAWAG-manuscript@401e10f](https://github.com/habi/EAWAG-manuscript/tree/401e10fd5dafceb54fd6b33a37b7c721ffce1eb8)
-on March 3, 2023.
+from [habi/EAWAG-manuscript@7be560a](https://github.com/habi/EAWAG-manuscript/tree/7be560a8b59bc90da05290dfe08206d89c8c0922)
+on March 9, 2023.
 </em></small>
 
 ## Authors
@@ -287,7 +287,7 @@ Processed regions of interest were exported as `Nrrd` [@https://w.wiki/5mBK] fil
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
-![Overview of data from sample 104016, *Enterochromis I cinctus* (St. E). The fish (photo in bottom left) has a length of 7 cm. The equilateral triangle encompassing the pharyngeal jaw (middle of the bottom row) has a side length of approximately 5.25 mm. The two cusps of the bicuspid teeth in the oral jaw (top right) are approximately 200 μm apart.](images/104016.png){#fig:104016}
+![Overview of data from sample 104016, *Enterochromis I cinctus* (St. E). Panel A: Three-dimensional visualization of the head scan. Panel B: Three-dimensional visualization of the oral jaw scan. Panel C: Photograph of the specimen. Panels D and E: Three-dimensional visualization of the pharyngeal jaw, dorsoventral and lateral view, respectively.](images/104016.png){#fig:104016}
 
 <!---
 - 104016 length is given as '<7 cm' in XLS sheet.
