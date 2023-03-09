@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/b51c69f9977811e53c7d45a0b4e87a75e04d4160/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/b51c69f9977811e53c7d45a0b4e87a75e04d4160/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/b51c69f9977811e53c7d45a0b4e87a75e04d4160/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/02170c0e569f674586ee1979f7ca04270709d605/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/02170c0e569f674586ee1979f7ca04270709d605/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/02170c0e569f674586ee1979f7ca04270709d605/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +84,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/b51c69f9977811e53c7d45a0b4e87a75e04d4160/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/02170c0e569f674586ee1979f7ca04270709d605/))
 was automatically generated
-from [habi/EAWAG-manuscript@b51c69f](https://github.com/habi/EAWAG-manuscript/tree/b51c69f9977811e53c7d45a0b4e87a75e04d4160)
+from [habi/EAWAG-manuscript@02170c0](https://github.com/habi/EAWAG-manuscript/tree/02170c0e569f674586ee1979f7ca04270709d605)
 on March 9, 2023.
 </em></small>
 
@@ -370,24 +370,24 @@ All the Jupyter notebook described herein is also freely available online [@doi:
 
 ## CRediT (Contributor Role Taxonomy) statements {.page_break_before}
 
-[Contributor Roles Taxonomy](https://credit.niso.org/), as defined [here](https://credit.niso.org/contributor-roles-defined/).
+[Contributor Roles Taxonomy](https://credit.niso.org/), as defined by the [National Information Standards Organization](https://credit.niso.org/contributor-roles-defined/).
 
-|                                                                                                | DH| ML| KF| MH| OS| RH|
-|------------------------------------------------------------------------------------------------|---|---|---|---|---|---|
-| [Conceptualization](https://credit.niso.org/contributor-roles/conceptualization/)              | X |   |   |   | X | X |
-| [Data curation](https://credit.niso.org/contributor-roles/data-curation/)                      | X | X |   |   |   |   |
-| [Formal analysis](https://credit.niso.org/contributor-roles/formal-analysis/)                  | X |   |   |   |   |   |
-| [Funding acquisition](https://credit.niso.org/contributor-roles/funding-acquisition/)          |   |   |   |   |   |   |
-| [Investigation](https://credit.niso.org/contributor-roles/investigation/)                      | X | X |   | X | X |   |
-| [Methodology](https://credit.niso.org/contributor-roles/methodology/)                          | X | X | X |   |   |   |
-| [Project administration](https://credit.niso.org/contributor-roles/project-administration/)    | X | X |   | X |   |   |
-| [Resources](https://credit.niso.org/contributor-roles/resources/)                              |   |   |   | X | X | X |
-| [Software](https://credit.niso.org/contributor-roles/software/)                                | X |   |   |   |   |   |
-| [Supervision](https://credit.niso.org/contributor-roles/supervision/)                          |   |   |   |   | X | X |
-| [Validation](https://credit.niso.org/contributor-roles/validation/)                            |   |   |   |   |   |   |
-| [Visualization](https://credit.niso.org/contributor-roles/visualization/)                      | X | X |   |   |   |   |
-| [Writing – original draft](https://credit.niso.org/contributor-roles/writing-original-draft/)  | X |   |   |   |   |   |
-| [Writing – review & editing](https://credit.niso.org/contributor-roles/writing-original-draft/)| X | X | X | X | X | X |
+|                                                                                                | DH | ML | KF | MH | OS | RH |
+|------------------------------------------------------------------------------------------------|----|----|----|----|----|----|
+| [Conceptualization](https://credit.niso.org/contributor-roles/conceptualization/)              | X  |    |    |    | X  | X  |
+| [Data curation](https://credit.niso.org/contributor-roles/data-curation/)                      | X  | X  |    |    |    |    |
+| [Formal analysis](https://credit.niso.org/contributor-roles/formal-analysis/)                  | X  |    |    |    |    |    |
+| [Funding acquisition](https://credit.niso.org/contributor-roles/funding-acquisition/)          |    |    |    |    |    |    |
+| [Investigation](https://credit.niso.org/contributor-roles/investigation/)                      | X  | X  |    | X  | X  |    |
+| [Methodology](https://credit.niso.org/contributor-roles/methodology/)                          | X  | X  | X  |    |    |    |
+| [Project administration](https://credit.niso.org/contributor-roles/project-administration/)    | X  | X  |    | X  |    |    |
+| [Resources](https://credit.niso.org/contributor-roles/resources/)                              |    |    |    | X  | X  | X  |
+| [Software](https://credit.niso.org/contributor-roles/software/)                                | X  |    |    |    |    |    |
+| [Supervision](https://credit.niso.org/contributor-roles/supervision/)                          |    |    |    |    | X  | X  |
+| [Validation](https://credit.niso.org/contributor-roles/validation/)                            |    |    |    |    |    |    |
+| [Visualization](https://credit.niso.org/contributor-roles/visualization/)                      | X  | X  |    |    |    |    |
+| [Writing – original draft](https://credit.niso.org/contributor-roles/writing-original-draft/)  | X  |    |    |    |    |    |
+| [Writing – review & editing](https://credit.niso.org/contributor-roles/writing-original-draft/)| X  | X  | X  | X  | X  | X  |
 
 ## Acknowledgments {.page_break_before}
 
