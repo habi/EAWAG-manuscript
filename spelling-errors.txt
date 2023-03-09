@@ -3,7 +3,7 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
 csv
@@ -31,7 +31,7 @@ Kontich
 kV
 MH
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
@@ -45,9 +45,9 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
-otoliths
+Otoliths
 parametrized
 phylogenetic
 PJ
