@@ -3,10 +3,11 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
 csv
+curation
 Dask
 dataframe
 dataset
@@ -25,8 +26,10 @@ Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
+KF
 Kontich
 kV
+MH
 microCT
 microtomographic
 microtomography
@@ -42,7 +45,7 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
 otoliths
 parametrized
