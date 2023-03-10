@@ -49,7 +49,9 @@ authors:
       - Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
     contributions:
+      - Investigation
       - Methodology
+      - Visualization
       - Writing – review & editing
   - github: mphaesler 
     name: Marcel Häsler
