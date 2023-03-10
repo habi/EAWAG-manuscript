@@ -14,12 +14,30 @@ authors:
     email: david.haberthuer@unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
+    contributions:
+      - Conceptualization
+      - Data curation
+      - Formal Analysis
+      - Investigation
+      - Methodology
+      - Project administration
+      - Software
+      - Visualization
+      - Writing – original draft
+      - Writing – review & editing  
   - github: mlaw-migalig
     name: Mikki Law
     email: mikki.law@eawag.ch
     affiliations:
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
       - Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
+    contributions:
+      - Data curation
+      - Investigation
+      - Methodology
+      - Project administration
+      - Visualization
+      - Writing – review & editing
   - github: kassthefish
     name: Kassandra Ford
     initials: KLF
@@ -30,12 +48,20 @@ authors:
       - Department of Biological Sciences, George Washington University, USA
       - Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
+    contributions:
+      - Methodology
+      - Writing – review & editing
   - github: mphaesler 
     name: Marcel Häsler
     email: marcel.haesler@unibe.ch
     affiliations:
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
       - Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
+    contributions:
+      - Investigation
+      - Project administration
+      - Resources
+      - Writing – review & editing
   - github: OleSeehausen
     name: Ole Seehausen
     orcid: 0000-0001-6598-1434
@@ -43,6 +69,12 @@ authors:
     affiliations:
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
       - Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
+    contributions:
+      - Conceptualization
+      - Investigation
+      - Resources
+      - Supervision
+      - Writing – review & editing
   - github: RuslanHlushchuk
     name: Ruslan Hlushchuk
     initials: RH
@@ -50,3 +82,8 @@ authors:
     email: ruslan.hlushchuk@unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
+    contributions:
+      - Conceptualization
+      - Resources
+      - Supervision
+      - Writing – review & editing
