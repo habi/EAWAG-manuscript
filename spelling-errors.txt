@@ -6,7 +6,7 @@ Charran
 cichlid
 cichlids
 cinctus
-CSV
+csv
 curation
 Dask
 dataframe
@@ -26,12 +26,10 @@ Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
-KF
 Kontich
 kV
-MH
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki
@@ -42,10 +40,12 @@ mphaesler
 Mwaiko
 nondestructively
 NRecon
+Nrrd
 OJs
+oldid
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
 otoliths
 parametrized

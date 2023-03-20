@@ -34,7 +34,6 @@ header-includes: |-
   <meta name="citation_author" content="David Haberthür" />
   <meta name="citation_author_institution" content="Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0003-3388-9187" />
-  <meta name="twitter:creator" content="@habi" />
   <meta name="citation_author" content="Mikki Law" />
   <meta name="citation_author_institution" content="Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland" />
   <meta name="citation_author_institution" content="Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland" />
@@ -43,7 +42,6 @@ header-includes: |-
   <meta name="citation_author_institution" content="Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland" />
   <meta name="citation_author_institution" content="Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland" />
   <meta name="citation_author_orcid" content="0000-0002-4413-2633" />
-  <meta name="twitter:creator" content="@kassthefish" />
   <meta name="citation_author" content="Marcel Häsler" />
   <meta name="citation_author_institution" content="Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland" />
   <meta name="citation_author_institution" content="Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland" />
@@ -60,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,9 +82,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/))
 was automatically generated
-from [habi/EAWAG-manuscript@53ffe92](https://github.com/habi/EAWAG-manuscript/tree/53ffe920f62e3c28c3297683ab58f583143c9be1)
+from [habi/EAWAG-manuscript@df85bd4](https://github.com/habi/EAWAG-manuscript/tree/df85bd4df3ba3428cdfa124ff7e4bae24df7e202)
 on March 20, 2023.
 </em></small>
 
@@ -99,8 +97,8 @@ on March 20, 2023.
     [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [habi](https://github.com/habi)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [habi](https://twitter.com/habi)<br>
+    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
+    [habi](https://mastodon.social/@habi)<br>
   <small>
      Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
   </small>
@@ -116,9 +114,7 @@ on March 20, 2023.
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-4413-2633](https://orcid.org/0000-0002-4413-2633)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [kassthefish](https://github.com/kassthefish)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [kassthefish](https://twitter.com/kassthefish)<br>
+    [kassthefish](https://github.com/kassthefish)<br>
   <small>
      Department of Biological Sciences, George Washington University, USA; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland; Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
   </small>
@@ -272,7 +268,7 @@ These ROIs were then extracted in their native resolution from the original data
 Using the gray value thresholding function in *3D Slicer*'s [*Segment Editor*](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html), the teeth in both the oral and pharyngeal jaws were extracted.
 We used the *Scissor* and *Island* tools of the *Segment Editor* to isolate single regions.
 
-Processed regions of interest were exported as `Nrrd` [@https://w.wiki/5mBK] files.
+Processed regions of interest were exported as `Nrrd` [@https://en.wikipedia.org/w/index.php?title=Nrrd&oldid=1085264080] files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
@@ -370,31 +366,14 @@ All the Jupyter notebook described herein is also freely available online [@doi:
 |Ole Seehausen|Conceptualization, Investigation, Resources, Supervision, Writing – review & editing|
 |Ruslan Hlushchuk|Conceptualization, Resources, Supervision, Writing – review & editing|
 
-|                                                                                                 | DH | ML | KF | MH | OS | RH |
-|-------------------------------------------------------------------------------------------------|----|----|----|----|----|----|
-| [Conceptualization](https://credit.niso.org/contributor-roles/conceptualization/)               | X  |    |    |    | X  | X  |
-| [Data curation](https://credit.niso.org/contributor-roles/data-curation/)                       | X  | X  |    |    |    |    |
-| [Formal analysis](https://credit.niso.org/contributor-roles/formal-analysis/)                   | X  |    |    |    |    |    |
-| [Funding acquisition](https://credit.niso.org/contributor-roles/funding-acquisition/)           |    |    |    |    |    |    |
-| [Investigation](https://credit.niso.org/contributor-roles/investigation/)                       | X  | X  |    | X  | X  |    |
-| [Methodology](https://credit.niso.org/contributor-roles/methodology/)                           | X  | X  | X  |    |    |    |
-| [Project administration](https://credit.niso.org/contributor-roles/project-administration/)     | X  | X  |    | X  |    |    |
-| [Resources](https://credit.niso.org/contributor-roles/resources/)                               |    |    |    | X  | X  | X  |
-| [Software](https://credit.niso.org/contributor-roles/software/)                                 | X  |    |    |    |    |    |
-| [Supervision](https://credit.niso.org/contributor-roles/supervision/)                           |    |    |    |    | X  | X  |
-| [Validation](https://credit.niso.org/contributor-roles/validation/)                             |    |    |    |    |    |    |
-| [Visualization](https://credit.niso.org/contributor-roles/visualization/)                       | X  | X  |    |    |    |    |
-| [Writing – original draft](https://credit.niso.org/contributor-roles/writing-original-draft/)   | X  |    |    |    |    |    |
-| [Writing – review & editing](https://credit.niso.org/contributor-roles/writing-review-editing/) | X  | X  | X  | X  | X  | X  |
-
-## Acknowledgments {.page_break_before}
+## Acknowledgments
 
 We thank Salome Mwaiko for taking care of the fish collection at Eawag and Mark Charran for helping to find suitable specimens to represent each species.
 We are grateful to the [Microscopy Imaging Center](https//www.mic.unibe.ch/) of the University of Bern for the infrastructural support.
 We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping us write this manuscript collaboratively.
 
 
-## Supplementary Materials {.page_break_before}
+## Supplementary Materials
 
 ### Parameters of tomographic scans of all the fishes
 
