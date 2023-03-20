@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,9 +82,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/df85bd4df3ba3428cdfa124ff7e4bae24df7e202/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/))
 was automatically generated
-from [habi/EAWAG-manuscript@df85bd4](https://github.com/habi/EAWAG-manuscript/tree/df85bd4df3ba3428cdfa124ff7e4bae24df7e202)
+from [habi/EAWAG-manuscript@65dc419](https://github.com/habi/EAWAG-manuscript/tree/65dc419f7498dacc309a8dc9a464954f7f56de91)
 on March 20, 2023.
 </em></small>
 
@@ -166,13 +166,13 @@ Even though the evolutionary diversification of cichlid fish radiations in Lake 
 We aim to better understand the functional anatomy of the skulls and jaws in these fishes in order to test the functional decoupling and other hypotheses about what may facilitate exceptionally high rates of morphological evolution.
 
 The collection of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
-Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is the ideal imaging method for investigating the oral and pharyngeal jaws as well as the skull features of the fishes presented in this study [@Ford2023].
+Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is the ideal imaging method for investigating the oral and pharyngeal jaws as well as the skull features of the fishes presented in this study [@doi:10.1093/iob/obad008].
 
 ### Micro-computed tomography
 
 X-ray microtomography is a valuable tool to gain insights into the inner structure of highly diverse samples, namely for specimens related to research done in the biomedical sciences.
-Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small [@Ford2023].
-For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022; @Ford2023] as well as other studies [@https://osf.io/ecmz4].
+Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small [@doi:10.1093/iob/obad008].
+For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022; @doi:10.1093/iob/obad008] as well as other studies [@https://osf.io/ecmz4].
 
 Depending on the structures of interest, biomedical samples are often only tomographically scanned after being stained with a contrast agent, most often employing contrast agents containing heavy metals.
 Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skulls) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
