@@ -93,8 +93,8 @@ content/03.materials.methods.results.md:111:phylogenetic
 content/03.materials.methods.results.md:111:trophic
 content/03.materials.methods.results.md:113:otoliths
 content/03.materials.methods.results.md:115:Otoliths
+content/03.materials.methods.results.md:117:cichlids
 content/03.materials.methods.results.md:117:otoliths
-content/03.materials.methods.results.md:117:robustely
 content/03.materials.methods.results.md:118:EAWAG
 content/03.materials.methods.results.md:118:habi
 content/03.materials.methods.results.md:118:Jupyter
@@ -156,9 +156,8 @@ content/04.discussion.md:20:otoliths
 content/04.discussion.md:21:otolith
 content/04.discussion.md:22:otolith
 content/04.discussion.md:26:datasets
-content/04.discussion.md:28:Kassandra
-content/04.discussion.md:30:datasets
-content/04.discussion.md:32:Jupyter
+content/04.discussion.md:28:datasets
+content/04.discussion.md:30:Jupyter
 content/06.acknowledgments.md:3:Charran
 content/06.acknowledgments.md:3:Eawag
 content/06.acknowledgments.md:3:Mwaiko

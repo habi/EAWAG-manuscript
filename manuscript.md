@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,9 +82,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/65dc419f7498dacc309a8dc9a464954f7f56de91/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/))
 was automatically generated
-from [habi/EAWAG-manuscript@65dc419](https://github.com/habi/EAWAG-manuscript/tree/65dc419f7498dacc309a8dc9a464954f7f56de91)
+from [habi/EAWAG-manuscript@1e4ab7d](https://github.com/habi/EAWAG-manuscript/tree/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775)
 on March 20, 2023.
 </em></small>
 
@@ -163,15 +163,15 @@ The hypothesis is that the fusion of the lower pharyngeal jaws makes that jaw sy
 The oral jaws no longer need to process prey and can therefore specialize on prey capture.
 
 Even though the evolutionary diversification of cichlid fish radiations in Lake Victoria in Africa is a well-researched issue it remains a complex system in need of further study [@doi:10.1098/rspb.2006.3539; @doi:10.1111/nph.13450].
-We aim to better understand the functional anatomy of the skulls and jaws in these fishes in order to test the functional decoupling and other hypotheses about what may facilitate exceptionally high rates of morphological evolution.
+We aim to better understand the functional anatomy of the skulls and jaws in these fish in order to test the functional decoupling and other hypotheses about what may facilitate exceptionally high rates of morphological evolution.
 
 The collection of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
-Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is the ideal imaging method for investigating the oral and pharyngeal jaws as well as the skull features of the fishes presented in this study [@doi:10.1093/iob/obad008].
+Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is the ideal imaging method for investigating the oral and pharyngeal jaws as well as the skull features of the fish presented in this study [@doi:10.1093/iob/obad008].
 
 ### Micro-computed tomography
 
 X-ray microtomography is a valuable tool to gain insights into the inner structure of highly diverse samples, namely for specimens related to research done in the biomedical sciences.
-Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different kind of fishes, large and small [@doi:10.1093/iob/obad008].
+Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different fish species, large and small [@doi:10.1093/iob/obad008].
 For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022; @doi:10.1093/iob/obad008] as well as other studies [@https://osf.io/ecmz4].
 
 Depending on the structures of interest, biomedical samples are often only tomographically scanned after being stained with a contrast agent, most often employing contrast agents containing heavy metals.
@@ -182,22 +182,22 @@ Since the structures of interest for the two studies we touch upon in this manus
 
 ### Sample procurement and preparation
 
-The fishes were kept in 75% ethanol for long-term storage at the Swiss Federal Institute of Aquatic Science and Technology (Eawag).
+The fish were kept in 75% ethanol for long-term storage at the Swiss Federal Institute of Aquatic Science and Technology (Eawag).
 They were delivered to the Institute of Anatomy for micro-CT imaging sorted into batches of approximately equal length.
 
 ### Micro-computed tomographic imaging
 
 All samples were scanned on two of the three available high-resolution micro-CT machines of the Institute of Anatomy of the University of Bern in Switzerland, a SkyScan 1272 and a SkyScan 2214 (both Bruker microCT, Kontich, Belgium).
 
-The fishes were sorted into 'bins' based on their physical size.
+The fish were sorted into 'bins' based on their physical size.
 We used a custom-made sample-holder to scan each of the fish in our machines.
 It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA), the file for printing the holder is available online [@https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl] as part of a library of sample holders for tomographic scanning of biomedical samples [@doi:10.5281/zenodo.2587555].
-The original *OpenSCAD* [@https://openscad.org] file [@https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad] is parametrized to effortlessly generate a file for 3D-printing sample holders to accommodate the varying width, height and length classes of the fishes.
+The original *OpenSCAD* [@https://openscad.org] file [@https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad] is parametrized to effortlessly generate a file for 3D-printing sample holders to accommodate the varying width, height and length classes of the fish.
 
-In total, we acquired 362 tomographic scans of 129 different fishes.
+In total, we acquired 362 tomographic scans of 129 different specimens.
 All the scanning parameters are collected in a table in the [Supplementary Materials]; a generalized rundown is given below.
 
-Since the fishes greatly varied in their length (specimen length varied between 6 cm and 18 cm), the voxel sizes of each of the acquired datasets also varies greatly.
+Since the fish greatly varied in their length (specimen length varied between 6 cm and 18 cm), the voxel sizes of each of the acquired datasets also varies greatly.
 We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 <!---
 12  103637  rec   3.499972
@@ -205,7 +205,7 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 --->
 
 Depending on the size of the specimen we set the X-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
-Also depending on the size of the fishes, the X-ray spectrum was filtered either by an aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm) before digitization to projection images or recorded in an unfiltered way.
+The X-ray spectrum was filtered either by an aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm for increasing specimen size) before digitization to projection images or recorded in an unfiltered way (for smaller specimen).
 In total we recorded 9.5 TB of projection images (`TIFF` and `*.iif` files, where the `*.iif` files are for the so-called alignment scans).
 
 All the recorded projection images were subsequently reconstructed into virtual 3D stacks of axial `PNG` images spanning the regions of interest of each fish.
@@ -232,7 +232,7 @@ A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh]
 
 We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the images and wrangle the acquired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
-Re-runs of the notebook added newly scanned and reconstructed fishes to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.
+Re-runs of the notebook added newly scanned and reconstructed data to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.
 
 All analysis notebooks for this work are available online [@doi:10.5281/zenodo.6798632].
 
@@ -259,7 +259,7 @@ This is an efficient way for double-checking the gray value mapping, since the M
 
 #### Extraction of oral and pharyngeal jaws, visualization of tomographic data
 
-To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fishes, we used [*3D Slicer*](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the *SlicerMorph* tools [@doi:10.1111/2041-210X.13669] which aim to help biologists work with 3D specimen data.
+To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fish, we used [*3D Slicer*](https://www.slicer.org) (Version 4.11.20210226) [@doi:10.1016/j.mri.2012.05.001] extended with the *SlicerMorph* tools [@doi:10.1111/2041-210X.13669] which aim to help biologists work with 3D specimen data.
 The reconstructed image stacks were loaded into [*ImageStacks*](https://www.slicer.org/wiki/Documentation/Labs/ImageStacks), depending on their size we reduced the image resolution (i.e. downscaled the images) for this first step.
 The three-dimensional volume was rendered via [*VTK GPU Ray Casting*](https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html).
 A custom-made volume property was used as an input to view the scans.
@@ -294,10 +294,10 @@ We then used phylogenetic information to identify instances of repeated evolutio
 
 Otoliths are structures made up of mostly calcium carbonate located in the head of fishes.
 Due to their composition, they are easily distinguished in the X-ray images we acquired.
-We devised an image processing method to automatically and robustely detect the location of the otoliths in the heads of the fishes and extract them from the original data.
+We devised an image processing method to automatically and robustly detect the location of the otoliths in the heads of the cichlids we scanned and to extract them from the original data.
 The whole method is implemented in its own [*Jupyter* notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) (part of the aforementioned analysis repository [@doi:10.5281/zenodo.6798632]).
 
-Since we took great care to scan the fishes parallel to their anteroposterior direction and reconstructed the tomographic datasets parallel to the lateral and dorsoventral direction of the fishes we could use this 'preparation' for automatically extracting the otoliths the tomographic datasets of the whole fish heads.
+Since we took great care to scan the fish parallel to their anteroposterior direction and reconstructed the tomographic datasets parallel to the lateral and dorsoventral direction of the fish we could use this 'preparation' for automatically extracting the otoliths the tomographic datasets of the whole fish heads.
 By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
 The robust detection is supported by suppressing a small, configurable part of each region, i.e. the front and back, top and bottom or the flanks.
 
@@ -310,29 +310,29 @@ Making use of the *Dask* library facilitated efficient access to all the data on
 
 By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure @fig:otolith3d.
 The extracted otoliths are thus prepared for further analysis and visualization.
-The simple three-dimensional visualization is integrated in the aforementioned Jupyter notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter] and is also shown in the [Supplementary Materials].
+The simple three-dimensional visualization is integrated in the aforementioned *Jupyter* notebook through an integrated visualization library [@https://github.com/K3D-tools/K3D-jupyter] and is also shown in the [Supplementary Materials].
 
 ![Static three-dimensional view of extracted otoliths of specimen 104016. The specimen was scanned with an isotropic voxel size of 13 μm. The extracted otolith has a size of approximately 250 x 350 x 150 pixels. The axes are labeled in mm steps. A dynamic view of the visualization is available in the [Supplementary Materials].](images/104016.head.rec.otolith.region.3D.png){#fig:otolith3d}
 
 The notebook for extracting the otoliths can be run in your browser without installing any additional software (via *Binder* [@doi:10.25080/majora-4af1f417-011]).
 To do this, one starts the notebook by [clicking a single button](https://mybinder.org/v2/gh/habi/eawag/HEAD?labpath=ExtractOtoliths.ipynb) in the [README file](https://github.com/habi/EAWAG/blob/master/README.md) of the [project repository](https://github.com/habi/EAWAG) [@doi:10.5281/zenodo.6798632].
-This starts a free computing environment in the cloud, downloads the tomographic data of *one* fish and performs the otolith extraction and visualization in your browser.
+This starts a computing environment in the cloud, downloads the tomographic data we acquired of *one* specimen, and performs both the otolith extraction and visualization in your browser.
 
 
 ## Discussion {.page_break_before}
 
 We acquired high resolution tomographic datasets of a large collection of cichlids.
-The acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. the structure of the teeth) and having datasets spanning the whole region of interest of the fishes (i.e. the whole head for principle components analysis)
+The acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. the structure of the teeth) and having datasets spanning the whole region of interest of the fish (i.e. the whole head for principle components analysis).
 
 ### Imaging and preparation for analysis
 
 The whole study we presented here spanned a *long* time frame.
-It was thus paramount to make the imaging process and preparation of the tomographic datasets able to run in batch-mode.
-The Jupyter notebook written to prepare the datasets for quality control and analysis were facilitating a short turnaround time for feedback on single scans.
+It was thus paramount to run the imaging process and the preparation of the tomographic datasets in a batched mode.
+The *Jupyter* notebook written to prepare the datasets for quality control and analysis were facilitating a short turnaround time for feedback on single scans and such a batched analysis.
 
 ### Otolith extraction
 
-The method to extract the otoliths of the fishes from the tomographic dataset works robustly for all of the different fish sizes and shapes.
+The method to extract the otoliths from the tomographic dataset works robustly for all of the different fish sizes and shapes.
 The extraction is robust because it is based on a combination of distinct details of the gray value curve over the different anatomical directions.
 The details of the otolith extraction method have been extensively tuned and run in a fully automatic way.
 This allows a highly reproducible and unbiased extraction of the otoliths from the tomographic datasets.
@@ -346,11 +346,9 @@ It is worth nothing that estimation of age of tropical fishes is not as simple a
 
 The acquired tomographic datasets are the basis for multiple additional analyses of fish morphology.
 
-[TODO]: # (*Very* briefly mention further work from Kassandra and 'another Postdoc' that Ole mentioned.)
-
-The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fishes.
+The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fish.
 The workflow is relying only on free and open-source software and can thus be used and verified independently by any interested reader.
-All the Jupyter notebook described herein is also freely available online [@doi:10.5281/zenodo.6798632].
+All the *Jupyter* notebook described herein is also freely available online [@doi:10.5281/zenodo.6798632].
 
 
 ## Author Contributions {.page_break_before}
