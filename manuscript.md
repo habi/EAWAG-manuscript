@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-03-10'
+date-meta: '2023-03-20'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-03-10" />
-  <meta name="citation_publication_date" content="2023-03-10" />
+  <meta name="dc.date" content="2023-03-20" />
+  <meta name="citation_publication_date" content="2023-03-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -60,9 +60,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/260546cb064440718e3f581ca48e04ffb51baaec/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/260546cb064440718e3f581ca48e04ffb51baaec/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/260546cb064440718e3f581ca48e04ffb51baaec/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,10 +84,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/260546cb064440718e3f581ca48e04ffb51baaec/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/53ffe920f62e3c28c3297683ab58f583143c9be1/))
 was automatically generated
-from [habi/EAWAG-manuscript@260546c](https://github.com/habi/EAWAG-manuscript/tree/260546cb064440718e3f581ca48e04ffb51baaec)
-on March 10, 2023.
+from [habi/EAWAG-manuscript@53ffe92](https://github.com/habi/EAWAG-manuscript/tree/53ffe920f62e3c28c3297683ab58f583143c9be1)
+on March 20, 2023.
 </em></small>
 
 ## Authors
@@ -148,17 +148,6 @@ on March 10, 2023.
      Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
   </small>
 
-
-## Technicalities (temporary)
-
-- The *canonical* version of the manuscript are the [Markdown](https://en.wikipedia.org/wiki/Markdown) files in the [`content` folder](https://github.com/habi/EAWAG-manuscript/tree/main/content) of the repository.
-- These files are automatically converted to a [website](https://habi.github.io/EAWAGmanuscript/) as well as a [PDF](https://habi.github.io/EAWAGmanuscript/manuscript.pdf) and [DOC](https://github.com/habi/EAWAGmanuscript/raw/output/manuscript.docx) file through [`manubot`](https://manubot.org/).
-  You can read whichever file is most convenient for you.
-  Each version/file contains a link to the version in the header just below the title.
-  This version string is the so-called git hash of the repository.
-- On January 26, 2023 I've sent an email to the co-authors with [RFC](https://en.wikipedia.org/wiki/Request_for_Comments).
-  This version of the manuscript was [tagged as version 0.618](https://github.com/habi/EAWAG-manuscript/releases/tag/v0.618), and there have been some changes since then.
-  You can visualize the changes made since then [here](https://github.com/habi/EAWAG-manuscript/compare/v0.618...main).
 
 ## Abstract {.page_break_before}
 
@@ -372,20 +361,29 @@ All the Jupyter notebook described herein is also freely available online [@doi:
 
 [Contributor Roles Taxonomy](https://credit.niso.org/), as defined by the [National Information Standards Organization](https://credit.niso.org/contributor-roles-defined/).
 
+|Author|Contributions|
+|---|---|
+|David Haberthür|Conceptualization, Data curation, Formal Analysis, Investigation, Methodology, Project administration, Software, Visualization, Writing – original draft, Writing – review & editing|
+|Mikki Law|Data curation, Investigation, Methodology, Project administration, Visualization, Writing – review & editing|
+|Kassandra Ford|Investigation, Methodology, Visualization, Writing – review & editing|
+|Marcel Häsler|Investigation, Project administration, Resources, Writing – review & editing|
+|Ole Seehausen|Conceptualization, Investigation, Resources, Supervision, Writing – review & editing|
+|Ruslan Hlushchuk|Conceptualization, Resources, Supervision, Writing – review & editing|
+
 |                                                                                                 | DH | ML | KF | MH | OS | RH |
 |-------------------------------------------------------------------------------------------------|----|----|----|----|----|----|
 | [Conceptualization](https://credit.niso.org/contributor-roles/conceptualization/)               | X  |    |    |    | X  | X  |
 | [Data curation](https://credit.niso.org/contributor-roles/data-curation/)                       | X  | X  |    |    |    |    |
 | [Formal analysis](https://credit.niso.org/contributor-roles/formal-analysis/)                   | X  |    |    |    |    |    |
 | [Funding acquisition](https://credit.niso.org/contributor-roles/funding-acquisition/)           |    |    |    |    |    |    |
-| [Investigation](https://credit.niso.org/contributor-roles/investigation/)                       | X  | X  | X  | X  | X  |    |
+| [Investigation](https://credit.niso.org/contributor-roles/investigation/)                       | X  | X  |    | X  | X  |    |
 | [Methodology](https://credit.niso.org/contributor-roles/methodology/)                           | X  | X  | X  |    |    |    |
 | [Project administration](https://credit.niso.org/contributor-roles/project-administration/)     | X  | X  |    | X  |    |    |
 | [Resources](https://credit.niso.org/contributor-roles/resources/)                               |    |    |    | X  | X  | X  |
 | [Software](https://credit.niso.org/contributor-roles/software/)                                 | X  |    |    |    |    |    |
 | [Supervision](https://credit.niso.org/contributor-roles/supervision/)                           |    |    |    |    | X  | X  |
 | [Validation](https://credit.niso.org/contributor-roles/validation/)                             |    |    |    |    |    |    |
-| [Visualization](https://credit.niso.org/contributor-roles/visualization/)                       | X  | X  | X  |    |    |    |
+| [Visualization](https://credit.niso.org/contributor-roles/visualization/)                       | X  | X  |    |    |    |    |
 | [Writing – original draft](https://credit.niso.org/contributor-roles/writing-original-draft/)   | X  |    |    |    |    |    |
 | [Writing – review & editing](https://credit.niso.org/contributor-roles/writing-review-editing/) | X  | X  | X  | X  | X  | X  |
 

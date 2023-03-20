@@ -1,12 +1,3 @@
-content/00.front-matter.md:55:EAWAG
-content/00.front-matter.md:55:habi
-content/00.front-matter.md:56:habi
-content/00.front-matter.md:56:habi
-content/00.front-matter.md:56:habi
-content/00.front-matter.md:61:EAWAG
-content/00.front-matter.md:61:habi
-content/00.front-matter.md:62:EAWAG
-content/00.front-matter.md:62:habi
 content/01.abstract.md:3:cichlids
 content/01.abstract.md:3:nondestructively
 content/01.abstract.md:4:datasets
@@ -163,10 +154,10 @@ content/04.discussion.md:26:datasets
 content/04.discussion.md:28:Kassandra
 content/04.discussion.md:30:datasets
 content/04.discussion.md:32:Jupyter
-content/05.credit.md:5:KF
-content/05.credit.md:5:MH
-content/05.credit.md:8:curation
-content/05.credit.md:8:curation
+content/05.credit.md:9:KF
+content/05.credit.md:9:MH
+content/05.credit.md:12:curation
+content/05.credit.md:12:curation
 content/06.acknowledgments.md:3:Charran
 content/06.acknowledgments.md:3:Eawag
 content/06.acknowledgments.md:3:Mwaiko
