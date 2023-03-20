@@ -3,10 +3,10 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
-CSV
+csv
 curation
 Dask
 dataframe

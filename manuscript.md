@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,9 +82,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/))
 was automatically generated
-from [habi/EAWAG-manuscript@1e4ab7d](https://github.com/habi/EAWAG-manuscript/tree/1e4ab7dbcf3d06fee7b6513c2a40efd8b21fa775)
+from [habi/EAWAG-manuscript@0e9c55a](https://github.com/habi/EAWAG-manuscript/tree/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680)
 on March 20, 2023.
 </em></small>
 
@@ -94,8 +94,8 @@ on March 20, 2023.
 
 + **David Haberthür**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [habi](https://github.com/habi)
     · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
     [habi](https://mastodon.social/@habi)<br>
@@ -104,7 +104,7 @@ on March 20, 2023.
   </small>
 
 + **Mikki Law**<br>
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mlaw-migalig](https://github.com/mlaw-migalig)<br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
@@ -112,15 +112,15 @@ on March 20, 2023.
 
 + **Kassandra Ford**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-4413-2633](https://orcid.org/0000-0002-4413-2633)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0002-4413-2633](https://orcid.org/0000-0002-4413-2633) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [kassthefish](https://github.com/kassthefish)<br>
   <small>
      Department of Biological Sciences, George Washington University, USA; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland; Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
   </small>
 
 + **Marcel Häsler**<br>
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mphaesler](https://github.com/mphaesler)<br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
@@ -128,8 +128,8 @@ on March 20, 2023.
 
 + **Ole Seehausen**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6598-1434](https://orcid.org/0000-0001-6598-1434)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0001-6598-1434](https://orcid.org/0000-0001-6598-1434) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [OleSeehausen](https://github.com/OleSeehausen)<br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
@@ -137,8 +137,8 @@ on March 20, 2023.
 
 + **Ruslan Hlushchuk**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [RuslanHlushchuk](https://github.com/RuslanHlushchuk)<br>
   <small>
      Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
