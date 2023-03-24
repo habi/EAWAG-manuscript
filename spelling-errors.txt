@@ -3,10 +3,10 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-cichlid
+Cichlid
 cichlids
 cinctus
-CSV
+csv
 curation
 Dask
 dataframe
@@ -29,7 +29,7 @@ Kastanienbaum
 Kontich
 kV
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
@@ -40,9 +40,7 @@ mphaesler
 Mwaiko
 nondestructively
 NRecon
-Nrrd
 OJs
-oldid
 OleSeehausen
 OpenSCAD
 otolith

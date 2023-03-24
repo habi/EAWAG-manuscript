@@ -68,17 +68,12 @@ content/03.materials.methods.results.md:86:ROIs
 content/03.materials.methods.results.md:87:dataset
 content/03.materials.methods.results.md:87:ROIs
 content/03.materials.methods.results.md:88:thresholding
-content/03.materials.methods.results.md:91:Nrrd
-content/03.materials.methods.results.md:91:Nrrd
-content/03.materials.methods.results.md:91:oldid
 content/03.materials.methods.results.md:95:cinctus
 content/03.materials.methods.results.md:95:dorsoventral
 content/03.materials.methods.results.md:95:Enterochromis
 content/03.materials.methods.results.md:99:MIP
-content/03.materials.methods.results.md:99:nrrd
 content/03.materials.methods.results.md:99:PJ
 content/03.materials.methods.results.md:101:MIP
-content/03.materials.methods.results.md:101:nrrd
 content/03.materials.methods.results.md:106:cichlids
 content/03.materials.methods.results.md:106:morphometrics
 content/03.materials.methods.results.md:108:geomorph
