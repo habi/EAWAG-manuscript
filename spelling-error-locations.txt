@@ -177,7 +177,8 @@ content/07.supplementary.md:11:EAWAG
 content/07.supplementary.md:11:EAWAG
 content/07.supplementary.md:11:habi
 content/07.supplementary.md:11:habi
-content/07.supplementary.md:11:otolith
+content/07.supplementary.md:11:jupyter
+content/07.supplementary.md:11:jupyter
 content/07.supplementary.md:11:otolith
 content/07.supplementary.md:11:otolith
 content/07.supplementary.md:12:EAWAG

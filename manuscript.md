@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-03-20'
+date-meta: '2023-03-24'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-03-20" />
-  <meta name="citation_publication_date" content="2023-03-20" />
+  <meta name="dc.date" content="2023-03-24" />
+  <meta name="citation_publication_date" content="2023-03-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/7351cc86f420b9a5030e2b3bb208610c74a7452e/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7351cc86f420b9a5030e2b3bb208610c74a7452e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/7351cc86f420b9a5030e2b3bb208610c74a7452e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,10 +82,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/7351cc86f420b9a5030e2b3bb208610c74a7452e/))
 was automatically generated
-from [habi/EAWAG-manuscript@0e9c55a](https://github.com/habi/EAWAG-manuscript/tree/0e9c55ae3943f7d4ca5b59042d9e1ca0a14f6680)
-on March 20, 2023.
+from [habi/EAWAG-manuscript@7351cc8](https://github.com/habi/EAWAG-manuscript/tree/7351cc86f420b9a5030e2b3bb208610c74a7452e)
+on March 24, 2023.
 </em></small>
 
 ## Authors
@@ -381,8 +381,8 @@ A copy of each log file is available in a [folder in the data processing reposit
 
 ### Three-dimensional view of *one* of the extracted otoliths
 
-The three-dimensional view of sample 104016 was generated in [the otolith extraction notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) and saved as [104016.head.rec.otolith.region.3D.html](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html) file.
-A fully functional copy can be viewed through the [GitHub HTML preview](https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html).
+The three-dimensional view of sample 104016 was generated in [the otolith extraction notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) and saved as a [self-contained `HTML` file](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html) with [*K3D-jupyter*](https://github.com/K3D-tools/K3D-jupyter).
+A copy of this `HTML` file can be viewed and interacted with through the [GitHub HTML preview](https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html).
 
 
 ## References {.page_break_before}
