@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/28b5ef4292af6482c468d122d13eff28abb425a0/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/28b5ef4292af6482c468d122d13eff28abb425a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/28b5ef4292af6482c468d122d13eff28abb425a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,9 +82,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/28b5ef4292af6482c468d122d13eff28abb425a0/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/))
 was automatically generated
-from [habi/EAWAG-manuscript@28b5ef4](https://github.com/habi/EAWAG-manuscript/tree/28b5ef4292af6482c468d122d13eff28abb425a0)
+from [habi/EAWAG-manuscript@952873a](https://github.com/habi/EAWAG-manuscript/tree/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b)
 on March 30, 2023.
 </em></small>
 
@@ -145,7 +145,7 @@ on March 30, 2023.
   </small>
 
 
-i## Abstract {.page_break_before}
+## Abstract {.page_break_before}
 
 A large collection of cichlids from Lake Victoria in Africa spanning a length range of 6 to 18 cm was nondestructively imaged using micro-computed tomography.
 We describe our method to efficiently obtain three-dimensional tomographic datasets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
