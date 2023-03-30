@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,14 +77,16 @@ manubot-clear-requests-cache: false
 
 
 
-
+_A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
+_We submitted the manuscript to [Review Commons](https://www.reviewcommons.org/), aiming for [PLOS ONE](https://journals.plos.org/plosone/)._
+_We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0), the version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...3dd6a9c3365f142fe968ee2354250732aafbdd55) since then._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/))
 was automatically generated
-from [habi/EAWAG-manuscript@952873a](https://github.com/habi/EAWAG-manuscript/tree/952873a2c9b4dca14691bf6dace3e2d93a2d0a2b)
+from [habi/EAWAG-manuscript@3dd6a9c](https://github.com/habi/EAWAG-manuscript/tree/3dd6a9c3365f142fe968ee2354250732aafbdd55)
 on March 30, 2023.
 </em></small>
 

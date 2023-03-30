@@ -1,12 +1,13 @@
 anteroposterior
 Baltzerstrasse
+bioR
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
-csv
+CSV
 curation
 Dask
 dataframe
@@ -50,6 +51,8 @@ parametrized
 phylogenetic
 PJ
 PJs
+PLOS
+preprint
 README
 ROIs
 rrpp
