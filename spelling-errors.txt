@@ -3,7 +3,7 @@ Baltzerstrasse
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
 csv
@@ -22,14 +22,14 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-Jupyter
+jupyter
 Kassandra
 kassthefish
 Kastanienbaum
 Kontich
 kV
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki

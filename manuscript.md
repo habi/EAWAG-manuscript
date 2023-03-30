@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-03-24'
+date-meta: '2023-03-30'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-03-24" />
-  <meta name="citation_publication_date" content="2023-03-24" />
+  <meta name="dc.date" content="2023-03-30" />
+  <meta name="citation_publication_date" content="2023-03-30" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/4ca5a5d95c8b065daed3bd463b34ff827022b961/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4ca5a5d95c8b065daed3bd463b34ff827022b961/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/4ca5a5d95c8b065daed3bd463b34ff827022b961/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/129e24121f87e2dc4949d735afd3a35f2a17112c/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/129e24121f87e2dc4949d735afd3a35f2a17112c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/129e24121f87e2dc4949d735afd3a35f2a17112c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,10 +82,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/4ca5a5d95c8b065daed3bd463b34ff827022b961/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/129e24121f87e2dc4949d735afd3a35f2a17112c/))
 was automatically generated
-from [habi/EAWAG-manuscript@4ca5a5d](https://github.com/habi/EAWAG-manuscript/tree/4ca5a5d95c8b065daed3bd463b34ff827022b961)
-on March 24, 2023.
+from [habi/EAWAG-manuscript@129e241](https://github.com/habi/EAWAG-manuscript/tree/129e24121f87e2dc4949d735afd3a35f2a17112c)
+on March 30, 2023.
 </em></small>
 
 ## Authors
@@ -150,7 +150,7 @@ on March 24, 2023.
 A large collection of cichlids from Lake Victoria in Africa spanning a length range of 6 to 18 cm was nondestructively imaged using micro-computed tomography.
 We describe our method to efficiently obtain three-dimensional tomographic datasets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
 The tomographic data we acquired (9.5 TB projection images) yielded 1.4 TB of three-dimensional image stacks used for extracting the relevant features of interest.
-Herein we present our method and an outlook on analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a three-dimensional geometric morphometrics analysis of landmark features on the fish skulls, and a robust method to automatically extract the otoliths of the fishes from the tomographic data
+Herein we present our method and an outlook on analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a three-dimensional geometric morphometrics analysis of landmark features on the fish skulls, and a robust method to automatically extract the otoliths of the fishes from the tomographic data.
 
 
 ## Introduction {.page_break_before}
