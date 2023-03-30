@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,15 +78,15 @@ manubot-clear-requests-cache: false
 
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
-_We submitted the manuscript to [Review Commons](https://www.reviewcommons.org/), aiming for [PLOS ONE](https://journals.plos.org/plosone/)._
-_We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0), the version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...3dd6a9c3365f142fe968ee2354250732aafbdd55) since then._
+_We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) of the manuscript to [Review Commons](https://www.reviewcommons.org/), aiming for [PLOS ONE](https://journals.plos.org/plosone/)._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...258eab120ff2b65ccdb15e4873ec57c930551dbd) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/3dd6a9c3365f142fe968ee2354250732aafbdd55/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/))
 was automatically generated
-from [habi/EAWAG-manuscript@3dd6a9c](https://github.com/habi/EAWAG-manuscript/tree/3dd6a9c3365f142fe968ee2354250732aafbdd55)
+from [habi/EAWAG-manuscript@258eab1](https://github.com/habi/EAWAG-manuscript/tree/258eab120ff2b65ccdb15e4873ec57c930551dbd)
 on March 30, 2023.
 </em></small>
 
@@ -145,6 +145,7 @@ on March 30, 2023.
   <small>
      Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
   </small>
+
 
 
 ## Abstract {.page_break_before}
