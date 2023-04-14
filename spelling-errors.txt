@@ -46,7 +46,7 @@ OJs
 oldid
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
 otoliths
 parametrized
