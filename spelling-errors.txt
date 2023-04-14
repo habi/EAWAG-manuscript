@@ -23,7 +23,7 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-jupyter
+Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
@@ -41,10 +41,12 @@ mphaesler
 Mwaiko
 nondestructively
 NRecon
+Nrrd
 OJs
+oldid
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
 otoliths
 parametrized

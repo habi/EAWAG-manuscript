@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-03-30'
+date-meta: '2023-04-14'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-03-30" />
-  <meta name="citation_publication_date" content="2023-03-30" />
+  <meta name="dc.date" content="2023-04-14" />
+  <meta name="citation_publication_date" content="2023-04-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/c5e7707850dd1120b139135104f15d879d1e1f49/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c5e7707850dd1120b139135104f15d879d1e1f49/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c5e7707850dd1120b139135104f15d879d1e1f49/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,15 +79,15 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) of the manuscript to [Review Commons](https://www.reviewcommons.org/), aiming for [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...258eab120ff2b65ccdb15e4873ec57c930551dbd) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...c5e7707850dd1120b139135104f15d879d1e1f49) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/258eab120ff2b65ccdb15e4873ec57c930551dbd/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/c5e7707850dd1120b139135104f15d879d1e1f49/))
 was automatically generated
-from [habi/EAWAG-manuscript@258eab1](https://github.com/habi/EAWAG-manuscript/tree/258eab120ff2b65ccdb15e4873ec57c930551dbd)
-on March 30, 2023.
+from [habi/EAWAG-manuscript@c5e7707](https://github.com/habi/EAWAG-manuscript/tree/c5e7707850dd1120b139135104f15d879d1e1f49)
+on April 14, 2023.
 </em></small>
 
 ## Authors
@@ -271,7 +271,7 @@ These ROIs were then extracted in their native resolution from the original data
 Using the gray value thresholding function in *3D Slicer*'s [*Segment Editor*](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html), the teeth in both the oral and pharyngeal jaws were extracted.
 We used the *Scissor* and *Island* tools of the *Segment Editor* to isolate single regions.
 
-Processed regions of interest were exported as `Nrrd` [@https://en.wikipedia.org/wiki/Nrrd] files.
+Processed regions of interest were exported as `Nrrd` [@https://en.wikipedia.org/w/index.php?title=Nrrd&oldid=1085264080] files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
