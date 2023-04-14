@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/3e8bdc73d50e9e237a11c9c271a26468f5a9f151/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3e8bdc73d50e9e237a11c9c271a26468f5a9f151/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3e8bdc73d50e9e237a11c9c271a26468f5a9f151/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,14 +79,14 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) of the manuscript to [Review Commons](https://www.reviewcommons.org/), aiming for [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...3e8bdc73d50e9e237a11c9c271a26468f5a9f151) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...460de55a8763ac5b835ecc6e7c55af3d489d4d93) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/3e8bdc73d50e9e237a11c9c271a26468f5a9f151/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/))
 was automatically generated
-from [habi/EAWAG-manuscript@3e8bdc7](https://github.com/habi/EAWAG-manuscript/tree/3e8bdc73d50e9e237a11c9c271a26468f5a9f151)
+from [habi/EAWAG-manuscript@460de55](https://github.com/habi/EAWAG-manuscript/tree/460de55a8763ac5b835ecc6e7c55af3d489d4d93)
 on April 14, 2023.
 </em></small>
 
@@ -187,6 +187,12 @@ Since the structures of interest for the two studies we touch upon in this manus
 
 The fish were kept in 75% ethanol for long-term storage at the Swiss Federal Institute of Aquatic Science and Technology (Eawag).
 They were delivered to the Institute of Anatomy for micro-CT imaging sorted into batches of approximately equal length.
+
+### Ethics statement
+
+<!---
+This study was carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. The protocol was approved by the Committee on the Ethics of Animal Experiments of the University of Minnesota (Protocol Number: 27-2956). All surgery was performed under sodium pentobarbital anesthesia, and all efforts were made to minimize suffering.
+--->
 
 ### Micro-computed tomographic imaging
 
