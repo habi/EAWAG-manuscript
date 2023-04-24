@@ -18,7 +18,6 @@ content/02.introduction.md:20:microtomographic
 content/02.introduction.md:22:tomographically
 content/02.introduction.md:23:cichlid
 content/03.materials.methods.results.md:5:Eawag
-content/03.materials.methods.results.md:10:collectionm
 content/03.materials.methods.results.md:10:Seehausen
 content/03.materials.methods.results.md:15:Bruker
 content/03.materials.methods.results.md:15:Kontich
