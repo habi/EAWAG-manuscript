@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-04-14'
+date-meta: '2023-04-24'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-04-14" />
-  <meta name="citation_publication_date" content="2023-04-14" />
+  <meta name="dc.date" content="2023-04-24" />
+  <meta name="citation_publication_date" content="2023-04-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/d2e34990ccf22adba0dd011d640baf961cfecd6e/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d2e34990ccf22adba0dd011d640baf961cfecd6e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d2e34990ccf22adba0dd011d640baf961cfecd6e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,15 +79,15 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) of the manuscript to [Review Commons](https://www.reviewcommons.org/), aiming for [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...460de55a8763ac5b835ecc6e7c55af3d489d4d93) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...d2e34990ccf22adba0dd011d640baf961cfecd6e) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/460de55a8763ac5b835ecc6e7c55af3d489d4d93/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/d2e34990ccf22adba0dd011d640baf961cfecd6e/))
 was automatically generated
-from [habi/EAWAG-manuscript@460de55](https://github.com/habi/EAWAG-manuscript/tree/460de55a8763ac5b835ecc6e7c55af3d489d4d93)
-on April 14, 2023.
+from [habi/EAWAG-manuscript@d2e3499](https://github.com/habi/EAWAG-manuscript/tree/d2e34990ccf22adba0dd011d640baf961cfecd6e)
+on April 24, 2023.
 </em></small>
 
 ## Authors
@@ -190,9 +190,8 @@ They were delivered to the Institute of Anatomy for micro-CT imaging sorted into
 
 ### Ethics statement
 
-<!---
-This study was carried out in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health. The protocol was approved by the Committee on the Ethics of Animal Experiments of the University of Minnesota (Protocol Number: 27-2956). All surgery was performed under sodium pentobarbital anesthesia, and all efforts were made to minimize suffering.
---->
+The study used specimens from an already existing fish collectionm, built over decades of research led by Ole Seehausen and continuing until today.
+All relevant permits for research, the permits for export from the respective country and import to Switzerland were given and the research has followed modern ethical guidelines for scientific research.
 
 ### Micro-computed tomographic imaging
 
