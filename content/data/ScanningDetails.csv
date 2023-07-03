@@ -1,4 +1,4 @@
-,Fish,Scan,Scanner,Scan date,Voxelsize,Voltage,Current,Filter,Exposuretime,Averaging,RotationStep,ProjectionSize,CameraWindow,Scan time,Stacks,Scan time total,RingartefactCorrection,BeamHardeningCorrection,Grayvalue
+,Fish,Scan,Scanner,Scan date,Voxelsize [μm],Source voltage [kV],Source current [μA],Filter,Exposure time [ms],Frame averaging,Rotation step [°],Projections ize,Camera window,Scan time [s],Stacks,Total scan duraction [s],Ring removal correction,Beam hardening correction,Reconstruction gray value mapping
 0,10151,head_rec,SkyScan2214,2022-04-14T12:01:07,21.999992,70,140,No Filter,790,"OFF (2)
 ",0.1,5971968,2400,0 days 01:50:42,1,0 days 01:50:42,0,0,0.107354
 1,10151,rec,SkyScan2214,2021-08-27T10:59:28,9.000117,70,140,No Filter,909,"OFF (4)
