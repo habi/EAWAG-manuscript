@@ -1,11 +1,11 @@
 \emph{A preprint of this manuscript is available at bioRχiv with the \href{https://doi.org/10.1101/2023.03.30.534917}{doi:10.1101/2023.03.30.534917}.}
 \emph{We submitted \href{https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0}{\texttt{v1.0}} (\href{https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/}{online version}) of the manuscript to \href{https://journals.plos.org/plosone/}{PLOS ONE}.}
-\emph{The version you see here \href{https://github.com/habi/EAWAG-manuscript/compare/v1.0...a9633de5317eab4c8df584555033c6c11e4d89c5}{has been updated} since submission.}
+\emph{The version you see here \href{https://github.com/habi/EAWAG-manuscript/compare/v1.0...6c4f87bee2147650a1535161b854bdb77b43e6a3}{has been updated} since submission.}
 
 This manuscript
-(\href{https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/}{permalink})
+(\href{https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/}{permalink})
 was automatically generated
-from \href{https://github.com/habi/EAWAG-manuscript/tree/a9633de5317eab4c8df584555033c6c11e4d89c5}{habi/EAWAG-manuscript@a9633de}
+from \href{https://github.com/habi/EAWAG-manuscript/tree/6c4f87bee2147650a1535161b854bdb77b43e6a3}{habi/EAWAG-manuscript@6c4f87b}
 on July 4, 2023.
 
 \hypertarget{authors}{%
@@ -131,8 +131,9 @@ We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker micr
 In total, this resulted in 1.4 TB of reconstruction images (nearly one million \texttt{*rec*.png} files).
 Each of the 362 scans we performed has on average about 2700 reconstruction images.
 
-While performing the work, a subset of the data was always present on the production system, for working with it (see \protect\hyperlink{preparation-for-analysis}{Preparation for analysis} below).
-A small bash script {[}\protect\hyperlink{ref-ZjgrPHTa}{14}{]} was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `Research Storage' infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
+A small script {[}\protect\hyperlink{ref-ZjgrPHTa}{14}{]} was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `Research Storage' infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
+This automated archival and copying process made it possible to delete the raw projection images on the production system shortly after acquisition, freeing resources and easing data handling.
+A subset of the data, namely the log files and reconstructed image stacks were kept on the production system for working with it (as described in \protect\hyperlink{preparation-for-analysis}{Preparation for analysis} below).
 
 \hypertarget{data-analysis}{%
 \subsubsection{Data analysis}\label{data-analysis}}
@@ -178,7 +179,7 @@ These ROIs were then extracted in their native resolution from the original data
 Using the gray value thresholding function in \emph{3D Slicer}'s \href{https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html}{\emph{Segment Editor}}, the teeth in both the oral and pharyngeal jaws were extracted.
 We used the \emph{Scissor} and \emph{Island} tools of the \emph{Segment Editor} to isolate single regions.
 
-Processed regions of interest were exported as \texttt{Nrrd} {[}\protect\hyperlink{ref-uYuz0opI}{22}, =Nrrd\&oldid=1085264080{]} files.
+Processed regions of interest were exported as \texttt{Nrrd} {[}\protect\hyperlink{ref-11Rw8FsGY}{22}/{]} files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure \ref{fig:104016} for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
@@ -428,9 +429,9 @@ A copy of this \texttt{HTML} file can be viewed and interacted with through the 
 \CSLLeftMargin{21. }
 \CSLRightInline{Rolfe S, Pieper S, Porto A, Diamond K, Winchester J, Shan S, et al. SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology. Methods Ecol Evol. 2021;12: 1816--1825. doi:\href{https://doi.org/10.1111/2041-210x.13669}{10.1111/2041-210x.13669}}
 
-\leavevmode\vadjust pre{\hypertarget{ref-uYuz0opI}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-11Rw8FsGY}{}}%
 \CSLLeftMargin{22. }
-\CSLRightInline{Main Page. Wikipedia, the free encyclopedia. 2022. Available: \url{https://en.wikipedia.org/w/index.php?title=Main_Page\&oldid=1114291180}}
+\CSLRightInline{Teem: nrrd. {[}cited 4 Jul 2023{]}. Available: \url{https://teem.sourceforge.net/nrrd/}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-JtHcU2O2}{}}%
 \CSLLeftMargin{23. }

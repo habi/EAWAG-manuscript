@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,14 +79,14 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([online version](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...a9633de5317eab4c8df584555033c6c11e4d89c5) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...6c4f87bee2147650a1535161b854bdb77b43e6a3) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/))
 was automatically generated
-from [habi/EAWAG-manuscript@a9633de](https://github.com/habi/EAWAG-manuscript/tree/a9633de5317eab4c8df584555033c6c11e4d89c5)
+from [habi/EAWAG-manuscript@6c4f87b](https://github.com/habi/EAWAG-manuscript/tree/6c4f87bee2147650a1535161b854bdb77b43e6a3)
 on July 4, 2023.
 </em></small>
 
@@ -233,8 +233,9 @@ print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round
 This is about 2720 reconstructions per scan (365 scans, 137 folders)
 --->
 
-While performing the work, a subset of the data was always present on the production system, for working with it (see [Preparation for analysis] below).
-A small bash script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the 'Research Storage' infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
+A small script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the 'Research Storage' infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
+This automated archival and copying process made it possible to delete the raw projection images on the production system shortly after acquisition, freeing resources and easing data handling.
+A subset of the data, namely the log files and reconstructed image stacks were kept on the production system for working with it (as described in [Preparation for analysis] below).
 
 ### Data analysis
 
@@ -276,7 +277,7 @@ These ROIs were then extracted in their native resolution from the original data
 Using the gray value thresholding function in *3D Slicer*'s [*Segment Editor*](https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html), the teeth in both the oral and pharyngeal jaws were extracted.
 We used the *Scissor* and *Island* tools of the *Segment Editor* to isolate single regions.
 
-Processed regions of interest were exported as `Nrrd` [@https://en.wikipedia.org/w/index.php?title=Nrrd&oldid=1085264080] files.
+Processed regions of interest were exported as `Nrrd` [@https://teem.sourceforge.net/nrrd/] files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
@@ -289,8 +290,7 @@ In total we compiled overview of 125 specimens with full head morphology, oral j
 
 <!---
 - 104016 length is given as '<7 cm' in XLS sheet.
-- PJ triangle measured on MIP of 104016_PJ.seg.nrrd, giving 1067.208, 1024.018, 1040.663, i.e. 1045 px. Scanned at 5 um, this gives 5.219815 mm.
- as length in Fiji.
+- PJ triangle measured on MIP of 104016_PJ.seg.nrrd, giving 1067.208, 1024.018, 1040.663, i.e. 1045 px. Scanned at 5 um, this gives 5.219815 mm as length in Fiji.
 - Cusp distance measured on MIP of 104016_OJcrop.nrrd, giving 41.485, 39.850, 43.932, 48.600, i.e. 45 px. Scanned at 5 um, this gives 217 um.
 --->
 
