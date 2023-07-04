@@ -8,11 +8,20 @@ date: 3.7.2023
 
 > Reviewer #1: Excellent paper. It was not clear if you could discern daily rings on the otoliths. You might want to discuss if you can use rings on otoliths to age the fish without removing them. Also, do you have to stain the fish to use these rings?
 
+The data shown in this manuscript is from unstained specimen.
+They have been stored in ethanol and scanned in wet foam, but *no* staining was applied.
+Since we here only focus on the morphology of the skull and teeth such a staining was not necessary to extract the needed data from the tomographic images.
+
 > Reviewer #2: I have carefully evaluated the manuscript titled "Microtomographic investigation of a large corpus of cichlids". The authors present a substantial collection of tomographic images from cichlids collected in Lake Victoria, Africa. They showcase significant cranial, maxillary, and otolith images from 362 specimens and provide open-source Python notebooks to facilitate the manipulation and extraction of specific parts. I believe that this work represents a significant contribution to the understanding of cichlids and the application of Micro-CT imaging in fish studies. However, I have some suggestions to improve the manuscript:
 
 > The introduction section needs improvement. It is too simplistic and lacks informative details about the state of the art and the justification for the work.
 
-> Merging the Materials and Methods section with the Results is not a reasonable way to present the work. It would be better to separate them for clarity.
+> Merging the Materials and Methods section with the Results is not a reasonable way to present the work.
+> It would be better to separate them for clarity.
+
+The manuscript is focused on the method on how to acquire and assess tomographic datasets of a large corpus of cichlids.
+Especially for the image processing part, the method and results are highly intertwined as the Python code directly delivers the results.
+We believe that the approach we chose here here is the most appropriate way to present the whole data data acquisition and analysis pipeline and kindly ask the reviewer to accept our choice.
 
 > The section on Micro-computed tomographic imaging should be the core of the paper and explained in more detail. The authors have extensive experience scanning 362 fish specimens of different species and sizes. Therefore, a detailed imaging protocol that can assist readers in obtaining new images should be provided. For example, what criteria did the authors use to select the best set of parameters? It is clear and expected that larger fish would have lower resolution (larger voxel size), but how does the relationship between size and parameters work? How was the filter thickness chosen?
 
