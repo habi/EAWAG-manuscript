@@ -84,9 +84,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -103,12 +103,12 @@
 </header>
 <p><em>A preprint of this manuscript is available at bioRχiv with the <a href="https://doi.org/10.1101/2023.03.30.534917">doi:10.1101/2023.03.30.534917</a>.</em>
 <em>We submitted <a href="https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0"><code>v1.0</code></a> (<a href="https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/">online version</a>) of the manuscript to <a href="https://journals.plos.org/plosone/">PLOS ONE</a>.</em>
-<em>The version you see here <a href="https://github.com/habi/EAWAG-manuscript/compare/v1.0...a9633de5317eab4c8df584555033c6c11e4d89c5">has been updated</a> since submission.</em></p>
+<em>The version you see here <a href="https://github.com/habi/EAWAG-manuscript/compare/v1.0...6c4f87bee2147650a1535161b854bdb77b43e6a3">has been updated</a> since submission.</em></p>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/6c4f87bee2147650a1535161b854bdb77b43e6a3/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/a9633de5317eab4c8df584555033c6c11e4d89c5">habi/EAWAG-manuscript@a9633de</a>
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/6c4f87bee2147650a1535161b854bdb77b43e6a3">habi/EAWAG-manuscript@6c4f87b</a>
 on July 4, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -220,8 +220,9 @@ print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round
 
 This is about 2720 reconstructions per scan (365 scans, 137 folders)
 --->
-<p>While performing the work, a subset of the data was always present on the production system, for working with it (see <a href="#preparation-for-analysis">Preparation for analysis</a> below).
-A small bash script <span class="citation" data-cites="ZjgrPHTa">[<a href="#ref-ZjgrPHTa" role="doc-biblioref">14</a>]</span> was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the ‘Research Storage’ infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.</p>
+<p>A small script <span class="citation" data-cites="ZjgrPHTa">[<a href="#ref-ZjgrPHTa" role="doc-biblioref">14</a>]</span> was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the ‘Research Storage’ infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
+This automated archival and copying process made it possible to delete the raw projection images on the production system shortly after acquisition, freeing resources and easing data handling.
+A subset of the data, namely the log files and reconstructed image stacks were kept on the production system for working with it (as described in <a href="#preparation-for-analysis">Preparation for analysis</a> below).</p>
 <h3 id="data-analysis">Data analysis</h3>
 <p>We wrote a set of <em>Jupyter</em> <span class="citation" data-cites="pQ6Wbz73">[<a href="#ref-pQ6Wbz73" role="doc-biblioref">15</a>]</span> notebooks with <em>Python</em> code to work with the images and wrangle the acquired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
@@ -250,7 +251,7 @@ Using toggles in the volume rendering, we defined regions of interest (ROIs) for
 These ROIs were then extracted in their native resolution from the original dataset for further processing.
 Using the gray value thresholding function in <em>3D Slicer</em>’s <a href="https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html"><em>Segment Editor</em></a>, the teeth in both the oral and pharyngeal jaws were extracted.
 We used the <em>Scissor</em> and <em>Island</em> tools of the <em>Segment Editor</em> to isolate single regions.</p>
-<p>Processed regions of interest were exported as <code>Nrrd</code> <span class="citation" data-cites="uYuz0opI">[<a href="#ref-uYuz0opI" role="doc-biblioref">22</a>, =Nrrd&amp;oldid=1085264080]</span> files.
+<p>Processed regions of interest were exported as <code>Nrrd</code> <span class="citation" data-cites="11Rw8FsGY">[<a href="#ref-11Rw8FsGY" role="doc-biblioref">22</a>/]</span> files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure <a href="#fig:104016">1</a> for an example from the compilation document).
 In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.</p>
 <div id="fig:104016" class="fignos">
@@ -266,8 +267,7 @@ Panels D and E: Three-dimensional visualization of the pharyngeal jaw, dorsovent
 </div>
 <!---
 - 104016 length is given as '<7 cm' in XLS sheet.
-- PJ triangle measured on MIP of 104016_PJ.seg.nrrd, giving 1067.208, 1024.018, 1040.663, i.e. 1045 px. Scanned at 5 um, this gives 5.219815 mm.
- as length in Fiji.
+- PJ triangle measured on MIP of 104016_PJ.seg.nrrd, giving 1067.208, 1024.018, 1040.663, i.e. 1045 px. Scanned at 5 um, this gives 5.219815 mm as length in Fiji.
 - Cusp distance measured on MIP of 104016_OJcrop.nrrd, giving 41.485, 39.850, 43.932, 48.600, i.e. 45 px. Scanned at 5 um, this gives 217 um.
 --->
 <h4 id="principal-components-analysis-of-skull-landmarks">Principal components analysis of skull landmarks</h4>
@@ -452,8 +452,8 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div id="ref-MwdN6kPV" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">21. </div><div class="csl-right-inline">Rolfe S, Pieper S, Porto A, Diamond K, Winchester J, Shan S, et al. SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology. Methods Ecol Evol. 2021;12: 1816–1825. doi:<a href="https://doi.org/10.1111/2041-210x.13669">10.1111/2041-210x.13669</a></div>
 </div>
-<div id="ref-uYuz0opI" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">22. </div><div class="csl-right-inline">Main Page. Wikipedia, the free encyclopedia. 2022. Available: <a href="https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=1114291180">https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=1114291180</a></div>
+<div id="ref-11Rw8FsGY" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline">Teem: nrrd. [cited 4 Jul 2023]. Available: <a href="https://teem.sourceforge.net/nrrd/">https://teem.sourceforge.net/nrrd/</a></div>
 </div>
 <div id="ref-JtHcU2O2" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">23. </div><div class="csl-right-inline">Kishe-Machumu MA, van Rijssel JC, Poste A, Hecky RE, Witte F. Stable isotope evidence from formalin–ethanol-preserved specimens indicates dietary shifts and increasing diet overlap in Lake Victoria cichlids. Hydrobiologia. 2016;791: 155–173. doi:<a href="https://doi.org/10.1007/s10750-016-2925-1">10.1007/s10750-016-2925-1</a></div>
