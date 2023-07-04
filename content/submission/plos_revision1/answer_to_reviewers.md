@@ -34,7 +34,8 @@ date: 3.7.2023
 
 > Use the full words, rather than abbreviations, in figure legends for clarity.
 
-All figure captions have been 'expanded', thanks for noticing this.
+Abbreviations in the legends have been written-out (except SI units).
+Additionally we added a bit of background information on the specimen to the legend of Fig. 1.
 
 > In the discussion section, the authors mentioned acquiring high-resolution tomographic datasets of a large collection of cichlids. However, the statement that "the acquired datasets were imaged over a wide-spanning range of voxel size (3.5–50 μm)" is incorrect. The voxel size is specimen-specific, depending on the size of the fish and the chosen parameters. Please clarify this point to accurately represent the imaging process. The finest resolution was obtained only for small fishes, so specific structures of a fish will have the same image resolution throughout the entire specimen.
 
