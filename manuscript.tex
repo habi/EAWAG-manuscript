@@ -1,0 +1,477 @@
+\emph{A preprint of this manuscript is available at bioRχiv with the \href{https://doi.org/10.1101/2023.03.30.534917}{doi:10.1101/2023.03.30.534917}.}
+\emph{We submitted \href{https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0}{\texttt{v1.0}} (\href{https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/}{online version}) of the manuscript to \href{https://journals.plos.org/plosone/}{PLOS ONE}.}
+\emph{The version you see here \href{https://github.com/habi/EAWAG-manuscript/compare/v1.0...a9633de5317eab4c8df584555033c6c11e4d89c5}{has been updated} since submission.}
+
+This manuscript
+(\href{https://habi.github.io/EAWAG-manuscript/v/a9633de5317eab4c8df584555033c6c11e4d89c5/}{permalink})
+was automatically generated
+from \href{https://github.com/habi/EAWAG-manuscript/tree/a9633de5317eab4c8df584555033c6c11e4d89c5}{habi/EAWAG-manuscript@a9633de}
+on July 4, 2023.
+
+\hypertarget{authors}{%
+\subsection{Authors}\label{authors}}
+
+\begin{itemize}
+\item
+  \textbf{David Haberthür}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/orcid.svg}
+  \href{https://orcid.org/0000-0003-3388-9187}{0000-0003-3388-9187} ·
+  \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/habi}{habi}
+  · \includegraphics[width=0.16667in,height=0.16667in]{images/mastodon.svg}
+  \href{https://mastodon.social/@habi}{habi}
+  Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
+\item
+  \textbf{Mikki Law}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/mlaw-migalig}{mlaw-migalig}
+  Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
+\item
+  \textbf{Kassandra Ford}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/orcid.svg}
+  \href{https://orcid.org/0000-0002-4413-2633}{0000-0002-4413-2633} ·
+  \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/kassthefish}{kassthefish}
+  Department of Biological Sciences, George Washington University, USA; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland; Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
+\item
+  \textbf{Marcel Häsler}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/mphaesler}{mphaesler}
+  Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
+\item
+  \textbf{Ole Seehausen}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/orcid.svg}
+  \href{https://orcid.org/0000-0001-6598-1434}{0000-0001-6598-1434} ·
+  \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/OleSeehausen}{OleSeehausen}
+  Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
+\item
+  \textbf{Ruslan Hlushchuk}
+  \includegraphics[width=0.16667in,height=0.16667in]{images/orcid.svg}
+  \href{https://orcid.org/0000-0002-6722-8996}{0000-0002-6722-8996} ·
+  \includegraphics[width=0.16667in,height=0.16667in]{images/github.svg}
+  \href{https://github.com/RuslanHlushchuk}{RuslanHlushchuk}
+  Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
+\end{itemize}
+
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
+
+A large collection of cichlids from Lake Victoria in Africa spanning a length range of 6 to 18 cm was nondestructively imaged using micro-computed tomography.
+We describe our method to efficiently obtain three-dimensional tomographic datasets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
+The tomographic data we acquired (9.5 TB of projection images) yielded 1.4 TB of three-dimensional image stacks used for extracting the relevant features of interest.
+Herein we present our method and an outlook on analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a three-dimensional geometric morphometrics analysis of landmark features on the fish skulls, and a robust method to automatically extract the otoliths of the fishes from the tomographic data.
+
+\hypertarget{introduction}{%
+\subsection{Introduction}\label{introduction}}
+
+\hypertarget{history}{%
+\subsubsection{History}\label{history}}
+
+Cichlid fish in African lakes are powerful model systems in speciation and adaptive evolutionary radiation research {[}\protect\hyperlink{ref-TUQFenhc}{1}--\protect\hyperlink{ref-WVIa4CH0}{3}{]}.
+The functional decoupling of their oral and pharyngeal jaws is hypothesized to be a factor in making cichlids unusually versatile in their feeding and allowing them the ability to adapt to a wide range of environmental factors {[}\protect\hyperlink{ref-1GEljkDsf}{4}{]}.
+The hypothesis is that the fusion of the lower pharyngeal jaws makes that jaw system a powerful food processing tool, in turn releasing the oral jaws from functional constraint.
+The oral jaws no longer need to process prey and can therefore specialize on prey capture.
+
+Even though the evolutionary diversification of cichlid fish radiations in Lake Victoria in Africa is a well researched issue it remains a complex system in need of further study {[}\protect\hyperlink{ref-W2f2SDjn}{2},\protect\hyperlink{ref-c3poTogo}{5}{]}.
+We aim to better understand the functional anatomy of the skulls and jaws in these fish in order to test the functional decoupling and other hypotheses about what may facilitate exceptionally high rates of morphological evolution.
+
+The collection of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
+Since micro--computed tomography can be regarded as nondestructive method for biological samples, it is the ideal imaging method for investigating the oral and pharyngeal jaws as well as the skull features of the fish presented in this study {[}\protect\hyperlink{ref-19h9vxsYG}{6}{]}.
+
+\hypertarget{micro-computed-tomography}{%
+\subsubsection{Micro-computed tomography}\label{micro-computed-tomography}}
+
+X-ray microtomography is a valuable tool to gain insights into the inner structure of highly diverse samples, namely for specimens related to research done in the biomedical sciences.
+Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different fish species, large and small {[}\protect\hyperlink{ref-19h9vxsYG}{6}{]}.
+For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript {[}\protect\hyperlink{ref-19h9vxsYG}{6}--\protect\hyperlink{ref-BDrCSu8p}{8}{]} as well as other studies {[}\protect\hyperlink{ref-3rxGCEvJ}{9}{]}.
+
+Depending on the structures of interest, biomedical samples are often only tomographically scanned after being stained with a contrast agent, most often employing contrast agents containing heavy metals.
+Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skulls) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
+
+\hypertarget{materials-methods-and-results}{%
+\subsection{Materials, Methods and Results}\label{materials-methods-and-results}}
+
+\hypertarget{sample-procurement-and-preparation}{%
+\subsubsection{Sample procurement and preparation}\label{sample-procurement-and-preparation}}
+
+The fish were kept in 75\% ethanol for long-term storage at the Swiss Federal Institute of Aquatic Science and Technology (Eawag).
+They were delivered to the Institute of Anatomy for micro-CT imaging sorted into batches of approximately equal length.
+
+\hypertarget{ethics-statement}{%
+\subsubsection{Ethics statement}\label{ethics-statement}}
+
+The study used specimens from an already existing fish collection, built over decades of research led by Ole Seehausen and continuing until today.
+All relevant permits for research, the permits for export from the respective country and import to Switzerland were given and the research has followed modern ethical guidelines for scientific research.
+
+\hypertarget{micro-computed-tomographic-imaging}{%
+\subsubsection{Micro-computed tomographic imaging}\label{micro-computed-tomographic-imaging}}
+
+All samples were scanned on two of the three available high-resolution micro-CT machines of the Institute of Anatomy of the University of Bern in Switzerland, a SkyScan 1272 and a SkyScan 2214 (both Bruker microCT, Kontich, Belgium).
+
+The fish were sorted into `bins' based on their physical size.
+We used a custom-made sample-holder to scan each of the fish in our machines.
+It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA), the file for printing the holder is available online {[}\protect\hyperlink{ref-VCZPOv2f}{10}{]} as part of a library of sample holders for tomographic scanning of biomedical samples {[}\protect\hyperlink{ref-115PPSuQp}{11}{]}.
+The original \emph{OpenSCAD} {[}\protect\hyperlink{ref-wsjdcTeC}{12}{]} file {[}\protect\hyperlink{ref-f7OzrzUv}{13}{]} is parametrized to effortlessly generate a file for 3D-printing sample holders to accommodate the varying width, height and length classes of the fish.
+
+In total, we acquired 362 tomographic scans of 129 different specimens.
+All the scanning parameters are collected in a table in the \protect\hyperlink{supplementary-materials}{Supplementary Materials}; a generalized rundown is given below.
+
+Since the fish greatly varied in their length (specimen length varied between 6 cm and 18 cm), the voxel sizes of each of the acquired datasets also varies greatly.
+We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
+
+Depending on the size of the specimen we set the X-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
+The X-ray spectrum was filtered either by an aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm for increasing specimen size) before digitization to projection images or recorded in an unfiltered way (for smaller specimen).
+In total we recorded 9.5 TB of projection images (\texttt{TIFF} and \texttt{*.iif} files, where the \texttt{*.iif} files are for the so-called alignment scans).
+
+All the recorded projection images were subsequently reconstructed into virtual 3D stacks of axial \texttt{PNG} images spanning the regions of interest of each fish.
+All the specimens were scanned with their mouths facing downward in the sample holder and rotating along their long axis.
+We thus manually aligned each of the reconstructed datasets so that the lateral axis of the fish was horizontal in relation to the x and y direction of the reconstructed slices.
+We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich, Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the \protect\hyperlink{supplementary-materials}{Supplementary Materials}).
+In total, this resulted in 1.4 TB of reconstruction images (nearly one million \texttt{*rec*.png} files).
+Each of the 362 scans we performed has on average about 2700 reconstruction images.
+
+While performing the work, a subset of the data was always present on the production system, for working with it (see \protect\hyperlink{preparation-for-analysis}{Preparation for analysis} below).
+A small bash script {[}\protect\hyperlink{ref-ZjgrPHTa}{14}{]} was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the `Research Storage' infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
+
+\hypertarget{data-analysis}{%
+\subsubsection{Data analysis}\label{data-analysis}}
+
+We wrote a set of \emph{Jupyter} {[}\protect\hyperlink{ref-pQ6Wbz73}{15}{]} notebooks with \emph{Python} code to work with the images and wrangle the acquired data.
+The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
+Re-runs of the notebook added newly scanned and reconstructed data to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.
+
+All analysis notebooks for this work are available online {[}\protect\hyperlink{ref-1HteOscVd}{16}{]}.
+
+\hypertarget{preparation-for-analysis}{%
+\paragraph{Preparation for analysis}\label{preparation-for-analysis}}
+
+The \href{https://github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb}{main \emph{Jupyter} notebook} for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
+
+At first, \emph{all} log files of \emph{all} the data present in the processed folder were read into a \emph{pandas} {[}\protect\hyperlink{ref-19qQOHlFN}{17},\protect\hyperlink{ref-U5AcoDOX}{18}{]} dataframe.
+This already enabled us to extract the specimen name and scan, since we performed multiple scans for each specimen, i.e.~a low resolution scan with large field of view for the whole head and one or two scans in high resolution focusing on the region of the oral and pharyngeal jaws.
+From the log files we extracted the relevant values for double-checking the necessary parameters of each scan.
+All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the \protect\hyperlink{supplementary-materials}{Supplementary Materials} at the end of each run of the notebook.
+
+After performing `sanity checks' of the data and reconstruction parameters, we used \emph{Dask} {[}\protect\hyperlink{ref-hj1CnyWB}{19}{]} to efficiently access the tomographic data on disk (in the end amounting to a total of nearly a million single images).
+On average, each of the tomographic datasets contains around 2700 slices, so the total size of the acquired data exceeds the RAM size available on an average high-end workstation.
+
+At first, we extracted the central view of each of the three axial directions of the datasets (i.e.~`anteroposterior', `lateral' and `dorsoventral' view) and either saved those to disk or loaded them from disk if they were already generated in prior runs of the notebook.
+The notebook then also generated the maximum intensity projection (MIP) for each of the anatomical planes and either saved them to disk or loaded them from prior runs.
+
+At the end of the notebook we performed a final sanity check on the MIP images.
+In this check we examined the mapping of the gray values of the raw projection images to gray values in the reconstructions, i.e.~checked that no overexposed pixels are present in the MIP images.
+This is an efficient way for double-checking the gray value mapping, since the MIP images have already been generated in prior steps of the notebook and contain the highest gray values present in all the reconstructed images of each scan.
+
+\hypertarget{image-processing}{%
+\subsubsection{Image processing}\label{image-processing}}
+
+\hypertarget{extraction-of-oral-and-pharyngeal-jaws-visualization-of-tomographic-data}{%
+\paragraph{Extraction of oral and pharyngeal jaws, visualization of tomographic data}\label{extraction-of-oral-and-pharyngeal-jaws-visualization-of-tomographic-data}}
+
+To extract the oral jaw (OJ) and pharyngeal jaw (PJ) of the fish, we used \href{https://www.slicer.org}{\emph{3D Slicer}} (Version 4.11.20210226) {[}\protect\hyperlink{ref-OsCpHsJH}{20}{]} extended with the \emph{SlicerMorph} tools {[}\protect\hyperlink{ref-MwdN6kPV}{21}{]} which aim to help biologists work with 3D specimen data.
+The reconstructed image stacks were loaded into \href{https://www.slicer.org/wiki/Documentation/Labs/ImageStacks}{\emph{ImageStacks}}, depending on their size we reduced the image resolution (i.e.~downscaled the images) for this first step.
+The three-dimensional volume was rendered via \href{https://slicer.readthedocs.io/en/latest/user_guide/modules/volumerendering.html}{\emph{VTK GPU Ray Casting}}.
+A custom-made volume property was used as an input to view the scans.
+Using toggles in the volume rendering, we defined regions of interest (ROIs) for both the OJs and PJs in each specimen.
+These ROIs were then extracted in their native resolution from the original dataset for further processing.
+Using the gray value thresholding function in \emph{3D Slicer}'s \href{https://slicer.readthedocs.io/en/latest/user_guide/modules/segmenteditor.html}{\emph{Segment Editor}}, the teeth in both the oral and pharyngeal jaws were extracted.
+We used the \emph{Scissor} and \emph{Island} tools of the \emph{Segment Editor} to isolate single regions.
+
+Processed regions of interest were exported as \texttt{Nrrd} {[}\protect\hyperlink{ref-uYuz0opI}{22}, =Nrrd\&oldid=1085264080{]} files.
+The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure \ref{fig:104016} for an example from the compilation document).
+In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
+
+\begin{figure}
+\hypertarget{fig:104016}{%
+\centering
+\includegraphics{images/104016.png}
+\caption{Overview of data from sample 104016,~\emph{Enterochromis I cinctus}, from `Station E' in the transect of Mwanza Bay at the southern edge of Lake Victoria.
+A map showing the detailed location of `Station E' is shown in Fig. 1 of {[}\protect\hyperlink{ref-JtHcU2O2}{23}{]}.
+Panel A: Three-dimensional visualization of the head scan.
+Panel B: Three-dimensional visualization of the oral jaw scan.
+Panel C: Photograph of the specimen.
+Panels D and E: Three-dimensional visualization of the pharyngeal jaw, dorsoventral and lateral view, respectively.}\label{fig:104016}
+}
+\end{figure}
+
+\hypertarget{principal-components-analysis-of-skull-landmarks}{%
+\paragraph{Principal components analysis of skull landmarks}\label{principal-components-analysis-of-skull-landmarks}}
+
+Current studies are using 3D geometric morphometrics to compare the morphological shape of these scanned cichlids using statistical analysis.
+We used a homologous landmark scheme across one-half of the skull for higher density of shape information {[}\protect\hyperlink{ref-BDrCSu8p}{8},\protect\hyperlink{ref-15FafMZm5}{24}{]}, and landmarks were placed on each specimen using \emph{3D Slicer}.
+To examine differences in shape across the species sampled, we performed a Generalized Procrustes Superimposition on the landmark data to remove the effects of location, size, and rotation from the analysis using the \emph{geomorph} package in \emph{R} (Version 4.2.1) with \emph{RStudio} (Version 2022.07.2+576) {[}\protect\hyperlink{ref-VPUOQA2P}{25}--\protect\hyperlink{ref-EwNL0C0Y}{27},\protect\hyperlink{ref-whEyWyQh}{28},\protect\hyperlink{ref-QfVloFVu}{29}{]}.
+This process brings all specimens to a common origin, scales the landmarks to a unit centroid size, and rotates specimens to reduce distances between landmarks.
+A principal components analysis was then performed in \emph{geomorph} on the superimposed landmark data to visualize the major axes of shape change across sampled species.
+We then used phylogenetic information to identify instances of repeated evolution of trophic adaptations in these cichlids.
+
+\hypertarget{automatic-extraction-of-otoliths}{%
+\paragraph{Automatic extraction of otoliths}\label{automatic-extraction-of-otoliths}}
+
+Otoliths are structures made up of mostly calcium carbonate located in the head of fishes.
+Due to their composition, they are easily distinguished in the X-ray images we acquired.
+We devised an image processing method to automatically and robustly detect the location of the otoliths in the heads of the cichlids we scanned and to extract them from the original data.
+The whole method is implemented in its own \href{https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb}{\emph{Jupyter} notebook} (part of the aforementioned analysis repository {[}\protect\hyperlink{ref-1HteOscVd}{16}{]}).
+
+Since we took great care to scan the fish parallel to their anteroposterior direction and reconstructed the tomographic datasets parallel to the lateral and dorsoventral direction of the fish we could use this `preparation' for automatically extracting the otoliths the tomographic datasets of the whole fish heads.
+By extracting both the peaks and the peak widths of the gray values along both the horizontal and vertical direction of the MIP (generated above) we robustly detected the position of the otoliths in the datasets.
+The robust detection is supported by suppressing a small, configurable part of each region, i.e.~the front and back, top and bottom or the flanks.
+
+\begin{figure}
+\hypertarget{fig:otolithextraction}{%
+\centering
+\includegraphics{images/104016.head.rec.otolither.position.png}
+\caption{Visualization of automatic otolith extraction.
+The top row shows the found location of the otolith center in each of the three anatomical directions.
+The bottom row shows a maximum intensity projection of each of the three anatomical directions of the extracted otolith region.}\label{fig:otolithextraction}
+}
+\end{figure}
+
+Figure \ref{fig:otolithextraction} shows the visualization of the process.
+The colored horizontal and vertical bars in each of the directional MIPs denote the found peak location of the two appropriate values.
+The white bars show the mean of the to detected positions, which was used for extracting the otoliths from the original datasets.
+Making use of the \emph{Dask} library facilitated efficient access to all the data on disk and writing out small, cropped copies of the datasets around the otolith positions.
+
+By detecting the largest components in the cropped copies of the datasets we can easily extract and visualize the otoliths in 3D, as shown in Figure \ref{fig:otolith3d}.
+The extracted otoliths are thus prepared for further analysis and visualization.
+The simple three-dimensional visualization is integrated in the aforementioned \emph{Jupyter} notebook through an integrated visualization library {[}\protect\hyperlink{ref-a9ZL41Of}{30}{]} and is also shown in the \protect\hyperlink{supplementary-materials}{Supplementary Materials}.
+
+\begin{figure}
+\hypertarget{fig:otolith3d}{%
+\centering
+\includegraphics{images/104016.head.rec.otolith.region.3D.png}
+\caption{Three-dimensional view of extracted otoliths of specimen 104016.
+The specimen was scanned with an isotropic voxel size of 13 μm.
+The extracted otolith has a size of approximately 250 x 350 x 150 pixels.
+The axes labels correspond to mm.
+A dynamic view of the visualization is available in the \protect\hyperlink{supplementary-materials}{Supplementary Materials}.}\label{fig:otolith3d}
+}
+\end{figure}
+
+The notebook for extracting the otoliths can be run in your browser without installing any additional software (via \emph{Binder} {[}\protect\hyperlink{ref-Q20Bxdsr}{31}{]}).
+To do this, one starts the notebook by \href{https://mybinder.org/v2/gh/habi/eawag/HEAD?labpath=ExtractOtoliths.ipynb}{clicking a single button} in the \href{https://github.com/habi/EAWAG/blob/master/README.md}{README file} of the \href{https://github.com/habi/EAWAG}{project repository} {[}\protect\hyperlink{ref-1HteOscVd}{16}{]}.
+This starts a computing environment in the cloud, downloads the tomographic data we acquired of \emph{one} specimen, and performs both the otolith extraction and visualization in your browser.
+
+\hypertarget{discussion}{%
+\subsection{Discussion}\label{discussion}}
+
+We acquired high resolution tomographic datasets of a large collection of cichlids.
+The acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e.~the structure of the teeth) and having datasets spanning the whole region of interest of the fish (i.e.~the whole head for principle components analysis).
+
+\hypertarget{imaging-and-preparation-for-analysis}{%
+\subsubsection{Imaging and preparation for analysis}\label{imaging-and-preparation-for-analysis}}
+
+The whole study we presented here spanned a \emph{long} time frame.
+It was thus paramount to run the imaging process and the preparation of the tomographic datasets in a batched mode.
+The \emph{Jupyter} notebook written to prepare the datasets for quality control and analysis were facilitating a short turnaround time for feedback on single scans and such a batched analysis.
+
+\hypertarget{otolith-extraction}{%
+\subsubsection{Otolith extraction}\label{otolith-extraction}}
+
+The method to extract the otoliths from the tomographic dataset works robustly for all of the different fish sizes and shapes.
+The extraction is robust because it is based on a combination of distinct details of the gray value curve over the different anatomical directions.
+The details of the otolith extraction method have been extensively tuned and run in a fully automatic way.
+This allows a highly reproducible and unbiased extraction of the otoliths from the tomographic datasets.
+This is even the case for one fish which was scanned with still a hook in his mouth, where the otoliths were nonetheless extracted automatically.
+
+Data on such automatically extracted otoliths, like volume and geometric information like eccentricity and moments of inertia is biologically interesting as the otoliths grow with the age of the fish.
+One could help estimate the age of wild fishes using a calibration based on the otolith measurements of a fish of known age.
+It is worth nothing that estimation of age of tropical fishes is not as simple as for fishes from temperate regions where one can distinguish summer and winter layers within the otolith.
+
+\hypertarget{outlook}{%
+\subsubsection{Outlook}\label{outlook}}
+
+The acquired tomographic datasets are the basis for multiple additional analyses of fish morphology.
+
+The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fish.
+The workflow is relying only on free and open-source software and can thus be used and verified independently by any interested reader.
+All the \emph{Jupyter} notebook described herein is also freely available online {[}\protect\hyperlink{ref-1HteOscVd}{16}{]}.
+
+\hypertarget{author-contributions}{%
+\subsection{Author Contributions}\label{author-contributions}}
+
+\href{https://credit.niso.org/}{Contributor Roles Taxonomy}, as defined by the \href{https://credit.niso.org/contributor-roles-defined/}{National Information Standards Organization}.
+
+\begin{tablenos:no-prefix-table-caption}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Author
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Contributions
+\end{minipage} \\
+\midrule
+\endhead
+David Haberthür & Conceptualization, Data curation, Formal Analysis, Investigation, Methodology, Project administration, Software, Visualization, Writing -- original draft, Writing -- review \& editing \\
+Mikki Law & Data curation, Investigation, Methodology, Project administration, Visualization, Writing -- review \& editing \\
+Kassandra Ford & Investigation, Methodology, Visualization, Writing -- review \& editing \\
+Marcel Häsler & Investigation, Project administration, Resources, Writing -- review \& editing \\
+Ole Seehausen & Conceptualization, Investigation, Resources, Supervision, Writing -- review \& editing \\
+Ruslan Hlushchuk & Conceptualization, Resources, Supervision, Writing -- review \& editing \\
+\bottomrule
+\end{longtable}
+
+\end{tablenos:no-prefix-table-caption}
+
+\hypertarget{acknowledgments}{%
+\subsection{Acknowledgments}\label{acknowledgments}}
+
+We thank Salome Mwaiko for taking care of the fish collection at Eawag and Mark Charran for helping to find suitable specimens to represent each species.
+We are grateful to the \href{https//www.mic.unibe.ch/}{Microscopy Imaging Center} of the University of Bern for the infrastructural support.
+We thank the \texttt{manubot} project {[}\protect\hyperlink{ref-YuJbg3zO}{32}{]} for helping us write this manuscript collaboratively.
+
+\hypertarget{supplementary-materials}{%
+\subsection{Supplementary Materials}\label{supplementary-materials}}
+
+\hypertarget{parameters-of-tomographic-scans-of-all-the-fishes}{%
+\subsubsection{Parameters of tomographic scans of all the fishes}\label{parameters-of-tomographic-scans-of-all-the-fishes}}
+
+The CSV file \href{https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv}{ScanningDetails.csv} gives a tabular overview of all the (relevant) parameters of all the scans we performed.
+This file was generated with the \href{https://github.com/habi/EAWAG/blob/master/DataWrangling.ipynb}{data processing notebook} and contains the data which is read from \emph{all} the log files of \emph{all} the scans we performed.
+A copy of each log file is available in a \href{https://github.com/habi/EAWAG/tree/master/logfiles}{folder in the data processing repository}.
+
+\hypertarget{three-dimensional-view-of-one-of-the-extracted-otoliths}{%
+\subsubsection{\texorpdfstring{Three-dimensional view of \emph{one} of the extracted otoliths}{Three-dimensional view of one of the extracted otoliths}}\label{three-dimensional-view-of-one-of-the-extracted-otoliths}}
+
+The three-dimensional view of sample 104016 was generated in \href{https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb}{the otolith extraction notebook} and saved as a \href{https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html}{self-contained \texttt{HTML} file} with \href{https://github.com/K3D-tools/K3D-jupyter}{\emph{K3D-jupyter}}.
+A copy of this \texttt{HTML} file can be viewed and interacted with through the \href{https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html}{GitHub HTML preview}.
+
+\hypertarget{references}{%
+\subsection{References}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-TUQFenhc}{}}%
+\CSLLeftMargin{1. }
+\CSLRightInline{Kocher TD. Adaptive evolution and explosive speciation: the cichlid fish model. Nat Rev Genet. 2004;5: 288--298. doi:\href{https://doi.org/10.1038/nrg1316}{10.1038/nrg1316}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-W2f2SDjn}{}}%
+\CSLLeftMargin{2. }
+\CSLRightInline{Seehausen O. African cichlid fish: a model system in adaptive radiation research. Proc R Soc B. 2006;273: 1987--1998. doi:\href{https://doi.org/10.1098/rspb.2006.3539}{10.1098/rspb.2006.3539}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-WVIa4CH0}{}}%
+\CSLLeftMargin{3. }
+\CSLRightInline{Konings AF, Wisor JM, Stauffer JR Jr. Microcomputed tomography used to link head morphology and observed feeding behavior in cichlids of Lake Malaŵi. Ecol Evol. 2021;11: 4605--4615. doi:\href{https://doi.org/10.1002/ece3.7359}{10.1002/ece3.7359}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-1GEljkDsf}{}}%
+\CSLLeftMargin{4. }
+\CSLRightInline{Liem KF. Evolutionary Strategies and Morphological Innovations: Cichlid Pharyngeal Jaws. Systematic Zoology. 1973;22: 425. doi:\href{https://doi.org/10.2307/2412950}{10.2307/2412950}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-c3poTogo}{}}%
+\CSLLeftMargin{5. }
+\CSLRightInline{Seehausen O. Process and pattern in cichlid radiations -- inferences for understanding unusually high rates of evolutionary diversification. New Phytologist. 2015;207: 304--312. doi:\href{https://doi.org/10.1111/nph.13450}{10.1111/nph.13450}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-19h9vxsYG}{}}%
+\CSLLeftMargin{6. }
+\CSLRightInline{Ford KL, Albert JS, Summers AP, Hedrick BP, Schachner ER, Jones AS, et al. A New Era of Morphological Investigations: Reviewing Methods for Comparative Anatomical Studies. Integrative Organismal Biology. 2023;5. doi:\href{https://doi.org/10.1093/iob/obad008}{10.1093/iob/obad008}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-8Pmc2mI8}{}}%
+\CSLLeftMargin{7. }
+\CSLRightInline{Messerli M, Aaldijk D, Haberthür D, Röss H, García-Poyatos C, Sande-Melón M, et al. Adaptation mechanism of the adult zebrafish respiratory organ to endurance training. Shelden EA, editor. PLoS ONE. 2020;15: e0228333. doi:\href{https://doi.org/10.1371/journal.pone.0228333}{10.1371/journal.pone.0228333}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-BDrCSu8p}{}}%
+\CSLLeftMargin{8. }
+\CSLRightInline{Ford KL, Peterson R, Bernt M, Albert JS. Convergence is Only Skin Deep: Craniofacial Evolution in Electric Fishes from South America and Africa (Apteronotidae and Mormyridae). Integrative Organismal Biology. 2022;4. doi:\href{https://doi.org/10.1093/iob/obac022}{10.1093/iob/obac022}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-3rxGCEvJ}{}}%
+\CSLLeftMargin{9. }
+\CSLRightInline{Available: \url{https://osf.io/ecmz4}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-VCZPOv2f}{}}%
+\CSLLeftMargin{10. }
+\CSLRightInline{Available: \url{https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-115PPSuQp}{}}%
+\CSLLeftMargin{11. }
+\CSLRightInline{Haberthür D. TomoGraphics/Hol3Drs: A release. Zenodo; 2019. doi:\href{https://doi.org/10.5281/zenodo.2587555}{10.5281/zenodo.2587555}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-wsjdcTeC}{}}%
+\CSLLeftMargin{12. }
+\CSLRightInline{OpenSCAD. {[}cited 4 Jul 2023{]}. Available: \url{https://openscad.org}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-f7OzrzUv}{}}%
+\CSLLeftMargin{13. }
+\CSLRightInline{OpenSCAD models. TomoGraphics; 2022. Available: \url{https://github.com/TomoGraphics/Hol3Drs/blob/dedca665a77fa782c103eed63b866b2cceb30de9/EAWAG.Fish.scad}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-ZjgrPHTa}{}}%
+\CSLLeftMargin{14. }
+\CSLRightInline{Haberthür D. Jupyter notebooks for image processing and data analysis of EAWAG Cichlids project. 2023. Available: \url{https://github.com/habi/EAWAG/blob/48197e8f6e7add0d3610ea1b2820f29c9a536bdf/rsync-fishes.sh}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-pQ6Wbz73}{}}%
+\CSLLeftMargin{15. }
+\CSLRightInline{Kluyver T, Ragan-Kelley B, Pérez F, Granger B, Bussonnier M, Frederic J, et al. Jupyter Notebooks -- a publishing format for reproducible computational workflows. In: Loizides F, Scmidt B, editors. IOS Press; 2016. pp. 87--90. doi:\href{https://doi.org/10.3233/978-1-61499-649-1-87}{10.3233/978-1-61499-649-1-87}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-1HteOscVd}{}}%
+\CSLLeftMargin{16. }
+\CSLRightInline{Haberthür D. habi/EAWAG: Jupyter notebooks for preparing tomographic scans of a collection of cichlids for analysis. Zenodo; 2022. doi:\href{https://doi.org/10.5281/zenodo.6798632}{10.5281/zenodo.6798632}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-19qQOHlFN}{}}%
+\CSLLeftMargin{17. }
+\CSLRightInline{Team TPD. pandas-dev/pandas: Pandas. Zenodo; 2022. doi:\href{https://doi.org/10.5281/zenodo.7093122}{10.5281/zenodo.7093122}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-U5AcoDOX}{}}%
+\CSLLeftMargin{18. }
+\CSLRightInline{McKinney W. Data Structures for Statistical Computing in Python. Proceedings of the Python in Science Conference. SciPy; 2010. doi:\href{https://doi.org/10.25080/majora-92bf1922-00a}{10.25080/majora-92bf1922-00a}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-hj1CnyWB}{}}%
+\CSLLeftMargin{19. }
+\CSLRightInline{Dask Development Team. Dask: Library for dynamic task scheduling. 2016. Available: \url{https://dask.org}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-OsCpHsJH}{}}%
+\CSLLeftMargin{20. }
+\CSLRightInline{Fedorov A, Beichel R, Kalpathy-Cramer J, Finet J, Fillion-Robin J-C, Pujol S, et al. 3D Slicer as an image computing platform for the Quantitative Imaging Network. Magnetic Resonance Imaging. 2012;30: 1323--1341. doi:\href{https://doi.org/10.1016/j.mri.2012.05.001}{10.1016/j.mri.2012.05.001}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-MwdN6kPV}{}}%
+\CSLLeftMargin{21. }
+\CSLRightInline{Rolfe S, Pieper S, Porto A, Diamond K, Winchester J, Shan S, et al. SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology. Methods Ecol Evol. 2021;12: 1816--1825. doi:\href{https://doi.org/10.1111/2041-210x.13669}{10.1111/2041-210x.13669}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-uYuz0opI}{}}%
+\CSLLeftMargin{22. }
+\CSLRightInline{Main Page. Wikipedia, the free encyclopedia. 2022. Available: \url{https://en.wikipedia.org/w/index.php?title=Main_Page\&oldid=1114291180}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-JtHcU2O2}{}}%
+\CSLLeftMargin{23. }
+\CSLRightInline{Kishe-Machumu MA, van Rijssel JC, Poste A, Hecky RE, Witte F. Stable isotope evidence from formalin--ethanol-preserved specimens indicates dietary shifts and increasing diet overlap in Lake Victoria cichlids. Hydrobiologia. 2016;791: 155--173. doi:\href{https://doi.org/10.1007/s10750-016-2925-1}{10.1007/s10750-016-2925-1}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-15FafMZm5}{}}%
+\CSLLeftMargin{24. }
+\CSLRightInline{Ford KL, Bernt MJ, Summers AP, Albert JS. Mosaic Evolution of Craniofacial Morphologies in Ghost Electric Fishes (Gymnotiformes: Apteronotidae). Ichthyology \&amp; Herpetology. 2022;110. doi:\href{https://doi.org/10.1643/i2021016}{10.1643/i2021016}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-VPUOQA2P}{}}%
+\CSLLeftMargin{25. }
+\CSLRightInline{Collyer ML, Adams DC. RRPP: An
+\textless scp\textgreater r\textless/scp\textgreater{}
+package for fitting linear models to high‐dimensional data using residual randomization. Freckleton R, editor. Methods Ecol Evol. 2018;9: 1772--1779. doi:\href{https://doi.org/10.1111/2041-210x.13029}{10.1111/2041-210x.13029}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Ziptbtib}{}}%
+\CSLLeftMargin{26. }
+\CSLRightInline{Adams DC, Collyer ML, Kaliontzopoulou A, Baken EK. Geomorph: Software for geometric morphometric analyses. R package version 4.0.4. 2022. Available:\href{\%20https://cran.r-project.org/package=geomorph}{ https://cran.r-project.org/package=geomorph}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-EwNL0C0Y}{}}%
+\CSLLeftMargin{27. }
+\CSLRightInline{Collyer ML, Adams DC. RRPP: Linear model evaluation with randomized residuals in a permutation procedure, r package version 0.6.2. 2021. Available: \url{https://cran.r-project.org/package=RRPP}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-whEyWyQh}{}}%
+\CSLLeftMargin{28. }
+\CSLRightInline{R Core Team. R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing; 2018. Available: \url{https://www.R-project.org/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-QfVloFVu}{}}%
+\CSLLeftMargin{29. }
+\CSLRightInline{RStudio Team. RStudio: Integrated development environment for r. Boston, MA: RStudio, PBC.; 2022. Available: \url{https://www.rstudio.com/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-a9ZL41Of}{}}%
+\CSLLeftMargin{30. }
+\CSLRightInline{K3D Jupyter. K3D-tools; 2023. Available: \url{https://github.com/K3D-tools/K3D-jupyter}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-Q20Bxdsr}{}}%
+\CSLLeftMargin{31. }
+\CSLRightInline{Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale. Proceedings of the Python in Science Conference. SciPy; 2018. doi:\href{https://doi.org/10.25080/majora-4af1f417-011}{10.25080/majora-4af1f417-011}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-YuJbg3zO}{}}%
+\CSLLeftMargin{32. }
+\CSLRightInline{Himmelstein DS, Rubinetti V, Slochower DR, Hu D, Malladi VS, Greene CS, et al. Open collaborative writing with Manubot. Schneidman-Duhovny D, editor. PLoS Comput Biol. 2019;15: e1007128. doi:\href{https://doi.org/10.1371/journal.pcbi.1007128}{10.1371/journal.pcbi.1007128}}
+
+\end{CSLReferences}

@@ -7,7 +7,7 @@ Charran
 cichlid
 cichlids
 cinctus
-CSV
+csv
 curation
 Dask
 dataframe
@@ -23,7 +23,7 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-jupyter
+Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
@@ -39,6 +39,7 @@ mlaw
 morphometrics
 mphaesler
 Mwaiko
+Mwanza
 nondestructively
 NRecon
 Nrrd
@@ -46,9 +47,9 @@ OJs
 oldid
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
-Otoliths
+otoliths
 parametrized
 phylogenetic
 PJ
