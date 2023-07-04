@@ -16,7 +16,11 @@ date: 3.7.2023
 
 > The section on Micro-computed tomographic imaging should be the core of the paper and explained in more detail. The authors have extensive experience scanning 362 fish specimens of different species and sizes. Therefore, a detailed imaging protocol that can assist readers in obtaining new images should be provided. For example, what criteria did the authors use to select the best set of parameters? It is clear and expected that larger fish would have lower resolution (larger voxel size), but how does the relationship between size and parameters work? How was the filter thickness chosen?
 
-> The first sentence of the last paragraph of the subsection Micro-computed tomographic imaging is unclear: "While performing the work, a subset of the data was always present on the production system, for working with it (see Preparation for analysis below)". Please provide more precise information.
+> The first sentence of the last paragraph of the subsection Micro-computed tomographic imaging is unclear: "While performing the work, a subset of the data was always present on the production system, for working with it (see Preparation for analysis below)".
+> Please provide more precise information.
+
+We are sorry for the imprecise description of the data archival and copying process.
+The last paragraph of [this section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) was expanded and hopefully improved.
 
 > The authors should revise the entire "Data analysis" subsection to present a more didactic version that helps any reader use the notebooks. Currently, it seems that only Python users with some expertise can understand what needs to be done. Perhaps the authors could provide a guide or tutorial in the GitHub repository.
 
