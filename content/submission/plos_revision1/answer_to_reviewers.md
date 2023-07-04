@@ -37,7 +37,13 @@ The last paragraph of [this section](https://habi.github.io/EAWAG-manuscript/#mi
 
 > In the same paragraph, the authors mentioned that each tomographic dataset contains around 2700 slices, exceeding the available RAM size on an average high-end workstation. Could you clarify if this limitation affected the analysis and its implications?
 
-> The Wikipedia citation in the second paragraph of the subsection "Extraction of oral and pharyngeal jaws..." is not clear. Please provide more specific information or replace the citation with a more appropriate reference.
+<!-- Not that *one* single dataset exceeds the RAM on a workstation, but *all* datasets together do -->
+
+> The Wikipedia citation in the second paragraph of the subsection "Extraction of oral and pharyngeal jaws..." is not clear.
+>Please provide more specific information or replace the citation with a more appropriate reference.
+
+The Wikipedia citation to a date-specific version of the Nrrd article on Wikipedia (https://w.wiki/5mBK) was not correctly expanded by our manuscript preparation system.
+We replaced the Wikipedia link with a more appropriate link to https://teem.sourceforge.net/nrrd/.
 
 > Regarding the sentence "In total, we compiled an overview of 125 specimens with full head morphology, oral jaw, and lower pharyngeal jaw profiles," why was this done only for a subset of the sample? Please explain the rationale.
 
