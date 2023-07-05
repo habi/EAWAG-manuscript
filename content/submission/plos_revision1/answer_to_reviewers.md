@@ -42,8 +42,8 @@ The last paragraph of [this section](https://habi.github.io/EAWAG-manuscript/#mi
 > The Wikipedia citation in the second paragraph of the subsection "Extraction of oral and pharyngeal jaws..." is not clear.
 >Please provide more specific information or replace the citation with a more appropriate reference.
 
-The Wikipedia citation to a date-specific version of the Nrrd article on Wikipedia (https://w.wiki/5mBK) was not correctly expanded by our manuscript preparation system.
-We replaced the Wikipedia link with a more appropriate link to https://teem.sourceforge.net/nrrd/.
+The Wikipedia citation to a [date-specific version of the `Nrrd` article on Wikipedia](https://w.wiki/5mBK) was not correctly expanded by our manuscript preparation system.
+We replaced the Wikipedia link with a more appropriate link to [the `Nrrd` format definition](https://teem.sourceforge.net/nrrd/format.html).
 
 > Regarding the sentence "In total, we compiled an overview of 125 specimens with full head morphology, oral jaw, and lower pharyngeal jaw profiles," why was this done only for a subset of the sample? Please explain the rationale.
 
