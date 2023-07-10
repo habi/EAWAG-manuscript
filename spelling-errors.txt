@@ -1,4 +1,5 @@
 anteroposterior
+ataframe
 Baltzerstrasse
 bioR
 Bruker
@@ -23,7 +24,7 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-jupyter
+Jupyter
 Kassandra
 kassthefish
 Kastanienbaum

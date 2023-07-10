@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/cf174315484443289e3b288555f8ec832a6cc151/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/cf174315484443289e3b288555f8ec832a6cc151/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/cf174315484443289e3b288555f8ec832a6cc151/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,14 +79,14 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([online version](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...cf174315484443289e3b288555f8ec832a6cc151) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...0b19da53fc1e2392fe85070eadd10f8795fff509) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/cf174315484443289e3b288555f8ec832a6cc151/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/))
 was automatically generated
-from [habi/EAWAG-manuscript@cf17431](https://github.com/habi/EAWAG-manuscript/tree/cf174315484443289e3b288555f8ec832a6cc151)
+from [habi/EAWAG-manuscript@0b19da5](https://github.com/habi/EAWAG-manuscript/tree/0b19da53fc1e2392fe85070eadd10f8795fff509)
 on July 10, 2023.
 </em></small>
 
@@ -239,20 +239,23 @@ A subset of the data, namely the log files and reconstructed image stacks were k
 
 ### Data analysis
 
-We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the images and wrangle the acquired data.
+We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the acquired images to extract the desired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
 Re-runs of the notebook added newly scanned and reconstructed data to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.
 
-All analysis notebooks for this work are available online [@doi:10.5281/zenodo.6798632].
+All notebooks written for this work are available online [@doi:10.5281/zenodo.6798632] and are extensively commented.
+They are split into different task performed for this study and mentioned in their respective sections below.
 
 #### Preparation for analysis
 
-The [main *Jupyter* notebook](https://github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb) for this manuscript dealt with reading all log and image files and preparing images for quality checking and further analysis.
+The [main *Jupyter* notebook](https://github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb) for this manuscript dealt with reading all log and image files and preparing overview images of each scan for quality checking and further analysis.
 
 At first, *all* log files of *all* the data present in the processed folder were read into a *pandas* [@doi:10.5281/zenodo.7093122; @doi:10.25080/Majora-92bf1922-00a] dataframe.
-This already enabled us to extract the specimen name and scan, since we performed multiple scans for each specimen, i.e. a low resolution scan with large field of view for the whole head and one or two scans in high resolution focusing on the region of the oral and pharyngeal jaws.
-From the log files we extracted the relevant values for double-checking the necessary parameters of each scan.
-All relevant values for each scan were also saved into the dataframe and saved out to the aforementioned table in the [Supplementary Materials] at the end of each run of the notebook.
+This already enabled us to extract the specimen name and scan.
+Since we performed multiple scans for each specimen, i.e. a low resolution scan with large field of view for the whole head and one or two scans in high resolution focusing on the region of the oral and pharyngeal jaws it was necessary to be able to efficiently find the scan to be looked at in detail.
+From the log files we extracted the scanning and reconstruction parameters of each performed scan for double-checking them and excluding (or necessarily correcting) any operator-error.
+All relevant values for each scan were also saved into the aforementioned ataframe.
+This allows for an easy collation of all the relevant values into a table (as shown in the [Supplementary Materials]) at the end of each run of the notebook.
 
 After performing 'sanity checks' of the data and reconstruction parameters, we used *Dask* [@dask] to efficiently access the tomographic data on disk (in the end amounting to a total of nearly a million single images).
 On average, each of the tomographic datasets contains around 2700 slices, so the total size of the acquired data exceeds the RAM size available on an average high-end workstation.
@@ -261,8 +264,8 @@ At first, we extracted the central view of each of the three axial directions of
 The notebook then also generated the maximum intensity projection (MIP) for each of the anatomical planes and either saved them to disk or loaded them from prior runs.
 
 At the end of the notebook we performed a final sanity check on the MIP images.
-In this check we examined the mapping of the gray values of the raw projection images to gray values in the reconstructions, i.e. checked that no overexposed pixels are present in the MIP images.
-This is an efficient way for double-checking the gray value mapping, since the MIP images have already been generated in prior steps of the notebook and contain the highest gray values present in all the reconstructed images of each scan.
+In this check we examined the mapping of the gray values of the raw projection images to gray values in the reconstructions, i.e. checked that no overexposed pixels were present.
+This is an efficient way for double-checking the gray value mapping, since the MIP images have already been generated in prior steps of the notebook and contain the highest gray values present in all the reconstructed images for each scan.
 
 ### Image processing
 
@@ -279,7 +282,7 @@ We used the *Scissor* and *Island* tools of the *Segment Editor* to isolate sing
 
 Processed regions of interest were exported as `Nrrd` [@https://teem.sourceforge.net/nrrd/format.html] files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
-In total we compiled overview of 125 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
+In total, we compiled such overview images for 129 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
 ![Overview of data from sample 104016, *Enterochromis I cinctus*, from 'Station E' in the transect of Mwanza Bay at the southern edge of Lake Victoria.
   A map showing the detailed location of 'Station E' is shown in Fig. 1 of [@doi:10.1007/s10750-016-2925-1].
