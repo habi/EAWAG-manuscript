@@ -7,7 +7,7 @@ Charran
 cichlid
 cichlids
 cinctus
-CSV
+csv
 curation
 Dask
 dataframe
@@ -45,7 +45,7 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
 otoliths
 parametrized
