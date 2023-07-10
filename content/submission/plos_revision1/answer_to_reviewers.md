@@ -6,11 +6,21 @@ date: 3.7.2023
 
 # Review Comments to the Author
 
-> Reviewer #1: Excellent paper. It was not clear if you could discern daily rings on the otoliths. You might want to discuss if you can use rings on otoliths to age the fish without removing them. Also, do you have to stain the fish to use these rings?
+> Reviewer #1: Excellent paper.
+> It was not clear if you could discern daily rings on the otoliths.
+> You might want to discuss if you can use rings on otoliths to age the fish without removing them.
+> Also, do you have to stain the fish to use these rings?
 
 The data shown in this manuscript is from unstained specimen.
 They have been stored in ethanol and scanned in wet foam, but *no* staining was applied.
 Since we here only focus on the morphology of the skull and teeth such a staining was not necessary to extract the needed data from the tomographic images.
+Growth rings would most probably be visible in the analyzed specimens, but only if some staining is applied, e.g. by storing the fish in Lugol solution.
+Since this was *not* the focus of the present study we did not do this here.
+
+To use the data on both growth rings and volume of the otoliths one would have to calibrate this first to be able to extract age estimates.
+I.e. one would have to make a simple growth experiment where a number of fish with known age are euthanized, tomographically imaged and then the volume of their extracted otoliths is correlated with their age.
+Such a calibration would match size and volume of both the (lab-raised) fish and the otoliths with the age of the fish.
+This data could then be used to estimate the age of fishes collected in the wild.
 
 > Reviewer #2: I have carefully evaluated the manuscript titled "Microtomographic investigation of a large corpus of cichlids". The authors present a substantial collection of tomographic images from cichlids collected in Lake Victoria, Africa. They showcase significant cranial, maxillary, and otolith images from 362 specimens and provide open-source Python notebooks to facilitate the manipulation and extraction of specific parts. I believe that this work represents a significant contribution to the understanding of cichlids and the application of Micro-CT imaging in fish studies. However, I have some suggestions to improve the manuscript:
 
