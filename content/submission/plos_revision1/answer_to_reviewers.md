@@ -25,8 +25,8 @@ This data could then be used to estimate the age of fishes collected in the wild
 > Reviewer #2: I have carefully evaluated the manuscript titled "Microtomographic investigation of a large corpus of cichlids". The authors present a substantial collection of tomographic images from cichlids collected in Lake Victoria, Africa. They showcase significant cranial, maxillary, and otolith images from 362 specimens and provide open-source Python notebooks to facilitate the manipulation and extraction of specific parts. I believe that this work represents a significant contribution to the understanding of cichlids and the application of Micro-CT imaging in fish studies. However, I have some suggestions to improve the manuscript:
 
 Thank you very much for the kind words.
-As we state in the [imaging section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) we acquired 362 single tomographic scans of 129 different specimen.
-This means that each specimen was scanned several times, usually one lower-resolution scan of the full head and two single higer-resolution scans for the oral and pharyngeal jaws.
+As we state in the [imaging section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) we acquired 372 single tomographic scans of 133 different specimen (updated since submission of the manuscript, as a rest of fish relevant for the study was added).
+This means that each specimen was scanned several times, usually one lower-resolution scan of the full head and two single higher-resolution scans for the oral and pharyngeal jaws.
 
 > The introduction section needs improvement. It is too simplistic and lacks informative details about the state of the art and the justification for the work.
 
@@ -39,7 +39,7 @@ We believe that the approach we chose here here is the most appropriate way to p
 
 > The section on Micro-computed tomographic imaging should be the core of the paper and explained in more detail. The authors have extensive experience scanning 362 fish specimens of different species and sizes. Therefore, a detailed imaging protocol that can assist readers in obtaining new images should be provided. For example, what criteria did the authors use to select the best set of parameters? It is clear and expected that larger fish would have lower resolution (larger voxel size), but how does the relationship between size and parameters work? How was the filter thickness chosen?
 
-As stated above and in the text, we acquired 362 single tomographic scans of 129 different specimen.
+As stated above and in the text, we acquired 372 single tomographic scans of 133 different specimen.
 
 > The first sentence of the last paragraph of the subsection Micro-computed tomographic imaging is unclear: "While performing the work, a subset of the data was always present on the production system, for working with it (see Preparation for analysis below)".
 > Please provide more precise information.
@@ -82,8 +82,8 @@ We replaced the Wikipedia link with a more appropriate link to [the `Nrrd` forma
 
 > Regarding the sentence "In total, we compiled an overview of 125 specimens with full head morphology, oral jaw, and lower pharyngeal jaw profiles," why was this done only for a subset of the sample? Please explain the rationale.
 
-As stated above and in the text, we acquired 362 single tomographic scans of 129 different specimen.
-It is correct though that "125" here is wrong, since we've acquired 4 scans more since this version of the manuscript.
+As stated above and in the text, we actually acquired 372 single tomographic scans of 133 different specimen.
+It is correct though that "125" here is wrong, since we've acquired more scans after submission of the manuscript.
 This has been corrected, and we thank the reviewer for noticing this.
 
 > The results of the subsection "Principal components analysis of skull landmarks" should be presented in a more accessible manner. Consider providing a tutorial or guide for readers to better understand and apply the analysis. As it currently stands, this subsection may be considered irrelevant for the paper.
