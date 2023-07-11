@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-07-10'
+date-meta: '2023-07-11'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-07-10" />
-  <meta name="citation_publication_date" content="2023-07-10" />
+  <meta name="dc.date" content="2023-07-11" />
+  <meta name="citation_publication_date" content="2023-07-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/c6b7ff7c02d5425b675ce348cd38ac7a88cbfeb3/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c6b7ff7c02d5425b675ce348cd38ac7a88cbfeb3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c6b7ff7c02d5425b675ce348cd38ac7a88cbfeb3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,15 +79,15 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([online version](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...0b19da53fc1e2392fe85070eadd10f8795fff509) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...c6b7ff7c02d5425b675ce348cd38ac7a88cbfeb3) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/0b19da53fc1e2392fe85070eadd10f8795fff509/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/c6b7ff7c02d5425b675ce348cd38ac7a88cbfeb3/))
 was automatically generated
-from [habi/EAWAG-manuscript@0b19da5](https://github.com/habi/EAWAG-manuscript/tree/0b19da53fc1e2392fe85070eadd10f8795fff509)
-on July 10, 2023.
+from [habi/EAWAG-manuscript@c6b7ff7](https://github.com/habi/EAWAG-manuscript/tree/c6b7ff7c02d5425b675ce348cd38ac7a88cbfeb3)
+on July 11, 2023.
 </em></small>
 
 ## Authors
@@ -150,9 +150,9 @@ on July 10, 2023.
 
 ## Abstract {.page_break_before}
 
-A large collection of cichlids from Lake Victoria in Africa spanning a length range of 6 to 18 cm was nondestructively imaged using micro-computed tomography.
+A large collection of cichlids (N=133) from Lake Victoria in Africa spanning a length range of 6 to 18 cm was nondestructively imaged using micro-computed tomography.
 We describe our method to efficiently obtain three-dimensional tomographic datasets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
-The tomographic data we acquired (9.5 TB of projection images) yielded 1.4 TB of three-dimensional image stacks used for extracting the relevant features of interest.
+The tomographic data we acquired (9.8 TB of projection images) yielded 1.5 TB of three-dimensional image stacks used for extracting the relevant features of interest.
 Herein we present our method and an outlook on analyzing the acquired data; a morphological description of the oral and pharyngeal jaws of the fishes, a three-dimensional geometric morphometrics analysis of landmark features on the fish skulls, and a robust method to automatically extract the otoliths of the fishes from the tomographic data.
 
 
@@ -169,7 +169,7 @@ Even though the evolutionary diversification of cichlid fish radiations in Lake 
 We aim to better understand the functional anatomy of the skulls and jaws in these fish in order to test the functional decoupling and other hypotheses about what may facilitate exceptionally high rates of morphological evolution.
 
 The collection of cichlid fish available is extremely valuable, hence a nondestructive imaging method is paramount for studying these samples.
-Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is the ideal imaging method for investigating the oral and pharyngeal jaws as well as the skull features of the fish presented in this study [@doi:10.1093/iob/obad008].
+Since micro–computed tomography can be regarded as nondestructive method for biological samples, it is the ideal imaging method for investigating the oral and pharyngeal jaws as well as the skull features of the fish presented in this study [@doi:10.1093/iob/obad008] (N=133).
 
 ### Micro-computed tomography
 
@@ -202,8 +202,8 @@ We used a custom-made sample-holder to scan each of the fish in our machines.
 It was 3D-printed on a Form 2 desktop stereolithography printer (Formlabs, Somerville, Massachusetts, USA), the file for printing the holder is available online [@https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl] as part of a library of sample holders for tomographic scanning of biomedical samples [@doi:10.5281/zenodo.2587555].
 The original *OpenSCAD* [@https://openscad.org] file [@https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad] is parametrized to effortlessly generate a file for 3D-printing sample holders to accommodate the varying width, height and length classes of the fish.
 
-In total, we acquired 362 tomographic scans of 129 different specimens.
-All the scanning parameters are collected in a table in the [Supplementary Materials]; a generalized rundown is given below.
+In total, we acquired 372 tomographic scans of 133 different specimens.
+All the scanning parameters are collected in a table in the [Supplementary Materials]; an overview of the parameters is given below.
 
 Since the fish greatly varied in their length (specimen length varied between 6 cm and 18 cm), the voxel sizes of each of the acquired datasets also varies greatly.
 We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
@@ -214,23 +214,24 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 
 Depending on the size of the specimen we set the X-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
 The X-ray spectrum was filtered either by an aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm for increasing specimen size) before digitization to projection images or recorded in an unfiltered way (for smaller specimen).
-In total we recorded 9.5 TB of projection images (`TIFF` and `*.iif` files, where the `*.iif` files are for the so-called alignment scans).
+Projection images spanning either 180° or 360° of sample rotation were acquired in angular steps of 0.1°, 0.15° or 0.2°, also depending on size of the fish.
+In total we recorded 9.8 TB of projection images (`TIFF` and `*.iif` files, where the `*.iif` files are for the so-called alignment scans).
 
 All the recorded projection images were subsequently reconstructed into virtual 3D stacks of axial `PNG` images spanning the regions of interest of each fish.
 All the specimens were scanned with their mouths facing downward in the sample holder and rotating along their long axis.
 We thus manually aligned each of the reconstructed datasets so that the lateral axis of the fish was horizontal in relation to the x and y direction of the reconstructed slices.
 We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich, Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the [Supplementary Materials]).
-In total, this resulted in 1.4 TB of reconstruction images (nearly one million `*rec*.png` files).
-Each of the 362 scans we performed has on average about 2700 reconstruction images.
+In total, this resulted in 1.5 TB of reconstruction images (a bit more than one million `*rec*.png` files).
+On average, each of the scans we performed is made up of about 2700 reconstruction images.
 
 <!---
-print('We have %s reconstructions on %s' % (Data['Number of reconstructions'].sum(), Root))
+print('We have a total of %s reconstructions on %s' % (Data['NumberOfReconstructions'].sum(), Root))
 
-We have 992724 reconstructions on /home/habi/research-storage-iee
+We have a total of 1005778 reconstructions on /home/habi/research-storage-iee/microCT
 
-print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round(Data['Number of reconstructions'].sum() / len(Data)), len(Data), len(Data.Fish.unique())))
+print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round(Data['NumberOfReconstructions'].sum() / len(Data[Data['NumberOfReconstructions'] > 0])), len(Data[Data['NumberOfReconstructions'] > 0]), len(Data.Fish.unique()) -6 ))
 
-This is about 2720 reconstructions per scan (365 scans, 137 folders)
+This is about 2704 reconstructions per scan (372 scans, 133 fishes)
 --->
 
 A small script [@https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh] was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the 'Research Storage' infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
@@ -239,7 +240,7 @@ A subset of the data, namely the log files and reconstructed image stacks were k
 
 ### Data analysis
 
-We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the acquired images to extract the desired data.
+We wrote a set of *Jupyter* [@https://eprints.soton.ac.uk/403913] notebooks with *Python* code to work with the acquired images and to extract the desired data.
 The notebooks were written at the start of the project, to be able to process new scans as soon as they were reconstructed.
 Re-runs of the notebook added newly scanned and reconstructed data to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.
 
@@ -250,14 +251,14 @@ They are split into different task performed for this study and mentioned in the
 
 The [main *Jupyter* notebook](https://github.com/habi/EAWAG/blob/master/DisplayFishes.ipynb) for this manuscript dealt with reading all log and image files and preparing overview images of each scan for quality checking and further analysis.
 
-At first, *all* log files of *all* the data present in the processed folder were read into a *pandas* [@doi:10.5281/zenodo.7093122; @doi:10.25080/Majora-92bf1922-00a] dataframe.
+At first, *all* log files of *all* the scan present in the processed folder were read into a *pandas* [@doi:10.5281/zenodo.7093122; @doi:10.25080/Majora-92bf1922-00a] dataframe.
 This already enabled us to extract the specimen name and scan.
 Since we performed multiple scans for each specimen, i.e. a low resolution scan with large field of view for the whole head and one or two scans in high resolution focusing on the region of the oral and pharyngeal jaws it was necessary to be able to efficiently find the scan to be looked at in detail.
 From the log files we extracted the scanning and reconstruction parameters of each performed scan for double-checking them and excluding (or necessarily correcting) any operator-error.
 All relevant values for each scan were also saved into the aforementioned ataframe.
 This allows for an easy collation of all the relevant values into a table (as shown in the [Supplementary Materials]) at the end of each run of the notebook.
 
-After performing 'sanity checks' of the data and reconstruction parameters, we used *Dask* [@dask] to efficiently access the tomographic data on disk (in the end amounting to a total of nearly a million single images).
+After displaying several parameters of both data acquisition and reconstruction for ruling out any operator error we used *Dask* [@dask] to efficiently access the tomographic data on disk (in the end amounting to a total of nearly a million single images).
 On average, each of the tomographic datasets contains around 2700 slices, so the total size of the acquired data exceeds the RAM size available on an average high-end workstation.
 
 At first, we extracted the central view of each of the three axial directions of the datasets (i.e. 'anteroposterior', 'lateral' and 'dorsoventral' view) and either saved those to disk or loaded them from disk if they were already generated in prior runs of the notebook.
@@ -282,7 +283,7 @@ We used the *Scissor* and *Island* tools of the *Segment Editor* to isolate sing
 
 Processed regions of interest were exported as `Nrrd` [@https://teem.sourceforge.net/nrrd/format.html] files.
 The three-dimensional visualizations of all regions of interest for each specimen were compiled into overview images (see Figure @fig:104016 for an example from the compilation document).
-In total, we compiled such overview images for 129 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
+In total, we compiled such overview images for 133 specimens with full head morphology, oral jaw and lower pharyngeal jaw profiles.
 
 ![Overview of data from sample 104016, *Enterochromis I cinctus*, from 'Station E' in the transect of Mwanza Bay at the southern edge of Lake Victoria.
   A map showing the detailed location of 'Station E' is shown in Fig. 1 of [@doi:10.1007/s10750-016-2925-1].
@@ -310,7 +311,8 @@ We then used phylogenetic information to identify instances of repeated evolutio
 
 Otoliths are structures made up of mostly calcium carbonate located in the head of fishes.
 Due to their composition, they are easily distinguished in the X-ray images we acquired.
-We devised an image processing method to automatically and robustly detect the location of the otoliths in the heads of the cichlids we scanned and to extract them from the original data.
+We devised an image processing method to automatically and robustly detect the location of the otoliths in the tomographic scans of the skulls of the cichlids.
+Based on this detected location we were then able to efficiently extract a cropped region of interest from the original data which includes only the region of the otoliths.
 The whole method is implemented in its own [*Jupyter* notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) (part of the aforementioned analysis repository [@doi:10.5281/zenodo.6798632]).
 
 Since we took great care to scan the fish parallel to their anteroposterior direction and reconstructed the tomographic datasets parallel to the lateral and dorsoventral direction of the fish we could use this 'preparation' for automatically extracting the otoliths the tomographic datasets of the whole fish heads.
@@ -343,8 +345,8 @@ This starts a computing environment in the cloud, downloads the tomographic data
 
 ## Discussion {.page_break_before}
 
-We acquired high resolution tomographic datasets of a large collection of cichlids.
-The acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. the structure of the teeth) and having datasets spanning the whole region of interest of the fish (i.e. the whole head for principle components analysis).
+We acquired high resolution tomographic datasets of a large collection of cichlids (N=133), several tomographic scans were performed for each specimen.
+The 372 acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. containing only the oral and pharyngeal jaws) and having datasets (N=104) containing the whole head for principle components analysis and extraction of the otoliths.
 
 ### Imaging and preparation for analysis
 

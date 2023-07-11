@@ -24,14 +24,14 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-Jupyter
+jupyter
 Kassandra
 kassthefish
 Kastanienbaum
 Kontich
 kV
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
