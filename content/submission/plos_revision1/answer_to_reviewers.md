@@ -75,7 +75,7 @@ We slightly expanded the description of the notebooks at the start of the [Data 
 The mentioned 'sanity check' was performed manually, e.g. by looking at all the values (mostly the reconstruction parameters), to exclude any operator error.
 If errors were spotted at this stage, the reconstructions were deleted and re-done with the correct parameters.
 Sometimes errors or problems were only spotted at a later stage, when either the pharyngeal or oral jaws were extracted, or when we noticed that some part of the the whole skull were out of the field of view of the tomographic scan prior to performing the PCA analysis mentioned later in the manuscript.
-This means that specifying this as 'sanity check' is more of a glorified wording of telling the readers that we manually looked at the values of each performed tomographic scan to exlude and catch operator errors.
+This means that specifying this as 'sanity check' is more of a glorified wording of telling the readers that we manually looked at the values of each performed tomographic scan to exclude and catch operator errors.
 We reworded the sentence to hopefully make this more clear.
 
 > In the same paragraph, the authors mentioned that each tomographic dataset contains around 2700 slices, exceeding the available RAM size on an average high-end workstation.
