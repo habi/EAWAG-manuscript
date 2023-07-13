@@ -60,7 +60,9 @@ We understand the concerns of the reviewer though, and added explanation text an
 All these updates happen in [the code repository](https://github.com/habi/EAWAG) and have *not* been specifically mentioned in the manuscript text.
 Two of the notebooks ([DataWrangling](https://nbviewer.org/github/habi/EAWAG/blob/main/DataWrangling.ipynb) and [DataSize](https://nbviewer.org/github/habi/EAWAG/blob/main/DataSize.ipynb)) were used to help us generate 'checking' and 'collaboration' files (DataWrangling) or used to help us generate text for the manuscript, i.e. to extract exact details on sample numbers, total amount of projections and reconstructions and their exact size on disk (DataSize).
 As these notebooks are not explicitly mentioned in the manuscript they are not extensively commented (only commented).
-The two notebooks mentioned in the text ([DisplayFishes](https://nbviewer.org/github/habi/EAWAG/blob/main/DisplayFishes.ipynb)) and ([ExtractOtoliths](https://nbviewer.org/github/habi/EAWAG/blob/main/ExtractOtoliths.ipynb)) have been.
+The two notebooks mentioned in the text ([DisplayFishes](https://nbviewer.org/github/habi/EAWAG/blob/main/DisplayFishes.ipynb)) and ([ExtractOtoliths](https://nbviewer.org/github/habi/EAWAG/blob/main/ExtractOtoliths.ipynb)) have been updated with more comments and explanatory text between the logical steps.
+These additions are [visualized in the respective GitHub repository](https://github.com/habi/EAWAG/compare/v1.1...HEAD), but not specifically mentioned in the text.
+We slightly expanded the description of the notebooks at the start of the [Data analysis section](https://habi.github.io/EAWAG-manuscript/#data-analysis) though.
 
 > How was the sanity check performed (as mentioned in the second paragraph of the subsection "Preparation for Analysis")?
 
