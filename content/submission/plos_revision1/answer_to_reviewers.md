@@ -28,7 +28,13 @@ Thank you very much for the kind words.
 As we (now) state in the [imaging section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) we acquired 372 single tomographic scans of 133 different specimen (updated since submission of the manuscript, as a rest of fish relevant for the study was added).
 This means that each specimen was scanned several times, usually one lower-resolution scan of the full head and two single higher-resolution scans for the oral and pharyngeal jaws.
 
-> The introduction section needs improvement. It is too simplistic and lacks informative details about the state of the art and the justification for the work.
+> The introduction section needs improvement.
+> It is too simplistic and lacks informative details about the state of the art and the justification for the work.
+
+We've deliberately kept the introduction rather terse.
+The justification of the work lies in the non-desctructive imaging of unstained samples.
+We have expanded the introduction a bit and added references to manuscripts detailing microtomographic imaging in the life sciences.
+As this manuscript is not a review, we kindly refuse to add more information on the background of microtomogrpahic imaging.
 
 > Merging the Materials and Methods section with the Results is not a reasonable way to present the work.
 > It would be better to separate them for clarity.
@@ -94,7 +100,8 @@ This has been corrected, and we thank the reviewer for noticing this.
 
 > The results of the subsection "Principal components analysis of skull landmarks" should be presented in a more accessible manner. Consider providing a tutorial or guide for readers to better understand and apply the analysis. As it currently stands, this subsection may be considered irrelevant for the paper.
 
-> The procedure for detecting and extracting otoliths in the subsection "Automatic extraction of otoliths" is not clear. Please provide clearer instructions or guidelines for readers using the notebook.
+As mentioned above, the Jupyter notebook used to detect the otolith position and to extract the otoliths from the scans covering the whole skull are extensively commented.
+We have added more explanatory comments and text to the notebook on GitHub, increading their didactiveness.
 
 > Use the full words, rather than abbreviations, in figure legends for clarity.
 
@@ -108,3 +115,6 @@ Additionally we added a bit of background information on the specimen to the leg
 > Overall, the study seems to have spanned a considerable time frame. However, the manuscript's content and structure need improvement to reach a wider audience and effectively communicate the significance of the work. The authors have provided a valuable set of open-source Python notebooks, which is commendable and will be highly useful for the scientific community. However, the workflow needs to be better explained to enable readers to follow the procedures accurately.
 
 > By addressing these suggestions, the manuscript will become more comprehensive, accessible, and representative of the valuable contribution made by the authors.
+
+We thank the reviewer for the kind words and the time spent on improving our work with relevant questions and comments.
+The manuscript has considerably improved by the updates we have performed.
