@@ -116,7 +116,15 @@ We have added more explanatory comments and text to the notebook on GitHub, incr
 Abbreviations in the legends have been written-out (except SI units).
 Additionally we added a bit of background information on the specimen to the legend of Fig. 1.
 
-> In the discussion section, the authors mentioned acquiring high-resolution tomographic datasets of a large collection of cichlids. However, the statement that "the acquired datasets were imaged over a wide-spanning range of voxel size (3.5–50 μm)" is incorrect. The voxel size is specimen-specific, depending on the size of the fish and the chosen parameters. Please clarify this point to accurately represent the imaging process. The finest resolution was obtained only for small fishes, so specific structures of a fish will have the same image resolution throughout the entire specimen.
+> In the discussion section, the authors mentioned acquiring high-resolution tomographic datasets of a large collection of cichlids.
+> However, the statement that "the acquired datasets were imaged over a wide-spanning range of voxel size (3.5–50 μm)" is incorrect.
+> The voxel size is specimen-specific, depending on the size of the fish and the chosen parameters.
+> Please clarify this point to accurately represent the imaging process.
+> The finest resolution was obtained only for small fishes, so specific structures of a fish will have the same image resolution throughout the entire specimen.
+
+The statement over the 'wide-spanning range of voxel sizes' is *not* incorrect, at most---if applied to *one* speciment---imprecise.
+The range of voxel sizes is true for the whole study, while---as also correctly noted by the reviewer---the voxel size is specimen-specific.
+We clarified this paragraph by adding a more precise explanation.
 
 > It would be beneficial to include references in the discussion section to support the arguments and provide a broader context for the findings.
 
