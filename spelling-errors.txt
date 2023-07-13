@@ -8,7 +8,7 @@ Charran
 cichlid
 cichlids
 cinctus
-csv
+CSV
 curation
 Dask
 dataframe
@@ -31,12 +31,13 @@ Kastanienbaum
 Kontich
 kV
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
 MIP
 mlaw
+modularized
 morphometrics
 mphaesler
 Mwaiko
@@ -46,7 +47,7 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
 otoliths
 parametrized

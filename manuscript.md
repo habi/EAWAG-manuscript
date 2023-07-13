@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-07-11'
+date-meta: '2023-07-13'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-07-11" />
-  <meta name="citation_publication_date" content="2023-07-11" />
+  <meta name="dc.date" content="2023-07-13" />
+  <meta name="citation_publication_date" content="2023-07-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/05e0c4de935ffd552c20ae7ff34db6d16ce5ca6d/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/05e0c4de935ffd552c20ae7ff34db6d16ce5ca6d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/05e0c4de935ffd552c20ae7ff34db6d16ce5ca6d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,15 +79,15 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([online version](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...05e0c4de935ffd552c20ae7ff34db6d16ce5ca6d) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...a15f6a93f7f5b262f005c909a8fdcbdf8220da53) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/05e0c4de935ffd552c20ae7ff34db6d16ce5ca6d/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/))
 was automatically generated
-from [habi/EAWAG-manuscript@05e0c4d](https://github.com/habi/EAWAG-manuscript/tree/05e0c4de935ffd552c20ae7ff34db6d16ce5ca6d)
-on July 11, 2023.
+from [habi/EAWAG-manuscript@a15f6a9](https://github.com/habi/EAWAG-manuscript/tree/a15f6a93f7f5b262f005c909a8fdcbdf8220da53)
+on July 13, 2023.
 </em></small>
 
 ## Authors
@@ -158,7 +158,7 @@ Herein we present our method and an outlook on analyzing the acquired data; a mo
 
 ## Introduction {.page_break_before}
 
-### History
+### History and rationale
 
 Cichlid fish in African lakes are powerful model systems in speciation and adaptive evolutionary radiation research [@doi:10.1038/nrg1316; @doi:10.1098/rspb.2006.3539; @doi:10.1002/ece3.7359].
 The functional decoupling of their oral and pharyngeal jaws is hypothesized to be a factor in making cichlids unusually versatile in their feeding and allowing them the ability to adapt to a wide range of environmental factors [@doi:10.2307/2412950].
@@ -173,12 +173,13 @@ Since micro–computed tomography can be regarded as nondestructive method for b
 
 ### Micro-computed tomography
 
-X-ray microtomography is a valuable tool to gain insights into the inner structure of highly diverse samples, namely for specimens related to research done in the biomedical sciences.
+X-ray microtomography is a valuable tool to gain insights into the inner structure of highly diverse samples, namely for specimens related to the biomedical sciences [@doi:10.1186/s12915-020-0753-2].
 Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different fish species, large and small [@doi:10.1093/iob/obad008].
 For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022; @doi:10.1093/iob/obad008] as well as other studies [@https://osf.io/ecmz4].
 
-Depending on the structures of interest, biomedical samples are often only tomographically scanned after being stained with a contrast agent, most often employing contrast agents containing heavy metals.
-Since the structures of interest for the two studies we touch upon in this manuscript (cichlid teeth and skulls) display large enough contrast to the surrounding tissue we did not stain our samples prior to the tomographic imaging presented here.
+Depending on the structures of interest, biomedical samples are often only tomographically scanned after being stained with a contrast agent [@doi:10.26496/bjz.2014.63], most often employing contrast agents containing heavy metals [@10.1089/zeb.2016.1245].
+Due to their inherent contrast difference to the surrounding tissue, the structures of interest we touch upon in this manuscript (teeth and bones, i.e. jaws and skull) are well visualized in native samples.
+Enhancing contrast differences by staining prior to tomographic imaging was thus not necessary to for the samples presented herein.
 
 
 ## Materials, Methods and Results {.page_break_before}
@@ -245,7 +246,9 @@ The notebooks were written at the start of the project, to be able to process ne
 Re-runs of the notebook added newly scanned and reconstructed data to the analysis, facilitating an efficient quality check of the scans and batched processing of the data.
 
 All notebooks written for this work are available online [@doi:10.5281/zenodo.6798632] and are extensively commented.
-They are split into different task performed for this study and mentioned in their respective sections below.
+The modularized and interactive format chosen for these notebooks makes them easy to adapt for any other study dealing with tomographic data.
+The first author of this study is happy to help other scientists to adapt the notebooks to their use-case.
+They notebooks are split into different task performed for this study and are specifically mentioned in the respective sections below.
 
 #### Preparation for analysis
 
@@ -259,7 +262,8 @@ All relevant values for each scan were also saved into the aforementioned atafra
 This allows for an easy collation of all the relevant values into a table (as shown in the [Supplementary Materials]) at the end of each run of the notebook.
 
 After displaying several parameters of both data acquisition and reconstruction for ruling out any operator error we used *Dask* [@dask] to efficiently access the tomographic data on disk (in the end amounting to a total of nearly a million single images).
-On average, each of the tomographic datasets contains around 2700 slices, so the total size of the acquired data exceeds the RAM size available on an average high-end workstation.
+On average, each of the tomographic datasets contains around 2700 slices, so the total size of the acquired data (1.5 TB) exceeds the RAM size available on an average high-end workstation.
+The use of *Dask* (and more specifically *dask-image* [@https://image.dask.org/]) facilitated on-demand loading of the needed data directly from disk for each of the specimen to be analyzed in each step of the notebooks.
 
 At first, we extracted the central view of each of the three axial directions of the datasets (i.e. 'anteroposterior', 'lateral' and 'dorsoventral' view) and either saved those to disk or loaded them from disk if they were already generated in prior runs of the notebook.
 The notebook then also generated the maximum intensity projection (MIP) for each of the anatomical planes and either saved them to disk or loaded them from prior runs.
@@ -347,6 +351,11 @@ This starts a computing environment in the cloud, downloads the tomographic data
 
 We acquired high resolution tomographic datasets of a large collection of cichlids (N=133), several tomographic scans were performed for each specimen.
 The 372 acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. containing only the oral and pharyngeal jaws) and having datasets (N=104) containing the whole head for principle components analysis and extraction of the otoliths.
+
+<!--
+Explain the voxel size range a bit better.
+The suggestion/comment from the reviewer on it is actually a good one.
+--> 
 
 ### Imaging and preparation for analysis
 
