@@ -12,7 +12,7 @@ date: 3.7.2023
 > Also, do you have to stain the fish to use these rings?
 
 The data shown in this manuscript is from unstained specimen.
-They have been stored in ethanol and scanned in wet foam, but *no* staining was applied.
+They have been stored in ethanol and imaged in wet foam to avoid any drying during imaging, but *no* staining was applied.
 Since we here only focus on the morphology of the skull and teeth such a staining was not necessary to extract the needed data from the tomographic images.
 Growth rings would most probably be visible in the analyzed specimens, but only if some staining is applied, e.g. by storing the fish in Lugol solution.
 Since this was *not* the focus of the present study we did not do this here.
@@ -25,7 +25,7 @@ This data could then be used to estimate the age of fishes collected in the wild
 > Reviewer #2: I have carefully evaluated the manuscript titled "Microtomographic investigation of a large corpus of cichlids". The authors present a substantial collection of tomographic images from cichlids collected in Lake Victoria, Africa. They showcase significant cranial, maxillary, and otolith images from 362 specimens and provide open-source Python notebooks to facilitate the manipulation and extraction of specific parts. I believe that this work represents a significant contribution to the understanding of cichlids and the application of Micro-CT imaging in fish studies. However, I have some suggestions to improve the manuscript:
 
 Thank you very much for the kind words.
-As we state in the [imaging section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) we acquired 372 single tomographic scans of 133 different specimen (updated since submission of the manuscript, as a rest of fish relevant for the study was added).
+As we (now) state in the [imaging section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) we acquired 372 single tomographic scans of 133 different specimen (updated since submission of the manuscript, as a rest of fish relevant for the study was added).
 This means that each specimen was scanned several times, usually one lower-resolution scan of the full head and two single higher-resolution scans for the oral and pharyngeal jaws.
 
 > The introduction section needs improvement. It is too simplistic and lacks informative details about the state of the art and the justification for the work.
@@ -45,7 +45,7 @@ As stated above and in the text, we acquired 372 single tomographic scans of 133
 > Please provide more precise information.
 
 We are sorry for the imprecise description of the data archival and copying process.
-The last paragraph of [this section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) was expanded and hopefully improved.
+The last paragraph of [this section](https://habi.github.io/EAWAG-manuscript/#micro-computed-tomographic-imaging) was expanded and improved.
 
 > The authors should revise the entire "Data analysis" subsection to present a more didactic version that helps any reader use the notebooks.
 > Currently, it seems that only Python users with some expertise can understand what needs to be done.
@@ -84,7 +84,7 @@ We have updated the sentence to explain this.
 >Please provide more specific information or replace the citation with a more appropriate reference.
 
 The Wikipedia citation to a [date-specific version of the `Nrrd` article on Wikipedia](https://w.wiki/5mBK) was not correctly expanded by our manuscript preparation system.
-We replaced the Wikipedia link with a more appropriate link to [the `Nrrd` format definition](https://teem.sourceforge.net/nrrd/format.html).
+We replaced the Wikipedia link with a more appropriate link to [the `Nrrd` format definition](https://teem.sourceforge.net/nrrd/format.html) and thank the reviewer for noticing this issue.
 
 > Regarding the sentence "In total, we compiled an overview of 125 specimens with full head morphology, oral jaw, and lower pharyngeal jaw profiles," why was this done only for a subset of the sample? Please explain the rationale.
 
