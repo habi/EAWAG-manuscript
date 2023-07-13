@@ -70,9 +70,13 @@ Sometimes errors or problems were only spotted at a later stage, when either the
 This means that specifying this as 'sanity check' is more of a glorified wording of telling the readers that we manually looked at the values of each performed tomographic scan to exlude and catch operator errors.
 We reworded the sentence to hopefully make this more clear.
 
-> In the same paragraph, the authors mentioned that each tomographic dataset contains around 2700 slices, exceeding the available RAM size on an average high-end workstation. Could you clarify if this limitation affected the analysis and its implications?
+> In the same paragraph, the authors mentioned that each tomographic dataset contains around 2700 slices, exceeding the available RAM size on an average high-end workstation.
+> Could you clarify if this limitation affected the analysis and its implications?
 
-<!-- Not that *one* single dataset exceeds the RAM on a workstation, but *all* datasets together do -->
+We wrote that *the total size of the acquired data exceeds the RAM* of any workstation (e.g. around 1.5 TB).
+*One* or more single datasets would fit into RAM very well, It is not possible to load *all* data concurrently for analysis.
+The use of *Dask* and more specifically [*dask-image*](@https://image.dask.org/) for loading only the currently used data for each specimen from the HD (or remote storage) into RAM on demand made working with the *all* the data feasible.
+We have updated the sentence to explain this.
 
 > The Wikipedia citation in the second paragraph of the subsection "Extraction of oral and pharyngeal jaws..." is not clear.
 >Please provide more specific information or replace the citation with a more appropriate reference.
