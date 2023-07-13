@@ -98,7 +98,15 @@ As stated above and in the text, we actually acquired 372 single tomographic sca
 It is correct though that "125" here is wrong, since we've acquired more scans after submission of the manuscript.
 This has been corrected, and we thank the reviewer for noticing this.
 
-> The results of the subsection "Principal components analysis of skull landmarks" should be presented in a more accessible manner. Consider providing a tutorial or guide for readers to better understand and apply the analysis. As it currently stands, this subsection may be considered irrelevant for the paper.
+> The results of the subsection "Principal components analysis of skull landmarks" should be presented in a more accessible manner.
+> Consider providing a tutorial or guide for readers to better understand and apply the analysis.
+> As it currently stands, this subsection may be considered irrelevant for the paper.
+
+This subsection is currently being 'expanded' into a self-contained publication.
+We deliberately only very briefly mentioned the method here, as the upcoming publication is to be submitted soon.
+
+> The procedure for detecting and extracting otoliths in the subsection "Automatic extraction of otoliths" is not clear.
+> Please provide clearer instructions or guidelines for readers using the notebook.
 
 As mentioned above, the Jupyter notebook used to detect the otolith position and to extract the otoliths from the scans covering the whole skull are extensively commented.
 We have added more explanatory comments and text to the notebook on GitHub, increading their didactiveness.
