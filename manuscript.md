@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-07-13'
+date-meta: '2023-07-14'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -23,8 +23,8 @@ header-includes: |-
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-07-13" />
-  <meta name="citation_publication_date" content="2023-07-13" />
+  <meta name="dc.date" content="2023-07-14" />
+  <meta name="citation_publication_date" content="2023-07-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,15 +79,15 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([online version](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...a15f6a93f7f5b262f005c909a8fdcbdf8220da53) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...e3778df7e37340d9ba95d4eabfe433cd259fef1f) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/))
 was automatically generated
-from [habi/EAWAG-manuscript@a15f6a9](https://github.com/habi/EAWAG-manuscript/tree/a15f6a93f7f5b262f005c909a8fdcbdf8220da53)
-on July 13, 2023.
+from [habi/EAWAG-manuscript@e3778df](https://github.com/habi/EAWAG-manuscript/tree/e3778df7e37340d9ba95d4eabfe433cd259fef1f)
+on July 14, 2023.
 </em></small>
 
 ## Authors
@@ -216,6 +216,8 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 Depending on the size of the specimen we set the X-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
 The X-ray spectrum was filtered either by an aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm for increasing specimen size) before digitization to projection images or recorded in an unfiltered way (for smaller specimen).
 Projection images spanning either 180° or 360° of sample rotation were acquired in angular steps of 0.1°, 0.15° or 0.2°, also depending on size of the fish.
+Since the region of interest (either oral or pharyngeal jaws or the complete skulls of the fish) often did not fit into a single field of view at the voxel size needed to resolve the details needed, we often scanned several stacks along the rotation axis of the specimen in the machine.
+These so-called stacked scans are automatically merged to one stack of reconstructions images by the reconstruction software.
 In total we recorded 9.8 TB of projection images (`TIFF` and `*.iif` files, where the `*.iif` files are for the so-called alignment scans).
 
 All the recorded projection images were subsequently reconstructed into virtual 3D stacks of axial `PNG` images spanning the regions of interest of each fish.
@@ -224,7 +226,6 @@ We thus manually aligned each of the reconstructed datasets so that the lateral 
 We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich, Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the [Supplementary Materials]).
 In total, this resulted in 1.5 TB of reconstruction images (a bit more than one million `*rec*.png` files).
 On average, each of the scans we performed is made up of about 2700 reconstruction images.
-
 <!---
 print('We have a total of %s reconstructions on %s' % (Data['NumberOfReconstructions'].sum(), Root))
 

@@ -1230,7 +1230,7 @@
         [
           "2023",
           7,
-          13
+          14
         ]
       ]
     },
@@ -1257,7 +1257,7 @@
         [
           "2023",
           7,
-          13
+          14
         ]
       ]
     },
@@ -1293,14 +1293,14 @@
   {
     "id": "wIfTDBqd",
     "type": "webpage",
-    "title": "Image processing with Dask Arrays — dask-image 2023.03.0+6.g08d1f74.dirty documentation",
+    "title": "Image processing with Dask Arrays — dask-image 2023.03.0+7.g44908b3.dirty documentation",
     "URL": "https://image.dask.org/en/latest/",
     "accessed": {
       "date-parts": [
         [
           "2023",
           7,
-          13
+          14
         ]
       ]
     },
@@ -1317,7 +1317,7 @@
         [
           "2023",
           7,
-          13
+          14
         ]
       ]
     },
@@ -1339,7 +1339,7 @@
         [
           "2023",
           7,
-          13
+          14
         ]
       ]
     },
