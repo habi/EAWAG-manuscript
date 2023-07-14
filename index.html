@@ -10,7 +10,7 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2023-07-13" />
+  <meta name="dcterms.date" content="2023-07-14" />
   <meta name="keywords" content="cichlids, fish morphology, X-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
@@ -49,8 +49,8 @@
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-07-13" />
-  <meta name="citation_publication_date" content="2023-07-13" />
+  <meta name="dc.date" content="2023-07-14" />
+  <meta name="citation_publication_date" content="2023-07-14" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -84,9 +84,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -103,13 +103,13 @@
 </header>
 <p><em>A preprint of this manuscript is available at bioRχiv with the <a href="https://doi.org/10.1101/2023.03.30.534917">doi:10.1101/2023.03.30.534917</a>.</em>
 <em>We submitted <a href="https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0"><code>v1.0</code></a> (<a href="https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/">online version</a>) of the manuscript to <a href="https://journals.plos.org/plosone/">PLOS ONE</a>.</em>
-<em>The version you see here <a href="https://github.com/habi/EAWAG-manuscript/compare/v1.0...a15f6a93f7f5b262f005c909a8fdcbdf8220da53">has been updated</a> since submission.</em></p>
+<em>The version you see here <a href="https://github.com/habi/EAWAG-manuscript/compare/v1.0...e3778df7e37340d9ba95d4eabfe433cd259fef1f">has been updated</a> since submission.</em></p>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/a15f6a93f7f5b262f005c909a8fdcbdf8220da53/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/a15f6a93f7f5b262f005c909a8fdcbdf8220da53">habi/EAWAG-manuscript@a15f6a9</a>
-on July 13, 2023.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/e3778df7e37340d9ba95d4eabfe433cd259fef1f">habi/EAWAG-manuscript@e3778df</a>
+on July 14, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -206,13 +206,15 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 <p>Depending on the size of the specimen we set the X-ray source voltage to 50–80 kV and—depending on the voltage—to a current between 107 and 200 μA.
 The X-ray spectrum was filtered either by an aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm for increasing specimen size) before digitization to projection images or recorded in an unfiltered way (for smaller specimen).
 Projection images spanning either 180° or 360° of sample rotation were acquired in angular steps of 0.1°, 0.15° or 0.2°, also depending on size of the fish.
+Since the region of interest (either oral or pharyngeal jaws or the complete skulls of the fish) often did not fit into a single field of view at the voxel size needed to resolve the details needed, we often scanned several stacks along the rotation axis of the specimen in the machine.
+These so-called stacked scans are automatically merged to one stack of reconstructions images by the reconstruction software.
 In total we recorded 9.8 TB of projection images (<code>TIFF</code> and <code>*.iif</code> files, where the <code>*.iif</code> files are for the so-called alignment scans).</p>
 <p>All the recorded projection images were subsequently reconstructed into virtual 3D stacks of axial <code>PNG</code> images spanning the regions of interest of each fish.
 All the specimens were scanned with their mouths facing downward in the sample holder and rotating along their long axis.
 We thus manually aligned each of the reconstructed datasets so that the lateral axis of the fish was horizontal in relation to the x and y direction of the reconstructed slices.
 We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich, Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the <a href="#supplementary-materials">Supplementary Materials</a>).
 In total, this resulted in 1.5 TB of reconstruction images (a bit more than one million <code>*rec*.png</code> files).
-On average, each of the scans we performed is made up of about 2700 reconstruction images.</p>
+On average, each of the scans we performed is made up of about 2700 reconstruction images.
 <!---
 print('We have a total of %s reconstructions on %s' % (Data['NumberOfReconstructions'].sum(), Root))
 
@@ -221,7 +223,7 @@ We have a total of 1005778 reconstructions on /home/habi/research-storage-iee/mi
 print('This is about %s reconstructions per scan (%s scans, %s fishes)' % (round(Data['NumberOfReconstructions'].sum() / len(Data[Data['NumberOfReconstructions'] > 0])), len(Data[Data['NumberOfReconstructions'] > 0]), len(Data.Fish.unique()) -6 ))
 
 This is about 2704 reconstructions per scan (372 scans, 133 fishes)
---->
+---></p>
 <p>A small script <span class="citation" data-cites="ZjgrPHTa">[<a href="#ref-ZjgrPHTa" role="doc-biblioref">17</a>]</span> was used to generate redundant (archival) copies of the raw projection images and copy all the files to a shared network drive on the ‘Research Storage’ infrastructure of the University of Bern, enabling collaboration on the data by all authorized persons at the same time.
 This automated archival and copying process made it possible to delete the raw projection images on the production system shortly after acquisition, freeing resources and easing data handling.
 A subset of the data, namely the log files and reconstructed image stacks were kept on the production system for working with it (as described in <a href="#preparation-for-analysis">Preparation for analysis</a> below).</p>
@@ -445,7 +447,7 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">14. </div><div class="csl-right-inline">Haberthür D. TomoGraphics/Hol3Drs: A release. Zenodo; 2019. doi:<a href="https://doi.org/10.5281/zenodo.2587555">10.5281/zenodo.2587555</a></div>
 </div>
 <div id="ref-wsjdcTeC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline">OpenSCAD. [cited 13 Jul 2023]. Available: <a href="https://openscad.org">https://openscad.org</a></div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">OpenSCAD. [cited 14 Jul 2023]. Available: <a href="https://openscad.org">https://openscad.org</a></div>
 </div>
 <div id="ref-f7OzrzUv" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">16. </div><div class="csl-right-inline">Available: <a href="https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad">https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad</a></div>
@@ -469,7 +471,7 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">22. </div><div class="csl-right-inline">Dask Development Team. Dask: Library for dynamic task scheduling. 2016. Available: <a href="https://dask.org">https://dask.org</a></div>
 </div>
 <div id="ref-wIfTDBqd" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline">Image processing with Dask Arrays — dask-image 2023.03.0+6.g08d1f74.dirty documentation. [cited 13 Jul 2023]. Available: <a href="https://image.dask.org/en/latest/">https://image.dask.org/en/latest/</a></div>
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Image processing with Dask Arrays — dask-image 2023.03.0+7.g44908b3.dirty documentation. [cited 14 Jul 2023]. Available: <a href="https://image.dask.org/en/latest/">https://image.dask.org/en/latest/</a></div>
 </div>
 <div id="ref-OsCpHsJH" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">24. </div><div class="csl-right-inline">Fedorov A, Beichel R, Kalpathy-Cramer J, Finet J, Fillion-Robin J-C, Pujol S, et al. 3D Slicer as an image computing platform for the Quantitative Imaging Network. Magnetic Resonance Imaging. 2012;30: 1323–1341. doi:<a href="https://doi.org/10.1016/j.mri.2012.05.001">10.1016/j.mri.2012.05.001</a></div>
@@ -478,7 +480,7 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">25. </div><div class="csl-right-inline">Rolfe S, Pieper S, Porto A, Diamond K, Winchester J, Shan S, et al. SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology. Methods Ecol Evol. 2021;12: 1816–1825. doi:<a href="https://doi.org/10.1111/2041-210x.13669">10.1111/2041-210x.13669</a></div>
 </div>
 <div id="ref-rn6XbmFW" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline">Teem: nrrd: Definition of NRRD File Format. [cited 13 Jul 2023]. Available: <a href="https://teem.sourceforge.net/nrrd/format.html">https://teem.sourceforge.net/nrrd/format.html</a></div>
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">Teem: nrrd: Definition of NRRD File Format. [cited 14 Jul 2023]. Available: <a href="https://teem.sourceforge.net/nrrd/format.html">https://teem.sourceforge.net/nrrd/format.html</a></div>
 </div>
 <div id="ref-JtHcU2O2" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">27. </div><div class="csl-right-inline">Kishe-Machumu MA, van Rijssel JC, Poste A, Hecky RE, Witte F. Stable isotope evidence from formalin–ethanol-preserved specimens indicates dietary shifts and increasing diet overlap in Lake Victoria cichlids. Hydrobiologia. 2016;791: 155–173. doi:<a href="https://doi.org/10.1007/s10750-016-2925-1">10.1007/s10750-016-2925-1</a></div>
