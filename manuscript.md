@@ -58,9 +58,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/a690fe23582f53c283f038e12d0f163b7ffa128a/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a690fe23582f53c283f038e12d0f163b7ffa128a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/a690fe23582f53c283f038e12d0f163b7ffa128a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -79,14 +79,14 @@ manubot-clear-requests-cache: false
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([online version](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...e3778df7e37340d9ba95d4eabfe433cd259fef1f) since submission._
+_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...a690fe23582f53c283f038e12d0f163b7ffa128a) since submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/e3778df7e37340d9ba95d4eabfe433cd259fef1f/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/a690fe23582f53c283f038e12d0f163b7ffa128a/))
 was automatically generated
-from [habi/EAWAG-manuscript@e3778df](https://github.com/habi/EAWAG-manuscript/tree/e3778df7e37340d9ba95d4eabfe433cd259fef1f)
+from [habi/EAWAG-manuscript@a690fe2](https://github.com/habi/EAWAG-manuscript/tree/a690fe23582f53c283f038e12d0f163b7ffa128a)
 on July 14, 2023.
 </em></small>
 
@@ -212,15 +212,20 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 12  103637  rec   3.499972
 182  12319  head_50um_rec  49.998527
 --->
+Due to the geometric magnification employed by the Bruker SkyScan microCT machines, the voxel size of the resulting dataset is depending on the position of the specimen in the machine.
+Natually, the field of view of the resulting dataset also depends on the chosen voxel size.
+The chosen voxel size is thus scan-specific.
+It was always chosen in a way that the region of interest to be images fit into the available lateral field of view of the microCT machine at the smallest necessary voxel size to resolve the structures of interest.
+Since the region of interest (either oral or pharyngeal jaws or the complete skulls of the fish) often did not fit into a single field of view *along* the anteroposterior axis of the fish, we often performed several tomographic scans along the rotation axis of the specimen in the machine (since the specimen were all scanned rotating around the anteroposterior axis).
+The projection images from those so-called stacked scans are subsequently automatically merged to one stack of reconstructions images by the reconstruction software.
 
 Depending on the size of the specimen we set the X-ray source voltage to 50--80 kV and---depending on the voltage---to a current between 107 and 200 μA.
+The different voltages and currents were chosen according to the Bruker guidelines for ideal image acquisition.
 The X-ray spectrum was filtered either by an aluminum filter of varying thickness (either 0.25, 0.5 or 1 mm for increasing specimen size) before digitization to projection images or recorded in an unfiltered way (for smaller specimen).
 Projection images spanning either 180° or 360° of sample rotation were acquired in angular steps of 0.1°, 0.15° or 0.2°, also depending on size of the fish.
-Since the region of interest (either oral or pharyngeal jaws or the complete skulls of the fish) often did not fit into a single field of view at the voxel size needed to resolve the details needed, we often scanned several stacks along the rotation axis of the specimen in the machine.
-These so-called stacked scans are automatically merged to one stack of reconstructions images by the reconstruction software.
 In total we recorded 9.8 TB of projection images (`TIFF` and `*.iif` files, where the `*.iif` files are for the so-called alignment scans).
 
-All the recorded projection images were subsequently reconstructed into virtual 3D stacks of axial `PNG` images spanning the regions of interest of each fish.
+All the recorded projection images were subsequently reconstructed into three-dimensional stacks of axial `PNG` images spanning the desired regions of interest of each specimen.
 All the specimens were scanned with their mouths facing downward in the sample holder and rotating along their long axis.
 We thus manually aligned each of the reconstructed datasets so that the lateral axis of the fish was horizontal in relation to the x and y direction of the reconstructed slices.
 We reconstructed the projection images with NRecon (Version 1.7.4.6, Bruker microCT, Kontich, Belgium) with varying ring artifact and beam hardening correction values, depending on each fish (again, all relevant values are listed in the [Supplementary Materials]).
@@ -352,11 +357,9 @@ This starts a computing environment in the cloud, downloads the tomographic data
 
 We acquired high resolution tomographic datasets of a large collection of cichlids (N=133), several tomographic scans were performed for each specimen.
 The 372 acquired datasets were imaged over a wide-spanning range of voxel size (3.5--50 μm) permitting both the analysis of finest details we wanted to resolve (i.e. containing only the oral and pharyngeal jaws) and having datasets (N=104) containing the whole head for principle components analysis and extraction of the otoliths.
-
-<!--
-Explain the voxel size range a bit better.
-The suggestion/comment from the reviewer on it is actually a good one.
---> 
+In our microCT imaging setup the resulting voxel size is directly correlated with the sample diameter, i.e. smaller specimen were scanned with the smallest voxel size, in the range of several μm.
+The skulls of larger specimen were scanned with the largest voxel sizes, in the range of several tens of μm.
+The chosen voxel size is thus specimen- or scan-specific and was always selected such that the desired region of interest fits into the available lateral field of view of the microCT machine at the minimally necessary voxel size to resolve the structures of interest.
 
 ### Imaging and preparation for analysis
 

@@ -10,7 +10,7 @@ cichlids
 cinctus
 csv
 curation
-Dask
+dask
 dataframe
 dataset
 datasets
@@ -24,7 +24,7 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-jupyter
+Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
@@ -42,6 +42,7 @@ morphometrics
 mphaesler
 Mwaiko
 Mwanza
+Natually
 nondestructively
 NRecon
 OJs
