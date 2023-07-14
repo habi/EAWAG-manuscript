@@ -124,7 +124,7 @@ Additionally we added a bit of background information on the specimen to the leg
 
 The statement over the 'wide-spanning range of voxel sizes' is *not* incorrect, at most---if applied to *one* specimen---imprecise.
 The range of voxel sizes is true for the whole study, while---as also correctly noted by the reviewer---the voxel size is specimen- or scan-specific.
-We have added a bit of explanatory text to the discussion section.
+We have added a bit of explanatory text to both the materials and discussion section.
 
 > It would be beneficial to include references in the discussion section to support the arguments and provide a broader context for the findings.
 
