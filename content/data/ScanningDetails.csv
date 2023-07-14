@@ -5,219 +5,219 @@ Fish,Scan,Scanner,Scan date,Voxelsize [μm],Source voltage [kV],Source current [
 05975_Labrochromis_Kissenda,rec_pj,SkyScan 2214,2023-04-27 16:57:38,11.999389,60.0,140.0,False,765,,False,0.1,"(2457, 1944)",6376.0,1,6376.0,,,0.086778
 05975_Labrochromis_Kissenda,rec_pj_2,SkyScan 2214,2023-06-05 13:45:57,11.999389,60.0,200.0,False,727,,False,0.1,"(3072, 1944)",6175.0,1,6175.0,,,0.081965
 10151_Pundamilia_macrocephala_macrocephala,head.rec,SkyScan 2214,2022-04-14 12:01:07,21.999992,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6642.0,1,6642.0,,,0.107354
-10151_Pundamilia_macrocephala_macrocephala,rec,SkyScan 2214,2021-08-27 10:59:28,9.000117,70.0,140.0,False,909,,False,0.2,"(3072, 1944)",3568.0,1,3568.0,,,0.111613
+10151_Pundamilia_macrocephala_macrocephala,rec,SkyScan 2214,2021-08-27 10:59:28,9.000117,70.0,140.0,False,909,,False,0.2,"(3072, 1944)",3568.0,3,10704.0,,,0.111613
 10151_Pundamilia_macrocephala_macrocephala,rec_oj,SkyScan 2214,2022-04-14 13:53:51,9.000117,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6478.0,1,6478.0,,,0.163963
 10151_Pundamilia_macrocephala_macrocephala,rec_pj,SkyScan 2214,2022-04-14 16:09:29,9.000117,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6482.0,1,6482.0,,,0.075934
-103375_Harpagochromis_cavifrons,head.rec,SkyScan 2214,2022-02-28 12:10:58,34.999138,70.0,140.0,False,850,,False,0.2,"(1536, 972)",2739.0,1,2739.0,,,0.072119
-103375_Harpagochromis_cavifrons,rec,SkyScan 2214,2021-03-26 12:59:33,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3216.0,1,3216.0,,,0.046591
-103571_Astatoreochromis_alluaudi,head.rec,SkyScan 2214,2021-12-15 14:50:38,29.000594,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2085.0,1,2085.0,,,0.095463
-103571_Astatoreochromis_alluaudi,rec,SkyScan 2214,2021-04-12 14:37:40,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3586.0,1,3586.0,,,0.091682
-103634_Astatotilapia_nubila_swamp_blue,rec,SkyScan 1272,2021-11-18 15:10:04,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19167.0,1,19167.0,13.0,,0.305694
-103635_Astatotilapia_nubila_swamp_blue,head.rec,SkyScan 2214,2022-01-25 12:33:31,15.500842,70.0,138.0,False,740,,False,0.2,"(1536, 972)",2353.0,1,2353.0,,,0.117524
+103375_Harpagochromis_cavifrons,head.rec,SkyScan 2214,2022-02-28 12:10:58,34.999138,70.0,140.0,False,850,,False,0.2,"(1536, 972)",2739.0,3,8217.0,,,0.072119
+103375_Harpagochromis_cavifrons,rec,SkyScan 2214,2021-03-26 12:59:33,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3216.0,3,9648.0,,,0.046591
+103571_Astatoreochromis_alluaudi,head.rec,SkyScan 2214,2021-12-15 14:50:38,29.000594,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2085.0,2,4170.0,,,0.095463
+103571_Astatoreochromis_alluaudi,rec,SkyScan 2214,2021-04-12 14:37:40,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3586.0,3,10758.0,,,0.091682
+103634_Astatotilapia_nubila_swamp_blue,rec,SkyScan 1272,2021-11-18 15:10:04,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19167.0,2,38334.0,13.0,,0.305694
+103635_Astatotilapia_nubila_swamp_blue,head.rec,SkyScan 2214,2022-01-25 12:33:31,15.500842,70.0,138.0,False,740,,False,0.2,"(1536, 972)",2353.0,3,7059.0,,,0.117524
 103635_Astatotilapia_nubila_swamp_blue,jaw.rec,SkyScan 1272,2021-02-08 12:25:19,5.000014,60.0,166.0,Al 0.25mm,1500,3.0,False,0.2,"(2452, 1640)",7030.0,1,7030.0,14.0,10.0,0.260728
 103635_Astatotilapia_nubila_swamp_blue,pharynx.rec,SkyScan 1272,2021-02-08 14:24:12,5.000014,60.0,166.0,Al 0.25mm,1500,3.0,False,0.2,"(2452, 1640)",7021.0,1,7021.0,14.0,10.0,0.215369
-103637_Astatotilapia_nubila_swamp_blue,rec,SkyScan 1272,2021-11-23 14:29:55,3.499972,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19296.0,1,19296.0,13.0,,0.322794
-103641_Astatotilapia_nubila_swamp_red,rec,SkyScan 1272,2021-11-15 20:42:25,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",18926.0,1,18926.0,13.0,,0.271679
-103658_Astatotilapia_nubila_swamp_red,rec,SkyScan 2214,2021-04-23 10:36:23,8.34876,80.0,125.0,False,1111,,False,0.2,"(3070, 1944)",4010.0,1,4010.0,,,0.16049
-103704_Enterochromis_I_paropius,head.rec,SkyScan 2214,2021-10-29 13:10:16,17.500356,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2047.0,1,2047.0,,,0.087737
-103704_Enterochromis_I_paropius,rec,SkyScan 2214,2021-10-29 11:02:18,10.735332,70.0,140.0,False,648,,False,0.15,"(1536, 972)",2730.0,1,2730.0,,,0.114614
+103637_Astatotilapia_nubila_swamp_blue,rec,SkyScan 1272,2021-11-23 14:29:55,3.499972,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19296.0,3,57888.0,13.0,,0.322794
+103641_Astatotilapia_nubila_swamp_red,rec,SkyScan 1272,2021-11-15 20:42:25,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",18926.0,3,56778.0,13.0,,0.271679
+103658_Astatotilapia_nubila_swamp_red,rec,SkyScan 2214,2021-04-23 10:36:23,8.34876,80.0,125.0,False,1111,,False,0.2,"(3070, 1944)",4010.0,3,12030.0,,,0.16049
+103704_Enterochromis_I_paropius,head.rec,SkyScan 2214,2021-10-29 13:10:16,17.500356,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2047.0,2,4094.0,,,0.087737
+103704_Enterochromis_I_paropius,rec,SkyScan 2214,2021-10-29 11:02:18,10.735332,70.0,140.0,False,648,,False,0.15,"(1536, 972)",2730.0,3,8190.0,,,0.114614
 103718_Enterochromis_I_paropius,head.rec,SkyScan 2214,2021-10-26 09:48:44,15.001691,65.0,140.0,False,706,,False,0.2,"(3072, 1944)",3076.0,1,3076.0,,,0.099562
-103718_Enterochromis_I_paropius,rec,SkyScan 2214,2021-10-26 10:59:24,5.12833,65.0,140.0,False,706,,False,0.15,"(3072, 1944)",4165.0,1,4165.0,,,0.192249
-103720_Enterochromis_I_paropius,rec,SkyScan 1272,2021-11-22 16:52:46,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19780.0,1,19780.0,13.0,,0.348526
+103718_Enterochromis_I_paropius,rec,SkyScan 2214,2021-10-26 10:59:24,5.12833,65.0,140.0,False,706,,False,0.15,"(3072, 1944)",4165.0,3,12495.0,,,0.192249
+103720_Enterochromis_I_paropius,rec,SkyScan 1272,2021-11-22 16:52:46,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19780.0,3,59340.0,13.0,,0.348526
 103723_Enterochromis_II_coprologus_F_blue_morph,head.rec,SkyScan 2214,2022-03-17 11:02:23,17.999448,70.0,136.0,False,999,,False,0.1,"(3072, 1944)",7449.0,1,7449.0,,,0.102249
-103723_Enterochromis_II_coprologus_F_blue_morph,rec,SkyScan 2214,2021-09-03 12:31:42,6.799137,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3947.0,1,3947.0,,,0.159657
+103723_Enterochromis_II_coprologus_F_blue_morph,rec,SkyScan 2214,2021-09-03 12:31:42,6.799137,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3947.0,3,11841.0,,,0.159657
 103723_Enterochromis_II_coprologus_F_blue_morph,rec_oj,SkyScan 2214,2022-03-17 13:33:49,7.156626,70.0,136.0,False,999,,False,0.1,"(3072, 1944)",7437.0,1,7437.0,,,0.156075
-103734_Enterochromis_II_coprologus_F_red_dorsum,rec,SkyScan 2214,2021-04-29 10:30:52,7.75345,80.0,125.0,False,850,,False,0.2,"(3070, 1944)",3343.0,1,3343.0,,,0.074869
-103754_Yssichromis_core_pyrrhocephalus,head.rec,SkyScan 2214,2022-01-24 13:07:23,11.998662,70.0,137.0,False,612,,False,0.2,"(1536, 972)",2071.0,1,2071.0,,,0.117698
+103734_Enterochromis_II_coprologus_F_red_dorsum,rec,SkyScan 2214,2021-04-29 10:30:52,7.75345,80.0,125.0,False,850,,False,0.2,"(3070, 1944)",3343.0,3,10029.0,,,0.074869
+103754_Yssichromis_core_pyrrhocephalus,head.rec,SkyScan 2214,2022-01-24 13:07:23,11.998662,70.0,137.0,False,612,,False,0.2,"(1536, 972)",2071.0,3,6213.0,,,0.117698
 103754_Yssichromis_core_pyrrhocephalus,rec,SkyScan 1272,2020-11-20 06:25:50,5.000018,70.0,142.0,Al 0.5mm,3254,3.0,False,0.1,"(4904, 3280)",28809.0,1,28809.0,14.0,,0.170639
 103754_Yssichromis_core_pyrrhocephalus,rec_pj,SkyScan 2214,2022-03-17 15:44:03,5.999331,70.0,140.0,False,999,,False,0.1,"(3072, 1944)",7440.0,1,7440.0,,,0.136063
 103754_Yssichromis_core_pyrrhocephalus,rec_pj_2,SkyScan 2214,2022-08-30 17:27:59,5.499452,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",10342.0,1,10342.0,,,0.128105
-103761_Enterochromis_I_coprologus_EF,head.rec,SkyScan 2214,2021-12-16 14:57:46,16.00072,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2108.0,1,2108.0,,,0.09491
-103761_Enterochromis_I_coprologus_EF,rec,SkyScan 2214,2021-05-03 10:23:34,7.75345,70.0,125.0,False,1413,,False,0.2,"(3070, 1944)",4621.0,1,4621.0,,,0.10693
+103761_Enterochromis_I_coprologus_EF,head.rec,SkyScan 2214,2021-12-16 14:57:46,16.00072,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2108.0,2,4216.0,,,0.09491
+103761_Enterochromis_I_coprologus_EF,rec,SkyScan 2214,2021-05-03 10:23:34,7.75345,70.0,125.0,False,1413,,False,0.2,"(3070, 1944)",4621.0,2,9242.0,,,0.10693
 103761_Enterochromis_I_coprologus_EF,rec_oj_2,SkyScan 2214,2022-03-16 16:40:39,5.999331,70.0,140.0,False,999,,False,0.1,"(3072, 1944)",7436.0,1,7436.0,,,0.16241
 103761_Enterochromis_I_coprologus_EF,rec_oj_3,SkyScan 2214,2022-09-01 12:02:19,6.500724,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",10913.0,1,10913.0,,,0.177928
 103761_Enterochromis_I_coprologus_EF,rec_pj,SkyScan 2214,2022-03-16 19:14:19,5.999331,70.0,140.0,False,999,,False,0.1,"(3072, 1944)",7411.0,1,7411.0,,,0.14866
 103761_Enterochromis_I_coprologus_EF,rec_pj_3,SkyScan 2214,2022-09-01 15:08:18,6.500724,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",10545.0,1,10545.0,,,0.111882
 103767_Enterochromis_II_supramacrops_red_tail,head.rec,SkyScan 2214,2022-03-18 12:00:37,11.999389,70.0,138.0,False,999,,False,0.1,"(3072, 1944)",7465.0,1,7465.0,,,0.151278
-103767_Enterochromis_II_supramacrops_red_tail,head2.rec,SkyScan 2214,2022-11-04 11:07:40,9.999875,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6333.0,1,6333.0,,,0.146435
-103767_Enterochromis_II_supramacrops_red_tail,rec,SkyScan 2214,2021-04-19 13:32:36,7.156626,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3152.0,1,3152.0,,,0.076978
+103767_Enterochromis_II_supramacrops_red_tail,head2.rec,SkyScan 2214,2022-11-04 11:07:40,9.999875,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6333.0,2,12666.0,,,0.146435
+103767_Enterochromis_II_supramacrops_red_tail,rec,SkyScan 2214,2021-04-19 13:32:36,7.156626,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3152.0,3,9456.0,,,0.076978
 103767_Enterochromis_II_supramacrops_red_tail,rec_oj,SkyScan 2214,2022-03-18 14:22:15,5.999331,70.0,132.0,False,999,,False,0.1,"(3072, 1944)",7458.0,1,7458.0,,,0.15
 103767_Enterochromis_II_supramacrops_red_tail,rec_oj_2,SkyScan 2214,2022-03-18 17:35:45,7.000603,70.0,132.0,False,999,,False,0.125,"(3072, 1944)",6010.0,1,6010.0,,,0.196689
-103767_Enterochromis_II_supramacrops_red_tail,rec_rereconstruct,SkyScan 2214,2021-04-19 13:32:36,7.156626,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3152.0,1,3152.0,,,0.121472
-103778_Yssichromis_cf_supramacrops,head.rec,SkyScan 2214,2022-01-24 10:50:14,11.998662,70.0,115.0,False,612,,False,0.2,"(1536, 972)",2072.0,1,2072.0,,,0.100522
+103767_Enterochromis_II_supramacrops_red_tail,rec_rereconstruct,SkyScan 2214,2021-04-19 13:32:36,7.156626,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3152.0,3,9456.0,,,0.121472
+103778_Yssichromis_cf_supramacrops,head.rec,SkyScan 2214,2022-01-24 10:50:14,11.998662,70.0,115.0,False,612,,False,0.2,"(1536, 972)",2072.0,3,6216.0,,,0.100522
 103778_Yssichromis_cf_supramacrops,jaw.rec,SkyScan 1272,2021-02-10 12:49:28,5.000014,60.0,166.0,Al 0.25mm,1500,3.0,False,0.2,"(2452, 1640)",7037.0,1,7037.0,14.0,10.0,0.261067
 103778_Yssichromis_cf_supramacrops,pharynx.rec,SkyScan 1272,2021-02-10 14:48:26,5.000014,60.0,166.0,Al 0.25mm,1500,3.0,False,0.2,"(2452, 1640)",7031.0,1,7031.0,14.0,10.0,0.224892
 103778_Yssichromis_cf_supramacrops,rec_pj,SkyScan 2214,2022-03-28 11:33:32,6.500724,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5629.0,1,5629.0,,,0.116813
-103908_Enterochromis_I_new_invasive,head.rec,SkyScan 2214,2022-03-14 14:06:20,5.999331,70.0,136.0,False,999,,False,0.1,"(3072, 1944)",7489.0,1,7489.0,,,0.160684
+103908_Enterochromis_I_new_invasive,head.rec,SkyScan 2214,2022-03-14 14:06:20,5.999331,70.0,136.0,False,999,,False,0.1,"(3072, 1944)",7489.0,2,14978.0,,,0.160684
 103908_Enterochromis_I_new_invasive,jaw.rec,SkyScan 1272,2020-11-03 12:34:39,5.000014,70.0,142.0,Al 0.5mm,1162,3.0,False,0.2,"(2452, 1640)",5736.0,1,5736.0,7.0,,0.11886
-103908_Enterochromis_I_new_invasive,stack.rec,SkyScan 1272,2020-11-13 14:29:52,5.000014,70.0,142.0,Al 0.5mm,1162,3.0,False,0.2,"(2452, 1640)",5747.0,1,5747.0,14.0,,0.238643
-103926_Enterochromis_I_new_invasive,rec,SkyScan 1272,2021-11-25 14:58:01,4.000007,60.0,166.0,Al 0.25mm,1783,3.0,False,0.1,"(4904, 3280)",17695.0,1,17695.0,13.0,,0.324195
-104016_Enterochromis_I_cinctus_St_E,head.rec,SkyScan 2214,2022-01-27 13:32:59,13.001449,70.0,137.0,False,740,,False,0.2,"(1536, 972)",2359.0,1,2359.0,,,0.16521
+103908_Enterochromis_I_new_invasive,stack.rec,SkyScan 1272,2020-11-13 14:29:52,5.000014,70.0,142.0,Al 0.5mm,1162,3.0,False,0.2,"(2452, 1640)",5747.0,3,17241.0,14.0,,0.238643
+103926_Enterochromis_I_new_invasive,rec,SkyScan 1272,2021-11-25 14:58:01,4.000007,60.0,166.0,Al 0.25mm,1783,3.0,False,0.1,"(4904, 3280)",17695.0,2,35390.0,13.0,,0.324195
+104016_Enterochromis_I_cinctus_St_E,head.rec,SkyScan 2214,2022-01-27 13:32:59,13.001449,70.0,137.0,False,740,,False,0.2,"(1536, 972)",2359.0,3,7077.0,,,0.16521
 104016_Enterochromis_I_cinctus_St_E,jaw.rec,SkyScan 1272,2021-02-04 11:21:23,5.000014,60.0,166.0,Al 0.25mm,1878,2.0,False,0.2,"(2452, 1640)",6666.0,1,6666.0,19.0,,0.249223
 104016_Enterochromis_I_cinctus_St_E,pharynx.rec,SkyScan 1272,2021-02-04 13:30:11,5.000014,60.0,166.0,Al 0.25mm,1500,3.0,False,0.2,"(2452, 1640)",7097.0,1,7097.0,19.0,,0.225172
 104021_Enterochromis_I_antleter_blue_St_E,head.rec,SkyScan 2214,2022-03-25 11:15:38,15.000176,70.0,140.0,False,653,,False,0.1,"(3072, 1944)",6014.0,1,6014.0,,,0.149857
-104021_Enterochromis_I_antleter_blue_St_E,rec,SkyScan 2214,2021-05-18 10:15:42,5.962976,70.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3712.0,1,3712.0,,,0.130596
+104021_Enterochromis_I_antleter_blue_St_E,rec,SkyScan 2214,2021-05-18 10:15:42,5.962976,70.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3712.0,3,11136.0,,,0.130596
 104021_Enterochromis_I_antleter_blue_St_E,rec_oj,SkyScan 2214,2022-03-25 13:00:37,6.500724,70.0,140.0,False,653,,False,0.1,"(3072, 1944)",5961.0,1,5961.0,,,0.173298
-104042_Paralabidochromis_rockkribensis_plagiodon,rec,SkyScan 2214,2021-05-04 09:59:24,7.75345,70.0,125.0,False,1413,,False,0.2,"(3070, 1944)",4620.0,1,4620.0,,,0.12518
-104061_Labrochromis_sp_stone,head.rec,SkyScan 2214,2022-02-18 10:03:36,29.000594,70.0,140.0,False,782,,False,0.2,"(1536, 972)",2396.0,1,2396.0,,,0.132264
+104042_Paralabidochromis_rockkribensis_plagiodon,rec,SkyScan 2214,2021-05-04 09:59:24,7.75345,70.0,125.0,False,1413,,False,0.2,"(3070, 1944)",4620.0,2,9240.0,,,0.12518
+104061_Labrochromis_sp_stone,head.rec,SkyScan 2214,2022-02-18 10:03:36,29.000594,70.0,140.0,False,782,,False,0.2,"(1536, 972)",2396.0,3,7188.0,,,0.132264
 104061_Labrochromis_sp_stone,head.rec_pressure_loss,SkyScan 2214,2022-02-17 11:42:34,30.000352,70.0,140.0,False,782,,False,0.2,"(1536, 972)",2478.0,1,2478.0,,,0.072747
-104061_Labrochromis_sp_stone,rec,SkyScan 2214,2021-07-15 15:23:55,8.945585,70.0,140.0,False,747,,False,0.2,"(3072, 1944)",3162.0,1,3162.0,,,0.109517
-104061_Labrochromis_sp_stone,rec_rescan,SkyScan 2214,2021-08-20 11:06:31,9.999875,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3355.0,1,3355.0,,,0.106901
+104061_Labrochromis_sp_stone,rec,SkyScan 2214,2021-07-15 15:23:55,8.945585,70.0,140.0,False,747,,False,0.2,"(3072, 1944)",3162.0,3,9486.0,,,0.109517
+104061_Labrochromis_sp_stone,rec_rescan,SkyScan 2214,2021-08-20 11:06:31,9.999875,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3355.0,3,10065.0,,,0.106901
 10448_Ptyochromis_deepwater_rock_sheller,head.rec_head,SkyScan 2214,2021-10-11 11:28:22,30.001079,70.0,140.0,False,873,,False,0.2,"(3072, 1944)",3456.0,1,3456.0,,,0.084901
-10448_Ptyochromis_deepwater_rock_sheller,head2.rec,SkyScan 2214,2022-02-10 10:19:44,29.000594,70.0,140.0,False,904,,False,0.2,"(1536, 972)",2715.0,1,2715.0,,,0.106219
-10448_Ptyochromis_deepwater_rock_sheller,rec,SkyScan 2214,2021-06-10 13:24:31,9.065253,70.0,140.0,False,576,,False,0.2,"(3070, 1944)",2756.0,1,2756.0,,,0.133328
-10448_Ptyochromis_deepwater_rock_sheller,rec_rereconstruct,SkyScan 2214,2021-06-10 13:24:31,9.065253,70.0,140.0,False,576,,False,0.2,"(3070, 1944)",2756.0,1,2756.0,,,0.12714
-10448_Ptyochromis_deepwater_rock_sheller,rec_rescan,SkyScan 2214,2021-10-11 12:46:18,9.000117,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4595.0,1,4595.0,,,0.137774
-104621_double_stripe_group_tanaos,head.rec,SkyScan 2214,2022-02-11 13:26:19,11.498783,70.0,140.0,False,985,,False,0.2,"(1536, 972)",3067.0,1,3067.0,,,0.142658
-104621_double_stripe_group_tanaos,rec,SkyScan 2214,2021-05-25 09:47:31,5.499452,55.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3719.0,1,3719.0,,,0.17046
-104661_Enterochromis_I_new_invasive,rec,SkyScan 1272,2021-11-17 17:52:49,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19048.0,1,19048.0,13.0,,0.279845
-104661_Enterochromis_I_new_invasive,rec_rereconstruct,SkyScan 1272,2021-11-17 17:52:49,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19048.0,1,19048.0,13.0,,0.369932
-104661_Enterochromis_I_new_invasive,rec_rereconstruct_smoothing,SkyScan 1272,2021-11-17 17:52:49,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19048.0,1,19048.0,13.0,,0.369932
-104671_156645,104671_rec,SkyScan 2214,2021-04-19 10:11:24,10.13772,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3134.0,1,3134.0,,,0.075211
-104671_156645,156645_rec,SkyScan 2214,2021-04-19 10:11:24,10.13772,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3134.0,1,3134.0,,,0.126274
+10448_Ptyochromis_deepwater_rock_sheller,head2.rec,SkyScan 2214,2022-02-10 10:19:44,29.000594,70.0,140.0,False,904,,False,0.2,"(1536, 972)",2715.0,3,8145.0,,,0.106219
+10448_Ptyochromis_deepwater_rock_sheller,rec,SkyScan 2214,2021-06-10 13:24:31,9.065253,70.0,140.0,False,576,,False,0.2,"(3070, 1944)",2756.0,3,8268.0,,,0.133328
+10448_Ptyochromis_deepwater_rock_sheller,rec_rereconstruct,SkyScan 2214,2021-06-10 13:24:31,9.065253,70.0,140.0,False,576,,False,0.2,"(3070, 1944)",2756.0,3,8268.0,,,0.12714
+10448_Ptyochromis_deepwater_rock_sheller,rec_rescan,SkyScan 2214,2021-10-11 12:46:18,9.000117,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4595.0,3,13785.0,,,0.137774
+104621_double_stripe_group_tanaos,head.rec,SkyScan 2214,2022-02-11 13:26:19,11.498783,70.0,140.0,False,985,,False,0.2,"(1536, 972)",3067.0,3,9201.0,,,0.142658
+104621_double_stripe_group_tanaos,rec,SkyScan 2214,2021-05-25 09:47:31,5.499452,55.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3719.0,3,11157.0,,,0.17046
+104661_Enterochromis_I_new_invasive,rec,SkyScan 1272,2021-11-17 17:52:49,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19048.0,3,57144.0,13.0,,0.279845
+104661_Enterochromis_I_new_invasive,rec_rereconstruct,SkyScan 1272,2021-11-17 17:52:49,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19048.0,3,57144.0,13.0,,0.369932
+104661_Enterochromis_I_new_invasive,rec_rereconstruct_smoothing,SkyScan 1272,2021-11-17 17:52:49,4.000007,60.0,166.0,Al 0.25mm,1981,3.0,False,0.1,"(4904, 3280)",19048.0,3,57144.0,13.0,,0.369932
+104671_156645,104671_rec,SkyScan 2214,2021-04-19 10:11:24,10.13772,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3134.0,3,9402.0,,,0.075211
+104671_156645,156645_rec,SkyScan 2214,2021-04-19 10:11:24,10.13772,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3134.0,3,9402.0,,,0.126274
 104671_EnterochromisxPlatytaeniodus_new_degeni,head.rec,SkyScan 2214,2021-10-28 14:50:14,19.999749,70.0,140.0,False,720,,False,0.2,"(1536, 972)",2336.0,1,2336.0,,,0.135582
-104671_EnterochromisxPlatytaeniodus_new_degeni,head.rec2,SkyScan 2214,2021-10-28 15:44:36,19.999749,70.0,140.0,False,720,,False,0.2,"(1536, 972)",2333.0,1,2333.0,,,0.111818
-104671_EnterochromisxPlatytaeniodus_new_degeni,rec,SkyScan 2214,2021-10-28 12:23:33,10.735332,70.0,140.0,False,720,,False,0.15,"(1536, 972)",3122.0,1,3122.0,,,0.104601
-104671_EnterochromisxPlatytaeniodus_new_degeni,rec_07um,SkyScan 2214,2022-03-23 11:53:07,7.000603,70.0,134.0,False,777,,False,0.1,"(3072, 1944)",6519.0,1,6519.0,,,0.140668
+104671_EnterochromisxPlatytaeniodus_new_degeni,head.rec2,SkyScan 2214,2021-10-28 15:44:36,19.999749,70.0,140.0,False,720,,False,0.2,"(1536, 972)",2333.0,2,4666.0,,,0.111818
+104671_EnterochromisxPlatytaeniodus_new_degeni,rec,SkyScan 2214,2021-10-28 12:23:33,10.735332,70.0,140.0,False,720,,False,0.15,"(1536, 972)",3122.0,3,9366.0,,,0.104601
+104671_EnterochromisxPlatytaeniodus_new_degeni,rec_07um,SkyScan 2214,2022-03-23 11:53:07,7.000603,70.0,134.0,False,777,,False,0.1,"(3072, 1944)",6519.0,3,19557.0,,,0.140668
 104856_Enterochromis_II_cf_morsei,head.rec,SkyScan 2214,2022-04-11 11:05:55,16.99969,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6546.0,1,6546.0,,,0.195785
-104856_Enterochromis_II_cf_morsei,rec,SkyScan 2214,2021-11-30 11:32:58,8.500239,70.0,140.0,False,569,,False,0.1,"(3072, 1944)",5597.0,1,5597.0,,,0.114365
+104856_Enterochromis_II_cf_morsei,rec,SkyScan 2214,2021-11-30 11:32:58,8.500239,70.0,140.0,False,569,,False,0.1,"(3072, 1944)",5597.0,3,16791.0,,,0.114365
 104856_Enterochromis_II_cf_morsei,rec_oj,SkyScan 2214,2022-04-11 14:17:11,9.003147,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6535.0,1,6535.0,,,0.165596
 104856_Enterochromis_II_cf_morsei,rec_pj,SkyScan 2214,2022-04-11 16:19:55,9.003147,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6495.0,1,6495.0,,,0.116339
-104929_Gaurochromis_sp,head.rec,SkyScan 2214,2022-11-01 13:23:11,13.000661,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6593.0,1,6593.0,,,0.117948
-104929_Gaurochromis_sp,rec,SkyScan 2214,2021-11-29 11:43:14,8.500239,70.0,140.0,False,569,,False,0.15,"(3072, 1944)",3825.0,1,3825.0,,,0.090437
+104929_Gaurochromis_sp,head.rec,SkyScan 2214,2022-11-01 13:23:11,13.000661,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6593.0,2,13186.0,,,0.117948
+104929_Gaurochromis_sp,rec,SkyScan 2214,2021-11-29 11:43:14,8.500239,70.0,140.0,False,569,,False,0.15,"(3072, 1944)",3825.0,3,11475.0,,,0.090437
 104929_Gaurochromis_sp,rec_OJ,SkyScan 2214,2021-11-25 13:37:05,9.000117,70.0,140.0,False,1075,,False,0.15,"(3072, 1944)",5181.0,1,5181.0,,,0.094192
-105005_104015_Incertae_sedis_vanoijeni_and_Enterochromis_I_cinctus_St_E,104015_rec,SkyScan 2214,2021-05-17 10:21:47,7.036958,70.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3746.0,1,3746.0,,,0.088249
-105005_104015_Incertae_sedis_vanoijeni_and_Enterochromis_I_cinctus_St_E,105005_rec,SkyScan 2214,2021-05-17 10:21:47,7.036958,70.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3746.0,1,3746.0,,,0.092197
-105105_Prognathochromis_dwarf_dentex,rec,SkyScan 2214,2021-04-16 11:31:09,10.734545,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3159.0,1,3159.0,,,0.109487
-105105_Prognathochromis_dwarf_dentex,rec_rereconstruct,SkyScan 2214,2021-04-16 11:31:09,10.734545,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3159.0,1,3159.0,,,0.109487
+105005_104015_Incertae_sedis_vanoijeni_and_Enterochromis_I_cinctus_St_E,104015_rec,SkyScan 2214,2021-05-17 10:21:47,7.036958,70.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3746.0,5,18730.0,,,0.088249
+105005_104015_Incertae_sedis_vanoijeni_and_Enterochromis_I_cinctus_St_E,105005_rec,SkyScan 2214,2021-05-17 10:21:47,7.036958,70.0,140.0,False,1021,,False,0.2,"(3070, 1944)",3746.0,5,18730.0,,,0.092197
+105105_Prognathochromis_dwarf_dentex,rec,SkyScan 2214,2021-04-16 11:31:09,10.734545,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3159.0,3,9477.0,,,0.109487
+105105_Prognathochromis_dwarf_dentex,rec_rereconstruct,SkyScan 2214,2021-04-16 11:31:09,10.734545,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3159.0,3,9477.0,,,0.109487
 105105_Prognathochromis_dwarf_dentex,rec_rescan_OJ,SkyScan 2214,2021-12-17 15:24:05,7.000603,70.0,116.0,False,900,,False,0.15,"(3072, 1944)",4729.0,1,4729.0,,,0.147761
-10576_Paralabidochromis_rockkribensis_sauvagei,rec,SkyScan 2214,2021-07-05 13:53:53,8.588096,70.0,140.0,False,682,,True,0.2,"(3072, 1944)",4921.0,1,4921.0,,,0.114528
-10605_Paralabidochromis_rockpicker_cyaneus,head.rec,SkyScan 2214,2021-10-18 14:08:47,16.99969,70.0,140.0,False,706,,False,0.1,"(3072, 1944)",5959.0,1,5959.0,,,0.114351
-10605_Paralabidochromis_rockpicker_cyaneus,rec,SkyScan 2214,2021-07-12 10:43:15,8.34876,70.0,140.0,False,686,,False,0.2,"(3072, 1944)",3217.0,1,3217.0,,,0.113029
+10576_Paralabidochromis_rockkribensis_sauvagei,rec,SkyScan 2214,2021-07-05 13:53:53,8.588096,70.0,140.0,False,682,,True,0.2,"(3072, 1944)",4921.0,3,14763.0,,,0.114528
+10605_Paralabidochromis_rockpicker_cyaneus,head.rec,SkyScan 2214,2021-10-18 14:08:47,16.99969,70.0,140.0,False,706,,False,0.1,"(3072, 1944)",5959.0,2,11918.0,,,0.114351
+10605_Paralabidochromis_rockpicker_cyaneus,rec,SkyScan 2214,2021-07-12 10:43:15,8.34876,70.0,140.0,False,686,,False,0.2,"(3072, 1944)",3217.0,3,9651.0,,,0.113029
 10618_Paralabidochromis_chilotes_complex_chilotes,head.head_rec,SkyScan 2214,2021-07-02 15:18:28,20.000477,70.0,140.0,False,937,,False,0.2,"(3072, 1944)",3557.0,1,3557.0,,,0.078962
-10618_Paralabidochromis_chilotes_complex_chilotes,head2.rec,SkyScan 2214,2022-02-10 12:59:38,28.000837,70.0,140.0,False,904,,False,0.2,"(1536, 972)",2720.0,1,2720.0,,,0.128634
-10618_Paralabidochromis_chilotes_complex_chilotes,rec,SkyScan 2214,2021-07-02 10:58:37,9.000117,70.0,140.0,False,937,,False,0.2,"(3072, 1944)",3562.0,1,3562.0,,,0.111237
-10619_Neochromis_rufocaudalis,head.rec,SkyScan 2214,2021-12-02 12:44:16,14.000419,70.0,140.0,False,569,,False,0.1,"(3072, 1944)",5632.0,1,5632.0,,,0.113936
-10619_Neochromis_rufocaudalis,head.rec_2xbin_23um,SkyScan 2214,2021-10-21 15:51:59,33.873713,70.0,140.0,False,681,,False,0.2,"(768, 486)",1871.0,1,1871.0,,,0.09
-10619_Neochromis_rufocaudalis,head.rec_4xbin_40um,SkyScan 2214,2021-10-21 17:13:27,39.999499,70.0,140.0,False,681,,False,0.4,"(768, 486)",946.0,1,946.0,,,0.09
-10619_Neochromis_rufocaudalis,head.rec_unbinned_17.5um,SkyScan 2214,2021-10-21 12:11:05,33.873713,70.0,140.0,False,681,,False,0.1,"(768, 486)",3722.0,1,3722.0,,,0.09
-10619_Neochromis_rufocaudalis,rec,SkyScan 2214,2021-07-26 14:27:41,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3280.0,1,3280.0,,,0.077216
+10618_Paralabidochromis_chilotes_complex_chilotes,head2.rec,SkyScan 2214,2022-02-10 12:59:38,28.000837,70.0,140.0,False,904,,False,0.2,"(1536, 972)",2720.0,3,8160.0,,,0.128634
+10618_Paralabidochromis_chilotes_complex_chilotes,rec,SkyScan 2214,2021-07-02 10:58:37,9.000117,70.0,140.0,False,937,,False,0.2,"(3072, 1944)",3562.0,4,14248.0,,,0.111237
+10619_Neochromis_rufocaudalis,head.rec,SkyScan 2214,2021-12-02 12:44:16,14.000419,70.0,140.0,False,569,,False,0.1,"(3072, 1944)",5632.0,2,11264.0,,,0.113936
+10619_Neochromis_rufocaudalis,head.rec_2xbin_23um,SkyScan 2214,2021-10-21 15:51:59,33.873713,70.0,140.0,False,681,,False,0.2,"(768, 486)",1871.0,3,5613.0,,,0.09
+10619_Neochromis_rufocaudalis,head.rec_4xbin_40um,SkyScan 2214,2021-10-21 17:13:27,39.999499,70.0,140.0,False,681,,False,0.4,"(768, 486)",946.0,2,1892.0,,,0.09
+10619_Neochromis_rufocaudalis,head.rec_unbinned_17.5um,SkyScan 2214,2021-10-21 12:11:05,33.873713,70.0,140.0,False,681,,False,0.1,"(768, 486)",3722.0,4,14888.0,,,0.09
+10619_Neochromis_rufocaudalis,rec,SkyScan 2214,2021-07-26 14:27:41,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3280.0,3,9840.0,,,0.077216
 10619_Neochromis_rufocaudalis,rec_rescan_OJ,SkyScan 2214,2021-10-21 11:08:04,33.873713,70.0,140.0,False,681,,False,0.1,"(768, 486)",3740.0,1,3740.0,,,0.079659
-10628_Paralabidochromis_rockkribensis_short_snout_scraper,full_188um.rec,SkyScan 2214,2021-02-10 14:41:06,188.212,70.0,200.0,False,294,3.0,False,0.8,"(768, 486)",674.0,1,674.0,,,0.042181
+10628_Paralabidochromis_rockkribensis_short_snout_scraper,full_188um.rec,SkyScan 2214,2021-02-10 14:41:06,188.212,70.0,200.0,False,294,3.0,False,0.8,"(768, 486)",674.0,2,1348.0,,,0.042181
 10628_Paralabidochromis_rockkribensis_short_snout_scraper,head.rec,SkyScan 2214,2022-03-29 13:17:01,21.999992,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5650.0,1,5650.0,,,0.074944
 10628_Paralabidochromis_rockkribensis_short_snout_scraper,head_13um.rec,SkyScan 2214,2021-02-10 13:36:01,13.127366,70.0,200.0,False,450,,False,0.2,"(3072, 1944)",2623.0,1,2623.0,,,0.057892
 10628_Paralabidochromis_rockkribensis_short_snout_scraper,head_18um.rec,SkyScan 2214,2021-02-10 12:47:54,17.999866,70.0,200.0,False,450,3.0,False,0.2,"(3072, 1944)",4288.0,1,4288.0,,,0.048592
 10628_Paralabidochromis_rockkribensis_short_snout_scraper,rec_oj,SkyScan 2214,2022-03-29 16:04:11,9.999875,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5684.0,1,5684.0,,,0.12897
 10628_Paralabidochromis_rockkribensis_short_snout_scraper,rec_pj,SkyScan 2214,2022-03-29 17:47:06,9.999875,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5069.0,1,5069.0,,,0.081295
-10629_Lipochromis_velvet_black_cryptodon,head.rec,SkyScan 2214,2021-11-22 17:04:42,24.998536,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2799.0,1,2799.0,,,0.088706
-10629_Lipochromis_velvet_black_cryptodon,rec,SkyScan 2214,2021-11-22 13:09:28,16.697521,70.0,140.0,False,976,,False,0.1,"(1536, 972)",5554.0,1,5554.0,,,0.072001
-10629_Lipochromis_velvet_black_cryptodon,rec2,SkyScan 2214,2021-11-22 21:41:26,9.999875,70.0,140.0,False,810,,False,0.1,"(3072, 1944)",6458.0,1,6458.0,,,0.103575
+10629_Lipochromis_velvet_black_cryptodon,head.rec,SkyScan 2214,2021-11-22 17:04:42,24.998536,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2799.0,3,8397.0,,,0.088706
+10629_Lipochromis_velvet_black_cryptodon,rec,SkyScan 2214,2021-11-22 13:09:28,16.697521,70.0,140.0,False,976,,False,0.1,"(1536, 972)",5554.0,3,16662.0,,,0.072001
+10629_Lipochromis_velvet_black_cryptodon,rec2,SkyScan 2214,2021-11-22 21:41:26,9.999875,70.0,140.0,False,810,,False,0.1,"(3072, 1944)",6458.0,3,19374.0,,,0.103575
 106641_Labrochromis_sp_1,head.rec,SkyScan 2214,2022-03-28 14:00:10,17.999448,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5630.0,1,5630.0,,,0.100587
-106641_Labrochromis_sp_1,rec,SkyScan 2214,2021-09-06 15:02:51,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3918.0,1,3918.0,,,0.125446
+106641_Labrochromis_sp_1,rec,SkyScan 2214,2021-09-06 15:02:51,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3918.0,3,11754.0,,,0.125446
 106641_Labrochromis_sp_1,rec_oj,SkyScan 2214,2022-03-28 16:39:17,7.000603,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",6055.0,1,6055.0,,,0.160218
-106641_Labrochromis_sp_1,rec_rereconstruct,SkyScan 2214,2021-09-06 15:02:51,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3918.0,1,3918.0,,,0.135231
-106816_Neochromis_omnicaeruleus,head.rec,SkyScan 2214,2021-11-11 14:10:31,24.998536,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2853.0,1,2853.0,,,0.096594
-106816_Neochromis_omnicaeruleus,rec,SkyScan 2214,2021-06-21 10:25:47,7.991271,70.0,140.0,False,666,,False,0.2,"(2802, 1944)",3223.0,1,3223.0,,,0.117922
-106985_Pseudocrenilabrus_multicolor_victoriae,2214_rec,SkyScan 2214,2022-01-14 11:41:40,4.399916,70.0,115.0,False,412,2.0,False,0.1,"(4032, 2688)",6379.0,1,6379.0,,,0.517143
-106985_Pseudocrenilabrus_multicolor_victoriae,rec,SkyScan 1272,2020-11-16 23:53:27,5.001124,70.0,142.0,Al 0.5mm,2888,3.0,False,0.2,"(2452, 1640)",25084.0,1,25084.0,14.0,,0.247237
-10715_Pundamilia_azurea,head.rec,SkyScan 2214,2022-01-31 12:58:42,18.500114,70.0,136.0,False,666,,False,0.2,"(1536, 972)",2171.0,1,2171.0,,,0.103717
-10715_Pundamilia_azurea,rec,SkyScan 2214,2021-05-07 10:11:10,7.394447,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3064.0,1,3064.0,,,0.158883
-10791_Mbipia_red_carp,head.rec,SkyScan 2214,2021-12-09 11:11:29,32.999624,70.0,140.0,False,563,,False,0.2,"(1536, 972)",1963.0,1,1963.0,,,0.074521
-10791_Mbipia_red_carp,rec,SkyScan 2214,2021-03-30 10:20:59,13.120329,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3621.0,1,3621.0,,,0.076288
-10794_Ptyochromis_xenognathus_rocks,head.rec,SkyScan 2214,2021-11-02 09:53:14,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2058.0,1,2058.0,,,0.10966
-10794_Ptyochromis_xenognathus_rocks,rec,SkyScan 2214,2021-07-22 12:44:27,9.422742,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3333.0,1,3333.0,,,0.160238
-10794_Ptyochromis_xenognathus_rocks,rec_rescan,SkyScan 2214,2021-07-30 12:17:16,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2940.0,1,2940.0,,,0.103251
-10794_Ptyochromis_xenognathus_rocks,rec_rescan_rereconstruct_OJ,SkyScan 2214,2021-07-30 12:17:16,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2940.0,1,2940.0,,,0.123484
-109188_Harpagochromis_howesi,head.rec,SkyScan 2214,2021-09-23 18:56:54,24.998536,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2395.0,1,2395.0,,,0.066572
-109188_Harpagochromis_howesi,rec,SkyScan 2214,2021-09-23 16:54:01,15.506901,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2407.0,1,2407.0,,,0.130399
+106641_Labrochromis_sp_1,rec_rereconstruct,SkyScan 2214,2021-09-06 15:02:51,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3918.0,3,11754.0,,,0.135231
+106816_Neochromis_omnicaeruleus,head.rec,SkyScan 2214,2021-11-11 14:10:31,24.998536,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2853.0,2,5706.0,,,0.096594
+106816_Neochromis_omnicaeruleus,rec,SkyScan 2214,2021-06-21 10:25:47,7.991271,70.0,140.0,False,666,,False,0.2,"(2802, 1944)",3223.0,3,9669.0,,,0.117922
+106985_Pseudocrenilabrus_multicolor_victoriae,2214_rec,SkyScan 2214,2022-01-14 11:41:40,4.399916,70.0,115.0,False,412,2.0,False,0.1,"(4032, 2688)",6379.0,3,19137.0,,,0.517143
+106985_Pseudocrenilabrus_multicolor_victoriae,rec,SkyScan 1272,2020-11-16 23:53:27,5.001124,70.0,142.0,Al 0.5mm,2888,3.0,False,0.2,"(2452, 1640)",25084.0,2,50168.0,14.0,,0.247237
+10715_Pundamilia_azurea,head.rec,SkyScan 2214,2022-01-31 12:58:42,18.500114,70.0,136.0,False,666,,False,0.2,"(1536, 972)",2171.0,3,6513.0,,,0.103717
+10715_Pundamilia_azurea,rec,SkyScan 2214,2021-05-07 10:11:10,7.394447,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3064.0,3,9192.0,,,0.158883
+10791_Mbipia_red_carp,head.rec,SkyScan 2214,2021-12-09 11:11:29,32.999624,70.0,140.0,False,563,,False,0.2,"(1536, 972)",1963.0,2,3926.0,,,0.074521
+10791_Mbipia_red_carp,rec,SkyScan 2214,2021-03-30 10:20:59,13.120329,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3621.0,2,7242.0,,,0.076288
+10794_Ptyochromis_xenognathus_rocks,head.rec,SkyScan 2214,2021-11-02 09:53:14,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2058.0,2,4116.0,,,0.10966
+10794_Ptyochromis_xenognathus_rocks,rec,SkyScan 2214,2021-07-22 12:44:27,9.422742,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3333.0,3,9999.0,,,0.160238
+10794_Ptyochromis_xenognathus_rocks,rec_rescan,SkyScan 2214,2021-07-30 12:17:16,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2940.0,3,8820.0,,,0.103251
+10794_Ptyochromis_xenognathus_rocks,rec_rescan_rereconstruct_OJ,SkyScan 2214,2021-07-30 12:17:16,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2940.0,3,8820.0,,,0.123484
+109188_Harpagochromis_howesi,head.rec,SkyScan 2214,2021-09-23 18:56:54,24.998536,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2395.0,3,7185.0,,,0.066572
+109188_Harpagochromis_howesi,rec,SkyScan 2214,2021-09-23 16:54:01,15.506901,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2407.0,3,7221.0,,,0.130399
 109188_Harpagochromis_howesi,rec_oj,SkyScan 2214,2022-03-10 16:28:20,9.000117,70.0,140.0,False,655,,False,0.1,"(3072, 1944)",5979.0,1,5979.0,,,0.126131
-109209_Lithochromis_scraper,head.rec,SkyScan 2214,2021-11-11 12:20:37,23.998779,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2850.0,1,2850.0,,,0.100487
-109209_Lithochromis_scraper,rec,SkyScan 2214,2021-06-22 13:24:26,6.799137,70.0,138.0,False,777,,False,0.2,"(2802, 1944)",3176.0,1,3176.0,,,0.111487
-109220_Incertae_sedis_large_red_deepwater,head.rec,SkyScan 2214,2021-11-18 09:55:32,30.200303,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2829.0,1,2829.0,,,0.067146
-109220_Incertae_sedis_large_red_deepwater,rec,SkyScan 2214,2021-04-12 10:19:19,11.33137,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3565.0,1,3565.0,,,0.071915
-109320_Lithochromis_yellow_chin,head.rec,SkyScan 2214,2021-10-18 10:02:21,21.999264,70.0,140.0,False,720,,False,0.2,"(1536, 972)",2210.0,1,2210.0,,,0.098358
-109320_Lithochromis_yellow_chin,rec,SkyScan 2214,2021-07-06 10:30:00,7.750421,70.0,140.0,False,666,,False,0.2,"(3072, 1944)",3029.0,1,3029.0,,,0.110055
-109432_Astatotilapia_nubila_swamp_red,rec,SkyScan 2214,2021-10-25 11:07:19,5.367666,60.0,146.0,False,706,,False,0.15,"(3072, 1944)",4118.0,1,4118.0,,,0.147155
-109768_Enterochromis_I_cinctus_St_E,rec,SkyScan 1272,2021-11-26 14:45:51,4.000007,60.0,166.0,Al 0.25mm,1783,3.0,False,0.1,"(4904, 3280)",17878.0,1,17878.0,13.0,,0.257426
-109857_Incertae_sedis_sp,rec,SkyScan 1272,2021-12-03 01:07:01,4.50002,60.0,166.0,Al 0.25mm,3314,3.0,False,0.1,"(4904, 3280)",28929.0,1,28929.0,13.0,,0.295771
-11045_Lipochromis_velvet_black_cryptodon,rec,SkyScan 2214,2021-03-25 10:05:38,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3271.0,1,3271.0,,,0.055035
-11053_Pundamilia_core_nyererei,head.rec,SkyScan 2214,2021-11-17 15:32:04,18.000235,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2823.0,1,2823.0,,,0.136324
-11053_Pundamilia_core_nyererei,rec,SkyScan 2214,2021-06-18 10:47:06,6.799137,70.0,140.0,False,600,,False,0.2,"(2802, 1944)",2851.0,1,2851.0,,,0.152513
-11116_Pundamilia_macrocephala_blue_deepwater,head.rec,SkyScan 2214,2021-11-08 12:37:54,28.000837,70.0,137.0,False,666,,False,0.2,"(1536, 972)",2050.0,1,2050.0,,,0.075169
-11116_Pundamilia_macrocephala_blue_deepwater,head2.rec,SkyScan 2214,2022-02-04 12:53:10,28.000837,70.0,135.0,False,923,,False,0.2,"(1536, 972)",2894.0,1,2894.0,,,0.11432
-11116_Pundamilia_macrocephala_blue_deepwater,rec,SkyScan 2214,2021-05-28 10:22:10,8.88045,70.0,140.0,False,743,,False,0.2,"(3070, 1944)",3138.0,1,3138.0,,,0.143899
+109209_Lithochromis_scraper,head.rec,SkyScan 2214,2021-11-11 12:20:37,23.998779,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2850.0,2,5700.0,,,0.100487
+109209_Lithochromis_scraper,rec,SkyScan 2214,2021-06-22 13:24:26,6.799137,70.0,138.0,False,777,,False,0.2,"(2802, 1944)",3176.0,3,9528.0,,,0.111487
+109220_Incertae_sedis_large_red_deepwater,head.rec,SkyScan 2214,2021-11-18 09:55:32,30.200303,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2829.0,2,5658.0,,,0.067146
+109220_Incertae_sedis_large_red_deepwater,rec,SkyScan 2214,2021-04-12 10:19:19,11.33137,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3565.0,3,10695.0,,,0.071915
+109320_Lithochromis_yellow_chin,head.rec,SkyScan 2214,2021-10-18 10:02:21,21.999264,70.0,140.0,False,720,,False,0.2,"(1536, 972)",2210.0,3,6630.0,,,0.098358
+109320_Lithochromis_yellow_chin,rec,SkyScan 2214,2021-07-06 10:30:00,7.750421,70.0,140.0,False,666,,False,0.2,"(3072, 1944)",3029.0,3,9087.0,,,0.110055
+109432_Astatotilapia_nubila_swamp_red,rec,SkyScan 2214,2021-10-25 11:07:19,5.367666,60.0,146.0,False,706,,False,0.15,"(3072, 1944)",4118.0,3,12354.0,,,0.147155
+109768_Enterochromis_I_cinctus_St_E,rec,SkyScan 1272,2021-11-26 14:45:51,4.000007,60.0,166.0,Al 0.25mm,1783,3.0,False,0.1,"(4904, 3280)",17878.0,3,53634.0,13.0,,0.257426
+109857_Incertae_sedis_sp,rec,SkyScan 1272,2021-12-03 01:07:01,4.50002,60.0,166.0,Al 0.25mm,3314,3.0,False,0.1,"(4904, 3280)",28929.0,2,57858.0,13.0,,0.295771
+11045_Lipochromis_velvet_black_cryptodon,rec,SkyScan 2214,2021-03-25 10:05:38,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3271.0,3,9813.0,,,0.055035
+11053_Pundamilia_core_nyererei,head.rec,SkyScan 2214,2021-11-17 15:32:04,18.000235,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2823.0,3,8469.0,,,0.136324
+11053_Pundamilia_core_nyererei,rec,SkyScan 2214,2021-06-18 10:47:06,6.799137,70.0,140.0,False,600,,False,0.2,"(2802, 1944)",2851.0,3,8553.0,,,0.152513
+11116_Pundamilia_macrocephala_blue_deepwater,head.rec,SkyScan 2214,2021-11-08 12:37:54,28.000837,70.0,137.0,False,666,,False,0.2,"(1536, 972)",2050.0,2,4100.0,,,0.075169
+11116_Pundamilia_macrocephala_blue_deepwater,head2.rec,SkyScan 2214,2022-02-04 12:53:10,28.000837,70.0,135.0,False,923,,False,0.2,"(1536, 972)",2894.0,3,8682.0,,,0.11432
+11116_Pundamilia_macrocephala_blue_deepwater,rec,SkyScan 2214,2021-05-28 10:22:10,8.88045,70.0,140.0,False,743,,False,0.2,"(3070, 1944)",3138.0,3,9414.0,,,0.143899
 11185_Labrochromis_stone,head.rec,SkyScan 2214,2023-05-11 15:47:42,21.999992,60.0,140.0,False,998,,False,0.1,"(3072, 1944)",7495.0,1,7495.0,,,0.088213
-11185_Labrochromis_stone,rec_oj,SkyScan 2214,2023-05-11 18:08:07,8.500239,60.0,140.0,False,998,,False,0.1,"(3072, 1944)",7583.0,1,7583.0,,,0.142104
-11185_Labrochromis_stone,rec_pj,SkyScan 2214,2023-05-11 22:20:19,8.500239,60.0,140.0,False,998,,False,0.1,"(3072, 1944)",7490.0,1,7490.0,,,0.096767
-11313_Pundamilia_pink_anal_fin,rec,SkyScan 2214,2021-05-10 10:20:15,7.514115,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3043.0,1,3043.0,,,0.138546
-11322_Mbipia_mbipi,head.rec,SkyScan 2214,2021-11-02 14:25:43,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1970.0,1,1970.0,,,0.083133
-11322_Mbipia_mbipi,rec,SkyScan 2214,2021-06-17 11:37:51,8.34876,70.0,140.0,False,917,,False,0.2,"(2802, 1944)",3544.0,1,3544.0,,,0.116694
-11344_Neochromis_gigas,head.rec,SkyScan 2214,2021-11-05 16:29:42,29.000594,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1995.0,1,1995.0,,,0.06963
-11344_Neochromis_gigas,rec,SkyScan 2214,2021-07-19 10:51:25,12.499268,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3305.0,1,3305.0,,,0.075343
-11344_Neochromis_gigas,rec_rescan,SkyScan 2214,2021-07-29 13:17:42,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2985.0,1,2985.0,,,0.112003
-11447_Enterochromis_II_red_and_blue,head.rec,SkyScan 2214,2021-12-17 10:25:25,14.501084,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2091.0,1,2091.0,,,0.141668
-11447_Enterochromis_II_red_and_blue,rec,SkyScan 2214,2021-05-11 10:16:14,7.514115,70.0,125.0,False,969,,False,0.2,"(3070, 1944)",3647.0,1,3647.0,,,0.080931
+11185_Labrochromis_stone,rec_oj,SkyScan 2214,2023-05-11 18:08:07,8.500239,60.0,140.0,False,998,,False,0.1,"(3072, 1944)",7583.0,2,15166.0,,,0.142104
+11185_Labrochromis_stone,rec_pj,SkyScan 2214,2023-05-11 22:20:19,8.500239,60.0,140.0,False,998,,False,0.1,"(3072, 1944)",7490.0,2,14980.0,,,0.096767
+11313_Pundamilia_pink_anal_fin,rec,SkyScan 2214,2021-05-10 10:20:15,7.514115,70.0,125.0,False,720,,False,0.2,"(3070, 1944)",3043.0,3,9129.0,,,0.138546
+11322_Mbipia_mbipi,head.rec,SkyScan 2214,2021-11-02 14:25:43,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1970.0,3,5910.0,,,0.083133
+11322_Mbipia_mbipi,rec,SkyScan 2214,2021-06-17 11:37:51,8.34876,70.0,140.0,False,917,,False,0.2,"(2802, 1944)",3544.0,3,10632.0,,,0.116694
+11344_Neochromis_gigas,head.rec,SkyScan 2214,2021-11-05 16:29:42,29.000594,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1995.0,2,3990.0,,,0.06963
+11344_Neochromis_gigas,rec,SkyScan 2214,2021-07-19 10:51:25,12.499268,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3305.0,3,9915.0,,,0.075343
+11344_Neochromis_gigas,rec_rescan,SkyScan 2214,2021-07-29 13:17:42,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2985.0,3,8955.0,,,0.112003
+11447_Enterochromis_II_red_and_blue,head.rec,SkyScan 2214,2021-12-17 10:25:25,14.501084,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2091.0,3,6273.0,,,0.141668
+11447_Enterochromis_II_red_and_blue,rec,SkyScan 2214,2021-05-11 10:16:14,7.514115,70.0,125.0,False,969,,False,0.2,"(3070, 1944)",3647.0,2,7294.0,,,0.080931
 11447_Enterochromis_II_red_and_blue,rec_oj,SkyScan 2214,2022-03-10 10:55:57,6.559801,70.0,140.0,False,655,,False,0.1,"(3072, 1944)",5937.0,1,5937.0,,,0.19013
 11447_Enterochromis_II_red_and_blue,rec_oj_2,SkyScan 2214,2022-09-01 18:37:54,5.999331,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",11062.0,1,11062.0,,,0.204509
 11447_Enterochromis_II_red_and_blue,rec_oj_360,SkyScan 2214,2022-09-12 14:41:38,7.500482,60.0,140.0,False,1831,,True,0.1,"(3072, 1944)",18185.0,1,18185.0,,,0.143188
 11447_Enterochromis_II_red_and_blue,rec_oj_rereconstruct,SkyScan 2214,2022-03-10 10:55:57,6.559801,70.0,140.0,False,655,,False,0.1,"(3072, 1944)",5937.0,1,5937.0,,,0.188329
-11447_Enterochromis_II_red_and_blue,rec_rereconstruct,SkyScan 2214,2021-05-11 10:16:14,7.514115,70.0,125.0,False,969,,False,0.2,"(3070, 1944)",3647.0,1,3647.0,,,0.131378
-11500_Astatotilapia_nubila_rocks,head.rec,SkyScan 2214,2021-11-05 13:57:29,31.000109,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1992.0,1,1992.0,,,0.09508
-11500_Astatotilapia_nubila_rocks,rec,SkyScan 2214,2021-06-10 09:43:47,9.999875,70.0,140.0,False,576,,False,0.2,"(3070, 1944)",2779.0,1,2779.0,,,0.145188
-11557_Lipochromis_melanopterus,head.rec,SkyScan 2214,2021-11-11 09:58:25,26.001323,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2834.0,1,2834.0,,,0.096576
-11557_Lipochromis_melanopterus,rec,SkyScan 2214,2021-09-20 19:16:36,8.95013,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6809.0,1,6809.0,,,0.128009
-11557_Lipochromis_melanopterus,rec_rereconstruct_OJ_A,SkyScan 2214,2021-09-20 19:16:36,8.95013,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6809.0,1,6809.0,,,0.127697
-11557_Lipochromis_melanopterus,rec_rereconstruct_OJ_B,SkyScan 2214,2021-09-20 19:16:36,8.95013,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6809.0,1,6809.0,,,0.115974
-11601_Psammochromis_rock_riponianus,head.rec_head,SkyScan 2214,2021-10-12 13:18:45,17.999448,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4579.0,1,4579.0,,,0.101841
-11601_Psammochromis_rock_riponianus,rec,SkyScan 2214,2021-06-07 10:13:49,10.999632,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3023.0,1,3023.0,,,0.132169
-11601_Psammochromis_rock_riponianus,rec_rereconstruct,SkyScan 2214,2021-06-07 10:13:49,10.999632,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3023.0,1,3023.0,,,0.108015
-11639_Paralabidochromis_rockkribensis_plagiodon_rocks,head.rec,SkyScan 2214,2021-11-01 10:49:53,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2080.0,1,2080.0,,,0.093198
-11639_Paralabidochromis_rockkribensis_plagiodon_rocks,rec,SkyScan 2214,2021-06-01 10:10:51,7.991271,70.0,140.0,False,900,,False,0.2,"(3070, 1944)",3443.0,1,3443.0,,,0.114091
-11729_Pundamilia_core_pundamilia_like,head.rec,SkyScan 2214,2021-11-02 11:25:43,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2063.0,1,2063.0,,,0.121618
-11729_Pundamilia_core_pundamilia_like,rec,SkyScan 2214,2021-06-14 09:57:51,9.999875,70.0,140.0,False,626,,False,0.2,"(3070, 1944)",2897.0,1,2897.0,,,0.197219
-11729_Pundamilia_core_pundamilia_like,rec_rereconstruct,SkyScan 2214,2021-06-14 09:57:51,9.999875,70.0,140.0,False,626,,False,0.2,"(3070, 1944)",2897.0,1,2897.0,,,0.180798
-11807_Paralabidochromis_chromogynous_chromogynos,head.rec,SkyScan 2214,2022-02-04 10:03:25,24.998536,70.0,134.0,False,923,,False,0.2,"(1536, 972)",2777.0,1,2777.0,,,0.148179
-11807_Paralabidochromis_chromogynous_chromogynos,head2.rec,SkyScan 2214,2022-11-08 16:16:29,17.499569,70.0,140.0,False,583,,False,0.1,"(3072, 1944)",5655.0,1,5655.0,,,0.109146
-11807_Paralabidochromis_chromogynous_chromogynos,rec,SkyScan 2214,2021-07-01 17:31:46,9.000117,70.0,140.0,False,937,,False,0.2,"(3072, 1944)",3568.0,1,3568.0,,,0.136896
-11946_Haplochromis_purple_yellow,head.rec,SkyScan 2214,2021-11-05 12:13:44,27.00108,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1982.0,1,1982.0,,,0.074325
-11946_Haplochromis_purple_yellow,rec,SkyScan 2214,2021-05-31 10:42:36,7.991271,70.0,140.0,False,743,,False,0.2,"(3070, 1944)",2901.0,1,2901.0,,,0.136079
-11965_Hoplotilapia_retrodens,head.rec,SkyScan 2214,2022-02-03 14:44:07,24.498657,70.0,136.0,False,500,,False,0.2,"(1536, 972)",1835.0,1,1835.0,,,0.109604
-11965_Hoplotilapia_retrodens,rec,SkyScan 2214,2021-07-19 14:06:38,8.110939,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3297.0,1,3297.0,,,0.174607
+11447_Enterochromis_II_red_and_blue,rec_rereconstruct,SkyScan 2214,2021-05-11 10:16:14,7.514115,70.0,125.0,False,969,,False,0.2,"(3070, 1944)",3647.0,2,7294.0,,,0.131378
+11500_Astatotilapia_nubila_rocks,head.rec,SkyScan 2214,2021-11-05 13:57:29,31.000109,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1992.0,2,3984.0,,,0.09508
+11500_Astatotilapia_nubila_rocks,rec,SkyScan 2214,2021-06-10 09:43:47,9.999875,70.0,140.0,False,576,,False,0.2,"(3070, 1944)",2779.0,4,11116.0,,,0.145188
+11557_Lipochromis_melanopterus,head.rec,SkyScan 2214,2021-11-11 09:58:25,26.001323,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2834.0,2,5668.0,,,0.096576
+11557_Lipochromis_melanopterus,rec,SkyScan 2214,2021-09-20 19:16:36,8.95013,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6809.0,3,20427.0,,,0.128009
+11557_Lipochromis_melanopterus,rec_rereconstruct_OJ_A,SkyScan 2214,2021-09-20 19:16:36,8.95013,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6809.0,3,20427.0,,,0.127697
+11557_Lipochromis_melanopterus,rec_rereconstruct_OJ_B,SkyScan 2214,2021-09-20 19:16:36,8.95013,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6809.0,3,20427.0,,,0.115974
+11601_Psammochromis_rock_riponianus,head.rec_head,SkyScan 2214,2021-10-12 13:18:45,17.999448,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4579.0,2,9158.0,,,0.101841
+11601_Psammochromis_rock_riponianus,rec,SkyScan 2214,2021-06-07 10:13:49,10.999632,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3023.0,3,9069.0,,,0.132169
+11601_Psammochromis_rock_riponianus,rec_rereconstruct,SkyScan 2214,2021-06-07 10:13:49,10.999632,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3023.0,3,9069.0,,,0.108015
+11639_Paralabidochromis_rockkribensis_plagiodon_rocks,head.rec,SkyScan 2214,2021-11-01 10:49:53,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2080.0,2,4160.0,,,0.093198
+11639_Paralabidochromis_rockkribensis_plagiodon_rocks,rec,SkyScan 2214,2021-06-01 10:10:51,7.991271,70.0,140.0,False,900,,False,0.2,"(3070, 1944)",3443.0,4,13772.0,,,0.114091
+11729_Pundamilia_core_pundamilia_like,head.rec,SkyScan 2214,2021-11-02 11:25:43,30.000352,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2063.0,3,6189.0,,,0.121618
+11729_Pundamilia_core_pundamilia_like,rec,SkyScan 2214,2021-06-14 09:57:51,9.999875,70.0,140.0,False,626,,False,0.2,"(3070, 1944)",2897.0,3,8691.0,,,0.197219
+11729_Pundamilia_core_pundamilia_like,rec_rereconstruct,SkyScan 2214,2021-06-14 09:57:51,9.999875,70.0,140.0,False,626,,False,0.2,"(3070, 1944)",2897.0,3,8691.0,,,0.180798
+11807_Paralabidochromis_chromogynous_chromogynos,head.rec,SkyScan 2214,2022-02-04 10:03:25,24.998536,70.0,134.0,False,923,,False,0.2,"(1536, 972)",2777.0,3,8331.0,,,0.148179
+11807_Paralabidochromis_chromogynous_chromogynos,head2.rec,SkyScan 2214,2022-11-08 16:16:29,17.499569,70.0,140.0,False,583,,False,0.1,"(3072, 1944)",5655.0,2,11310.0,,,0.109146
+11807_Paralabidochromis_chromogynous_chromogynos,rec,SkyScan 2214,2021-07-01 17:31:46,9.000117,70.0,140.0,False,937,,False,0.2,"(3072, 1944)",3568.0,3,10704.0,,,0.136896
+11946_Haplochromis_purple_yellow,head.rec,SkyScan 2214,2021-11-05 12:13:44,27.00108,70.0,140.0,False,648,,False,0.2,"(1536, 972)",1982.0,2,3964.0,,,0.074325
+11946_Haplochromis_purple_yellow,rec,SkyScan 2214,2021-05-31 10:42:36,7.991271,70.0,140.0,False,743,,False,0.2,"(3070, 1944)",2901.0,4,11604.0,,,0.136079
+11965_Hoplotilapia_retrodens,head.rec,SkyScan 2214,2022-02-03 14:44:07,24.498657,70.0,136.0,False,500,,False,0.2,"(1536, 972)",1835.0,3,5505.0,,,0.109604
+11965_Hoplotilapia_retrodens,rec,SkyScan 2214,2021-07-19 14:06:38,8.110939,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3297.0,3,9891.0,,,0.174607
 11965_Hoplotilapia_retrodens,rec_head_40um,SkyScan 2214,2021-08-19 15:25:09,40.000954,70.0,140.0,False,736,,False,1.0,"(1536, 972)",497.0,1,497.0,,,0.094539
-11965_Hoplotilapia_retrodens,rec_rescan,SkyScan 2214,2021-08-19 13:17:14,8.300287,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3359.0,1,3359.0,,,0.160995
-11992_Pundamilia_core_nyererei_like,head.rec,SkyScan 2214,2021-11-17 12:44:36,18.999992,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2831.0,1,2831.0,,,0.077639
-11992_Pundamilia_core_nyererei_like,rec,SkyScan 2214,2021-09-07 10:32:35,6.799137,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3927.0,1,3927.0,,,0.112715
+11965_Hoplotilapia_retrodens,rec_rescan,SkyScan 2214,2021-08-19 13:17:14,8.300287,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3359.0,3,10077.0,,,0.160995
+11992_Pundamilia_core_nyererei_like,head.rec,SkyScan 2214,2021-11-17 12:44:36,18.999992,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2831.0,2,5662.0,,,0.077639
+11992_Pundamilia_core_nyererei_like,rec,SkyScan 2214,2021-09-07 10:32:35,6.799137,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3927.0,3,11781.0,,,0.112715
 11992_Pundamilia_core_nyererei_like,rec_pj_2,SkyScan 2214,2022-08-31 11:36:57,9.999875,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",10309.0,1,10309.0,,,0.094172
-12319_Neochromis_greenwoodi,head.30um_rec,SkyScan 2214,2021-09-23 11:54:37,30.000352,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2406.0,1,2406.0,,,0.094068
+12319_Neochromis_greenwoodi,head.30um_rec,SkyScan 2214,2021-09-23 11:54:37,30.000352,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2406.0,3,7218.0,,,0.094068
 12319_Neochromis_greenwoodi,head.50um_rec,SkyScan 2214,2021-09-23 10:33:35,49.998527,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2612.0,1,2612.0,,,0.060523
-12319_Neochromis_greenwoodi,rec,SkyScan 2214,2021-07-13 11:31:55,8.588096,70.0,140.0,False,747,,False,0.2,"(3072, 1944)",3321.0,1,3321.0,,,0.117131
+12319_Neochromis_greenwoodi,rec,SkyScan 2214,2021-07-13 11:31:55,8.588096,70.0,140.0,False,747,,False,0.2,"(3072, 1944)",3321.0,4,13284.0,,,0.117131
 12446_Lithochromis_rubripinnis,rec_oj,SkyScan 2214,2022-11-03 10:44:58,8.00036,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6313.0,1,6313.0,,,0.127035
 12446_Lithochromis_rubripinnis,rec_pj,SkyScan 2214,2022-11-02 10:32:54,8.00036,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6281.0,1,6281.0,,,0.098144
 12793_Lithochromis_rufus,rec_oj,SkyScan 2214,2022-11-01 10:43:24,6.500724,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6432.0,1,6432.0,,,0.151509
 12807_Pundamilia_core_sp_Luanso_blue,head.rec,SkyScan 2214,2022-03-31 11:03:57,17.999448,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5727.0,1,5727.0,,,0.107203
-12807_Pundamilia_core_sp_Luanso_blue,rec,SkyScan 2214,2021-09-10 10:56:13,6.799137,70.0,140.0,False,1647,,False,0.2,"(3072, 1944)",5120.0,1,5120.0,,,0.127435
+12807_Pundamilia_core_sp_Luanso_blue,rec,SkyScan 2214,2021-09-10 10:56:13,6.799137,70.0,140.0,False,1647,,False,0.2,"(3072, 1944)",5120.0,3,15360.0,,,0.127435
 12807_Pundamilia_core_sp_Luanso_blue,rec_oj,SkyScan 2214,2022-03-31 12:46:44,7.250542,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5671.0,1,5671.0,,,0.14523
 12807_Pundamilia_core_sp_Luanso_blue,rec_pj,SkyScan 2214,2022-03-31 14:35:40,7.250542,70.0,140.0,False,587,,False,0.1,"(3072, 1944)",5628.0,1,5628.0,,,0.090598
 12807_Pundamilia_core_sp_Luanso_blue,rec_pj_2,SkyScan 2214,2022-08-30 14:09:31,8.00036,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",10379.0,1,10379.0,,,0.09956
-12849_Pundamilia_core_sp_Luanso_red,rec,SkyScan 2214,2021-08-23 10:26:31,8.110939,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3348.0,1,3348.0,,,0.128125
-13069_Pundamilia_core_pundamilia,head.rec,SkyScan 2214,2021-11-17 10:11:23,26.001323,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2831.0,1,2831.0,,,0.075367
-13069_Pundamilia_core_pundamilia,rec,SkyScan 2214,2021-08-30 10:46:24,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3914.0,1,3914.0,,,0.147752
-13115_Mbipia_lutea,head.rec,SkyScan 2214,2022-02-10 16:02:22,35.998895,70.0,140.0,False,904,,False,0.2,"(1536, 972)",2734.0,1,2734.0,,,0.079119
-13115_Mbipia_lutea,rec_13um,SkyScan 2214,2021-03-24 10:38:11,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3731.0,1,3731.0,,,0.049811
+12849_Pundamilia_core_sp_Luanso_red,rec,SkyScan 2214,2021-08-23 10:26:31,8.110939,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3348.0,3,10044.0,,,0.128125
+13069_Pundamilia_core_pundamilia,head.rec,SkyScan 2214,2021-11-17 10:11:23,26.001323,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2831.0,2,5662.0,,,0.075367
+13069_Pundamilia_core_pundamilia,rec,SkyScan 2214,2021-08-30 10:46:24,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3914.0,3,11742.0,,,0.147752
+13115_Mbipia_lutea,head.rec,SkyScan 2214,2022-02-10 16:02:22,35.998895,70.0,140.0,False,904,,False,0.2,"(1536, 972)",2734.0,3,8202.0,,,0.079119
+13115_Mbipia_lutea,rec_13um,SkyScan 2214,2021-03-24 10:38:11,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3731.0,3,11193.0,,,0.049811
 13115_Mbipia_lutea,rec_22um,SkyScan 2214,2021-03-09 11:44:27,21.999992,70.0,125.0,False,280,,False,0.2,"(3070, 1944)",2194.0,1,2194.0,,,0.047498
-131282_Astatotilapia_burtoni,head.rec,SkyScan 2214,2022-01-27 10:55:34,13.501327,70.0,138.0,False,740,,False,0.2,"(1536, 972)",2271.0,1,2271.0,,,0.146953
+131282_Astatotilapia_burtoni,head.rec,SkyScan 2214,2022-01-27 10:55:34,13.501327,70.0,138.0,False,740,,False,0.2,"(1536, 972)",2271.0,3,6813.0,,,0.146953
 131282_Astatotilapia_burtoni,jaw.rec,SkyScan 1272,2021-02-05 11:39:26,5.000014,60.0,166.0,Al 0.25mm,1500,3.0,False,0.2,"(2452, 1640)",7044.0,1,7044.0,14.0,10.0,0.35403
 131282_Astatotilapia_burtoni,pharynx.rec,SkyScan 1272,2021-02-05 13:44:12,5.000014,60.0,166.0,Al 0.25mm,1500,3.0,False,0.2,"(2452, 1640)",7043.0,1,7043.0,14.0,10.0,0.221278
-13269_Incertae_sedis_sp_LithochromisPundamilia,rec,SkyScan 2214,2021-09-02 11:02:46,8.900142,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3942.0,1,3942.0,,,0.114363
-13281_Lithochromis_orange,rec,SkyScan 2214,2021-08-26 14:37:13,8.88045,70.0,140.0,False,909,,False,0.2,"(3072, 1944)",3492.0,1,3492.0,,,0.142293
-13393_Lithochromis_pseudoblue,head.rec,SkyScan 2214,2021-11-04 09:52:24,29.000594,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2072.0,1,2072.0,,,0.078103
-13393_Lithochromis_pseudoblue,rec,SkyScan 2214,2021-06-04 12:35:41,7.991271,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3041.0,1,3041.0,,,0.077749
-13420_Ptyochromis_striped_rock_sheller,rec,SkyScan 2214,2021-09-13 10:50:51,9.000117,70.0,147.0,False,1647,,False,0.2,"(3072, 1944)",5138.0,1,5138.0,,,0.131211
-13492_Pundamilia_macrocephala_yellow_deepwater,head.rec,SkyScan 2214,2021-11-08 10:19:39,29.000594,70.0,140.0,False,666,,False,0.2,"(1536, 972)",2038.0,1,2038.0,,,0.079248
-13492_Pundamilia_macrocephala_yellow_deepwater,rec,SkyScan 2214,2021-05-27 10:07:47,7.276294,70.0,140.0,False,743,,False,0.2,"(3070, 1944)",3192.0,1,3192.0,,,0.115686
-14125_Pundamilia_core_deepwater_giant,rec,SkyScan 2214,2021-07-23 11:22:35,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3291.0,1,3291.0,,,0.101053
-14128_Harpagochromis_vonlinnei,rec,SkyScan 2214,2021-03-26 09:43:58,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3212.0,1,3212.0,,,0.062966
-14233_Neochromis_unicuspid_scraper,rec,SkyScan 2214,2021-08-31 10:28:12,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3957.0,1,3957.0,,,0.088423
+13269_Incertae_sedis_sp_LithochromisPundamilia,rec,SkyScan 2214,2021-09-02 11:02:46,8.900142,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3942.0,3,11826.0,,,0.114363
+13281_Lithochromis_orange,rec,SkyScan 2214,2021-08-26 14:37:13,8.88045,70.0,140.0,False,909,,False,0.2,"(3072, 1944)",3492.0,3,10476.0,,,0.142293
+13393_Lithochromis_pseudoblue,head.rec,SkyScan 2214,2021-11-04 09:52:24,29.000594,70.0,140.0,False,648,,False,0.2,"(1536, 972)",2072.0,2,4144.0,,,0.078103
+13393_Lithochromis_pseudoblue,rec,SkyScan 2214,2021-06-04 12:35:41,7.991271,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3041.0,4,12164.0,,,0.077749
+13420_Ptyochromis_striped_rock_sheller,rec,SkyScan 2214,2021-09-13 10:50:51,9.000117,70.0,147.0,False,1647,,False,0.2,"(3072, 1944)",5138.0,3,15414.0,,,0.131211
+13492_Pundamilia_macrocephala_yellow_deepwater,head.rec,SkyScan 2214,2021-11-08 10:19:39,29.000594,70.0,140.0,False,666,,False,0.2,"(1536, 972)",2038.0,2,4076.0,,,0.079248
+13492_Pundamilia_macrocephala_yellow_deepwater,rec,SkyScan 2214,2021-05-27 10:07:47,7.276294,70.0,140.0,False,743,,False,0.2,"(3070, 1944)",3192.0,4,12768.0,,,0.115686
+14125_Pundamilia_core_deepwater_giant,rec,SkyScan 2214,2021-07-23 11:22:35,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3291.0,3,9873.0,,,0.101053
+14128_Harpagochromis_vonlinnei,rec,SkyScan 2214,2021-03-26 09:43:58,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3212.0,3,9636.0,,,0.062966
+14233_Neochromis_unicuspid_scraper,rec,SkyScan 2214,2021-08-31 10:28:12,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3957.0,3,11871.0,,,0.088423
 14269_Enterochromis_I_sp_blue,rec,SkyScan 1272,2020-11-20 17:03:10,5.000018,70.0,142.0,Al 0.5mm,3254,3.0,False,0.1,"(4904, 3280)",29118.0,1,29118.0,13.0,,0.209348
 14269_Enterochromis_I_sp_blue,rec_oj_2,SkyScan 2214,2022-09-02 11:54:31,5.499452,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",10379.0,1,10379.0,,,0.21174
 14269_Enterochromis_I_sp_blue,rec_pj_2,SkyScan 2214,2022-09-02 15:10:20,5.499452,60.0,140.0,False,1647,,False,0.1,"(3072, 1944)",10350.0,1,10350.0,,,0.12371
@@ -229,36 +229,36 @@ Fish,Scan,Scanner,Scan date,Voxelsize [μm],Source voltage [kV],Source current [
 14298_Incertae_sedis_thick_skin,rec,SkyScan 1272,2020-11-17 18:22:34,5.000018,70.0,142.0,Al 0.5mm,3254,3.0,False,0.1,"(4904, 3280)",28847.0,1,28847.0,14.0,,0.253239
 14298_Incertae_sedis_thick_skin,rec_oj,SkyScan 2214,2022-04-29 17:32:45,5.749392,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6703.0,1,6703.0,,,0.177552
 14298_Incertae_sedis_thick_skin,rec_pj,SkyScan 2214,2022-04-29 13:28:43,5.749392,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6698.0,1,6698.0,,,0.121393
-156645_Incertae_sedis_thick_skin,head.rec,SkyScan 2214,2022-03-03 13:10:58,16.00072,70.0,140.0,False,832,,False,0.2,"(1536, 972)",2550.0,1,2550.0,,,0.139621
+156645_Incertae_sedis_thick_skin,head.rec,SkyScan 2214,2022-03-03 13:10:58,16.00072,70.0,140.0,False,832,,False,0.2,"(1536, 972)",2550.0,2,5100.0,,,0.139621
 156645_Incertae_sedis_thick_skin,rec_oj,SkyScan 2214,2022-03-03 16:27:28,6.500724,70.0,140.0,False,1111,,False,0.1,"(3072, 1944)",7921.0,1,7921.0,,,0.166769
 156645_Incertae_sedis_thick_skin,rec_pj,SkyScan 2214,2022-03-03 18:41:15,6.500724,70.0,140.0,False,1111,,False,0.1,"(3072, 1944)",7944.0,1,7944.0,,,0.093084
-158795_Paralabidochromis_victoriae,head.rec,SkyScan 2214,2022-02-11 10:21:15,14.001206,60.0,140.0,False,904,,False,0.2,"(1536, 972)",2741.0,1,2741.0,,,0.188468
+158795_Paralabidochromis_victoriae,head.rec,SkyScan 2214,2022-02-11 10:21:15,14.001206,60.0,140.0,False,904,,False,0.2,"(1536, 972)",2741.0,3,8223.0,,,0.188468
 158795_Paralabidochromis_victoriae,rec_oj,SkyScan 2214,2022-04-26 12:19:32,5.999331,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6748.0,1,6748.0,,,0.187463
 158795_Paralabidochromis_victoriae,rec_pj,SkyScan 2214,2022-04-26 14:15:34,5.999331,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6720.0,1,6720.0,,,0.100345
-158816_Lipochromis_obesus_complex,head.rec,SkyScan 2214,2022-10-31 16:37:18,20.000477,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6332.0,1,6332.0,,,0.10417
-158816_Lipochromis_obesus_complex,rec,SkyScan 2214,2021-11-23 11:42:41,10.999632,70.0,140.0,False,1075,,False,0.1,"(3072, 1944)",7647.0,1,7647.0,,,0.108723
-161476_Prognathochromis_dichrourus_complex,head.rec,SkyScan 2214,2021-12-14 09:59:54,27.500959,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2057.0,1,2057.0,,,0.132101
-161476_Prognathochromis_dichrourus_complex,rec,SkyScan 2214,2021-04-13 13:46:49,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3574.0,1,3574.0,,,0.115976
-161476_Prognathochromis_dichrourus_complex,rec_rereconstruct,SkyScan 2214,2021-04-13 13:46:49,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3574.0,1,3574.0,,,0.131485
+158816_Lipochromis_obesus_complex,head.rec,SkyScan 2214,2022-10-31 16:37:18,20.000477,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6332.0,2,12664.0,,,0.10417
+158816_Lipochromis_obesus_complex,rec,SkyScan 2214,2021-11-23 11:42:41,10.999632,70.0,140.0,False,1075,,False,0.1,"(3072, 1944)",7647.0,3,22941.0,,,0.108723
+161476_Prognathochromis_dichrourus_complex,head.rec,SkyScan 2214,2021-12-14 09:59:54,27.500959,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2057.0,3,6171.0,,,0.132101
+161476_Prognathochromis_dichrourus_complex,rec,SkyScan 2214,2021-04-13 13:46:49,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3574.0,3,10722.0,,,0.115976
+161476_Prognathochromis_dichrourus_complex,rec_rereconstruct,SkyScan 2214,2021-04-13 13:46:49,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3574.0,3,10722.0,,,0.131485
 161543_Harpagochromis_cf_pachycephalus,head_30um.rec,SkyScan 2214,2021-02-12 15:44:15,30.000008,80.0,200.0,Al 1mm,445,,False,0.2,"(3072, 1944)",2758.0,1,2758.0,,,0.031229
-161543_Harpagochromis_cf_pachycephalus,rec,SkyScan 2214,2021-03-24 14:21:33,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3856.0,1,3856.0,,,0.050316
+161543_Harpagochromis_cf_pachycephalus,rec,SkyScan 2214,2021-03-24 14:21:33,13.120329,70.0,125.0,False,750,,False,0.2,"(3070, 1944)",3856.0,3,11568.0,,,0.050316
 21322_Neochromis_omnicaeruleus_Testfish,jaw.rec_mouth_5um,SkyScan 1272,2020-09-28 16:12:57,5.000014,70.0,142.0,Al 0.5mm,1162,3.0,False,0.6,"(2452, 1640)",2051.0,1,2051.0,19.0,,0.220318
-21322_Neochromis_omnicaeruleus_Testfish,whole.rec_full,SkyScan 1272,2020-09-28 12:35:20,21.614722,70.0,142.0,Al 0.5mm,1667,3.0,False,0.6,"(1224, 820)",2618.0,1,2618.0,13.0,,0.131458
+21322_Neochromis_omnicaeruleus_Testfish,whole.rec_full,SkyScan 1272,2020-09-28 12:35:20,21.614722,70.0,142.0,Al 0.5mm,1667,3.0,False,0.6,"(1224, 820)",2618.0,4,10472.0,13.0,,0.131458
 22406_Platytaeniodus_degeni,head.rec,SkyScan 2214,2022-04-05 10:53:44,20.000477,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6576.0,1,6576.0,,,0.09065
 22406_Platytaeniodus_degeni,rec_oj,SkyScan 2214,2022-04-05 12:49:17,7.156626,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6573.0,1,6573.0,,,0.172969
 22406_Platytaeniodus_degeni,rec_pj,SkyScan 2214,2022-04-05 14:44:20,8.00036,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6537.0,1,6537.0,,,0.097306
 22476_Astatotilapia_sp_flameback,head.rec,SkyScan 2214,2022-04-12 12:04:53,11.999389,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6526.0,1,6526.0,,,0.121283
-22476_Astatotilapia_sp_flameback,head2.rec,SkyScan 2214,2022-11-03 12:52:49,12.499268,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6331.0,1,6331.0,,,0.116273
+22476_Astatotilapia_sp_flameback,head2.rec,SkyScan 2214,2022-11-03 12:52:49,12.499268,70.0,145.0,False,736,,False,0.1,"(3072, 1944)",6331.0,2,12662.0,,,0.116273
 22476_Astatotilapia_sp_flameback,rec_oj,SkyScan 2214,2022-04-12 13:59:23,7.000603,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6542.0,1,6542.0,,,0.150056
 22476_Astatotilapia_sp_flameback,rec_pj,SkyScan 2214,2022-04-12 16:42:56,7.000603,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6534.0,1,6534.0,,,0.116472
-22478_Haplochromis_sp_cherry_fin,rec,SkyScan 2214,2022-02-01 10:43:52,5.367666,70.0,107.0,False,923,,False,0.1,"(3072, 1944)",7169.0,1,7169.0,,,0.17414
+22478_Haplochromis_sp_cherry_fin,rec,SkyScan 2214,2022-02-01 10:43:52,5.367666,70.0,107.0,False,923,,False,0.1,"(3072, 1944)",7169.0,3,21507.0,,,0.17414
 22479_Haplochromis_sp_ruby_green,oj_rec,SkyScan 2214,2022-02-14 12:01:26,8.00036,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6908.0,1,6908.0,,,0.137646
 22479_Haplochromis_sp_ruby_green,pj_rec,SkyScan 2214,2022-02-14 13:57:34,8.00036,70.0,140.0,False,873,,False,0.1,"(3072, 1944)",6890.0,1,6890.0,,,0.083089
-AN33_Lithochromis_xanthopteryx,head.rec_head,SkyScan 2214,2021-10-14 12:53:17,22.999021,70.0,140.0,False,720,,False,0.2,"(1536, 972)",2209.0,1,2209.0,,,0.092132
-AN33_Lithochromis_xanthopteryx,rec,SkyScan 2214,2021-08-24 12:46:48,8.110939,70.0,140.0,False,834,,False,0.1,"(3072, 1944)",6568.0,1,6568.0,,,0.16046
-BH58_Pundamilia_orange_anal_nyererei,head.rec,SkyScan 2214,2021-11-09 13:56:10,26.001323,70.0,140.0,False,806,,False,0.2,"(1536, 972)",2341.0,1,2341.0,,,0.09484
-BH58_Pundamilia_orange_anal_nyererei,rec,SkyScan 2214,2021-06-09 15:36:54,7.991271,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3046.0,1,3046.0,,,0.096162
-BI10_Neochromis_long_black,rec,SkyScan 2214,2021-07-26 10:46:48,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3279.0,1,3279.0,,,0.102861
+AN33_Lithochromis_xanthopteryx,head.rec_head,SkyScan 2214,2021-10-14 12:53:17,22.999021,70.0,140.0,False,720,,False,0.2,"(1536, 972)",2209.0,3,6627.0,,,0.092132
+AN33_Lithochromis_xanthopteryx,rec,SkyScan 2214,2021-08-24 12:46:48,8.110939,70.0,140.0,False,834,,False,0.1,"(3072, 1944)",6568.0,3,19704.0,,,0.16046
+BH58_Pundamilia_orange_anal_nyererei,head.rec,SkyScan 2214,2021-11-09 13:56:10,26.001323,70.0,140.0,False,806,,False,0.2,"(1536, 972)",2341.0,2,4682.0,,,0.09484
+BH58_Pundamilia_orange_anal_nyererei,rec,SkyScan 2214,2021-06-09 15:36:54,7.991271,70.0,140.0,False,713,,False,0.2,"(3070, 1944)",3046.0,3,9138.0,,,0.096162
+BI10_Neochromis_long_black,rec,SkyScan 2214,2021-07-26 10:46:48,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3279.0,3,9837.0,,,0.102861
 BucketOfFish_A_10576_13420_161543_BI10,rec,SkyScan 2214,2022-02-28 16:40:33,34.999866,70.0,140.0,False,855,,False,0.1,"(3072, 1944)",7796.0,1,7796.0,,,0.056677
 BucketOfFish_A_10576_13420_161543_BI10,rec_10576,SkyScan 2214,2022-02-28 16:40:33,34.999866,70.0,140.0,False,855,,False,0.1,"(3072, 1944)",7796.0,1,7796.0,,,0.05678
 BucketOfFish_A_10576_13420_161543_BI10,rec_13420,SkyScan 2214,2022-02-28 16:40:33,34.999866,70.0,140.0,False,855,,False,0.1,"(3072, 1944)",7796.0,1,7796.0,,,0.05678
@@ -296,53 +296,53 @@ BucketOfFish_F_14269_14295_22477_22478,rec_14269,SkyScan 2214,2022-05-16 15:00:3
 BucketOfFish_F_14269_14295_22477_22478,rec_14295,SkyScan 2214,2022-05-16 15:00:36,24.999263,70.0,140.0,False,751,,True,0.1,"(3072, 1944)",10290.0,1,10290.0,,,0.077932
 BucketOfFish_F_14269_14295_22477_22478,rec_22477,SkyScan 2214,2022-05-16 15:00:36,24.999263,70.0,140.0,False,751,,True,0.1,"(3072, 1944)",10290.0,1,10290.0,,,0.077932
 BucketOfFish_F_14269_14295_22477_22478,rec_22478,SkyScan 2214,2022-05-16 15:00:36,24.999263,70.0,140.0,False,751,,True,0.1,"(3072, 1944)",10290.0,1,10290.0,,,0.077932
-IG104_Yssichromis_core_laparogramma,head.rec_head,SkyScan 2214,2021-10-14 10:36:56,22.999021,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2400.0,1,2400.0,,,0.114865
-IG104_Yssichromis_core_laparogramma,rec,SkyScan 2214,2021-07-12 13:49:59,8.00036,70.0,140.0,False,686,,False,0.2,"(3072, 1944)",3058.0,1,3058.0,,,0.134292
-IG142_Ptyochromis_xenognathus,head.rec,SkyScan 2214,2021-11-12 10:47:03,19.999749,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2846.0,1,2846.0,,,0.111598
-IG142_Ptyochromis_xenognathus,rec,SkyScan 2214,2021-06-25 14:02:50,7.036958,70.0,140.0,False,937,,False,0.2,"(3072, 1944)",3418.0,1,3418.0,,,0.130482
-IG156_Ptyochromis_fischeri,head.rec,SkyScan 2214,2021-11-12 13:38:28,23.998779,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2755.0,1,2755.0,,,0.120255
-IG156_Ptyochromis_fischeri,rec,SkyScan 2214,2021-08-23 13:45:17,9.000117,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3335.0,1,3335.0,,,0.125717
-IG161_Macropleurodus_bicolor,head.rec,SkyScan 2214,2021-11-15 11:09:12,21.999264,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2798.0,1,2798.0,,,0.115565
-IG161_Macropleurodus_bicolor,rec,SkyScan 2214,2021-07-08 10:32:30,7.000603,70.0,140.0,False,686,,False,0.2,"(3072, 1944)",3084.0,1,3084.0,,,0.11829
-IG291_Pundamilia_core_igneopinnis,rec,SkyScan 2214,2021-08-30 15:04:58,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3919.0,1,3919.0,,,0.131566
-IG41_Ptyochromis_red_rock_sheller,rec,SkyScan 2214,2021-09-14 10:02:55,8.468428,70.0,140.0,False,971,,False,0.18,"(3072, 1944)",4046.0,1,4046.0,,,0.125325
+IG104_Yssichromis_core_laparogramma,head.rec_head,SkyScan 2214,2021-10-14 10:36:56,22.999021,70.0,140.0,False,801,,False,0.2,"(1536, 972)",2400.0,3,7200.0,,,0.114865
+IG104_Yssichromis_core_laparogramma,rec,SkyScan 2214,2021-07-12 13:49:59,8.00036,70.0,140.0,False,686,,False,0.2,"(3072, 1944)",3058.0,3,9174.0,,,0.134292
+IG142_Ptyochromis_xenognathus,head.rec,SkyScan 2214,2021-11-12 10:47:03,19.999749,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2846.0,3,8538.0,,,0.111598
+IG142_Ptyochromis_xenognathus,rec,SkyScan 2214,2021-06-25 14:02:50,7.036958,70.0,140.0,False,937,,False,0.2,"(3072, 1944)",3418.0,3,10254.0,,,0.130482
+IG156_Ptyochromis_fischeri,head.rec,SkyScan 2214,2021-11-12 13:38:28,23.998779,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2755.0,2,5510.0,,,0.120255
+IG156_Ptyochromis_fischeri,rec,SkyScan 2214,2021-08-23 13:45:17,9.000117,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3335.0,3,10005.0,,,0.125717
+IG161_Macropleurodus_bicolor,head.rec,SkyScan 2214,2021-11-15 11:09:12,21.999264,70.0,140.0,False,976,,False,0.2,"(1536, 972)",2798.0,3,8394.0,,,0.115565
+IG161_Macropleurodus_bicolor,rec,SkyScan 2214,2021-07-08 10:32:30,7.000603,70.0,140.0,False,686,,False,0.2,"(3072, 1944)",3084.0,3,9252.0,,,0.11829
+IG291_Pundamilia_core_igneopinnis,rec,SkyScan 2214,2021-08-30 15:04:58,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3919.0,3,11757.0,,,0.131566
+IG41_Ptyochromis_red_rock_sheller,rec,SkyScan 2214,2021-09-14 10:02:55,8.468428,70.0,140.0,False,971,,False,0.18,"(3072, 1944)",4046.0,3,12138.0,,,0.125325
 IG75_Yssichromis_cf_fusiformis,head.rec,SkyScan 2214,2022-04-28 11:08:16,17.499569,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6714.0,1,6714.0,,,0.149293
 IG75_Yssichromis_cf_fusiformis,rec_oj,SkyScan 2214,2022-04-28 13:57:06,7.000603,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6688.0,1,6688.0,,,0.145231
 IG75_Yssichromis_cf_fusiformis,rec_pj,SkyScan 2214,2022-04-28 16:12:49,7.000603,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6666.0,1,6666.0,,,0.10242
-IG80_Yssichromis_cf_argens,head.rec,SkyScan 2214,2021-09-24 10:35:54,21.999992,70.0,140.0,False,873,,False,0.2,"(3072, 1944)",3621.0,1,3621.0,,,0.067683
-IG80_Yssichromis_cf_argens,rec,SkyScan 2214,2021-09-24 12:57:45,7.633783,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4549.0,1,4549.0,,,0.097658
-IG80_Yssichromis_cf_argens,rec_rereconstruct_OJ,SkyScan 2214,2021-09-24 12:57:45,7.633783,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4549.0,1,4549.0,,,0.129824
+IG80_Yssichromis_cf_argens,head.rec,SkyScan 2214,2021-09-24 10:35:54,21.999992,70.0,140.0,False,873,,False,0.2,"(3072, 1944)",3621.0,2,7242.0,,,0.067683
+IG80_Yssichromis_cf_argens,rec,SkyScan 2214,2021-09-24 12:57:45,7.633783,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4549.0,3,13647.0,,,0.097658
+IG80_Yssichromis_cf_argens,rec_rereconstruct_OJ,SkyScan 2214,2021-09-24 12:57:45,7.633783,70.0,140.0,False,873,,False,0.15,"(3072, 1944)",4549.0,3,13647.0,,,0.129824
 IG92_Yssichromis_core_plumbus,head.rec,SkyScan 2214,2022-09-08 19:53:24,11.999389,60.0,140.0,False,1831,,False,0.1,"(3072, 1944)",11112.0,1,11112.0,,,0.123575
 IG92_Yssichromis_core_plumbus,rec,SkyScan 1272,2021-01-29 17:31:09,5.000018,60.0,166.0,Al 0.25mm,4133,2.0,False,0.1,"(4904, 3280)",27524.0,1,27524.0,13.0,,0.24767
 IG92_Yssichromis_core_plumbus,rec_oj,SkyScan 2214,2022-09-09 01:07:10,5.499452,60.0,140.0,False,1831,,False,0.1,"(3072, 1944)",10593.0,1,10593.0,,,0.19187
 IG92_Yssichromis_core_plumbus,rec_pj,SkyScan 2214,2022-09-09 12:22:20,5.499452,60.0,140.0,False,1831,,False,0.1,"(3072, 1944)",10649.0,1,10649.0,,,0.155492
-IG94_Yssichromis_core_plumbus,rec,SkyScan 1272,2021-11-29 20:27:08,4.000007,60.0,166.0,Al 0.25mm,1783,3.0,False,0.1,"(4904, 3280)",17664.0,1,17664.0,13.0,,0.327299
+IG94_Yssichromis_core_plumbus,rec,SkyScan 1272,2021-11-29 20:27:08,4.000007,60.0,166.0,Al 0.25mm,1783,3.0,False,0.1,"(4904, 3280)",17664.0,2,35328.0,13.0,,0.327299
 IG96_YssichromisAstatotilapia_piceatus,head.rec,SkyScan 2214,2022-09-07 12:43:30,15.000176,60.0,140.0,False,1831,,False,0.1,"(3072, 1944)",11193.0,1,11193.0,,,0.090082
 IG96_YssichromisAstatotilapia_piceatus,rec,SkyScan 1272,2020-11-19 17:39:48,5.000018,70.0,142.0,Al 0.5mm,3254,3.0,False,0.1,"(4904, 3280)",28733.0,1,28733.0,13.0,,0.186247
 IG96_YssichromisAstatotilapia_piceatus,rec_oj,SkyScan 2214,2022-09-08 12:58:02,5.999331,60.0,140.0,False,1831,,False,0.1,"(3072, 1944)",11117.0,1,11117.0,,,0.145021
 IG96_YssichromisAstatotilapia_piceatus,rec_pj,SkyScan 2214,2022-09-08 16:10:15,5.999331,60.0,140.0,False,1831,,False,0.1,"(3072, 1944)",11124.0,1,11124.0,,,0.120589
-JU22_Pundamilia_core_big_blue_red,head.rec,SkyScan 2214,2022-02-18 12:26:16,26.001323,70.0,140.0,False,782,,False,0.2,"(1536, 972)",2395.0,1,2395.0,,,0.115598
-JU22_Pundamilia_core_big_blue_red,rec,SkyScan 2214,2021-07-15 10:30:18,8.945585,70.0,140.0,False,747,,False,0.2,"(3072, 1944)",3690.0,1,3690.0,,,0.123702
-KAT13_Thoracochromis_pharyngalis,head.rec,SkyScan 2214,2022-01-25 09:44:24,13.001449,70.0,139.0,False,740,,False,0.2,"(1536, 972)",2346.0,1,2346.0,,,0.135355
+JU22_Pundamilia_core_big_blue_red,head.rec,SkyScan 2214,2022-02-18 12:26:16,26.001323,70.0,140.0,False,782,,False,0.2,"(1536, 972)",2395.0,2,4790.0,,,0.115598
+JU22_Pundamilia_core_big_blue_red,rec,SkyScan 2214,2021-07-15 10:30:18,8.945585,70.0,140.0,False,747,,False,0.2,"(3072, 1944)",3690.0,3,11070.0,,,0.123702
+KAT13_Thoracochromis_pharyngalis,head.rec,SkyScan 2214,2022-01-25 09:44:24,13.001449,70.0,139.0,False,740,,False,0.2,"(1536, 972)",2346.0,3,7038.0,,,0.135355
 KAT13_Thoracochromis_pharyngalis,jaw.rec,SkyScan 1272,2021-02-03 10:58:47,5.000014,60.0,166.0,Al 0.25mm,1062,3.0,False,0.2,"(2452, 1640)",5362.0,1,5362.0,14.0,,0.360528
 KAT13_Thoracochromis_pharyngalis,pharynx.rec,SkyScan 1272,2021-02-03 13:17:33,5.000014,60.0,166.0,Al 0.25mm,1062,3.0,False,0.2,"(2452, 1640)",5482.0,1,5482.0,19.0,,0.249797
-KC31_Harpagochromis_squamipinnis,head.rec,SkyScan 2214,2022-01-31 10:38:30,14.001206,70.0,137.0,False,666,,False,0.2,"(1536, 972)",2168.0,1,2168.0,,,0.120422
+KC31_Harpagochromis_squamipinnis,head.rec,SkyScan 2214,2022-01-31 10:38:30,14.001206,70.0,137.0,False,666,,False,0.2,"(1536, 972)",2168.0,3,6504.0,,,0.120422
 KC31_Harpagochromis_squamipinnis,jaw.rec,SkyScan 1272,2021-01-29 00:39:37,5.000018,70.0,142.0,Al 0.5mm,3254,3.0,False,0.1,"(4904, 3280)",28719.0,1,28719.0,14.0,10.0,0.193475
 KC31_Harpagochromis_squamipinnis,pharynx.rec,SkyScan 1272,2021-02-01 13:22:52,5.000014,60.0,166.0,Al 0.25mm,1062,3.0,False,0.2,"(2452, 1640)",5358.0,1,5358.0,13.0,,0.274372
-KI30_Paralabidochromis_rockpicker_pseudorockpicker,rec,SkyScan 2214,2021-07-29 10:32:55,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2957.0,1,2957.0,,,0.13708
-MA31_Paralabidochromis_rockpicker_flavus,head.rec,SkyScan 2214,2021-10-19 11:15:30,16.99969,70.0,140.0,False,706,,False,0.1,"(3072, 1944)",5964.0,1,5964.0,,,0.078735
-MA31_Paralabidochromis_rockpicker_flavus,rec,SkyScan 2214,2021-06-24 11:59:50,8.588096,70.0,131.0,False,1331,,False,0.2,"(3072, 1944)",4458.0,1,4458.0,,,0.09094
-MA31_Paralabidochromis_rockpicker_flavus,rec_rescan,SkyScan 2214,2021-08-20 14:28:47,9.300045,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3340.0,1,3340.0,,,0.161933
-MA31_Paralabidochromis_rockpicker_flavus,rec_rescan_rereconstruct_OJ,SkyScan 2214,2021-08-20 14:28:47,9.300045,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3340.0,1,3340.0,,,0.148626
-MA38_Lipochromis_cryptodon,rec,SkyScan 2214,2021-09-06 11:35:24,6.799137,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",4001.0,1,4001.0,,,0.134509
-MA41_double_stripe_group_thereuterion,rec,SkyScan 2214,2021-12-15 19:28:30,7.500482,70.0,140.0,False,569,,False,0.1,"(3072, 1944)",5655.0,1,5655.0,,,0.133071
-MB51_Labrochromis_brown_narrow_snout,rec,SkyScan 2214,2021-08-31 14:39:59,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3921.0,1,3921.0,,,0.151701
+KI30_Paralabidochromis_rockpicker_pseudorockpicker,rec,SkyScan 2214,2021-07-29 10:32:55,8.230607,70.0,140.0,False,657,,False,0.2,"(3072, 1944)",2957.0,3,8871.0,,,0.13708
+MA31_Paralabidochromis_rockpicker_flavus,head.rec,SkyScan 2214,2021-10-19 11:15:30,16.99969,70.0,140.0,False,706,,False,0.1,"(3072, 1944)",5964.0,2,11928.0,,,0.078735
+MA31_Paralabidochromis_rockpicker_flavus,rec,SkyScan 2214,2021-06-24 11:59:50,8.588096,70.0,131.0,False,1331,,False,0.2,"(3072, 1944)",4458.0,3,13374.0,,,0.09094
+MA31_Paralabidochromis_rockpicker_flavus,rec_rescan,SkyScan 2214,2021-08-20 14:28:47,9.300045,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3340.0,3,10020.0,,,0.161933
+MA31_Paralabidochromis_rockpicker_flavus,rec_rescan_rereconstruct_OJ,SkyScan 2214,2021-08-20 14:28:47,9.300045,70.0,140.0,False,834,,False,0.2,"(3072, 1944)",3340.0,3,10020.0,,,0.148626
+MA38_Lipochromis_cryptodon,rec,SkyScan 2214,2021-09-06 11:35:24,6.799137,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",4001.0,3,12003.0,,,0.134509
+MA41_double_stripe_group_thereuterion,rec,SkyScan 2214,2021-12-15 19:28:30,7.500482,70.0,140.0,False,569,,False,0.1,"(3072, 1944)",5655.0,3,16965.0,,,0.133071
+MB51_Labrochromis_brown_narrow_snout,rec,SkyScan 2214,2021-08-31 14:39:59,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3921.0,3,11763.0,,,0.151701
 NA4_Incertae_sedis_bwathondii,head.rec,SkyScan 2214,2022-04-04 11:18:02,15.999933,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6599.0,1,6599.0,,,0.089783
 NA4_Incertae_sedis_bwathondii,rec_oj,SkyScan 2214,2022-04-04 13:54:25,7.500482,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",7019.0,1,7019.0,,,0.134665
 NA4_Incertae_sedis_bwathondii,rec_pj,SkyScan 2214,2022-04-04 16:51:03,7.500482,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6620.0,1,6620.0,,,0.096352
-NY75_Labrochromis_cf_theliodon,head.rec,SkyScan 2214,2022-01-17 12:48:59,28.000837,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2075.0,1,2075.0,,,0.115708
-NY75_Labrochromis_cf_theliodon,rec,SkyScan 2214,2021-03-30 12:58:52,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3630.0,1,3630.0,,,0.072752
-PyOS83_Labrochromis_Python,head.rec,SkyScan 2214,2023-05-08 11:34:16,20.000477,60.0,140.0,False,1050,,False,0.1,"(3072, 1944)",7727.0,1,7727.0,,,0.138456
+NY75_Labrochromis_cf_theliodon,head.rec,SkyScan 2214,2022-01-17 12:48:59,28.000837,70.0,140.0,False,612,,False,0.2,"(1536, 972)",2075.0,3,6225.0,,,0.115708
+NY75_Labrochromis_cf_theliodon,rec,SkyScan 2214,2021-03-30 12:58:52,11.92668,70.0,125.0,False,908,,False,0.2,"(3070, 1944)",3630.0,3,10890.0,,,0.072752
+PyOS83_Labrochromis_Python,head.rec,SkyScan 2214,2023-05-08 11:34:16,20.000477,60.0,140.0,False,1050,,False,0.1,"(3072, 1944)",7727.0,2,15454.0,,,0.138456
 PyOS83_Labrochromis_Python,rec_oj,SkyScan 2214,2023-05-08 16:42:30,9.54241,60.0,140.0,False,1050,,False,0.1,"(3072, 1944)",8128.0,1,8128.0,,,0.180328
 PyOS83_Labrochromis_Python,rec_pj,SkyScan 2214,2023-05-08 18:56:59,10.999632,60.0,140.0,False,1050,,False,0.1,"(3072, 1944)",7677.0,1,7677.0,,,0.080193
 PyOS85_Labrochromis_Python,head.rec,SkyScan 2214,2023-05-02 17:48:01,24.999263,60.0,140.0,False,1482,,False,0.1,"(3072, 1944)",10665.0,1,10665.0,,,0.120825
@@ -351,23 +351,23 @@ PyOS85_Labrochromis_Python,rec_pj,SkyScan 2214,2023-05-02 23:44:49,10.999632,60.
 TJ2_Yssichromis_makreel,head.rec,SkyScan 2214,2022-04-25 11:12:33,15.000176,70.0,140.0,False,790,,False,0.1,"(3072, 1944)",6640.0,1,6640.0,,,0.104671
 TJ2_Yssichromis_makreel,rec_oj,SkyScan 2214,2022-04-25 13:20:13,5.999331,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6780.0,1,6780.0,,,0.171427
 TJ2_Yssichromis_makreel,rec_pj,SkyScan 2214,2022-04-25 15:22:50,5.999331,70.0,140.0,False,835,,False,0.1,"(3072, 1944)",6696.0,1,6696.0,,,0.108401
-TJ3_Enterochromis_I_paropius,head.rec,SkyScan 2214,2022-01-24 15:20:14,13.001449,70.0,138.0,False,612,,False,0.2,"(1536, 972)",1989.0,1,1989.0,,,0.154967
+TJ3_Enterochromis_I_paropius,head.rec,SkyScan 2214,2022-01-24 15:20:14,13.001449,70.0,138.0,False,612,,False,0.2,"(1536, 972)",1989.0,3,5967.0,,,0.154967
 TJ3_Enterochromis_I_paropius,jaw.rec,SkyScan 1272,2021-01-28 15:14:44,5.000018,70.0,142.0,Al 0.5mm,3254,,False,0.1,"(4904, 3280)",16342.0,1,16342.0,14.0,10.0,0.233489
 TJ3_Enterochromis_I_paropius,jaw_v1.rec,SkyScan 1272,2020-10-26 11:39:02,5.000014,70.0,142.0,Al 0.5mm,1162,3.0,False,0.6,"(2452, 1640)",2065.0,1,2065.0,13.0,,0.232513
 TJ3_Enterochromis_I_paropius,pharynx.rec_pharyngealjaw,SkyScan 1272,2021-02-01 11:05:12,5.000014,60.0,166.0,Al 0.25mm,1062,3.0,False,0.2,"(2452, 1640)",5361.0,1,5361.0,13.0,,0.302137
 TJ3_Enterochromis_I_paropius,rec_oj,SkyScan 2214,2022-03-25 14:57:45,7.500482,70.0,140.0,False,653,,False,0.1,"(3072, 1944)",5949.0,1,5949.0,,,0.130119
 TMG15_EnterochromisxPlatytaeniodus_decurved,head.rec,SkyScan 2214,2022-03-10 14:22:44,17.999448,70.0,140.0,False,655,,False,0.1,"(3072, 1944)",6016.0,1,6016.0,,,0.123096
-TMG15_EnterochromisxPlatytaeniodus_decurved,rec,SkyScan 2214,2021-07-27 08:42:06,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3261.0,1,3261.0,,,0.095564
+TMG15_EnterochromisxPlatytaeniodus_decurved,rec,SkyScan 2214,2021-07-27 08:42:06,8.34876,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3261.0,3,9783.0,,,0.095564
 TMG15_EnterochromisxPlatytaeniodus_decurved,rec_oj,SkyScan 2214,2022-03-14 11:25:22,7.156626,70.0,139.0,False,999,,False,0.1,"(3072, 1944)",7581.0,1,7581.0,,,0.157337
-TNB1_Tridontochromis_sp,rec,SkyScan 2214,2021-07-16 10:42:49,7.750421,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3324.0,1,3324.0,,,0.14666
-TS03_Tridontochromis_sp,head.rec,SkyScan 2214,2022-03-08 14:29:25,21.999264,70.0,140.0,False,748,,False,0.2,"(1536, 972)",2358.0,1,2358.0,,,0.10391
-TS03_Tridontochromis_sp,rec,SkyScan 2214,2021-09-02 15:03:27,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3924.0,1,3924.0,,,0.093404
+TNB1_Tridontochromis_sp,rec,SkyScan 2214,2021-07-16 10:42:49,7.750421,70.0,140.0,False,813,,False,0.2,"(3072, 1944)",3324.0,3,9972.0,,,0.14666
+TS03_Tridontochromis_sp,head.rec,SkyScan 2214,2022-03-08 14:29:25,21.999264,70.0,140.0,False,748,,False,0.2,"(1536, 972)",2358.0,2,4716.0,,,0.10391
+TS03_Tridontochromis_sp,rec,SkyScan 2214,2021-09-02 15:03:27,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3924.0,3,11772.0,,,0.093404
 TS03_Tridontochromis_sp,rec_oj,SkyScan 2214,2022-03-08 16:25:28,7.156626,70.0,140.0,False,728,,False,0.15,"(3072, 1944)",4181.0,1,4181.0,,,0.134242
-TS03_Tridontochromis_sp,rec_rereconstruct,SkyScan 2214,2021-09-02 15:03:27,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3924.0,1,3924.0,,,0.107666
-TS04_Gaurochromis_hiatus,rec,SkyScan 2214,2021-12-16 11:28:29,7.500482,70.0,140.0,False,569,,False,0.125,"(3072, 1944)",4663.0,1,4663.0,,,0.139957
-ZU12_Pundamilia_sp_red_head,rec,SkyScan 2214,2021-09-20 11:14:42,9.000117,70.0,140.0,False,873,,True,0.2,"(3072, 1944)",5582.0,1,5582.0,,,0.184407
-ZU12_Pundamilia_sp_red_head,rec_reconstruct,SkyScan 2214,2021-09-20 11:14:42,9.000117,70.0,140.0,False,873,,True,0.2,"(3072, 1944)",5582.0,1,5582.0,,,0.142012
+TS03_Tridontochromis_sp,rec_rereconstruct,SkyScan 2214,2021-09-02 15:03:27,8.468428,70.0,140.0,False,1101,,False,0.2,"(3072, 1944)",3924.0,3,11772.0,,,0.107666
+TS04_Gaurochromis_hiatus,rec,SkyScan 2214,2021-12-16 11:28:29,7.500482,70.0,140.0,False,569,,False,0.125,"(3072, 1944)",4663.0,3,13989.0,,,0.139957
+ZU12_Pundamilia_sp_red_head,rec,SkyScan 2214,2021-09-20 11:14:42,9.000117,70.0,140.0,False,873,,True,0.2,"(3072, 1944)",5582.0,3,16746.0,,,0.184407
+ZU12_Pundamilia_sp_red_head,rec_reconstruct,SkyScan 2214,2021-09-20 11:14:42,9.000117,70.0,140.0,False,873,,True,0.2,"(3072, 1944)",5582.0,3,16746.0,,,0.142012
 ZuOS115_Mbipia_short_scraper,head.rec,SkyScan 2214,2022-03-11 11:02:55,17.999448,70.0,140.0,False,655,,False,0.1,"(3072, 1944)",5926.0,1,5926.0,,,0.074241
-ZuOS115_Mbipia_short_scraper,rec,SkyScan 2214,2021-09-21 10:24:54,8.88045,70.0,140.0,False,873,,False,0.2,"(3072, 1944)",3167.0,1,3167.0,,,0.241971
+ZuOS115_Mbipia_short_scraper,rec,SkyScan 2214,2021-09-21 10:24:54,8.88045,70.0,140.0,False,873,,False,0.2,"(3072, 1944)",3167.0,3,9501.0,,,0.241971
 ZuOS115_Mbipia_short_scraper,rec_oj,SkyScan 2214,2022-03-11 13:13:08,6.750664,70.0,140.0,False,999,,False,0.1,"(3072, 1944)",7481.0,1,7481.0,,,0.318166
-ZuOS148_Neochromis_eastern_blue_scraper,rec,SkyScan 2214,2021-09-13 15:22:17,8.468428,70.0,140.0,False,1482,,False,0.2,"(3072, 1944)",4765.0,1,4765.0,,,0.166321
+ZuOS148_Neochromis_eastern_blue_scraper,rec,SkyScan 2214,2021-09-13 15:22:17,8.468428,70.0,140.0,False,1482,,False,0.2,"(3072, 1944)",4765.0,3,14295.0,,,0.166321

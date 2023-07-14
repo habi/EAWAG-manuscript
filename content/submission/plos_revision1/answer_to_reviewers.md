@@ -122,9 +122,9 @@ Additionally we added a bit of background information on the specimen to the leg
 > Please clarify this point to accurately represent the imaging process.
 > The finest resolution was obtained only for small fishes, so specific structures of a fish will have the same image resolution throughout the entire specimen.
 
-The statement over the 'wide-spanning range of voxel sizes' is *not* incorrect, at most---if applied to *one* speciment---imprecise.
-The range of voxel sizes is true for the whole study, while---as also correctly noted by the reviewer---the voxel size is specimen-specific.
-We clarified this paragraph by adding a more precise explanation.
+The statement over the 'wide-spanning range of voxel sizes' is *not* incorrect, at most---if applied to *one* specimen---imprecise.
+The range of voxel sizes is true for the whole study, while---as also correctly noted by the reviewer---the voxel size is specimen- or scan-specific.
+We have added a bit of explanatory text to the discussion section.
 
 > It would be beneficial to include references in the discussion section to support the arguments and provide a broader context for the findings.
 
