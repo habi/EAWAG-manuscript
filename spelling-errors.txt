@@ -6,7 +6,7 @@ bioR
 Bruker
 centroid
 Charran
-cichlid
+Cichlid
 cichlids
 cinctus
 csv
