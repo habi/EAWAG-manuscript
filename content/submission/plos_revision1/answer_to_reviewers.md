@@ -138,6 +138,8 @@ We have added those to the discussion section.
 > The authors have provided a valuable set of open-source Python notebooks, which is commendable and will be highly useful for the scientific community.
 > However, the workflow needs to be better explained to enable readers to follow the procedures accurately.
 
+As mentioned above, we have improved both the text and the Jupyter notebooks (linked in the text) with explanatory sentences and comments.
+
 > By addressing these suggestions, the manuscript will become more comprehensive, accessible, and representative of the valuable contribution made by the authors.
 
 We thank the reviewer for the kind words and the time spent on improving our work with relevant questions and comments.
