@@ -1,5 +1,6 @@
 anteroposterior
 ataframe
+Bahaba
 Baltzerstrasse
 bioR
 Bruker
@@ -17,6 +18,7 @@ datasets
 dorsoventral
 Eawag
 Enterochromis
+Filho
 Formlabs
 geomorph
 Haberthür
@@ -31,13 +33,14 @@ Kastanienbaum
 Kontich
 kV
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki
 MIP
 mlaw
 modularized
+morphologic
 morphometrics
 mphaesler
 Mwaiko
@@ -70,8 +73,10 @@ SlicerMorph
 Somerville
 speciation
 stereolithography
+taipingensis
 thresholding
 tomographically
 trophic
+Vasconcelos
 voxel
 VTK
