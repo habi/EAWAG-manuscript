@@ -128,6 +128,11 @@ We have added a bit of explanatory text to both the materials and discussion sec
 
 > It would be beneficial to include references in the discussion section to support the arguments and provide a broader context for the findings.
 
+The main scientific 'use case' of the method focuses on the automated, non-destructive extraction of the otolith volume from the tomographic data.
+To the best of our knowledge, our manuscript is the first to describe such a method.
+We have found two references describing otoliths or otolith structure, both on explanted otoliths.
+We have added those to the discussion section.
+
 > Overall, the study seems to have spanned a considerable time frame.
 > However, the manuscript's content and structure need improvement to reach a wider audience and effectively communicate the significance of the work.
 > The authors have provided a valuable set of open-source Python notebooks, which is commendable and will be highly useful for the scientific community.
