@@ -32,9 +32,9 @@ This means that each specimen was scanned several times, usually one lower-resol
 > It is too simplistic and lacks informative details about the state of the art and the justification for the work.
 
 We've deliberately kept the introduction rather terse.
-The justification of the work lies in the non-desctructive imaging of unstained samples.
+The justification of the work lies in the non-destructive imaging of unstained samples.
 We have expanded the introduction a bit and added references to manuscripts detailing microtomographic imaging in the life sciences.
-As this manuscript is not a review, we kindly refuse to add more information on the background of microtomogrpahic imaging.
+As this manuscript is not a review, we kindly refuse to add more information on the background of microtomographic imaging.
 
 > Merging the Materials and Methods section with the Results is not a reasonable way to present the work.
 > It would be better to separate them for clarity.
@@ -58,7 +58,7 @@ The last paragraph of [this section](https://habi.github.io/EAWAG-manuscript/#mi
 > Perhaps the authors could provide a guide or tutorial in the GitHub repository.
 
 The notebooks are written in Python, and are presented as Jupyter notebooks.
-This makes them accessible 'piecewise', e.g. each part of the code is didactically separate and somehow compartmentalized.
+This makes them accessible 'piece wise', e.g. each part of the code is didactically separate and somehow compartmentalized.
 The code is written in Python, so some experience with it is beneficial to thoroughly understand it.
 The code and notebooks are also prepared in a way that *no* installation of *any* software except an up-to date web browser is necessary to test it.
 This testing can be done by clicking one button in the code repository (linking to https://mybinder.org/v2/gh/habi/eawag/HEAD) to launch a Jupyter environment in the cloud, which is also already explained in the last paragraph before the [Discussion section](https://habi.github.io/EAWAG-manuscript/#discussion).
@@ -109,7 +109,7 @@ We deliberately only very briefly mentioned the method here, as the upcoming pub
 > Please provide clearer instructions or guidelines for readers using the notebook.
 
 As mentioned above, the Jupyter notebook used to detect the otolith position and to extract the otoliths from the scans covering the whole skull are extensively commented.
-We have added more explanatory comments and text to the notebook on GitHub, increading their didactiveness.
+We have added more explanatory comments and text to the notebook on GitHub, increasing their 'didactiveness'.
 
 > Use the full words, rather than abbreviations, in figure legends for clarity.
 
