@@ -6,12 +6,12 @@ bioR
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
-csv
+CSV
 curation
-dask
+Dask
 dataframe
 dataset
 datasets
@@ -33,7 +33,7 @@ Kastanienbaum
 Kontich
 kV
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
@@ -45,7 +45,6 @@ morphometrics
 mphaesler
 Mwaiko
 Mwanza
-Natually
 nondestructively
 NRecon
 OJs

@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-07-17'
+date-meta: '2023-07-21'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -13,18 +13,22 @@ author-meta:
 - Marcel Häsler
 - Ole Seehausen
 - Ruslan Hlushchuk
-header-includes: |-
+header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
+  <meta property="og:type" content="article" />
   <meta name="dc.title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-07-17" />
-  <meta name="citation_publication_date" content="2023-07-17" />
+  <meta name="dc.date" content="2023-07-21" />
+  <meta name="citation_publication_date" content="2023-07-21" />
+  <meta property="article:published_time" content="2023-07-21" />
+  <meta name="dc.modified" content="2023-07-21T14:24:46+00:00" />
+  <meta property="article:modified_time" content="2023-07-21T14:24:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -58,9 +62,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -78,74 +82,94 @@ manubot-clear-requests-cache: false
 
 
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
-_We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([online version](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
-_The version you see here [has been updated](https://github.com/habi/EAWAG-manuscript/compare/v1.0...c49d0b8ac8f078c226318972b06e8c4a39100bb2#files_bucket) since submission._
+_We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([archived here](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
+_A revised version [`v1.1`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.1) ([archived here](https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/)) has been submitted._
+_The version you see here [is further updated](https://github.com/habi/EAWAG-manuscript/compare/v1.1...3abb043a6e2aed52fd6af13c2ff321e9a640c139#files_bucket) since re-submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/))
 was automatically generated
-from [habi/EAWAG-manuscript@c49d0b8](https://github.com/habi/EAWAG-manuscript/tree/c49d0b8ac8f078c226318972b06e8c4a39100bb2)
-on July 17, 2023.
+from [habi/EAWAG-manuscript@3abb043](https://github.com/habi/EAWAG-manuscript/tree/3abb043a6e2aed52fd6af13c2ff321e9a640c139)
+on July 21, 2023.
 </em></small>
+
+
 
 ## Authors
 
 
 
-+ **David Haberthür**<br>
++ **David Haberthür**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187) ·
-    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [habi](https://github.com/habi)
     · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [habi](https://mastodon.social/@habi)<br>
+    [\@habi@mastodon.social](https://mastodon.social/@habi)
+    <br>
   <small>
      Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
   </small>
 
-+ **Mikki Law**<br>
-    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [mlaw-migalig](https://github.com/mlaw-migalig)<br>
++ **Mikki Law**
+  <br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [mlaw-migalig](https://github.com/mlaw-migalig)
+    <br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   </small>
 
-+ **Kassandra Ford**<br>
++ **Kassandra Ford**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-4413-2633](https://orcid.org/0000-0002-4413-2633) ·
-    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [kassthefish](https://github.com/kassthefish)<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [kassthefish](https://github.com/kassthefish)
+    <br>
   <small>
      Department of Biological Sciences, George Washington University, USA; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland; Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
   </small>
 
-+ **Marcel Häsler**<br>
-    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [mphaesler](https://github.com/mphaesler)<br>
++ **Marcel Häsler**
+  <br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [mphaesler](https://github.com/mphaesler)
+    <br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   </small>
 
-+ **Ole Seehausen**<br>
++ **Ole Seehausen**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0001-6598-1434](https://orcid.org/0000-0001-6598-1434) ·
-    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [OleSeehausen](https://github.com/OleSeehausen)<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [OleSeehausen](https://github.com/OleSeehausen)
+    <br>
   <small>
      Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
   </small>
 
-+ **Ruslan Hlushchuk**<br>
++ **Ruslan Hlushchuk**
+  <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996) ·
-    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [RuslanHlushchuk](https://github.com/RuslanHlushchuk)<br>
+    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [RuslanHlushchuk](https://github.com/RuslanHlushchuk)
+    <br>
   <small>
      Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
   </small>
 
+
+::: {#correspondence}
+✉ — Correspondence possible via [GitHub Issues](https://github.com/habi/EAWAG-manuscript/issues)
+
+:::
 
 
 ## Abstract {.page_break_before}
@@ -177,7 +201,8 @@ X-ray microtomography is a valuable tool to gain insights into the inner structu
 Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different fish species, large and small [@doi:10.1093/iob/obad008].
 For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript [@doi:10.1371/journal.pone.0228333; @doi:10.1093/iob/obac022; @doi:10.1093/iob/obad008] as well as other studies [@https://osf.io/ecmz4].
 
-Depending on the structures of interest, biomedical samples are often only tomographically scanned after being stained with a contrast agent [@doi:10.26496/bjz.2014.63], most often employing contrast agents containing heavy metals [@10.1089/zeb.2016.1245].
+Depending on the structures of interest to be assessed, biomedical samples are often only tomographically scanned after them being stained with a contrast agent [@doi:10.26496/bjz.2014.63], most often employing contrast agents containing heavy metals [@10.1089/zeb.2016.1245].
+This is done to increase the contrast difference between different structures in the sample.
 Due to their inherent contrast difference to the surrounding tissue, the structures of interest we touch upon in this manuscript (teeth and bones, i.e. jaws and skull) are well visualized in native samples.
 Enhancing contrast differences by staining prior to tomographic imaging was thus not necessary to for the samples presented herein.
 
@@ -213,7 +238,7 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 182  12319  head_50um_rec  49.998527
 --->
 Due to the geometric magnification employed by the Bruker SkyScan microCT machines, the voxel size of the resulting dataset is depending on the position of the specimen in the machine.
-Natually, the field of view of the resulting dataset also depends on the chosen voxel size.
+Naturally, the field of view of the resulting dataset also depends on the chosen voxel size.
 The chosen voxel size is thus scan-specific.
 It was always chosen in a way that the region of interest to be images fit into the available lateral field of view of the microCT machine at the smallest necessary voxel size to resolve the structures of interest.
 Since the region of interest (either oral or pharyngeal jaws or the complete skulls of the fish) often did not fit into a single field of view *along* the anteroposterior axis of the fish, we often performed several tomographic scans along the rotation axis of the specimen in the machine (since the specimen were all scanned rotating around the anteroposterior axis).
@@ -380,7 +405,7 @@ One could help estimate the age of wild fishes using a calibration based on the 
 It is worth nothing that estimation of age of tropical fishes is not as simple as for fishes from temperate regions where one can distinguish summer and winter layers within the otolith.
 
 To our best knowledge, no fully automated method for non-destructive otolith extraction from high-resolution tomographic data has been published up to now.
-Vasconcelos-Filho et al. [doi:10.3389/fmars.2019.00728] show a potentially objective method to count growth rings in otoliths of six fish species, but performed their study on extracted otoliths "embedded in a styrofoam cube", while our method non-destructively extracts the otoliths from the tomographic data.
+Vasconcelos-Filho et al. [@doi:10.3389/fmars.2019.00728] show a potentially objective method to count growth rings in otoliths of six fish species, but performed their study on extracted otoliths "embedded in a Styrofoam cube", while our method non-destructively extracts the otoliths from the tomographic data.
 Gu et al. [@doi:10.1016/j.micron.2022.103342] also provide detailed insight into otolith and combine microtomographic imaging (with unknown voxel size) with scanning electron microscopy, but also mention that the "otoliths were removed [from *Bahaba taipingensis*], cleaned and kept dry for morphologic observation".
 
 ### Outlook
@@ -423,10 +448,11 @@ A copy of each log file is available in a [folder in the data processing reposit
 ### Three-dimensional view of *one* of the extracted otoliths
 
 The three-dimensional view of sample 104016 was generated in [the otolith extraction notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) and saved as a [self-contained `HTML` file](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html) with [*K3D-jupyter*](https://github.com/K3D-tools/K3D-jupyter).
-A copy of this `HTML` file can be viewed and interacted with through the [GitHub HTML preview](https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html).
+A copy of this `HTML` file can be viewed and interacted with through the [GitHub HTML preview](https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016_Enterochromis_I_cinctus_St_E.head.rec.Otolith.Region.3D.html).
 
 
 ## References {.page_break_before}
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
+

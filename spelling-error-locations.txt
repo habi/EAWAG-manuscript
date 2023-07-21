@@ -3,6 +3,8 @@ content/00.front-matter.md:8:EAWAG
 content/00.front-matter.md:8:habi
 content/00.front-matter.md:8:plos
 content/00.front-matter.md:8:PLOS
+content/00.front-matter.md:9:EAWAG
+content/00.front-matter.md:9:habi
 content/01.abstract.md:3:cichlids
 content/01.abstract.md:3:nondestructively
 content/01.abstract.md:4:datasets
@@ -43,7 +45,6 @@ content/03.materials.methods.results.md:31:microCT
 content/03.materials.methods.results.md:31:SkyScan
 content/03.materials.methods.results.md:31:voxel
 content/03.materials.methods.results.md:32:dataset
-content/03.materials.methods.results.md:32:Natually
 content/03.materials.methods.results.md:32:voxel
 content/03.materials.methods.results.md:33:voxel
 content/03.materials.methods.results.md:34:microCT
@@ -223,4 +224,4 @@ content/07.supplementary.md:11:otolith
 content/07.supplementary.md:11:otolith
 content/07.supplementary.md:12:EAWAG
 content/07.supplementary.md:12:habi
-content/07.supplementary.md:12:otolith
+content/07.supplementary.md:12:Otolith
