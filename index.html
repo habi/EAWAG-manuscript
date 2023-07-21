@@ -10,16 +10,21 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2023-07-17" />
+  <meta name="dcterms.date" content="2023-07-21" />
   <meta name="keywords" content="cichlids, fish morphology, X-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
@@ -45,12 +50,16 @@
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
+  <meta property="og:type" content="article" />
   <meta name="dc.title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-07-17" />
-  <meta name="citation_publication_date" content="2023-07-17" />
+  <meta name="dc.date" content="2023-07-21" />
+  <meta name="citation_publication_date" content="2023-07-21" />
+  <meta property="article:published_time" content="2023-07-21" />
+  <meta name="dc.modified" content="2023-07-21T14:24:46+00:00" />
+  <meta property="article:modified_time" content="2023-07-21T14:24:46+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -84,9 +93,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -102,64 +111,80 @@
 <h1 class="title">Microtomographic investigation of a large corpus of cichlids</h1>
 </header>
 <p><em>A preprint of this manuscript is available at bioRχiv with the <a href="https://doi.org/10.1101/2023.03.30.534917">doi:10.1101/2023.03.30.534917</a>.</em>
-<em>We submitted <a href="https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0"><code>v1.0</code></a> (<a href="https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/">online version</a>) of the manuscript to <a href="https://journals.plos.org/plosone/">PLOS ONE</a>.</em>
-<em>The version you see here <a href="https://github.com/habi/EAWAG-manuscript/compare/v1.0...c49d0b8ac8f078c226318972b06e8c4a39100bb2#files_bucket">has been updated</a> since submission.</em></p>
+<em>We submitted <a href="https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0"><code>v1.0</code></a> (<a href="https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/">archived here</a>) of the manuscript to <a href="https://journals.plos.org/plosone/">PLOS ONE</a>.</em>
+<em>A revised version <a href="https://github.com/habi/EAWAG-manuscript/releases/tag/v1.1"><code>v1.1</code></a> (<a href="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/">archived here</a>) has been submitted.</em>
+<em>The version you see here <a href="https://github.com/habi/EAWAG-manuscript/compare/v1.1...3abb043a6e2aed52fd6af13c2ff321e9a640c139#files_bucket">is further updated</a> since re-submission.</em></p>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/3abb043a6e2aed52fd6af13c2ff321e9a640c139/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/c49d0b8ac8f078c226318972b06e8c4a39100bb2">habi/EAWAG-manuscript@c49d0b8</a>
-on July 17, 2023.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/3abb043a6e2aed52fd6af13c2ff321e9a640c139">habi/EAWAG-manuscript@3abb043</a>
+on July 21, 2023.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>David Haberthür</strong><br>
+<li><p><strong>David Haberthür</strong>
+<br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
 <a href="https://orcid.org/0000-0003-3388-9187">0000-0003-3388-9187</a> ·
-<img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
 <a href="https://github.com/habi">habi</a>
 · <img src="images/mastodon.svg" class="inline_icon" width="16" height="16" alt="Mastodon icon" />
-<a href="https://mastodon.social/@habi">habi</a><br>
+<a href="https://mastodon.social/@habi">@habi@mastodon.social</a>
+<br>
 <small>
 Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
 </small></p></li>
-<li><p><strong>Mikki Law</strong><br>
-<img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/mlaw-migalig">mlaw-migalig</a><br>
+<li><p><strong>Mikki Law</strong>
+<br>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/mlaw-migalig">mlaw-migalig</a>
+<br>
 <small>
 Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
 </small></p></li>
-<li><p><strong>Kassandra Ford</strong><br>
+<li><p><strong>Kassandra Ford</strong>
+<br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
 <a href="https://orcid.org/0000-0002-4413-2633">0000-0002-4413-2633</a> ·
-<img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/kassthefish">kassthefish</a><br>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/kassthefish">kassthefish</a>
+<br>
 <small>
 Department of Biological Sciences, George Washington University, USA; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland; Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
 </small></p></li>
-<li><p><strong>Marcel Häsler</strong><br>
-<img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/mphaesler">mphaesler</a><br>
+<li><p><strong>Marcel Häsler</strong>
+<br>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/mphaesler">mphaesler</a>
+<br>
 <small>
 Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
 </small></p></li>
-<li><p><strong>Ole Seehausen</strong><br>
+<li><p><strong>Ole Seehausen</strong>
+<br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
 <a href="https://orcid.org/0000-0001-6598-1434">0000-0001-6598-1434</a> ·
-<img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/OleSeehausen">OleSeehausen</a><br>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/OleSeehausen">OleSeehausen</a>
+<br>
 <small>
 Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland; Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
 </small></p></li>
-<li><p><strong>Ruslan Hlushchuk</strong><br>
+<li><p><strong>Ruslan Hlushchuk</strong>
+<br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
 <a href="https://orcid.org/0000-0002-6722-8996">0000-0002-6722-8996</a> ·
-<img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
-<a href="https://github.com/RuslanHlushchuk">RuslanHlushchuk</a><br>
+· <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
+<a href="https://github.com/RuslanHlushchuk">RuslanHlushchuk</a>
+<br>
 <small>
 Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
 </small></p></li>
 </ul>
+<div id="correspondence">
+<p>✉ — Correspondence possible via <a href="https://github.com/habi/EAWAG-manuscript/issues">GitHub Issues</a></p>
+</div>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <p>A large collection of cichlids (N=133) from Lake Victoria in Africa spanning a length range of 6 to 18 cm was nondestructively imaged using micro-computed tomography.
 We describe our method to efficiently obtain three-dimensional tomographic datasets of the oral and pharyngeal jaws and the whole skull of these fishes for accurately describing their morphology.
@@ -179,7 +204,8 @@ Since micro–computed tomography can be regarded as nondestructive method for b
 <p>X-ray microtomography is a valuable tool to gain insights into the inner structure of highly diverse samples, namely for specimens related to the biomedical sciences <span class="citation" data-cites="IKVBgaCE">[<a href="#ref-IKVBgaCE" role="doc-biblioref">7</a>]</span>.
 Microtomographic imaging has been employed as a method of choice to nondestructively assess the morphology of different fish species, large and small <span class="citation" data-cites="19h9vxsYG">[<a href="#ref-19h9vxsYG" role="doc-biblioref">6</a>]</span>.
 For a small overview of analyses which are possible with X-ray microtomographic imaging in relation to fish biology and morphology, see prior work of the authors of this manuscript <span class="citation" data-cites="8Pmc2mI8 BDrCSu8p 19h9vxsYG">[<a href="#ref-19h9vxsYG" role="doc-biblioref">6</a>,<a href="#ref-8Pmc2mI8" role="doc-biblioref">8</a>,<a href="#ref-BDrCSu8p" role="doc-biblioref">9</a>]</span> as well as other studies <span class="citation" data-cites="3rxGCEvJ">[<a href="#ref-3rxGCEvJ" role="doc-biblioref">10</a>]</span>.</p>
-<p>Depending on the structures of interest, biomedical samples are often only tomographically scanned after being stained with a contrast agent <span class="citation" data-cites="pN1S9E5p">[<a href="#ref-pN1S9E5p" role="doc-biblioref">11</a>]</span>, most often employing contrast agents containing heavy metals <span class="citation" data-cites="kkBa4qNV">[<a href="#ref-kkBa4qNV" role="doc-biblioref">12</a>]</span>.
+<p>Depending on the structures of interest to be assessed, biomedical samples are often only tomographically scanned after them being stained with a contrast agent <span class="citation" data-cites="pN1S9E5p">[<a href="#ref-pN1S9E5p" role="doc-biblioref">11</a>]</span>, most often employing contrast agents containing heavy metals <span class="citation" data-cites="kkBa4qNV">[<a href="#ref-kkBa4qNV" role="doc-biblioref">12</a>]</span>.
+This is done to increase the contrast difference between different structures in the sample.
 Due to their inherent contrast difference to the surrounding tissue, the structures of interest we touch upon in this manuscript (teeth and bones, i.e. jaws and skull) are well visualized in native samples.
 Enhancing contrast differences by staining prior to tomographic imaging was thus not necessary to for the samples presented herein.</p>
 <h2 class="page_break_before" id="materials-methods-and-results">Materials, Methods and Results</h2>
@@ -204,7 +230,7 @@ We acquired datasets with (isometric) voxel sizes ranging from 3.5 to 50 μm.
 182  12319  head_50um_rec  49.998527
 --->
 Due to the geometric magnification employed by the Bruker SkyScan microCT machines, the voxel size of the resulting dataset is depending on the position of the specimen in the machine.
-Natually, the field of view of the resulting dataset also depends on the chosen voxel size.
+Naturally, the field of view of the resulting dataset also depends on the chosen voxel size.
 The chosen voxel size is thus scan-specific.
 It was always chosen in a way that the region of interest to be images fit into the available lateral field of view of the microCT machine at the smallest necessary voxel size to resolve the structures of interest.
 Since the region of interest (either oral or pharyngeal jaws or the complete skulls of the fish) often did not fit into a single field of view <em>along</em> the anteroposterior axis of the fish, we often performed several tomographic scans along the rotation axis of the specimen in the machine (since the specimen were all scanned rotating around the anteroposterior axis).
@@ -349,8 +375,8 @@ This is even the case for one fish which was scanned with still a hook in his mo
 One could help estimate the age of wild fishes using a calibration based on the otolith measurements of a fish of known age.
 It is worth nothing that estimation of age of tropical fishes is not as simple as for fishes from temperate regions where one can distinguish summer and winter layers within the otolith.</p>
 <p>To our best knowledge, no fully automated method for non-destructive otolith extraction from high-resolution tomographic data has been published up to now.
-Vasconcelos-Filho et al. [doi:10.3389/fmars.2019.00728] show a potentially objective method to count growth rings in otoliths of six fish species, but performed their study on extracted otoliths “embedded in a styrofoam cube”, while our method non-destructively extracts the otoliths from the tomographic data.
-Gu et al. <span class="citation" data-cites="HYXdLQTV">[<a href="#ref-HYXdLQTV" role="doc-biblioref">36</a>]</span> also provide detailed insight into otolith and combine microtomographic imaging (with unknown voxel size) with scanning electron microscopy, but also mention that the “otoliths were removed [from <em>Bahaba taipingensis</em>], cleaned and kept dry for morphologic observation”.</p>
+Vasconcelos-Filho et al. <span class="citation" data-cites="PgMc4mCy">[<a href="#ref-PgMc4mCy" role="doc-biblioref">36</a>]</span> show a potentially objective method to count growth rings in otoliths of six fish species, but performed their study on extracted otoliths “embedded in a Styrofoam cube”, while our method non-destructively extracts the otoliths from the tomographic data.
+Gu et al. <span class="citation" data-cites="HYXdLQTV">[<a href="#ref-HYXdLQTV" role="doc-biblioref">37</a>]</span> also provide detailed insight into otolith and combine microtomographic imaging (with unknown voxel size) with scanning electron microscopy, but also mention that the “otoliths were removed [from <em>Bahaba taipingensis</em>], cleaned and kept dry for morphologic observation”.</p>
 <h3 id="outlook">Outlook</h3>
 <p>The acquired tomographic datasets are the basis for multiple additional analyses of fish morphology.</p>
 <p>The presented method offers an insight and algorithm on how to perform tomographic scans, preview and analyze micro-computer tomographic datasets of a large collection of fish.
@@ -399,7 +425,7 @@ All the <em>Jupyter</em> notebook described herein is also freely available onli
 <h2 id="acknowledgments">Acknowledgments</h2>
 <p>We thank Salome Mwaiko for taking care of the fish collection at Eawag and Mark Charran for helping to find suitable specimens to represent each species.
 We are grateful to the <a href="https//www.mic.unibe.ch/">Microscopy Imaging Center</a> of the University of Bern for the infrastructural support.
-We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">37</a>]</span> for helping us write this manuscript collaboratively.</p>
+We thank the <code>manubot</code> project <span class="citation" data-cites="YuJbg3zO">[<a href="#ref-YuJbg3zO" role="doc-biblioref">38</a>]</span> for helping us write this manuscript collaboratively.</p>
 <h2 id="supplementary-materials">Supplementary Materials</h2>
 <h3 id="parameters-of-tomographic-scans-of-all-the-fishes">Parameters of tomographic scans of all the fishes</h3>
 <p>The CSV file <a href="https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv">ScanningDetails.csv</a> gives a tabular overview of all the (relevant) parameters of all the scans we performed.
@@ -407,7 +433,7 @@ This file was generated with the <a href="https://github.com/habi/EAWAG/blob/mas
 A copy of each log file is available in a <a href="https://github.com/habi/EAWAG/tree/master/logfiles">folder in the data processing repository</a>.</p>
 <h3 id="three-dimensional-view-of-one-of-the-extracted-otoliths">Three-dimensional view of <em>one</em> of the extracted otoliths</h3>
 <p>The three-dimensional view of sample 104016 was generated in <a href="https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb">the otolith extraction notebook</a> and saved as a <a href="https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html">self-contained <code>HTML</code> file</a> with <a href="https://github.com/K3D-tools/K3D-jupyter"><em>K3D-jupyter</em></a>.
-A copy of this <code>HTML</code> file can be viewed and interacted with through the <a href="https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html">GitHub HTML preview</a>.</p>
+A copy of this <code>HTML</code> file can be viewed and interacted with through the <a href="https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016_Enterochromis_I_cinctus_St_E.head.rec.Otolith.Region.3D.html">GitHub HTML preview</a>.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
@@ -454,7 +480,7 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">14. </div><div class="csl-right-inline">Haberthür D. TomoGraphics/Hol3Drs: A release. Zenodo; 2019. doi:<a href="https://doi.org/10.5281/zenodo.2587555">10.5281/zenodo.2587555</a></div>
 </div>
 <div id="ref-wsjdcTeC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline">OpenSCAD. [cited 17 Jul 2023]. Available: <a href="https://openscad.org">https://openscad.org</a></div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">OpenSCAD. [cited 21 Jul 2023]. Available: <a href="https://openscad.org">https://openscad.org</a></div>
 </div>
 <div id="ref-f7OzrzUv" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">16. </div><div class="csl-right-inline">Available: <a href="https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad">https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad</a></div>
@@ -478,7 +504,7 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">22. </div><div class="csl-right-inline">Dask Development Team. Dask: Library for dynamic task scheduling. 2016. Available: <a href="https://dask.org">https://dask.org</a></div>
 </div>
 <div id="ref-wIfTDBqd" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline">Image processing with Dask Arrays — dask-image 2023.03.0+7.g44908b3.dirty documentation. [cited 17 Jul 2023]. Available: <a href="https://image.dask.org/en/latest/">https://image.dask.org/en/latest/</a></div>
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Image processing with Dask Arrays — dask-image 2023.03.0+8.g88d81c6.dirty documentation. [cited 21 Jul 2023]. Available: <a href="https://image.dask.org/en/latest/">https://image.dask.org/en/latest/</a></div>
 </div>
 <div id="ref-OsCpHsJH" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">24. </div><div class="csl-right-inline">Fedorov A, Beichel R, Kalpathy-Cramer J, Finet J, Fillion-Robin J-C, Pujol S, et al. 3D Slicer as an image computing platform for the Quantitative Imaging Network. Magnetic Resonance Imaging. 2012;30: 1323–1341. doi:<a href="https://doi.org/10.1016/j.mri.2012.05.001">10.1016/j.mri.2012.05.001</a></div>
@@ -487,7 +513,7 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">25. </div><div class="csl-right-inline">Rolfe S, Pieper S, Porto A, Diamond K, Winchester J, Shan S, et al. SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology. Methods Ecol Evol. 2021;12: 1816–1825. doi:<a href="https://doi.org/10.1111/2041-210x.13669">10.1111/2041-210x.13669</a></div>
 </div>
 <div id="ref-rn6XbmFW" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline">Teem: nrrd: Definition of NRRD File Format. [cited 17 Jul 2023]. Available: <a href="https://teem.sourceforge.net/nrrd/format.html">https://teem.sourceforge.net/nrrd/format.html</a></div>
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">Teem: nrrd: Definition of NRRD File Format. [cited 21 Jul 2023]. Available: <a href="https://teem.sourceforge.net/nrrd/format.html">https://teem.sourceforge.net/nrrd/format.html</a></div>
 </div>
 <div id="ref-JtHcU2O2" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">27. </div><div class="csl-right-inline">Kishe-Machumu MA, van Rijssel JC, Poste A, Hecky RE, Witte F. Stable isotope evidence from formalin–ethanol-preserved specimens indicates dietary shifts and increasing diet overlap in Lake Victoria cichlids. Hydrobiologia. 2016;791: 155–173. doi:<a href="https://doi.org/10.1007/s10750-016-2925-1">10.1007/s10750-016-2925-1</a></div>
@@ -518,11 +544,14 @@ package for fitting linear models to high‐dimensional data using residual rand
 <div id="ref-Q20Bxdsr" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">35. </div><div class="csl-right-inline">Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale. Proceedings of the Python in Science Conference. SciPy; 2018. doi:<a href="https://doi.org/10.25080/majora-4af1f417-011">10.25080/majora-4af1f417-011</a></div>
 </div>
+<div id="ref-PgMc4mCy" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">36. </div><div class="csl-right-inline">Vasconcelos-Filho JE, Thomsen FSL, Stosic B, Antonino ACD, Duarte DA, Heck RJ, et al. Peeling the Otolith of Fish: Optimal Parameterization for Micro-CT Scanning. Front Mar Sci. 2019;6. doi:<a href="https://doi.org/10.3389/fmars.2019.00728">10.3389/fmars.2019.00728</a></div>
+</div>
 <div id="ref-HYXdLQTV" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">36. </div><div class="csl-right-inline">Gu Y-G, Huang H-H, Liang Y, Fang Y, Dai M, Ou Y-J, et al. Micro-CT and SEM investigation of sound absorption structure and chambers in the otoliths of Giant Panda fish species - Chinese Bahaba (Bahaba taipingensis). Micron. 2022;161: 103342. doi:<a href="https://doi.org/10.1016/j.micron.2022.103342">10.1016/j.micron.2022.103342</a></div>
+<div class="csl-left-margin">37. </div><div class="csl-right-inline">Gu Y-G, Huang H-H, Liang Y, Fang Y, Dai M, Ou Y-J, et al. Micro-CT and SEM investigation of sound absorption structure and chambers in the otoliths of Giant Panda fish species - Chinese Bahaba (Bahaba taipingensis). Micron. 2022;161: 103342. doi:<a href="https://doi.org/10.1016/j.micron.2022.103342">10.1016/j.micron.2022.103342</a></div>
 </div>
 <div id="ref-YuJbg3zO" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">37. </div><div class="csl-right-inline">Himmelstein DS, Rubinetti V, Slochower DR, Hu D, Malladi VS, Greene CS, et al. Open collaborative writing with Manubot. Schneidman-Duhovny D, editor. PLoS Comput Biol. 2019;15: e1007128. doi:<a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a></div>
+<div class="csl-left-margin">38. </div><div class="csl-right-inline">Himmelstein DS, Rubinetti V, Slochower DR, Hu D, Malladi VS, Greene CS, et al. Open collaborative writing with Manubot. Schneidman-Duhovny D, editor. PLoS Comput Biol. 2019;15: e1007128. doi:<a href="https://doi.org/10.1371/journal.pcbi.1007128">10.1371/journal.pcbi.1007128</a></div>
 </div>
 </div>
 <!-- default theme -->
