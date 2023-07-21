@@ -11,6 +11,7 @@ authors:
     initials: DH
     orcid: 0000-0003-3388-9187
     mastodon: habi
+    mastodon-server: mastodon.social
     email: david.haberthuer@unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
@@ -24,7 +25,7 @@ authors:
       - Software
       - Visualization
       - Writing – original draft
-      - Writing – review & editing  
+      - Writing – review & editing
   - github: mlaw-migalig
     name: Mikki Law
     email: mikki.law@eawag.ch
@@ -52,7 +53,7 @@ authors:
       - Methodology
       - Visualization
       - Writing – review & editing
-  - github: mphaesler 
+  - github: mphaesler
     name: Marcel Häsler
     email: marcel.haesler@unibe.ch
     affiliations:
