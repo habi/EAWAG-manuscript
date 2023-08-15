@@ -1,5 +1,4 @@
 anteroposterior
-ataframe
 Bahaba
 Baltzerstrasse
 bioR
@@ -9,7 +8,7 @@ Charran
 Cichlid
 cichlids
 cinctus
-CSV
+csv
 curation
 dask
 dataframe
@@ -18,6 +17,7 @@ datasets
 dorsoventral
 Eawag
 Enterochromis
+exportsfrom
 Filho
 Formlabs
 geomorph
@@ -26,12 +26,13 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-Jupyter
+jupyter
 Kassandra
 kassthefish
 Kastanienbaum
 Kontich
 kV
+landmarked
 microCT
 microtomographic
 microtomography
@@ -50,7 +51,7 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
 otoliths
 parametrized
