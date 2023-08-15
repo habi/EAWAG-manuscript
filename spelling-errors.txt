@@ -6,12 +6,12 @@ bioR
 Bruker
 centroid
 Charran
-cichlid
+Cichlid
 cichlids
 cinctus
 CSV
 curation
-Dask
+dask
 dataframe
 dataset
 datasets
