@@ -10,7 +10,7 @@ cichlids
 cinctus
 csv
 curation
-dask
+Dask
 dataframe
 dataset
 datasets
@@ -26,7 +26,7 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-jupyter
+Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
@@ -51,9 +51,9 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
-otoliths
+Otoliths
 parametrized
 phylogenetic
 PJ

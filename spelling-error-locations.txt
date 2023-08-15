@@ -15,7 +15,7 @@ content/02.introduction.md:5:Cichlid
 content/02.introduction.md:5:speciation
 content/02.introduction.md:6:cichlids
 content/02.introduction.md:10:cichlid
-content/02.introduction.md:13:cichlid
+content/02.introduction.md:13:cichlids
 content/02.introduction.md:18:microtomography
 content/02.introduction.md:19:Microtomographic
 content/02.introduction.md:19:nondestructively
