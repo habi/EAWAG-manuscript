@@ -11,6 +11,7 @@ authors:
     initials: DH
     orcid: 0000-0003-3388-9187
     mastodon: habi
+    mastodon-server: mastodon.social
     email: david.haberthuer@unibe.ch
     affiliations:
       - Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
@@ -24,7 +25,7 @@ authors:
       - Software
       - Visualization
       - Writing – original draft
-      - Writing – review & editing  
+      - Writing – review & editing
   - github: mlaw-migalig
     name: Mikki Law
     email: mikki.law@eawag.ch
@@ -45,14 +46,14 @@ authors:
     email: kassthefish@gmail.com
     affiliations:
       - Department of Biological Sciences, George Washington University, USA
-      - Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
       - Aquatic Ecology and Evolution, Institute of Ecology and Evolution, University of Bern, CH-3012 Bern, Switzerland
+      - Department of Fish Ecology and Evolution, Eawag, Swiss Federal Institute for Aquatic Science and Technology, CH-6047 Kastanienbaum, Switzerland
     contributions:
       - Investigation
       - Methodology
       - Visualization
       - Writing – review & editing
-  - github: mphaesler 
+  - github: mphaesler
     name: Marcel Häsler
     email: marcel.haesler@unibe.ch
     affiliations:
