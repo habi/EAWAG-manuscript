@@ -13,6 +13,7 @@ authors:
     mastodon: habi
     mastodon-server: mastodon.social
     email: david.haberthuer@unibe.ch
+    corresponding: true
     affiliations:
       - Institute of Anatomy, University of Bern, Baltzerstrasse 2, CH-3012 Bern, Switzerland
     contributions:
