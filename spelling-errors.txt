@@ -34,7 +34,7 @@ Kontich
 kV
 landmarked
 microCT
-microtomographic
+Microtomographic
 microtomography
 migalig
 Mikki
@@ -51,7 +51,7 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
 otoliths
 parametrized
