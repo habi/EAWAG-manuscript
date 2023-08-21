@@ -27,8 +27,8 @@ header-includes: |
   <meta name="dc.date" content="2023-08-21" />
   <meta name="citation_publication_date" content="2023-08-21" />
   <meta property="article:published_time" content="2023-08-21" />
-  <meta name="dc.modified" content="2023-08-21T13:33:17+00:00" />
-  <meta property="article:modified_time" content="2023-08-21T13:33:17+00:00" />
+  <meta name="dc.modified" content="2023-08-21T14:43:51+00:00" />
+  <meta property="article:modified_time" content="2023-08-21T14:43:51+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/28f3d2d2eba7b007cc01d09b5cd6d4e926848aa5/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/28f3d2d2eba7b007cc01d09b5cd6d4e926848aa5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/28f3d2d2eba7b007cc01d09b5cd6d4e926848aa5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,14 +84,14 @@ manubot-clear-requests-cache: false
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([archived here](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
 _A revised version [`v1.1`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.1) ([archived here](https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/)) has been submitted._
-_The version you see here [is further updated](https://github.com/habi/EAWAG-manuscript/compare/df99415...28f3d2d2eba7b007cc01d09b5cd6d4e926848aa5#files_bucket) since re-submission._
+_The version you see here [is further updated](https://github.com/habi/EAWAG-manuscript/compare/df99415...d49ab3e8164a4169e27e9555874ff7f107c09650#files_bucket) since re-submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/28f3d2d2eba7b007cc01d09b5cd6d4e926848aa5/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/))
 was automatically generated
-from [habi/EAWAG-manuscript@28f3d2d](https://github.com/habi/EAWAG-manuscript/tree/28f3d2d2eba7b007cc01d09b5cd6d4e926848aa5)
+from [habi/EAWAG-manuscript@d49ab3e](https://github.com/habi/EAWAG-manuscript/tree/d49ab3e8164a4169e27e9555874ff7f107c09650)
 on August 21, 2023.
 </em></small>
 
@@ -102,10 +102,10 @@ on August 21, 2023.
 
 
 + **David Haberthür**
-  <br>
+  ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0003-3388-9187](https://orcid.org/0000-0003-3388-9187) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [habi](https://github.com/habi)
     · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
     [\@habi@mastodon.social](https://mastodon.social/@habi)
@@ -116,7 +116,7 @@ on August 21, 2023.
 
 + **Mikki Law**
   <br>
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mlaw-migalig](https://github.com/mlaw-migalig)
     <br>
   <small>
@@ -126,8 +126,8 @@ on August 21, 2023.
 + **Kassandra Ford**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-4413-2633](https://orcid.org/0000-0002-4413-2633)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0002-4413-2633](https://orcid.org/0000-0002-4413-2633) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [kassthefish](https://github.com/kassthefish)
     <br>
   <small>
@@ -136,7 +136,7 @@ on August 21, 2023.
 
 + **Marcel Häsler**
   <br>
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [mphaesler](https://github.com/mphaesler)
     <br>
   <small>
@@ -146,8 +146,8 @@ on August 21, 2023.
 + **Ole Seehausen**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0001-6598-1434](https://orcid.org/0000-0001-6598-1434)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0001-6598-1434](https://orcid.org/0000-0001-6598-1434) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [OleSeehausen](https://github.com/OleSeehausen)
     <br>
   <small>
@@ -157,8 +157,8 @@ on August 21, 2023.
 + **Ruslan Hlushchuk**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
+    [0000-0002-6722-8996](https://orcid.org/0000-0002-6722-8996) ·
+    ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [RuslanHlushchuk](https://github.com/RuslanHlushchuk)
     <br>
   <small>
@@ -167,7 +167,10 @@ on August 21, 2023.
 
 
 ::: {#correspondence}
-✉ — Correspondence possible via [GitHub Issues](https://github.com/habi/EAWAG-manuscript/issues)
+✉ — Correspondence possible via email or [GitHub Issues](https://github.com/habi/EAWAG-manuscript/issues) (preferrably).
+or email to
+David Haberthür \<david.haberthuer@unibe.ch\>.
+
 
 :::
 
@@ -217,7 +220,7 @@ They were delivered to the Institute of Anatomy for micro-CT imaging sorted into
 ### Ethics statement
 
 The study used specimens from an already existing fish collection built over decades of research led by Ole Seehausen that continues to this day.
-All relevant permits for research, exportsfrom the respective country and import to Switzerland were given and the research has followed modern ethical guidelines for scientific research.
+All relevant permits for research, exports from the respective country and import to Switzerland were given and the research has followed modern ethical guidelines for scientific research.
 
 ### Micro-computed tomographic imaging
 
