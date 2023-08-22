@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-08-21'
+date-meta: '2023-08-22'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-08-21" />
-  <meta name="citation_publication_date" content="2023-08-21" />
-  <meta property="article:published_time" content="2023-08-21" />
-  <meta name="dc.modified" content="2023-08-21T14:43:51+00:00" />
-  <meta property="article:modified_time" content="2023-08-21T14:43:51+00:00" />
+  <meta name="dc.date" content="2023-08-22" />
+  <meta name="citation_publication_date" content="2023-08-22" />
+  <meta property="article:published_time" content="2023-08-22" />
+  <meta name="dc.modified" content="2023-08-22T10:26:10+00:00" />
+  <meta property="article:modified_time" content="2023-08-22T10:26:10+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/c050bb80f13115ddab1a67428d31c5177ce08ee7/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c050bb80f13115ddab1a67428d31c5177ce08ee7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/c050bb80f13115ddab1a67428d31c5177ce08ee7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -84,15 +84,15 @@ manubot-clear-requests-cache: false
 _A preprint of this manuscript is available at bioRχiv with the [doi:10.1101/2023.03.30.534917](https://doi.org/10.1101/2023.03.30.534917)._
 _We submitted [`v1.0`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.0) ([archived here](https://habi.github.io/EAWAG-manuscript/v/e1e2ef76a476174a4115937d77457037ddec95df/)) of the manuscript to [PLOS ONE](https://journals.plos.org/plosone/)._
 _A revised version [`v1.1`](https://github.com/habi/EAWAG-manuscript/releases/tag/v1.1) ([archived here](https://habi.github.io/EAWAG-manuscript/v/c49d0b8ac8f078c226318972b06e8c4a39100bb2/)) has been submitted._
-_The version you see here [is further updated](https://github.com/habi/EAWAG-manuscript/compare/df99415...d49ab3e8164a4169e27e9555874ff7f107c09650#files_bucket) since re-submission._
+_The version you see here [is further updated](https://github.com/habi/EAWAG-manuscript/compare/df99415...c050bb80f13115ddab1a67428d31c5177ce08ee7#files_bucket) since re-submission._
 
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/d49ab3e8164a4169e27e9555874ff7f107c09650/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/c050bb80f13115ddab1a67428d31c5177ce08ee7/))
 was automatically generated
-from [habi/EAWAG-manuscript@d49ab3e](https://github.com/habi/EAWAG-manuscript/tree/d49ab3e8164a4169e27e9555874ff7f107c09650)
-on August 21, 2023.
+from [habi/EAWAG-manuscript@c050bb8](https://github.com/habi/EAWAG-manuscript/tree/c050bb80f13115ddab1a67428d31c5177ce08ee7)
+on August 22, 2023.
 </em></small>
 
 
@@ -167,9 +167,9 @@ on August 21, 2023.
 
 
 ::: {#correspondence}
-✉ — Correspondence possible via email or [GitHub Issues](https://github.com/habi/EAWAG-manuscript/issues) (preferrably).
+✉ — Correspondence via [GitHub Issues](https://github.com/habi/EAWAG-manuscript/issues)
 or email to
-David Haberthür \<david.haberthuer@unibe.ch\>.
+[David Haberthür](mailto:david.haberthuer@unibe.ch?subject=Feedback%20for%20%22Microtomographic%20investigation%20of%20a%20large%20corpus%20of%20cichlids%22&body=Write%20your%20feedback%20here.).
 
 
 :::
