@@ -25,7 +25,7 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-jupyter
+Jupyter
 Kassandra
 kassthefish
 Kastanienbaum
@@ -50,9 +50,9 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-otolith
+Otolith
 otolithextraction
-otoliths
+Otoliths
 parametrized
 phylogenetic
 PJ
