@@ -5,12 +5,12 @@ bioR
 Bruker
 centroid
 Charran
-Cichlid
+cichlid
 cichlids
 cinctus
 csv
 curation
-dask
+Dask
 dataframe
 dataset
 datasets
@@ -52,7 +52,7 @@ OleSeehausen
 OpenSCAD
 Otolith
 otolithextraction
-Otoliths
+otoliths
 parametrized
 phylogenetic
 PJ
