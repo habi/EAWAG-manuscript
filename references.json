@@ -376,7 +376,7 @@
   {
     "publisher": "Oxford University Press (OUP)",
     "issue": "1",
-    "abstract": "<jats:title>Synopsis</jats:title>\n               <jats:p>The increased use of imaging technology in biological research has drastically altered morphological studies in recent decades and allowed for the preservation of important collection specimens alongside detailed visualization of bony and soft-tissue structures. Despite the benefits associated with these newer imaging techniques, there remains a need for more “traditional” methods of morphological examination in many comparative studies. In this paper, we describe the costs and benefits of the various methods of visualizing, examining, and comparing morphological structures. There are significant differences not only in the costs associated with these different methods (monetary, time, equipment, and software), but also in the degree to which specimens are destroyed. We argue not for any one particular method over another in morphological studies, but instead suggest a combination of methods is useful not only for breadth of visualization, but also for the financial and time constraints often imposed on early-career research scientists.</jats:p>",
+    "abstract": "<jats:title>Synopsis</jats:title><jats:p>The increased use of imaging technology in biological research has drastically altered morphological studies in recent decades and allowed for the preservation of important collection specimens alongside detailed visualization of bony and soft-tissue structures. Despite the benefits associated with these newer imaging techniques, there remains a need for more “traditional” methods of morphological examination in many comparative studies. In this paper, we describe the costs and benefits of the various methods of visualizing, examining, and comparing morphological structures. There are significant differences not only in the costs associated with these different methods (monetary, time, equipment, and software), but also in the degree to which specimens are destroyed. We argue not for any one particular method over another in morphological studies, but instead suggest a combination of methods is useful not only for breadth of visualization, but also for the financial and time constraints often imposed on early-career research scientists.</jats:p>",
     "DOI": "10.1093/iob/obad008",
     "type": "article-journal",
     "source": "Crossref",
@@ -510,7 +510,7 @@
   {
     "publisher": "Wiley",
     "issue": "10",
-    "abstract": "<jats:title>Abstract</jats:title><jats:p>\n<jats:list>\n\n<jats:list-item><jats:p>Large‐scale digitization projects such as <jats:italic>#ScanAllFishes</jats:italic> and <jats:italic>oVert</jats:italic> are generating high‐resolution microCT scans of vertebrates by the thousands. Data from these projects are shared with the community using aggregate 3D specimen repositories like MorphoSource through various open licenses. We anticipate an explosion of quantitative research in organismal biology with the convergence of available data and the methodologies to analyse them.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>Though the data are available, the road from a series of images to analysis is fraught with challenges for most biologists. It involves tedious tasks of data format conversions, preserving spatial scale of the data accurately, 3D visualization and segmentations, and acquiring measurements and annotations. When scientists use commercial software with proprietary formats, a roadblock for data exchange, collaboration and reproducibility is erected that hurts the efforts of the scientific community to broaden participation in research.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>We developed SlicerMorph as an extension of 3D Slicer, a biomedical visualization and analysis ecosystem with extensive visualization and segmentation capabilities built on proven python‐scriptable open‐source libraries such as Visualization Toolkit and Insight Toolkit. In addition to the core functionalities of Slicer, SlicerMorph provides users with modules to conveniently retrieve open‐access 3D models or import users own 3D volumes, to annotate 3D curve and patch‐based landmarks, generate landmark templates, conduct geometric morphometric analyses of 3D organismal form using both landmark‐driven and landmark‐free approaches, and create 3D animations from their results. We highlight how these individual modules can be tied together to establish complete workflow(s) from image sequence to morphospace. Our software development efforts were supplemented with short courses and workshops that cover the fundamentals of 3D imaging and morphometric analyses as it applies to study of organismal form and shape in evolutionary biology.</jats:p></jats:list-item>\n\n<jats:list-item><jats:p>Our goal is to establish a community of organismal biologists centred around Slicer and SlicerMorph to facilitate easy exchange of data and results and collaborations using 3D specimens. Our proposition to our colleagues is that using a common open platform supported by a large user and developer community ensures the longevity and sustainability of the tools beyond the initial development effort.</jats:p></jats:list-item>\n</jats:list>\n</jats:p>",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    <jats:list>\n                      <jats:list-item>\n                        <jats:p>\n                          Large‐scale digitization projects such as\n                          <jats:italic>#ScanAllFishes</jats:italic>\n                          and\n                          <jats:italic>oVert</jats:italic>\n                          are generating high‐resolution microCT scans of vertebrates by the thousands. Data from these projects are shared with the community using aggregate 3D specimen repositories like MorphoSource through various open licenses. We anticipate an explosion of quantitative research in organismal biology with the convergence of available data and the methodologies to analyse them.\n                        </jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Though the data are available, the road from a series of images to analysis is fraught with challenges for most biologists. It involves tedious tasks of data format conversions, preserving spatial scale of the data accurately, 3D visualization and segmentations, and acquiring measurements and annotations. When scientists use commercial software with proprietary formats, a roadblock for data exchange, collaboration and reproducibility is erected that hurts the efforts of the scientific community to broaden participation in research.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>We developed SlicerMorph as an extension of 3D Slicer, a biomedical visualization and analysis ecosystem with extensive visualization and segmentation capabilities built on proven python‐scriptable open‐source libraries such as Visualization Toolkit and Insight Toolkit. In addition to the core functionalities of Slicer, SlicerMorph provides users with modules to conveniently retrieve open‐access 3D models or import users own 3D volumes, to annotate 3D curve and patch‐based landmarks, generate landmark templates, conduct geometric morphometric analyses of 3D organismal form using both landmark‐driven and landmark‐free approaches, and create 3D animations from their results. We highlight how these individual modules can be tied together to establish complete workflow(s) from image sequence to morphospace. Our software development efforts were supplemented with short courses and workshops that cover the fundamentals of 3D imaging and morphometric analyses as it applies to study of organismal form and shape in evolutionary biology.</jats:p>\n                      </jats:list-item>\n                      <jats:list-item>\n                        <jats:p>Our goal is to establish a community of organismal biologists centred around Slicer and SlicerMorph to facilitate easy exchange of data and results and collaborations using 3D specimens. Our proposition to our colleagues is that using a common open platform supported by a large user and developer community ensures the longevity and sustainability of the tools beyond the initial development effort.</jats:p>\n                      </jats:list-item>\n                    </jats:list>\n                  </jats:p>",
     "DOI": "10.1111/2041-210x.13669",
     "type": "article-journal",
     "page": "1816-1825",
@@ -572,6 +572,8 @@
     },
     "URL": "https://doi.org/gqtgv8",
     "container-title-short": "Methods Ecol Evol",
+    "PMCID": "PMC12094517",
+    "PMID": "40401087",
     "id": "MwdN6kPV",
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: doi:10.1111/2041-210x.13669"
   },
@@ -610,6 +612,7 @@
   {
     "publisher": "American Association for the Advancement of Science (AAAS)",
     "issue": "4002",
+    "abstract": "<jats:p>The early-stage annual rings in otoliths from some cold-temperate fish consist of thin growth bands, the number of which corresponds to that of the days in a year. This indicates that growth takes place by daily increments. Other recurrent patterns show a fortnightly and monthly periodicity. Spawning rings are microscopically distinguishable from winter rings.</jats:p>",
     "DOI": "10.1126/science.173.4002.1124",
     "type": "article-journal",
     "page": "1124-1127",
@@ -824,8 +827,10 @@
   {
     "publisher": "American Society of Ichthyologists and Herpetologists (ASIH)",
     "issue": "2",
+    "abstract": "<jats:p>Ghost electric knifefishes (Gymnotiformes: Apteronotidae) are a dominant component of the species diversity and biomass of large lowland rivers in Greater Amazonia, including 77 species that exhibit diverse craniofacial morphologies associated with trophic and secondary sexual traits. Here we use open-source computed microtomography (μCT) scans to generate 3D reconstructions for a majority of apteronotid species and almost all valid genera, and geometric morphometric and phylogenetic analyses to explore patterns of skull evolution. As with most vertebrates, principal component 1 (PC1) summarizes variance from brachycephalic to dolichocephalic morphologies, previously described as heterocephaly, and PC2 summarizes variance from recurved (upturned) to decurved (downturned) snout morphologies, described here as heterorhynchy. Phylomorphospace and traitogram analyses found instances of both convergent and divergent evolution along both of the first two PC axes, as well as a preponderance of clades characterized by morphological stasis or phylogenetic conservatism. Certain phenotypic combinations predominate among species and clades, including elongated-downturned snouts and foreshortened-upturned snouts, while other phenotypic combinations are not observed, including elongated-upturned snouts and foreshortened-downturned snouts. These results highlight the power of 3D geometric morphometrics in the study of craniofacial evolution and indicate developmental or functional constraints in the evolution of craniofacial phenotypes in an ecologically dominant clade of riverine Amazonian fishes.</jats:p>",
     "DOI": "10.1643/i2021016",
     "type": "article-journal",
+    "page": "315-326",
     "source": "Crossref",
     "title": "Mosaic Evolution of Craniofacial Morphologies in Ghost Electric Fishes (Gymnotiformes: Apteronotidae)",
     "volume": "110",
@@ -852,13 +857,11 @@
       "date-parts": [
         [
           2022,
-          5,
-          27
+          7
         ]
       ]
     },
     "URL": "https://doi.org/gq3gtd",
-    "container-title-short": "Ichthyology &amp; Herpetology",
     "id": "15FafMZm5",
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: doi:10.1643/i2021016"
   },
@@ -895,6 +898,7 @@
     "publisher": "SciPy",
     "DOI": "10.25080/majora-4af1f417-011",
     "type": "paper-conference",
+    "page": "113-120",
     "source": "Crossref",
     "title": "Binder 2.0 - Reproducible, interactive, sharable environments for science at scale",
     "author": [
@@ -976,6 +980,7 @@
     "publisher": "SciPy",
     "DOI": "10.25080/majora-92bf1922-00a",
     "type": "paper-conference",
+    "page": "56-61",
     "source": "Crossref",
     "title": "Data Structures for Statistical Computing in Python",
     "author": [
@@ -1451,9 +1456,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2023",
-          10,
-          17
+          "2026",
+          1,
+          15
         ]
       ]
     },
@@ -1474,22 +1479,22 @@
     "note": "original-date: 2015-10-16T10:14:20Z\nThis CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://github.com/K3D-tools/K3D-jupyter",
     "publisher": "K3D-tools",
     "source": "GitHub",
-    "title": "K3D Jupyter",
+    "title": "K3D-tools/K3D-jupyter",
     "URL": "https://github.com/K3D-tools/K3D-jupyter",
     "accessed": {
       "date-parts": [
         [
-          "2023",
-          10,
-          17
+          "2026",
+          1,
+          15
         ]
       ]
     },
     "issued": {
       "date-parts": [
         [
-          "2023",
-          10,
+          "2026",
+          1,
           15
         ]
       ]
@@ -1502,9 +1507,22 @@
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad"
   },
   {
-    "URL": "https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl",
-    "type": "webpage",
     "id": "VCZPOv2f",
+    "type": "webpage",
+    "abstract": "A collection of microtomography sample holders, generated with OpenSCAD - TomoGraphics/Hol3Drs",
+    "container-title": "GitHub",
+    "language": "en",
+    "title": "Hol3Drs/STL/EAWAG.Fish.stl at master · TomoGraphics/Hol3Drs",
+    "URL": "https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl",
+    "accessed": {
+      "date-parts": [
+        [
+          "2026",
+          1,
+          15
+        ]
+      ]
+    },
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl"
   },
   {
@@ -1516,14 +1534,14 @@
   {
     "id": "wIfTDBqd",
     "type": "webpage",
-    "title": "Image processing with Dask Arrays — dask-image 2023.08.1+3.gc52eec3.dirty documentation",
+    "title": "Image processing with Dask Arrays — dask-image (development version) documentation",
     "URL": "https://image.dask.org/en/latest/",
     "accessed": {
       "date-parts": [
         [
-          "2023",
-          10,
-          17
+          "2026",
+          1,
+          15
         ]
       ]
     },
@@ -1538,34 +1556,34 @@
     "accessed": {
       "date-parts": [
         [
-          "2023",
-          10,
-          17
+          "2026",
+          1,
+          15
         ]
       ]
     },
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://openscad.org"
   },
   {
-    "URL": "https://osf.io/ecmz4",
-    "type": "webpage",
     "id": "3rxGCEvJ",
-    "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://osf.io/ecmz4"
-  },
-  {
-    "id": "rn6XbmFW",
     "type": "webpage",
-    "title": "Teem: nrrd: Definition of NRRD File Format",
-    "URL": "https://teem.sourceforge.net/nrrd/format.html",
+    "title": "OSF",
+    "URL": "https://osf.io/ecmz4",
     "accessed": {
       "date-parts": [
         [
-          "2023",
-          10,
-          17
+          "2026",
+          1,
+          15
         ]
       ]
     },
+    "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://osf.io/ecmz4"
+  },
+  {
+    "URL": "https://teem.sourceforge.net/nrrd/format.html",
+    "type": "webpage",
+    "id": "rn6XbmFW",
     "note": "This CSL Item was generated by Manubot v0.5.5 from its persistent identifier (standard_id).\nstandard_id: url:https://teem.sourceforge.net/nrrd/format.html"
   }
 ]

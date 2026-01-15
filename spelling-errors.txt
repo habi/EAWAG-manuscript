@@ -8,12 +8,10 @@ cichlid
 cichlids
 cinctus
 citable
-csv
+CSV
 curation
-Dask
+dask
 dataframe
-dataset
-datasets
 dorsoventral
 Eawag
 Enterochromis
@@ -25,7 +23,7 @@ habi
 Häsler
 Hlushchuk
 ImageStacks
-Jupyter
+jupyter
 Kassandra
 kassthefish
 Kastanienbaum
@@ -33,7 +31,7 @@ Kontich
 kV
 landmarked
 microCT
-Microtomographic
+microtomographic
 microtomography
 migalig
 Mikki
@@ -50,9 +48,9 @@ NRecon
 OJs
 OleSeehausen
 OpenSCAD
-Otolith
+otolith
 otolithextraction
-otoliths
+Otoliths
 parametrized
 phylogenetic
 PJ

@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2023-10-17'
+date-meta: '2026-01-15'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-10-17" />
-  <meta name="citation_publication_date" content="2023-10-17" />
-  <meta property="article:published_time" content="2023-10-17" />
-  <meta name="dc.modified" content="2023-10-17T13:02:43+00:00" />
-  <meta property="article:modified_time" content="2023-10-17T13:02:43+00:00" />
+  <meta name="dc.date" content="2026-01-15" />
+  <meta name="citation_publication_date" content="2026-01-15" />
+  <meta property="article:published_time" content="2026-01-15" />
+  <meta name="dc.modified" content="2026-01-15T13:09:02+00:00" />
+  <meta property="article:modified_time" content="2026-01-15T13:09:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -86,10 +86,10 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.13
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/))
 was automatically generated
-from [habi/EAWAG-manuscript@348c499](https://github.com/habi/EAWAG-manuscript/tree/348c49975dcc5d8f29a226f04aaca4c476c8c667)
-on October 17, 2023.
+from [habi/EAWAG-manuscript@bb7a2e1](https://github.com/habi/EAWAG-manuscript/tree/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2)
+on January 15, 2026.
 </em></small>
 
 
@@ -295,7 +295,7 @@ This allows for an easy collation of all the relevant values into a table (as sh
 
 After displaying several parameters of both data acquisition and reconstruction, for ruling out any operator error, we used *Dask* [@dask] to efficiently access the tomographic data on disk (in the end amounting to a total of nearly a million single images).
 On average, each of the tomographic datasets contain around 2700 slices, so the total size of the acquired data (1.5 TB) exceeds the RAM size available on an average high-end workstation.
-The use of *Dask* (and more specifically *dask-image* [@https://image.dask.org/]) facilitated on-demand loading of the needed data directly from disk for each of the specimen to be analyzed in each step of the notebooks.
+The use of *Dask* (and more specifically *dask-image* [@https://image.dask.org]) facilitated on-demand loading of the needed data directly from disk for each of the specimen to be analyzed in each step of the notebooks.
 
 At first, we extracted the central view of each of the three axial directions of the datasets (i.e. 'anteroposterior', 'lateral' and 'dorsoventral' view) and either saved those to disk or loaded them from disk if they were already generated in prior runs of the notebook.
 The notebook then also generated the maximum intensity projection (MIP) for each of the anatomical planes and either saved them to disk or loaded them from prior runs.
