@@ -10,7 +10,7 @@
   <meta name="author" content="Marcel Häsler" />
   <meta name="author" content="Ole Seehausen" />
   <meta name="author" content="Ruslan Hlushchuk" />
-  <meta name="dcterms.date" content="2023-10-17" />
+  <meta name="dcterms.date" content="2026-01-15" />
   <meta name="keywords" content="cichlids, fish morphology, X-ray micro-tomography" />
   <title>Microtomographic investigation of a large corpus of cichlids</title>
   <style>
@@ -55,11 +55,11 @@
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2023-10-17" />
-  <meta name="citation_publication_date" content="2023-10-17" />
-  <meta property="article:published_time" content="2023-10-17" />
-  <meta name="dc.modified" content="2023-10-17T13:02:43+00:00" />
-  <meta property="article:modified_time" content="2023-10-17T13:02:43+00:00" />
+  <meta name="dc.date" content="2026-01-15" />
+  <meta name="citation_publication_date" content="2026-01-15" />
+  <meta property="article:published_time" content="2026-01-15" />
+  <meta name="dc.modified" content="2026-01-15T13:09:02+00:00" />
+  <meta property="article:modified_time" content="2026-01-15T13:09:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -93,9 +93,9 @@
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -113,10 +113,10 @@
 <p><em>A DOI-citable version of this manuscript is available at <a href="https://doi.org/10.1371/journal.pone.0291003" class="uri">https://doi.org/10.1371/journal.pone.0291003</a></em></p>
 <p><small><em>
 This manuscript
-(<a href="https://habi.github.io/EAWAG-manuscript/v/348c49975dcc5d8f29a226f04aaca4c476c8c667/">permalink</a>)
+(<a href="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/habi/EAWAG-manuscript/tree/348c49975dcc5d8f29a226f04aaca4c476c8c667">habi/EAWAG-manuscript@348c499</a>
-on October 17, 2023.
+from <a href="https://github.com/habi/EAWAG-manuscript/tree/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2">habi/EAWAG-manuscript@bb7a2e1</a>
+on January 15, 2026.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -276,7 +276,7 @@ All relevant values for each scan were also saved into the aforementioned datafr
 This allows for an easy collation of all the relevant values into a table (as shown in the <a href="#supplementary-materials">Supplementary Materials</a>) at the end of each run of the notebook.</p>
 <p>After displaying several parameters of both data acquisition and reconstruction, for ruling out any operator error, we used <em>Dask</em> <span class="citation" data-cites="hj1CnyWB">[<a href="#ref-hj1CnyWB" role="doc-biblioref">22</a>]</span> to efficiently access the tomographic data on disk (in the end amounting to a total of nearly a million single images).
 On average, each of the tomographic datasets contain around 2700 slices, so the total size of the acquired data (1.5 TB) exceeds the RAM size available on an average high-end workstation.
-The use of <em>Dask</em> (and more specifically <em>dask-image</em> <span class="citation" data-cites="wIfTDBqd">[<a href="#ref-wIfTDBqd" role="doc-biblioref">23</a>/]</span>) facilitated on-demand loading of the needed data directly from disk for each of the specimen to be analyzed in each step of the notebooks.</p>
+The use of <em>Dask</em> (and more specifically <em>dask-image</em> <span class="citation" data-cites="wIfTDBqd">[<a href="#ref-wIfTDBqd" role="doc-biblioref">23</a>]</span>) facilitated on-demand loading of the needed data directly from disk for each of the specimen to be analyzed in each step of the notebooks.</p>
 <p>At first, we extracted the central view of each of the three axial directions of the datasets (i.e. ‘anteroposterior’, ‘lateral’ and ‘dorsoventral’ view) and either saved those to disk or loaded them from disk if they were already generated in prior runs of the notebook.
 The notebook then also generated the maximum intensity projection (MIP) for each of the anatomical planes and either saved them to disk or loaded them from prior runs.</p>
 <p>At the end of the notebook we performed a final sanity check on the MIP images.
@@ -466,7 +466,7 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">9. </div><div class="csl-right-inline">Ford KL, Peterson R, Bernt M, Albert JS. Convergence is Only Skin Deep: Craniofacial Evolution in Electric Fishes from South America and Africa (Apteronotidae and Mormyridae). Integrative Organismal Biology. 2022;4. doi:<a href="https://doi.org/10.1093/iob/obac022">10.1093/iob/obac022</a></div>
 </div>
 <div id="ref-3rxGCEvJ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">10. </div><div class="csl-right-inline">Available: <a href="https://osf.io/ecmz4">https://osf.io/ecmz4</a></div>
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">OSF. [cited 15 Jan 2026]. Available: <a href="https://osf.io/ecmz4">https://osf.io/ecmz4</a></div>
 </div>
 <div id="ref-pN1S9E5p" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">11. </div><div class="csl-right-inline">Descamps E, Sochacka A, De Kegel B, Van Loo D, Van Hoorebeke L, Adriaens D. Soft tissue discrimination with contrast agents using micro-CT scanning. Belg J Zool. 2020;144. doi:<a href="https://doi.org/10.26496/bjz.2014.63">10.26496/bjz.2014.63</a></div>
@@ -475,19 +475,19 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">12. </div><div class="csl-right-inline">Babaei F, Hong TLC, Yeung K, Cheng SH, Lam YW. Contrast-Enhanced X-Ray Micro-Computed Tomography as a Versatile Method for Anatomical Studies of Adult Zebrafish. Zebrafish. 2016;13: 310–316. doi:<a href="https://doi.org/10.1089/zeb.2016.1245">10.1089/zeb.2016.1245</a></div>
 </div>
 <div id="ref-VCZPOv2f" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">13. </div><div class="csl-right-inline">Available: <a href="https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl">https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl</a></div>
+<div class="csl-left-margin">13. </div><div class="csl-right-inline">Hol3Drs/STL/EAWAG.Fish.stl at master · TomoGraphics/Hol3Drs. In: GitHub [Internet]. [cited 15 Jan 2026]. Available: <a href="https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl">https://github.com/TomoGraphics/Hol3Drs/blob/master/STL/EAWAG.Fish.stl</a></div>
 </div>
 <div id="ref-115PPSuQp" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">14. </div><div class="csl-right-inline">Haberthür D. TomoGraphics/Hol3Drs: A release. Zenodo; 2019. doi:<a href="https://doi.org/10.5281/zenodo.2587555">10.5281/zenodo.2587555</a></div>
 </div>
 <div id="ref-wsjdcTeC" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">15. </div><div class="csl-right-inline">OpenSCAD. [cited 17 Oct 2023]. Available: <a href="https://openscad.org">https://openscad.org</a></div>
+<div class="csl-left-margin">15. </div><div class="csl-right-inline">OpenSCAD. [cited 15 Jan 2026]. Available: <a href="https://openscad.org">https://openscad.org</a></div>
 </div>
 <div id="ref-f7OzrzUv" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">16. </div><div class="csl-right-inline">Available: <a href="https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad">https://github.com/TomoGraphics/Hol3Drs/blob/master/EAWAG.Fish.scad</a></div>
 </div>
 <div id="ref-ZjgrPHTa" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">17. </div><div class="csl-right-inline">Available: <a href="https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh">https://github.com/habi/EAWAG/blob/master/rsync-fishes.sh</a></div>
+<div class="csl-left-margin">17. </div><div class="csl-right-inline">EAWAG/rsync-fishes.sh at main · habi/EAWAG. In: GitHub [Internet]. [cited 15 Jan 2026]. Available: <a href="https://github.com/habi/EAWAG/blob/main/rsync-fishes.sh">https://github.com/habi/EAWAG/blob/main/rsync-fishes.sh</a></div>
 </div>
 <div id="ref-pQ6Wbz73" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">18. </div><div class="csl-right-inline">Kluyver T, Ragan-Kelley B, Pérez F, Granger B, Bussonnier M, Frederic J, et al. Jupyter Notebooks – a publishing format for reproducible computational workflows. In: Loizides F, Scmidt B, editors. IOS Press; 2016. pp. 87–90. doi:<a href="https://doi.org/10.3233/978-1-61499-649-1-87">10.3233/978-1-61499-649-1-87</a></div>
@@ -499,13 +499,13 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">20. </div><div class="csl-right-inline">Team TPD. pandas-dev/pandas: Pandas. Zenodo; 2022. doi:<a href="https://doi.org/10.5281/zenodo.7093122">10.5281/zenodo.7093122</a></div>
 </div>
 <div id="ref-U5AcoDOX" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">21. </div><div class="csl-right-inline">McKinney W. Data Structures for Statistical Computing in Python. Proceedings of the Python in Science Conference. SciPy; 2010. doi:<a href="https://doi.org/10.25080/majora-92bf1922-00a">10.25080/majora-92bf1922-00a</a></div>
+<div class="csl-left-margin">21. </div><div class="csl-right-inline">McKinney W. Data Structures for Statistical Computing in Python. Proceedings of the Python in Science Conference. SciPy; 2010. pp. 56–61. doi:<a href="https://doi.org/10.25080/majora-92bf1922-00a">10.25080/majora-92bf1922-00a</a></div>
 </div>
 <div id="ref-hj1CnyWB" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">22. </div><div class="csl-right-inline">Dask Development Team. Dask: Library for dynamic task scheduling. 2016. Available: <a href="https://dask.org">https://dask.org</a></div>
 </div>
 <div id="ref-wIfTDBqd" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">23. </div><div class="csl-right-inline">Image processing with Dask Arrays — dask-image 2023.08.1+3.gc52eec3.dirty documentation. [cited 17 Oct 2023]. Available: <a href="https://image.dask.org/en/latest/">https://image.dask.org/en/latest/</a></div>
+<div class="csl-left-margin">23. </div><div class="csl-right-inline">Image processing with Dask Arrays — dask-image (development version) documentation. [cited 15 Jan 2026]. Available: <a href="https://image.dask.org/en/latest/">https://image.dask.org/en/latest/</a></div>
 </div>
 <div id="ref-OsCpHsJH" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">24. </div><div class="csl-right-inline">Fedorov A, Beichel R, Kalpathy-Cramer J, Finet J, Fillion-Robin J-C, Pujol S, et al. 3D Slicer as an image computing platform for the Quantitative Imaging Network. Magnetic Resonance Imaging. 2012;30: 1323–1341. doi:<a href="https://doi.org/10.1016/j.mri.2012.05.001">10.1016/j.mri.2012.05.001</a></div>
@@ -514,13 +514,13 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">25. </div><div class="csl-right-inline">Rolfe S, Pieper S, Porto A, Diamond K, Winchester J, Shan S, et al. SlicerMorph: An open and extensible platform to retrieve, visualize and analyse 3D morphology. Methods Ecol Evol. 2021;12: 1816–1825. doi:<a href="https://doi.org/10.1111/2041-210x.13669">10.1111/2041-210x.13669</a></div>
 </div>
 <div id="ref-rn6XbmFW" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">26. </div><div class="csl-right-inline">Teem: nrrd: Definition of NRRD File Format. [cited 17 Oct 2023]. Available: <a href="https://teem.sourceforge.net/nrrd/format.html">https://teem.sourceforge.net/nrrd/format.html</a></div>
+<div class="csl-left-margin">26. </div><div class="csl-right-inline">Available: <a href="https://teem.sourceforge.net/nrrd/format.html">https://teem.sourceforge.net/nrrd/format.html</a></div>
 </div>
 <div id="ref-JtHcU2O2" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">27. </div><div class="csl-right-inline">Kishe-Machumu MA, van Rijssel JC, Poste A, Hecky RE, Witte F. Stable isotope evidence from formalin–ethanol-preserved specimens indicates dietary shifts and increasing diet overlap in Lake Victoria cichlids. Hydrobiologia. 2016;791: 155–173. doi:<a href="https://doi.org/10.1007/s10750-016-2925-1">10.1007/s10750-016-2925-1</a></div>
 </div>
 <div id="ref-15FafMZm5" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">28. </div><div class="csl-right-inline">Ford KL, Bernt MJ, Summers AP, Albert JS. Mosaic Evolution of Craniofacial Morphologies in Ghost Electric Fishes (Gymnotiformes: Apteronotidae). Ichthyology &amp;amp; Herpetology. 2022;110. doi:<a href="https://doi.org/10.1643/i2021016">10.1643/i2021016</a></div>
+<div class="csl-left-margin">28. </div><div class="csl-right-inline">Ford KL, Bernt MJ, Summers AP, Albert JS. Mosaic Evolution of Craniofacial Morphologies in Ghost Electric Fishes (Gymnotiformes: Apteronotidae). Ichthyology &amp;amp; Herpetology. 2022;110: 315–326. doi:<a href="https://doi.org/10.1643/i2021016">10.1643/i2021016</a></div>
 </div>
 <div id="ref-VPUOQA2P" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">29. </div><div class="csl-right-inline">Collyer ML, Adams DC. RRPP: An &lt;scp&gt;r&lt;/scp&gt; package for fitting linear models to high‐dimensional data using residual randomization. Freckleton R, editor. Methods Ecol Evol. 2018;9: 1772–1779. doi:<a href="https://doi.org/10.1111/2041-210x.13029">10.1111/2041-210x.13029</a></div>
@@ -538,10 +538,10 @@ A copy of this <code>HTML</code> file can be viewed and interacted with through 
 <div class="csl-left-margin">33. </div><div class="csl-right-inline">RStudio Team. RStudio: Integrated development environment for r. Boston, MA: RStudio, PBC.; 2022. Available: <a href="https://www.rstudio.com/">https://www.rstudio.com/</a></div>
 </div>
 <div id="ref-a9ZL41Of" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">34. </div><div class="csl-right-inline">K3D Jupyter. K3D-tools; 2023. Available: <a href="https://github.com/K3D-tools/K3D-jupyter">https://github.com/K3D-tools/K3D-jupyter</a></div>
+<div class="csl-left-margin">34. </div><div class="csl-right-inline">K3D-tools/K3D-jupyter. K3D-tools; 2026. Available: <a href="https://github.com/K3D-tools/K3D-jupyter">https://github.com/K3D-tools/K3D-jupyter</a></div>
 </div>
 <div id="ref-Q20Bxdsr" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">35. </div><div class="csl-right-inline">Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale. Proceedings of the Python in Science Conference. SciPy; 2018. doi:<a href="https://doi.org/10.25080/majora-4af1f417-011">10.25080/majora-4af1f417-011</a></div>
+<div class="csl-left-margin">35. </div><div class="csl-right-inline">Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale. Proceedings of the Python in Science Conference. SciPy; 2018. pp. 113–120. doi:<a href="https://doi.org/10.25080/majora-4af1f417-011">10.25080/majora-4af1f417-011</a></div>
 </div>
 <div id="ref-Iy1X7kEU" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">36. </div><div class="csl-right-inline">Pannella G. Fish Otoliths: Daily Growth Layers and Periodical Patterns. Science. 1971;173: 1124–1127. doi:<a href="https://doi.org/10.1126/science.173.4002.1124">10.1126/science.173.4002.1124</a></div>
