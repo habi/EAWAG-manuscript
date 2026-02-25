@@ -8,9 +8,9 @@ cichlid
 cichlids
 cinctus
 citable
-CSV
+csv
 curation
-dask
+Dask
 dataframe
 dorsoventral
 Eawag
@@ -50,7 +50,7 @@ OleSeehausen
 OpenSCAD
 otolith
 otolithextraction
-Otoliths
+otoliths
 parametrized
 phylogenetic
 PJ

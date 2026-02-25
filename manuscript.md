@@ -5,7 +5,7 @@ keywords:
 - fish morphology
 - X-ray micro-tomography
 lang: en-US
-date-meta: '2026-01-15'
+date-meta: '2026-02-25'
 author-meta:
 - David Haberthür
 - Mikki Law
@@ -24,11 +24,11 @@ header-includes: |
   <meta name="citation_title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="og:title" content="Microtomographic investigation of a large corpus of cichlids" />
   <meta property="twitter:title" content="Microtomographic investigation of a large corpus of cichlids" />
-  <meta name="dc.date" content="2026-01-15" />
-  <meta name="citation_publication_date" content="2026-01-15" />
-  <meta property="article:published_time" content="2026-01-15" />
-  <meta name="dc.modified" content="2026-01-15T13:09:02+00:00" />
-  <meta property="article:modified_time" content="2026-01-15T13:09:02+00:00" />
+  <meta name="dc.date" content="2026-02-25" />
+  <meta name="citation_publication_date" content="2026-02-25" />
+  <meta property="article:published_time" content="2026-02-25" />
+  <meta name="dc.modified" content="2026-02-25T10:16:33+00:00" />
+  <meta property="article:modified_time" content="2026-02-25T10:16:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -62,9 +62,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://habi.github.io/EAWAG-manuscript/" />
   <meta name="citation_pdf_url" content="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://habi.github.io/EAWAG-manuscript/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/" />
-  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://habi.github.io/EAWAG-manuscript/v/f1e25fabe7851bdd9fd69967427d07ef06d2def6/" />
+  <meta name="manubot_html_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f1e25fabe7851bdd9fd69967427d07ef06d2def6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://habi.github.io/EAWAG-manuscript/v/f1e25fabe7851bdd9fd69967427d07ef06d2def6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -86,10 +86,10 @@ _A DOI-citable version of this manuscript is available at <https://doi.org/10.13
 
 <small><em>
 This manuscript
-([permalink](https://habi.github.io/EAWAG-manuscript/v/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2/))
+([permalink](https://habi.github.io/EAWAG-manuscript/v/f1e25fabe7851bdd9fd69967427d07ef06d2def6/))
 was automatically generated
-from [habi/EAWAG-manuscript@bb7a2e1](https://github.com/habi/EAWAG-manuscript/tree/bb7a2e1647f2b860e67fe4f026ba9244b2ebeed2)
-on January 15, 2026.
+from [habi/EAWAG-manuscript@f1e25fa](https://github.com/habi/EAWAG-manuscript/tree/f1e25fabe7851bdd9fd69967427d07ef06d2def6)
+on February 25, 2026.
 </em></small>
 
 
@@ -444,12 +444,12 @@ We thank the `manubot` project [@doi:10.1371/journal.pcbi.1007128] for helping u
 ### Parameters of tomographic scans of all the fishes
 
 The CSV file [ScanningDetails.csv](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/ScanningDetails.csv) gives a tabular overview of all the (relevant) parameters of all the scans we performed.
-This file was generated with the [data processing notebook](https://github.com/habi/EAWAG/blob/master/DataWrangling.ipynb) and contains the data which is read from *all* the log files of *all* the scans we performed.
-A copy of each log file is available in a [folder in the data processing repository](https://github.com/habi/EAWAG/tree/master/logfiles).
+This file was generated with the [data processing notebook](https://github.com/habi/EAWAG/blob/main/DataWrangling.ipynb) and contains the data which is read from *all* the log files of *all* the scans we performed.
+A copy of each log file is available in a [folder in the data processing repository](https://github.com/habi/EAWAG/tree/main/logfiles).
 
 ### Three-dimensional view of *one* of the extracted otoliths
 
-The three-dimensional view of sample 104016 was generated in [the otolith extraction notebook](https://github.com/habi/EAWAG/blob/master/ExtractOtoliths.ipynb) and saved as a [self-contained `HTML` file](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html) with [*K3D-jupyter*](https://github.com/K3D-tools/K3D-jupyter).
+The three-dimensional view of sample 104016 was generated in [the otolith extraction notebook](https://github.com/habi/EAWAG/blob/main/ExtractOtoliths.ipynb) and saved as a [self-contained `HTML` file](https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016.head.rec.otolith.region.3D.html) with [*K3D-jupyter*](https://github.com/K3D-tools/K3D-jupyter).
 A copy of this `HTML` file can be viewed and interacted with through the [GitHub HTML preview](https://htmlpreview.github.io/?https://github.com/habi/EAWAG-manuscript/blob/main/content/data/104016_Enterochromis_I_cinctus_St_E.head.rec.Otolith.Region.3D.html).
 
 
